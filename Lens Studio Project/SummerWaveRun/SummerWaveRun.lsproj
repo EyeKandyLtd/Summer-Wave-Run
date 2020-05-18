@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1589810164283",
+    "lastChanged": "1589810756562",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -1262,14 +1262,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1589807774173829:13507",
-                        "path_list": [
-                            "Face Mesh Resources",
-                            "Face Texture"
-                        ]
-                    }
+                "objects": [
+                    "1517446348227994:84813"
                 ]
             }
         },
