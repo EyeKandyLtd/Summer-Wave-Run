@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1589823571315",
+    "lastChanged": "1589826579154",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,10 +30,19 @@
             "collapsedList": [
                 [
                     [
+                        "Matte Shadow"
+                    ],
+                    [
+                        "Mesh",
                         "Plane"
                     ],
                     [
+                        "Mesh",
                         "Sphere"
+                    ],
+                    [
+                        "Textures",
+                        "Base"
                     ],
                     [
                         "Textures",
@@ -52,6 +61,28 @@
                     ],
                     [
                         "Textures",
+                        "Horizon"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon",
+                        "Horizon-01"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon",
+                        "HorizonMat"
+                    ],
+                    [
+                        "Textures",
+                        "MaterialParams"
+                    ],
+                    [
+                        "Textures",
+                        "Pier_EnvMap"
+                    ],
+                    [
+                        "Textures",
                         "Pier_EnvMap",
                         "Diff"
                     ],
@@ -59,6 +90,20 @@
                         "Textures",
                         "Pier_EnvMap",
                         "Specular"
+                    ],
+                    [
+                        "Textures",
+                        "Water"
+                    ],
+                    [
+                        "Textures",
+                        "Water",
+                        "Jello"
+                    ],
+                    [
+                        "Textures",
+                        "Water",
+                        "water11"
                     ],
                     [
                         "Textures",
@@ -93,11 +138,6 @@
                         "Textures",
                         "tinified",
                         "Heart"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Horizon-01"
                     ],
                     [
                         "Textures",
@@ -142,155 +182,6 @@
                     [
                         "Textures",
                         "tinified",
-                        "Water sequence"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water01"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water02"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water03"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water04"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water05"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water06"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water07"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water08"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water09"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water10"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water11"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water12"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water13"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water14"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water15"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water16"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water17"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water18"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water19"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water20"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water21"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water22"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water23"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "Water sequence",
-                        "water24"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
                         "Water_512x512"
                     ],
                     [
@@ -306,8 +197,19 @@
                     [
                         "Textures",
                         "tinified",
+                        "man_on_jetski"
+                    ],
+                    [
+                        "Textures",
+                        "tinified",
                         "man_on_jetski",
                         "Animations"
+                    ],
+                    [
+                        "Textures",
+                        "tinified",
+                        "man_on_jetski",
+                        "Materials"
                     ],
                     [
                         "Textures",
@@ -419,7 +321,8 @@
                     "1573777449877824:1165148",
                     "1574374205553544:139992",
                     "1574374499852074:172575",
-                    "1589812223050539:24966"
+                    "1589812223050539:24966",
+                    "1589824396441814:172450"
                 ]
             ]
         },
@@ -470,8 +373,8 @@
             ]
         },
         "UiComponent": {
-            "active_graph_material": "-1:-1",
-            "active_graph_pass": "-1"
+            "active_graph_material": "1589825572206521:184237",
+            "active_graph_pass": "0"
         }
     },
     "model": {
@@ -742,190 +645,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "160",
-                    "uid": "1589812703225681:30548",
-                    "name": "Files\/File259.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "161",
-                    "uid": "1589812703276632:30555",
-                    "name": "Files\/File261.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "162",
-                    "uid": "1589812703338369:30562",
-                    "name": "Files\/File263.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "163",
-                    "uid": "1589812703411901:30569",
-                    "name": "Files\/File265.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "164",
-                    "uid": "1589812703465842:30576",
-                    "name": "Files\/File267.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "165",
-                    "uid": "1589812703518074:30583",
-                    "name": "Files\/File269.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "166",
-                    "uid": "1589812703573807:30590",
-                    "name": "Files\/File271.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "167",
-                    "uid": "1589812703630141:30597",
-                    "name": "Files\/File273.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "168",
-                    "uid": "1589812703682340:30604",
-                    "name": "Files\/File275.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "169",
-                    "uid": "1589812703749370:30611",
-                    "name": "Files\/File277.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "170",
-                    "uid": "1589812703810419:30618",
-                    "name": "Files\/File279.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "171",
-                    "uid": "1589812703883754:30625",
-                    "name": "Files\/File281.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "172",
-                    "uid": "1589812703953010:30632",
-                    "name": "Files\/File283.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "173",
-                    "uid": "1589812704014888:30639",
-                    "name": "Files\/File285.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "174",
-                    "uid": "1589812704075252:30646",
-                    "name": "Files\/File287.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "175",
-                    "uid": "1589812704125064:30653",
-                    "name": "Files\/File289.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "176",
-                    "uid": "1589812704165607:30660",
-                    "name": "Files\/File291.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "177",
-                    "uid": "1589812704207774:30667",
-                    "name": "Files\/File293.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "178",
-                    "uid": "1589812704259940:30674",
-                    "name": "Files\/File295.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "179",
-                    "uid": "1589812704305543:30681",
-                    "name": "Files\/File297.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "180",
-                    "uid": "1589812704365372:30688",
-                    "name": "Files\/File299.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "181",
-                    "uid": "1589812704421838:30695",
-                    "name": "Files\/File301.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "182",
-                    "uid": "1589812704481162:30702",
-                    "name": "Files\/File303.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "183",
                     "uid": "1589812704528033:30709",
                     "name": "Files\/File305.jpg",
@@ -996,6 +715,46 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "200",
+                    "uid": "1589823669371056:160684",
+                    "name": "Files\/File338",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "202",
+                    "uid": "1589825572206521:184237",
+                    "name": "Files\/File342",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "203",
+                    "uid": "1589826181466935:192561",
+                    "name": "Files\/File344",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "204",
+                    "uid": "1589826181629761:192606",
+                    "name": "Files\/File346.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "205",
+                    "uid": "1589826181667283:192618",
+                    "name": "Files\/File348.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1025,10 +784,16 @@
                 "3": "1573760244197350:23208",
                 "4": "1573760417378289:40625",
                 "5": "1589812222991564:24901",
-                "6": "1589819931405097:136511",
-                "7": "1589819931411456:136537",
-                "8": "1589819931423132:136563",
-                "9": "1589821000982886:146308"
+                "6": "1589819931411456:136537",
+                "7": "1589819931423132:136563",
+                "8": "1589821000982886:146308",
+                "9": "1589823669407819:160699",
+                "10": "1589823779276648:164952",
+                "11": "1589823953420994:170044",
+                "12": "1589824396441814:172450",
+                "13": "1589824979988216:180112",
+                "14": "1589825953195699:187528",
+                "15": "1589825985398328:189462"
             }
         },
         "LayerComponent": {
@@ -1378,190 +1143,6 @@
                     "v": "Files\/File258.png"
                 },
                 {
-                    "k": "259",
-                    "v": "Files\/File259.jpg"
-                },
-                {
-                    "k": "260",
-                    "v": "Files\/File260.jpg"
-                },
-                {
-                    "k": "261",
-                    "v": "Files\/File261.jpg"
-                },
-                {
-                    "k": "262",
-                    "v": "Files\/File262.jpg"
-                },
-                {
-                    "k": "263",
-                    "v": "Files\/File263.jpg"
-                },
-                {
-                    "k": "264",
-                    "v": "Files\/File264.jpg"
-                },
-                {
-                    "k": "265",
-                    "v": "Files\/File265.jpg"
-                },
-                {
-                    "k": "266",
-                    "v": "Files\/File266.jpg"
-                },
-                {
-                    "k": "267",
-                    "v": "Files\/File267.jpg"
-                },
-                {
-                    "k": "268",
-                    "v": "Files\/File268.jpg"
-                },
-                {
-                    "k": "269",
-                    "v": "Files\/File269.jpg"
-                },
-                {
-                    "k": "270",
-                    "v": "Files\/File270.jpg"
-                },
-                {
-                    "k": "271",
-                    "v": "Files\/File271.jpg"
-                },
-                {
-                    "k": "272",
-                    "v": "Files\/File272.jpg"
-                },
-                {
-                    "k": "273",
-                    "v": "Files\/File273.jpg"
-                },
-                {
-                    "k": "274",
-                    "v": "Files\/File274.jpg"
-                },
-                {
-                    "k": "275",
-                    "v": "Files\/File275.jpg"
-                },
-                {
-                    "k": "276",
-                    "v": "Files\/File276.jpg"
-                },
-                {
-                    "k": "277",
-                    "v": "Files\/File277.jpg"
-                },
-                {
-                    "k": "278",
-                    "v": "Files\/File278.jpg"
-                },
-                {
-                    "k": "279",
-                    "v": "Files\/File279.jpg"
-                },
-                {
-                    "k": "280",
-                    "v": "Files\/File280.jpg"
-                },
-                {
-                    "k": "281",
-                    "v": "Files\/File281.jpg"
-                },
-                {
-                    "k": "282",
-                    "v": "Files\/File282.jpg"
-                },
-                {
-                    "k": "283",
-                    "v": "Files\/File283.jpg"
-                },
-                {
-                    "k": "284",
-                    "v": "Files\/File284.jpg"
-                },
-                {
-                    "k": "285",
-                    "v": "Files\/File285.jpg"
-                },
-                {
-                    "k": "286",
-                    "v": "Files\/File286.jpg"
-                },
-                {
-                    "k": "287",
-                    "v": "Files\/File287.jpg"
-                },
-                {
-                    "k": "288",
-                    "v": "Files\/File288.jpg"
-                },
-                {
-                    "k": "289",
-                    "v": "Files\/File289.jpg"
-                },
-                {
-                    "k": "290",
-                    "v": "Files\/File290.jpg"
-                },
-                {
-                    "k": "291",
-                    "v": "Files\/File291.jpg"
-                },
-                {
-                    "k": "292",
-                    "v": "Files\/File292.jpg"
-                },
-                {
-                    "k": "293",
-                    "v": "Files\/File293.jpg"
-                },
-                {
-                    "k": "294",
-                    "v": "Files\/File294.jpg"
-                },
-                {
-                    "k": "295",
-                    "v": "Files\/File295.jpg"
-                },
-                {
-                    "k": "296",
-                    "v": "Files\/File296.jpg"
-                },
-                {
-                    "k": "297",
-                    "v": "Files\/File297.jpg"
-                },
-                {
-                    "k": "298",
-                    "v": "Files\/File298.jpg"
-                },
-                {
-                    "k": "299",
-                    "v": "Files\/File299.jpg"
-                },
-                {
-                    "k": "300",
-                    "v": "Files\/File300.jpg"
-                },
-                {
-                    "k": "301",
-                    "v": "Files\/File301.jpg"
-                },
-                {
-                    "k": "302",
-                    "v": "Files\/File302.jpg"
-                },
-                {
-                    "k": "303",
-                    "v": "Files\/File303.jpg"
-                },
-                {
-                    "k": "304",
-                    "v": "Files\/File304.jpg"
-                },
-                {
                     "k": "305",
                     "v": "Files\/File305.jpg"
                 },
@@ -1624,6 +1205,46 @@
                 {
                     "k": "337",
                     "v": "Files\/File337.mesh"
+                },
+                {
+                    "k": "338",
+                    "v": "Files\/File338"
+                },
+                {
+                    "k": "339",
+                    "v": "Files\/File339.lsmat"
+                },
+                {
+                    "k": "342",
+                    "v": "Files\/File342"
+                },
+                {
+                    "k": "343",
+                    "v": "Files\/File343.lsmat"
+                },
+                {
+                    "k": "344",
+                    "v": "Files\/File344"
+                },
+                {
+                    "k": "345",
+                    "v": "Files\/File345.lsmat"
+                },
+                {
+                    "k": "346",
+                    "v": "Files\/File346.png"
+                },
+                {
+                    "k": "347",
+                    "v": "Files\/File347.png"
+                },
+                {
+                    "k": "348",
+                    "v": "Files\/File348.png"
+                },
+                {
+                    "k": "349",
+                    "v": "Files\/File349.png"
                 }
             ]
         },
@@ -1738,111 +1359,15 @@
                     },
                     {
                         "k": "28",
-                        "v": "Textures\/tinified\/Horizon-01.png"
+                        "v": "Textures\/Horizon\/Horizon-01.png"
                     },
                     {
                         "k": "29",
                         "v": "Textures\/tinified\/Coral.png"
                     },
                     {
-                        "k": "30",
-                        "v": "Textures\/tinified\/Water sequence"
-                    },
-                    {
-                        "k": "31",
-                        "v": "Textures\/tinified\/Water sequence\/water20.jpg"
-                    },
-                    {
-                        "k": "32",
-                        "v": "Textures\/tinified\/Water sequence\/water08.jpg"
-                    },
-                    {
-                        "k": "33",
-                        "v": "Textures\/tinified\/Water sequence\/water09.jpg"
-                    },
-                    {
-                        "k": "34",
-                        "v": "Textures\/tinified\/Water sequence\/water21.jpg"
-                    },
-                    {
-                        "k": "35",
-                        "v": "Textures\/tinified\/Water sequence\/water23.jpg"
-                    },
-                    {
-                        "k": "36",
-                        "v": "Textures\/tinified\/Water sequence\/water22.jpg"
-                    },
-                    {
-                        "k": "37",
-                        "v": "Textures\/tinified\/Water sequence\/water19.jpg"
-                    },
-                    {
-                        "k": "38",
-                        "v": "Textures\/tinified\/Water sequence\/water24.jpg"
-                    },
-                    {
-                        "k": "39",
-                        "v": "Textures\/tinified\/Water sequence\/water18.jpg"
-                    },
-                    {
-                        "k": "40",
-                        "v": "Textures\/tinified\/Water sequence\/water15.jpg"
-                    },
-                    {
-                        "k": "41",
-                        "v": "Textures\/tinified\/Water sequence\/water01.jpg"
-                    },
-                    {
-                        "k": "42",
-                        "v": "Textures\/tinified\/Water sequence\/water14.jpg"
-                    },
-                    {
-                        "k": "43",
-                        "v": "Textures\/tinified\/Water sequence\/water02.jpg"
-                    },
-                    {
-                        "k": "44",
-                        "v": "Textures\/tinified\/Water sequence\/water16.jpg"
-                    },
-                    {
-                        "k": "45",
-                        "v": "Textures\/tinified\/Water sequence\/water17.jpg"
-                    },
-                    {
-                        "k": "46",
-                        "v": "Textures\/tinified\/Water sequence\/water03.jpg"
-                    },
-                    {
-                        "k": "47",
-                        "v": "Textures\/tinified\/Water sequence\/water07.jpg"
-                    },
-                    {
-                        "k": "48",
-                        "v": "Textures\/tinified\/Water sequence\/water13.jpg"
-                    },
-                    {
-                        "k": "49",
-                        "v": "Textures\/tinified\/Water sequence\/water12.jpg"
-                    },
-                    {
-                        "k": "50",
-                        "v": "Textures\/tinified\/Water sequence\/water06.jpg"
-                    },
-                    {
-                        "k": "51",
-                        "v": "Textures\/tinified\/Water sequence\/water10.jpg"
-                    },
-                    {
-                        "k": "52",
-                        "v": "Textures\/tinified\/Water sequence\/water04.jpg"
-                    },
-                    {
-                        "k": "53",
-                        "v": "Textures\/tinified\/Water sequence\/water05.jpg"
-                    },
-                    {
                         "k": "54",
-                        "v": "Textures\/tinified\/Water sequence\/water11.jpg"
+                        "v": "Textures\/Water\/water11.jpg"
                     },
                     {
                         "k": "55",
@@ -1862,7 +1387,7 @@
                     },
                     {
                         "k": "66",
-                        "v": "Plane.mesh"
+                        "v": "Mesh\/Plane.mesh"
                     },
                     {
                         "k": "70",
@@ -1870,7 +1395,39 @@
                     },
                     {
                         "k": "71",
-                        "v": "Sphere.mesh"
+                        "v": "Mesh\/Sphere.mesh"
+                    },
+                    {
+                        "k": "72",
+                        "v": "Matte Shadow.lsmat"
+                    },
+                    {
+                        "k": "73",
+                        "v": "Mesh"
+                    },
+                    {
+                        "k": "75",
+                        "v": "Textures\/Water"
+                    },
+                    {
+                        "k": "77",
+                        "v": "Textures\/Water\/Jello.lsmat"
+                    },
+                    {
+                        "k": "78",
+                        "v": "Textures\/Horizon"
+                    },
+                    {
+                        "k": "79",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "80",
+                        "v": "Textures\/MaterialParams.png"
+                    },
+                    {
+                        "k": "81",
+                        "v": "Textures\/Horizon\/HorizonMat.lsmat"
                     }
                 ],
                 "hashes": [
@@ -1940,7 +1497,7 @@
                     },
                     {
                         "k": "20",
-                        "v": "5563a4697647a491aa6859233c09a509"
+                        "v": "31ce8a14ff0118e70ed4d728c95c388d"
                     },
                     {
                         "k": "21",
@@ -2072,7 +1629,7 @@
                     },
                     {
                         "k": "54",
-                        "v": "89214acb010681b44ca092c338eefa49"
+                        "v": "54041f48d46d1910afd2d3df265ecb20"
                     },
                     {
                         "k": "55",
@@ -2100,7 +1657,7 @@
                     },
                     {
                         "k": "64",
-                        "v": "61dd5692e8b9d064e11f00ef4a2379a5"
+                        "v": "e022231e5e808592c8339221e25e9a4c"
                     },
                     {
                         "k": "66",
@@ -2125,26 +1682,108 @@
                     {
                         "k": "71",
                         "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    },
+                    {
+                        "k": "72",
+                        "v": "4e44afae672ba570dc8ae6ba1888e993"
+                    },
+                    {
+                        "k": "76",
+                        "v": "1770140d3a0bb2de01e1c768db4d9429"
+                    },
+                    {
+                        "k": "77",
+                        "v": "4695b2ee3d4ca7adaf88605dcc8fa6ed"
+                    },
+                    {
+                        "k": "79",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "80",
+                        "v": "af2715bddfbca2d4e72f470d285c5010"
+                    },
+                    {
+                        "k": "81",
+                        "v": "689a574e4e42c015a5cded22dbd22dee"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-18T17:51:29",
+                        "lastModified": "2020-05-18T19:12:59",
                         "name": "Public",
-                        "hash": "8523fbe035d1c1b53496994e05f806b4",
+                        "hash": "c7c3dde626e45ee3ccefb59433da345e",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-18T17:25:11",
+                                "lastModified": "2020-05-18T19:03:52",
+                                "name": "Mesh",
+                                "hash": "feb0aeb7548a09f7021939b8afc3034f",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-18T17:06:37",
+                                        "name": "Plane.mesh",
+                                        "hash": "3924da4ece660b56cdcb4f2b7b3fe66c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-18T17:51:29",
+                                        "name": "Sphere.mesh",
+                                        "hash": "0484abd87ee78b2745eb9563b19fd6a2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-18T19:03:41",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-05-18T19:23:01",
                                 "name": "Textures",
-                                "hash": "d50aa461d97a199ae1adb4e162f999b6",
+                                "hash": "6cd1410efbfaf5745e35c2708fabc224",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-18T18:04:11",
+                                        "lastModified": "2020-05-18T19:27:19",
+                                        "name": "Water",
+                                        "hash": "93047de2e0b9ce1698675fdaf966cd62",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-18T19:27:19",
+                                                "name": "Jello.lsmat",
+                                                "hash": "99bb0e2c6c793ce0c7dc8716878f36eb",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-18T19:04:09",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-18T18:15:18",
+                                                "name": "water11.jpg",
+                                                "hash": "54041f48d46d1910afd2d3df265ecb20",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-05-18T19:28:36",
                                         "name": "Face",
-                                        "hash": "74450e6e10c21f06a43fcc55b874341e",
+                                        "hash": "d8ef77a8fe4b5ae49d9422a251625592",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -2155,9 +1794,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-18T18:04:11",
+                                                "lastModified": "2020-05-18T19:28:36",
                                                 "name": "FaceMat.lsmat",
-                                                "hash": "61dd5692e8b9d064e11f00ef4a2379a5",
+                                                "hash": "e022231e5e808592c8339221e25e9a4c",
                                                 "children": ""
                                             },
                                             {
@@ -2171,9 +1810,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-18T16:57:09",
+                                        "lastModified": "2020-05-18T19:22:17",
                                         "name": "tinified",
-                                        "hash": "a89f435a44af1a3eccd4f294e8250db0",
+                                        "hash": "59ed5a72b2014b4c5d9f3d45ac6fe0b0",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -2290,199 +1929,9 @@
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-05-18T16:57:07",
-                                                "name": "Horizon-01.png",
-                                                "hash": "71494599119fdddd2b200dd0b77e1cfc",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-05-18T16:57:07",
                                                 "name": "Coral.png",
                                                 "hash": "e04eb1d312970d8061b621b93920ad4a",
                                                 "children": ""
-                                            },
-                                            {
-                                                "isFolder": "true",
-                                                "lastModified": "2020-05-18T16:57:09",
-                                                "name": "Water sequence",
-                                                "hash": "2e378a6c55fa4574344757fc528c2af0",
-                                                "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water20.jpg",
-                                                        "hash": "5ed982331947b48b0e2f523d5baa6488",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water08.jpg",
-                                                        "hash": "2304939317045fecfbe483d3f350399b",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water09.jpg",
-                                                        "hash": "9f226dcd3e065ec2a89afc14d6e0ca97",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water21.jpg",
-                                                        "hash": "f1e8772ec58a7cf94e6125d251c89d62",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water23.jpg",
-                                                        "hash": "83ead08cdeac8aa4c44e5e64831cccff",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water22.jpg",
-                                                        "hash": "46205093729e93bd989021c2439db3b0",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water19.jpg",
-                                                        "hash": "238df9148897856f9ab9172af005a5db",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water24.jpg",
-                                                        "hash": "b601a17e2c77e9f9cdfdcb005969f70f",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water18.jpg",
-                                                        "hash": "4f617ddbfc7f05db9015a0dc2d1f2e13",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water15.jpg",
-                                                        "hash": "6f9bec1a1aba8cf266c34f16ff5758f6",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water01.jpg",
-                                                        "hash": "4fb8bf5ed4518e73200ec70bc7bf4283",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water14.jpg",
-                                                        "hash": "1e0b9369483ec69009a2b7e890cca06f",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water02.jpg",
-                                                        "hash": "3bfb2fef059eb6ea9c8d386487cf10cf",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water16.jpg",
-                                                        "hash": "0340f9990be68e09d83bb841deb664a0",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water17.jpg",
-                                                        "hash": "b77452ef13066c3fb41cb3909a1720ab",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water03.jpg",
-                                                        "hash": "f5c83f7cd968e39a52fc75ac2b57c800",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water07.jpg",
-                                                        "hash": "2bd05b2fa8cb1c170216b13de399444d",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water13.jpg",
-                                                        "hash": "b865625bbc6588ec69120be3358326bb",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water12.jpg",
-                                                        "hash": "b45209e28c92d2e157718eafafd076b0",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water06.jpg",
-                                                        "hash": "932aa0e8171fecdc53824c4681919258",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water10.jpg",
-                                                        "hash": "9b4434a9c705c38d2671497db43f03db",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water04.jpg",
-                                                        "hash": "8ee4eae4ab23c73ccb0749320bb97951",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:09",
-                                                        "name": "folder.lock",
-                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water05.jpg",
-                                                        "hash": "753e3a948b8530070557b7d3970e91fa",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-05-18T16:57:07",
-                                                        "name": "water11.jpg",
-                                                        "hash": "89214acb010681b44ca092c338eefa49",
-                                                        "children": ""
-                                                    }
-                                                ]
                                             },
                                             {
                                                 "isFolder": "false",
@@ -2502,6 +1951,49 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-18T19:23:01",
+                                        "name": "MaterialParams.png",
+                                        "hash": "af2715bddfbca2d4e72f470d285c5010",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-05-18T19:23:23",
+                                        "name": "Horizon",
+                                        "hash": "a5be3318347fae6e462cd0ea7dda4f9e",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-18T19:23:23",
+                                                "name": "HorizonMat.lsmat",
+                                                "hash": "689a574e4e42c015a5cded22dbd22dee",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-18T16:57:07",
+                                                "name": "Horizon-01.png",
+                                                "hash": "71494599119fdddd2b200dd0b77e1cfc",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-18T19:21:46",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-18T19:23:01",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-01-31T18:31:12",
                                         "name": "Pier_EnvMap.hdr",
                                         "hash": "a934f4a6c4ee2ebef8d37fbc49caf965",
@@ -2518,16 +2010,9 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-05-18T17:06:37",
-                                "name": "Plane.mesh",
-                                "hash": "3924da4ece660b56cdcb4f2b7b3fe66c",
-                                "children": ""
-                            },
-                            {
-                                "isFolder": "false",
-                                "lastModified": "2020-05-18T17:51:29",
-                                "name": "Sphere.mesh",
-                                "hash": "0484abd87ee78b2745eb9563b19fd6a2",
+                                "lastModified": "2020-05-18T18:41:09",
+                                "name": "Matte Shadow.lsmat",
+                                "hash": "4e44afae672ba570dc8ae6ba1888e993",
                                 "children": ""
                             },
                             {
@@ -3058,19 +2543,6 @@
                                         "additional": ""
                                     },
                                     {
-                                        "name": "Horizon-01",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "158",
-                                        "dependency": "0",
-                                        "uid": "1589812703069061:30534",
-                                        "fileId": "255",
-                                        "originalId": "256",
-                                        "publicId": "28",
-                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Horizon-01.png",
-                                        "additional": ""
-                                    },
-                                    {
                                         "name": "Coral",
                                         "type": "1",
                                         "subtype": "9",
@@ -3082,333 +2554,6 @@
                                         "publicId": "29",
                                         "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Coral.png",
                                         "additional": ""
-                                    },
-                                    {
-                                        "name": "Water sequence",
-                                        "type": "0",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "0",
-                                        "uid": "-1:-1",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "30",
-                                        "source": "",
-                                        "additional": "",
-                                        "resources": [
-                                            {
-                                                "name": "water20",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "160",
-                                                "dependency": "0",
-                                                "uid": "1589812703225681:30548",
-                                                "fileId": "259",
-                                                "originalId": "260",
-                                                "publicId": "31",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water20.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water08",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "161",
-                                                "dependency": "0",
-                                                "uid": "1589812703276632:30555",
-                                                "fileId": "261",
-                                                "originalId": "262",
-                                                "publicId": "32",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water08.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water09",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "162",
-                                                "dependency": "0",
-                                                "uid": "1589812703338369:30562",
-                                                "fileId": "263",
-                                                "originalId": "264",
-                                                "publicId": "33",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water09.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water21",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "163",
-                                                "dependency": "0",
-                                                "uid": "1589812703411901:30569",
-                                                "fileId": "265",
-                                                "originalId": "266",
-                                                "publicId": "34",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water21.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water23",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "164",
-                                                "dependency": "0",
-                                                "uid": "1589812703465842:30576",
-                                                "fileId": "267",
-                                                "originalId": "268",
-                                                "publicId": "35",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water23.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water22",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "165",
-                                                "dependency": "0",
-                                                "uid": "1589812703518074:30583",
-                                                "fileId": "269",
-                                                "originalId": "270",
-                                                "publicId": "36",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water22.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water19",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "166",
-                                                "dependency": "0",
-                                                "uid": "1589812703573807:30590",
-                                                "fileId": "271",
-                                                "originalId": "272",
-                                                "publicId": "37",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water19.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water24",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "167",
-                                                "dependency": "0",
-                                                "uid": "1589812703630141:30597",
-                                                "fileId": "273",
-                                                "originalId": "274",
-                                                "publicId": "38",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water24.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water18",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "168",
-                                                "dependency": "0",
-                                                "uid": "1589812703682340:30604",
-                                                "fileId": "275",
-                                                "originalId": "276",
-                                                "publicId": "39",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water18.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water15",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "169",
-                                                "dependency": "0",
-                                                "uid": "1589812703749370:30611",
-                                                "fileId": "277",
-                                                "originalId": "278",
-                                                "publicId": "40",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water15.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water01",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "170",
-                                                "dependency": "0",
-                                                "uid": "1589812703810419:30618",
-                                                "fileId": "279",
-                                                "originalId": "280",
-                                                "publicId": "41",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water01.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water14",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "171",
-                                                "dependency": "0",
-                                                "uid": "1589812703883754:30625",
-                                                "fileId": "281",
-                                                "originalId": "282",
-                                                "publicId": "42",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water14.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water02",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "172",
-                                                "dependency": "0",
-                                                "uid": "1589812703953010:30632",
-                                                "fileId": "283",
-                                                "originalId": "284",
-                                                "publicId": "43",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water02.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water16",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "173",
-                                                "dependency": "0",
-                                                "uid": "1589812704014888:30639",
-                                                "fileId": "285",
-                                                "originalId": "286",
-                                                "publicId": "44",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water16.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water17",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "174",
-                                                "dependency": "0",
-                                                "uid": "1589812704075252:30646",
-                                                "fileId": "287",
-                                                "originalId": "288",
-                                                "publicId": "45",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water17.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water03",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "175",
-                                                "dependency": "0",
-                                                "uid": "1589812704125064:30653",
-                                                "fileId": "289",
-                                                "originalId": "290",
-                                                "publicId": "46",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water03.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water07",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "176",
-                                                "dependency": "0",
-                                                "uid": "1589812704165607:30660",
-                                                "fileId": "291",
-                                                "originalId": "292",
-                                                "publicId": "47",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water07.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water13",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "177",
-                                                "dependency": "0",
-                                                "uid": "1589812704207774:30667",
-                                                "fileId": "293",
-                                                "originalId": "294",
-                                                "publicId": "48",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water13.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water12",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "178",
-                                                "dependency": "0",
-                                                "uid": "1589812704259940:30674",
-                                                "fileId": "295",
-                                                "originalId": "296",
-                                                "publicId": "49",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water12.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water06",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "179",
-                                                "dependency": "0",
-                                                "uid": "1589812704305543:30681",
-                                                "fileId": "297",
-                                                "originalId": "298",
-                                                "publicId": "50",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water06.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water10",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "180",
-                                                "dependency": "0",
-                                                "uid": "1589812704365372:30688",
-                                                "fileId": "299",
-                                                "originalId": "300",
-                                                "publicId": "51",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water10.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water04",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "181",
-                                                "dependency": "0",
-                                                "uid": "1589812704421838:30695",
-                                                "fileId": "301",
-                                                "originalId": "302",
-                                                "publicId": "52",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water04.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water05",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "182",
-                                                "dependency": "0",
-                                                "uid": "1589812704481162:30702",
-                                                "fileId": "303",
-                                                "originalId": "304",
-                                                "publicId": "53",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water05.jpg",
-                                                "additional": ""
-                                            },
-                                            {
-                                                "name": "water11",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "183",
-                                                "dependency": "0",
-                                                "uid": "1589812704528033:30709",
-                                                "fileId": "305",
-                                                "originalId": "306",
-                                                "publicId": "54",
-                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Water sequence\/water11.jpg",
-                                                "additional": ""
-                                            }
-                                        ]
                                     },
                                     {
                                         "name": "Whale-2",
@@ -3519,34 +2664,170 @@
                                         "additional": ""
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Water",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "75",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "water11",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "183",
+                                        "dependency": "0",
+                                        "uid": "1589812704528033:30709",
+                                        "fileId": "305",
+                                        "originalId": "306",
+                                        "publicId": "54",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Water\/water11.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Jello",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "202",
+                                        "dependency": "0",
+                                        "uid": "1589825572206521:184237",
+                                        "fileId": "342",
+                                        "originalId": "343",
+                                        "publicId": "77",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Horizon",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "78",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Horizon-01",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "158",
+                                        "dependency": "0",
+                                        "uid": "1589812703069061:30534",
+                                        "fileId": "255",
+                                        "originalId": "256",
+                                        "publicId": "28",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Horizon-01.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "HorizonMat",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "203",
+                                        "dependency": "0",
+                                        "uid": "1589826181466935:192561",
+                                        "fileId": "344",
+                                        "originalId": "345",
+                                        "publicId": "81",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "204",
+                                "dependency": "0",
+                                "uid": "1589826181629761:192606",
+                                "fileId": "346",
+                                "originalId": "347",
+                                "publicId": "79",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MaterialParams",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "205",
+                                "dependency": "0",
+                                "uid": "1589826181667283:192618",
+                                "fileId": "348",
+                                "originalId": "349",
+                                "publicId": "80",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
                             }
                         ]
                     },
                     {
-                        "name": "Plane",
-                        "type": "3",
+                        "name": "Matte Shadow",
+                        "type": "2",
                         "subtype": "0",
-                        "resourceId": "190",
+                        "resourceId": "200",
                         "dependency": "0",
-                        "uid": "1589817997731001:129352",
-                        "fileId": "316",
-                        "originalId": "18446744073709551615",
-                        "publicId": "66",
-                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                        "uid": "1589823669371056:160684",
+                        "fileId": "338",
+                        "originalId": "339",
+                        "publicId": "72",
+                        "source": "",
                         "additional": ""
                     },
                     {
-                        "name": "Sphere",
-                        "type": "3",
-                        "subtype": "0",
-                        "resourceId": "199",
+                        "name": "Mesh",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
                         "dependency": "0",
-                        "uid": "1589820689873231:140510",
-                        "fileId": "337",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "71",
-                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                        "additional": ""
+                        "publicId": "73",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Plane",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "190",
+                                "dependency": "0",
+                                "uid": "1589817997731001:129352",
+                                "fileId": "316",
+                                "originalId": "18446744073709551615",
+                                "publicId": "66",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Sphere",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "199",
+                                "dependency": "0",
+                                "uid": "1589820689873231:140510",
+                                "fileId": "337",
+                                "originalId": "18446744073709551615",
+                                "publicId": "71",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
@@ -3554,7 +2835,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1589821000982886:146308"
+                    "1517446348228144:84822"
                 ]
             }
         },
@@ -3583,57 +2864,7 @@
         },
         "ObjectPrefabController": {
             "state": {
-                "objectToInfo": [
-                    {
-                        "k": "1589819931405097:136511",
-                        "v": {
-                            "prefab": "1589812701657457:29380",
-                            "isActive": "true",
-                            "mapping": [
-                                {
-                                    "k": "1589812701237988:28254",
-                                    "v": "1589819931405097:136511"
-                                },
-                                {
-                                    "k": "1589812701318392:28514",
-                                    "v": "1589819931411456:136537"
-                                },
-                                {
-                                    "k": "1589812701399872:28774",
-                                    "v": "1589819931412694:136539"
-                                },
-                                {
-                                    "k": "1589812701486415:28827",
-                                    "v": "1589819931415875:136551"
-                                },
-                                {
-                                    "k": "1589812701487606:28830",
-                                    "v": "1589819931417644:136554"
-                                },
-                                {
-                                    "k": "1589812701489315:28833",
-                                    "v": "1589819931419748:136557"
-                                },
-                                {
-                                    "k": "1589812701491341:28836",
-                                    "v": "1589819931423132:136563"
-                                },
-                                {
-                                    "k": "1589812701576241:29096",
-                                    "v": "1589819931438420:136637"
-                                },
-                                {
-                                    "k": "1589812701579655:29108",
-                                    "v": "1589819931441444:136652"
-                                },
-                                {
-                                    "k": "1589812701652298:29368",
-                                    "v": "1589819931442542:136654"
-                                }
-                            ]
-                        }
-                    }
-                ]
+                "objectToInfo": ""
             },
             "importInfo": [
                 {
