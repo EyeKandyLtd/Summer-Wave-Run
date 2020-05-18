@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1589819186906",
+    "lastChanged": "1589822537953",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -33,8 +33,7 @@
                         "Plane"
                     ],
                     [
-                        "Textures",
-                        "Face"
+                        "Sphere"
                     ],
                     [
                         "Textures",
@@ -307,19 +306,8 @@
                     [
                         "Textures",
                         "tinified",
-                        "man_on_jetski"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
                         "man_on_jetski",
                         "Animations"
-                    ],
-                    [
-                        "Textures",
-                        "tinified",
-                        "man_on_jetski",
-                        "Materials"
                     ],
                     [
                         "Textures",
@@ -423,6 +411,7 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "101:100",
                     "1573760244197350:23208",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -1000,6 +989,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "199",
+                    "uid": "1589820689873231:140510",
+                    "name": "Files\/File337.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1029,7 +1026,10 @@
                 "3": "1573760244197350:23208",
                 "4": "1573760417378289:40625",
                 "5": "1589812222991564:24901",
-                "6": "1589817997735733:129364"
+                "6": "1589819931405097:136511",
+                "7": "1589819931411456:136537",
+                "8": "1589819931423132:136563",
+                "9": "1589821000982886:146308"
             }
         },
         "LayerComponent": {
@@ -1621,6 +1621,10 @@
                 {
                     "k": "336",
                     "v": "Files\/File336.hdr"
+                },
+                {
+                    "k": "337",
+                    "v": "Files\/File337.mesh"
                 }
             ]
         },
@@ -1864,6 +1868,10 @@
                     {
                         "k": "70",
                         "v": "Textures\/Pier_EnvMap.hdr"
+                    },
+                    {
+                        "k": "71",
+                        "v": "Sphere.mesh"
                     }
                 ],
                 "hashes": [
@@ -1921,7 +1929,7 @@
                     },
                     {
                         "k": "17",
-                        "v": "699fe6bbb37acb541d2727828db78c28"
+                        "v": "863539d7bcc0c3e7243378c381e2e369"
                     },
                     {
                         "k": "18",
@@ -1929,7 +1937,7 @@
                     },
                     {
                         "k": "19",
-                        "v": "fe9a302973fffd35b82c8ee16abe9f36"
+                        "v": "bf540f5928c57d90c5f36f0a1010787c"
                     },
                     {
                         "k": "20",
@@ -2093,7 +2101,7 @@
                     },
                     {
                         "k": "64",
-                        "v": "277813cc327fd1c58c2ffb867672bdd9"
+                        "v": "61dd5692e8b9d064e11f00ef4a2379a5"
                     },
                     {
                         "k": "66",
@@ -2114,26 +2122,30 @@
                     {
                         "k": "70",
                         "v": "a934f4a6c4ee2ebef8d37fbc49caf965"
+                    },
+                    {
+                        "k": "71",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-18T17:25:11",
+                        "lastModified": "2020-05-18T17:51:29",
                         "name": "Public",
-                        "hash": "478406c7963e3333fa6e9fa7bb570b1f",
+                        "hash": "8523fbe035d1c1b53496994e05f806b4",
                         "children": [
                             {
                                 "isFolder": "true",
                                 "lastModified": "2020-05-18T17:25:11",
                                 "name": "Textures",
-                                "hash": "95d5030023195990da78cfb383819cab",
+                                "hash": "d50aa461d97a199ae1adb4e162f999b6",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-18T17:03:52",
+                                        "lastModified": "2020-05-18T18:04:11",
                                         "name": "Face",
-                                        "hash": "57b51b85e9fe60aae4140d8afd316e5a",
+                                        "hash": "74450e6e10c21f06a43fcc55b874341e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -2144,9 +2156,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-18T17:03:52",
+                                                "lastModified": "2020-05-18T18:04:11",
                                                 "name": "FaceMat.lsmat",
-                                                "hash": "277813cc327fd1c58c2ffb867672bdd9",
+                                                "hash": "61dd5692e8b9d064e11f00ef4a2379a5",
                                                 "children": ""
                                             },
                                             {
@@ -2510,6 +2522,13 @@
                                 "lastModified": "2020-05-18T17:06:37",
                                 "name": "Plane.mesh",
                                 "hash": "3924da4ece660b56cdcb4f2b7b3fe66c",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-05-18T17:51:29",
+                                "name": "Sphere.mesh",
+                                "hash": "0484abd87ee78b2745eb9563b19fd6a2",
                                 "children": ""
                             },
                             {
@@ -3516,12 +3535,29 @@
                         "publicId": "66",
                         "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
                         "additional": ""
+                    },
+                    {
+                        "name": "Sphere",
+                        "type": "3",
+                        "subtype": "0",
+                        "resourceId": "199",
+                        "dependency": "0",
+                        "uid": "1589820689873231:140510",
+                        "fileId": "337",
+                        "originalId": "18446744073709551615",
+                        "publicId": "71",
+                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "101:100"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -3548,7 +3584,57 @@
         },
         "ObjectPrefabController": {
             "state": {
-                "objectToInfo": ""
+                "objectToInfo": [
+                    {
+                        "k": "1589819931405097:136511",
+                        "v": {
+                            "prefab": "1589812701657457:29380",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1589812701237988:28254",
+                                    "v": "1589819931405097:136511"
+                                },
+                                {
+                                    "k": "1589812701318392:28514",
+                                    "v": "1589819931411456:136537"
+                                },
+                                {
+                                    "k": "1589812701399872:28774",
+                                    "v": "1589819931412694:136539"
+                                },
+                                {
+                                    "k": "1589812701486415:28827",
+                                    "v": "1589819931415875:136551"
+                                },
+                                {
+                                    "k": "1589812701487606:28830",
+                                    "v": "1589819931417644:136554"
+                                },
+                                {
+                                    "k": "1589812701489315:28833",
+                                    "v": "1589819931419748:136557"
+                                },
+                                {
+                                    "k": "1589812701491341:28836",
+                                    "v": "1589819931423132:136563"
+                                },
+                                {
+                                    "k": "1589812701576241:29096",
+                                    "v": "1589819931438420:136637"
+                                },
+                                {
+                                    "k": "1589812701579655:29108",
+                                    "v": "1589819931441444:136652"
+                                },
+                                {
+                                    "k": "1589812701652298:29368",
+                                    "v": "1589819931442542:136654"
+                                }
+                            ]
+                        }
+                    }
+                ]
             },
             "importInfo": [
                 {
