@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1589822537953",
+    "lastChanged": "1589823571315",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -411,7 +411,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1573760244197350:23208",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -3555,7 +3554,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "101:100"
+                    "1589821000982886:146308"
                 ]
             }
         },
