@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1589826579154",
+    "lastChanged": "1589887411575",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -30,7 +30,7 @@
             "collapsedList": [
                 [
                     [
-                        "Matte Shadow"
+                        "Mesh"
                     ],
                     [
                         "Mesh",
@@ -39,6 +39,57 @@
                     [
                         "Mesh",
                         "Sphere"
+                    ],
+                    [
+                        "Scripts",
+                        "Ball"
+                    ],
+                    [
+                        "Scripts",
+                        "ButtonsReactions"
+                    ],
+                    [
+                        "Scripts",
+                        "EarsAnimation"
+                    ],
+                    [
+                        "Scripts",
+                        "Game"
+                    ],
+                    [
+                        "Scripts",
+                        "JumpController3D"
+                    ],
+                    [
+                        "Scripts",
+                        "PlayingCharacter"
+                    ],
+                    [
+                        "Scripts",
+                        "Pulsate"
+                    ],
+                    [
+                        "Scripts",
+                        "ScoreKeeping"
+                    ],
+                    [
+                        "Scripts",
+                        "SeaMovement"
+                    ],
+                    [
+                        "Scripts",
+                        "Tutorial"
+                    ],
+                    [
+                        "Scripts",
+                        "UI Controller"
+                    ],
+                    [
+                        "Scripts",
+                        "WorldController"
+                    ],
+                    [
+                        "Textures"
                     ],
                     [
                         "Textures",
@@ -76,6 +127,10 @@
                     [
                         "Textures",
                         "MaterialParams"
+                    ],
+                    [
+                        "Textures",
+                        "Matte Shadow"
                     ],
                     [
                         "Textures",
@@ -322,7 +377,8 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589824396441814:172450"
+                    "1589824396441814:172450",
+                    "1589825953195699:187528"
                 ]
             ]
         },
@@ -369,7 +425,8 @@
                     "1573852247047445:20954",
                     "1589813121912442:40072",
                     "1589813137499468:41637"
-                ]
+                ],
+                ""
             ]
         },
         "UiComponent": {
@@ -755,6 +812,102 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "207",
+                    "uid": "1589841603937837:23745",
+                    "name": "Files\/File350.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "208",
+                    "uid": "1589841603949773:23752",
+                    "name": "Files\/File351.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "209",
+                    "uid": "1589841603961594:23759",
+                    "name": "Files\/File352.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "210",
+                    "uid": "1589841603977843:23766",
+                    "name": "Files\/File353.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "211",
+                    "uid": "1589841603982701:23773",
+                    "name": "Files\/File354.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "212",
+                    "uid": "1589841603986882:23780",
+                    "name": "Files\/File355.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "213",
+                    "uid": "1589841603991507:23787",
+                    "name": "Files\/File356.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "214",
+                    "uid": "1589841604003055:23794",
+                    "name": "Files\/File357.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "215",
+                    "uid": "1589841604023167:23801",
+                    "name": "Files\/File358.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "216",
+                    "uid": "1589841604037096:23808",
+                    "name": "Files\/File359.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "217",
+                    "uid": "1589841604054960:23815",
+                    "name": "Files\/File360.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "218",
+                    "uid": "1589882404097941:100708",
+                    "name": "Files\/File361.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -793,7 +946,9 @@
                 "12": "1589824396441814:172450",
                 "13": "1589824979988216:180112",
                 "14": "1589825953195699:187528",
-                "15": "1589825985398328:189462"
+                "15": "1589825985398328:189462",
+                "16": "1589841669429065:27435",
+                "17": "1589842179206303:61883"
             }
         },
         "LayerComponent": {
@@ -1245,6 +1400,54 @@
                 {
                     "k": "349",
                     "v": "Files\/File349.png"
+                },
+                {
+                    "k": "350",
+                    "v": "Files\/File350.js"
+                },
+                {
+                    "k": "351",
+                    "v": "Files\/File351.js"
+                },
+                {
+                    "k": "352",
+                    "v": "Files\/File352.js"
+                },
+                {
+                    "k": "353",
+                    "v": "Files\/File353.js"
+                },
+                {
+                    "k": "354",
+                    "v": "Files\/File354.js"
+                },
+                {
+                    "k": "355",
+                    "v": "Files\/File355.js"
+                },
+                {
+                    "k": "356",
+                    "v": "Files\/File356.js"
+                },
+                {
+                    "k": "357",
+                    "v": "Files\/File357.js"
+                },
+                {
+                    "k": "358",
+                    "v": "Files\/File358.js"
+                },
+                {
+                    "k": "359",
+                    "v": "Files\/File359.js"
+                },
+                {
+                    "k": "360",
+                    "v": "Files\/File360.js"
+                },
+                {
+                    "k": "361",
+                    "v": "Files\/File361.js"
                 }
             ]
         },
@@ -1399,7 +1602,7 @@
                     },
                     {
                         "k": "72",
-                        "v": "Matte Shadow.lsmat"
+                        "v": "Textures\/Matte Shadow.lsmat"
                     },
                     {
                         "k": "73",
@@ -1428,6 +1631,58 @@
                     {
                         "k": "81",
                         "v": "Textures\/Horizon\/HorizonMat.lsmat"
+                    },
+                    {
+                        "k": "82",
+                        "v": "Scripts"
+                    },
+                    {
+                        "k": "83",
+                        "v": "Scripts\/UI Controller.js"
+                    },
+                    {
+                        "k": "84",
+                        "v": "Scripts\/SeaMovement.js"
+                    },
+                    {
+                        "k": "85",
+                        "v": "Scripts\/Game.js"
+                    },
+                    {
+                        "k": "86",
+                        "v": "Scripts\/ButtonsReactions.js"
+                    },
+                    {
+                        "k": "87",
+                        "v": "Scripts\/ScoreKeeping.js"
+                    },
+                    {
+                        "k": "88",
+                        "v": "Scripts\/Tutorial.js"
+                    },
+                    {
+                        "k": "89",
+                        "v": "Scripts\/WorldController.js"
+                    },
+                    {
+                        "k": "90",
+                        "v": "Scripts\/Pulsate.js"
+                    },
+                    {
+                        "k": "91",
+                        "v": "Scripts\/Ball.js"
+                    },
+                    {
+                        "k": "92",
+                        "v": "Scripts\/EarsAnimation.js"
+                    },
+                    {
+                        "k": "93",
+                        "v": "Scripts\/PlayingCharacter.js"
+                    },
+                    {
+                        "k": "144",
+                        "v": "Scripts\/JumpController3D.js"
                     }
                 ],
                 "hashes": [
@@ -1685,7 +1940,7 @@
                     },
                     {
                         "k": "72",
-                        "v": "4e44afae672ba570dc8ae6ba1888e993"
+                        "v": "e822ba7e22dacec108ef3ab10668793a"
                     },
                     {
                         "k": "76",
@@ -1693,7 +1948,7 @@
                     },
                     {
                         "k": "77",
-                        "v": "4695b2ee3d4ca7adaf88605dcc8fa6ed"
+                        "v": "ee91720bb461c96e76a430ff1aad09e6"
                     },
                     {
                         "k": "79",
@@ -1706,14 +1961,90 @@
                     {
                         "k": "81",
                         "v": "689a574e4e42c015a5cded22dbd22dee"
+                    },
+                    {
+                        "k": "82",
+                        "v": "b1b8d759132e9f496e487d29590e83da"
+                    },
+                    {
+                        "k": "83",
+                        "v": "b54a5c46a6585a3f3366e04b8563b83e"
+                    },
+                    {
+                        "k": "84",
+                        "v": "8aabb59a1e01df8190ff499bc4c1a1c4"
+                    },
+                    {
+                        "k": "85",
+                        "v": "85b4b8cd36bfb53e5aeba79b6aa04595"
+                    },
+                    {
+                        "k": "86",
+                        "v": "a087134c2bb264931f081ca33c443aee"
+                    },
+                    {
+                        "k": "87",
+                        "v": "b5f9edd5d5c12188e833c5a3ef1a6f57"
+                    },
+                    {
+                        "k": "88",
+                        "v": "d5ec1300d2af8aa0372d1774eca45e32"
+                    },
+                    {
+                        "k": "89",
+                        "v": "4c230633fb7f5284ba88a91bfd14f1c3"
+                    },
+                    {
+                        "k": "90",
+                        "v": "c13660c4e227a4bdad4231afd2b47913"
+                    },
+                    {
+                        "k": "91",
+                        "v": "ec8911bad867d5bde60d5c89ef87fe7e"
+                    },
+                    {
+                        "k": "92",
+                        "v": "c7558659befa8bb5b97fd28a5020a431"
+                    },
+                    {
+                        "k": "93",
+                        "v": "79548d40ea2ba319ab2e76834771aee0"
+                    },
+                    {
+                        "k": "94",
+                        "v": "f21a163957cc0d5bc7ca7da5311b7895"
+                    },
+                    {
+                        "k": "95",
+                        "v": "0793bf11e8f608ae9c7434644022e92e"
+                    },
+                    {
+                        "k": "96",
+                        "v": "dafd276d061ac1bb8a16c3bc00eaea12"
+                    },
+                    {
+                        "k": "98",
+                        "v": "61b535f17517a271063b34c33c26cbb6"
+                    },
+                    {
+                        "k": "99",
+                        "v": "98c5d1bef6ccd7d07290a89fb7baf675"
+                    },
+                    {
+                        "k": "100",
+                        "v": "8dbbb530b49bc5d9a3f933b3c66baee7"
+                    },
+                    {
+                        "k": "144",
+                        "v": "a5097af9d8bc61a7cb5868521c18447a"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-18T19:12:59",
+                        "lastModified": "2020-05-19T09:46:52",
                         "name": "Public",
-                        "hash": "c7c3dde626e45ee3ccefb59433da345e",
+                        "hash": "e4624c8447af94ac0d017170b046f0a6",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -1746,21 +2077,21 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-18T19:23:01",
+                                "lastModified": "2020-05-18T23:27:40",
                                 "name": "Textures",
-                                "hash": "6cd1410efbfaf5745e35c2708fabc224",
+                                "hash": "d295387f3c7c68e28a6dac663d2fd68a",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-18T19:27:19",
+                                        "lastModified": "2020-05-19T12:06:05",
                                         "name": "Water",
-                                        "hash": "93047de2e0b9ce1698675fdaf966cd62",
+                                        "hash": "90c0afb96dfa78b6f49d382a3c1645bb",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-18T19:27:19",
+                                                "lastModified": "2020-05-19T12:06:05",
                                                 "name": "Jello.lsmat",
-                                                "hash": "99bb0e2c6c793ce0c7dc8716878f36eb",
+                                                "hash": "b1e527ff2dcf72a826c7b4a53ade9a74",
                                                 "children": ""
                                             },
                                             {
@@ -1987,6 +2318,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-18T23:27:40",
+                                        "name": "Matte Shadow.lsmat",
+                                        "hash": "e822ba7e22dacec108ef3ab10668793a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-18T19:23:01",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
@@ -2009,11 +2347,103 @@
                                 ]
                             },
                             {
-                                "isFolder": "false",
-                                "lastModified": "2020-05-18T18:41:09",
-                                "name": "Matte Shadow.lsmat",
-                                "hash": "4e44afae672ba570dc8ae6ba1888e993",
-                                "children": ""
+                                "isFolder": "true",
+                                "lastModified": "2020-05-19T12:20:12",
+                                "name": "Scripts",
+                                "hash": "1df733718793f99fad7e71136225be06",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:03:25",
+                                        "name": "UI Controller.js",
+                                        "hash": "b54a5c46a6585a3f3366e04b8563b83e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-26T18:00:09",
+                                        "name": "SeaMovement.js",
+                                        "hash": "8aabb59a1e01df8190ff499bc4c1a1c4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:03:25",
+                                        "name": "Game.js",
+                                        "hash": "85b4b8cd36bfb53e5aeba79b6aa04595",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-07T16:34:13",
+                                        "name": "ButtonsReactions.js",
+                                        "hash": "a087134c2bb264931f081ca33c443aee",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:03:25",
+                                        "name": "ScoreKeeping.js",
+                                        "hash": "b5f9edd5d5c12188e833c5a3ef1a6f57",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-13T11:01:19",
+                                        "name": "Tutorial.js",
+                                        "hash": "d5ec1300d2af8aa0372d1774eca45e32",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-19T10:57:11",
+                                        "name": "WorldController.js",
+                                        "hash": "4c230633fb7f5284ba88a91bfd14f1c3",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-19T12:20:12",
+                                        "name": "JumpController3D.js",
+                                        "hash": "a5097af9d8bc61a7cb5868521c18447a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-09T13:19:11",
+                                        "name": "Pulsate.js",
+                                        "hash": "c13660c4e227a4bdad4231afd2b47913",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-30T16:03:25",
+                                        "name": "Ball.js",
+                                        "hash": "ec8911bad867d5bde60d5c89ef87fe7e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-05-09T13:19:11",
+                                        "name": "EarsAnimation.js",
+                                        "hash": "c7558659befa8bb5b97fd28a5020a431",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-19T12:11:51",
+                                        "name": "PlayingCharacter.js",
+                                        "hash": "79548d40ea2ba319ab2e76834771aee0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-23T17:19:33",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
                                 "isFolder": "false",
@@ -2772,21 +3202,21 @@
                                 "publicId": "80",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Matte Shadow",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "200",
+                                "dependency": "0",
+                                "uid": "1589823669371056:160684",
+                                "fileId": "338",
+                                "originalId": "339",
+                                "publicId": "72",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
-                    },
-                    {
-                        "name": "Matte Shadow",
-                        "type": "2",
-                        "subtype": "0",
-                        "resourceId": "200",
-                        "dependency": "0",
-                        "uid": "1589823669371056:160684",
-                        "fileId": "338",
-                        "originalId": "339",
-                        "publicId": "72",
-                        "source": "",
-                        "additional": ""
                     },
                     {
                         "name": "Mesh",
@@ -2828,14 +3258,191 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "82",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "UI Controller",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "207",
+                                "dependency": "0",
+                                "uid": "1589841603937837:23745",
+                                "fileId": "350",
+                                "originalId": "18446744073709551615",
+                                "publicId": "83",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/UI Controller.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "SeaMovement",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "208",
+                                "dependency": "0",
+                                "uid": "1589841603949773:23752",
+                                "fileId": "351",
+                                "originalId": "18446744073709551615",
+                                "publicId": "84",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/SeaMovement.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Game",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "209",
+                                "dependency": "0",
+                                "uid": "1589841603961594:23759",
+                                "fileId": "352",
+                                "originalId": "18446744073709551615",
+                                "publicId": "85",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/Game.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "ButtonsReactions",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "210",
+                                "dependency": "0",
+                                "uid": "1589841603977843:23766",
+                                "fileId": "353",
+                                "originalId": "18446744073709551615",
+                                "publicId": "86",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/ButtonsReactions.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "ScoreKeeping",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "211",
+                                "dependency": "0",
+                                "uid": "1589841603982701:23773",
+                                "fileId": "354",
+                                "originalId": "18446744073709551615",
+                                "publicId": "87",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/ScoreKeeping.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Tutorial",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "212",
+                                "dependency": "0",
+                                "uid": "1589841603986882:23780",
+                                "fileId": "355",
+                                "originalId": "18446744073709551615",
+                                "publicId": "88",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/Tutorial.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "WorldController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "213",
+                                "dependency": "0",
+                                "uid": "1589841603991507:23787",
+                                "fileId": "356",
+                                "originalId": "18446744073709551615",
+                                "publicId": "89",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/WorldController.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Pulsate",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "214",
+                                "dependency": "0",
+                                "uid": "1589841604003055:23794",
+                                "fileId": "357",
+                                "originalId": "18446744073709551615",
+                                "publicId": "90",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/Pulsate.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Ball",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "215",
+                                "dependency": "0",
+                                "uid": "1589841604023167:23801",
+                                "fileId": "358",
+                                "originalId": "18446744073709551615",
+                                "publicId": "91",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/Ball.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "EarsAnimation",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "216",
+                                "dependency": "0",
+                                "uid": "1589841604037096:23808",
+                                "fileId": "359",
+                                "originalId": "18446744073709551615",
+                                "publicId": "92",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/EarsAnimation.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PlayingCharacter",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "217",
+                                "dependency": "0",
+                                "uid": "1589841604054960:23815",
+                                "fileId": "360",
+                                "originalId": "18446744073709551615",
+                                "publicId": "93",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/PlayingCharacter.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "JumpController3D",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "218",
+                                "dependency": "0",
+                                "uid": "1589882404097941:100708",
+                                "fileId": "361",
+                                "originalId": "18446744073709551615",
+                                "publicId": "144",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/Pulsate.js",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1517446348228144:84822"
+                "resources": [
+                    {
+                        "uid": "1589882404097941:100708",
+                        "path_list": [
+                            "Scripts",
+                            "JumpController3D"
+                        ]
+                    }
                 ]
             }
         },
