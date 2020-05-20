@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1589995901466",
+    "lastChanged": "1590002997942",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,9 +29,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Animated 3D Assets"
-                    ],
                     [
                         "Animated 3D Assets",
                         "JetSki",
@@ -578,9 +575,6 @@
                         "Sphere"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "Ball"
                     ],
@@ -641,6 +635,11 @@
                         "Textures",
                         "Face",
                         "FaceMat"
+                    ],
+                    [
+                        "Textures",
+                        "Face",
+                        "FaceMatUnlit"
                     ],
                     [
                         "Textures",
@@ -861,6 +860,10 @@
                         "tinified",
                         "man_on_jetski",
                         "man_on_jetski"
+                    ],
+                    [
+                        "Textures",
+                        "white"
                     ]
                 ]
             ]
@@ -868,7 +871,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1573760244197350:23208",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
                     "1573774070522996:822410",
@@ -877,10 +879,6 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589824396441814:172450",
-                    "1589824979988216:180112",
-                    "1589825953195699:187528",
-                    "1589989988549559:271830",
                     "1589990932246686:362645",
                     "1589990932251601:362797"
                 ]
@@ -2084,6 +2082,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "681",
+                    "uid": "1589998252400915:67376",
+                    "name": "Files\/File580",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "682",
+                    "uid": "1589998252588994:67407",
+                    "name": "Files\/File582.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2195,7 +2209,8 @@
                 "85": "1589989989701766:272171",
                 "86": "1589989989716221:272175",
                 "87": "1589989989741728:272179",
-                "88": "1589989989749131:272183"
+                "88": "1589989989749131:272183",
+                "89": "1590002595707955:510310"
             }
         },
         "LayerComponent": {
@@ -2827,6 +2842,22 @@
                 {
                     "k": "579",
                     "v": "Files\/File579.png"
+                },
+                {
+                    "k": "580",
+                    "v": "Files\/File580"
+                },
+                {
+                    "k": "581",
+                    "v": "Files\/File581.lsmat"
+                },
+                {
+                    "k": "582",
+                    "v": "Files\/File582.png"
+                },
+                {
+                    "k": "583",
+                    "v": "Files\/File583.png"
                 }
             ]
         },
@@ -3134,6 +3165,14 @@
                     {
                         "k": "74",
                         "v": "Textures\/opacity_texture.png"
+                    },
+                    {
+                        "k": "75",
+                        "v": "Textures\/white.png"
+                    },
+                    {
+                        "k": "76",
+                        "v": "Textures\/Face\/FaceMatUnlit.lsmat"
                     }
                 ],
                 "hashes": [
@@ -3235,7 +3274,7 @@
                     },
                     {
                         "k": "29",
-                        "v": "491ef6c9eb88cc9a8c21c6dfc727464c"
+                        "v": "ce48e8622623ee8125a223812079e362"
                     },
                     {
                         "k": "30",
@@ -3251,7 +3290,7 @@
                     },
                     {
                         "k": "34",
-                        "v": "4f8de09a9b7c6d1c2bee3dab55ba9e46"
+                        "v": "a1bd41f1c816267c7fe97cfe10ae28eb"
                     },
                     {
                         "k": "35",
@@ -3335,7 +3374,7 @@
                     },
                     {
                         "k": "58",
-                        "v": "bf231a76b68439a0f366a0f10ceab30b"
+                        "v": "dc8824ae401d1cc16bb0b555615eb107"
                     },
                     {
                         "k": "59",
@@ -3359,7 +3398,7 @@
                     },
                     {
                         "k": "67",
-                        "v": "8451ab2518040c6d90a2fccfb1491f04"
+                        "v": "88110ec039606799c187c36846b633f1"
                     },
                     {
                         "k": "68",
@@ -3384,6 +3423,18 @@
                     {
                         "k": "74",
                         "v": "a6f8a3ac219470442c9193f428161d56"
+                    },
+                    {
+                        "k": "75",
+                        "v": "0c8dcfed2f50bb81ac5276a14967c005"
+                    },
+                    {
+                        "k": "76",
+                        "v": "c23af973aeb8e5dca7c76b33a3a43bad"
+                    },
+                    {
+                        "k": "77",
+                        "v": "59361291686fd7cebf3981836238abbb"
                     }
                 ],
                 "publicState": {
@@ -3391,7 +3442,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-20T17:47:19",
                         "name": "Public",
-                        "hash": "4ceebfaf527d852908595d466051cfca",
+                        "hash": "96a6654d5ac59af1de954a73631c56ef",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -3497,15 +3548,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-20T17:52:52",
+                                "lastModified": "2020-05-20T19:10:52",
                                 "name": "Textures",
-                                "hash": "01d948ed75ceba1cec8d82428bd61771",
+                                "hash": "26b8f2266ce398811a8fccdd8eb6a805",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-20T17:47:17",
+                                        "lastModified": "2020-05-20T20:28:38",
                                         "name": "Water",
-                                        "hash": "009c18098a839d382eabb2cf681de10f",
+                                        "hash": "e27e22cdc5a35fe84f39e7894d30d08a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3523,9 +3574,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-20T17:47:11",
+                                                "lastModified": "2020-05-20T20:28:38",
                                                 "name": "Ocean.lsmat",
-                                                "hash": "4f8de09a9b7c6d1c2bee3dab55ba9e46",
+                                                "hash": "a1bd41f1c816267c7fe97cfe10ae28eb",
                                                 "children": ""
                                             },
                                             {
@@ -3546,9 +3597,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-20T18:29:51",
+                                        "lastModified": "2020-05-20T19:11:07",
                                         "name": "Face",
-                                        "hash": "b7ed0189de5f40aba68fe38838b96512",
+                                        "hash": "30bba6147ee978b5e93ce32bfa6d3781",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -3559,9 +3610,16 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-20T18:29:51",
+                                                "lastModified": "2020-05-20T19:11:07",
+                                                "name": "FaceMatUnlit.lsmat",
+                                                "hash": "c23af973aeb8e5dca7c76b33a3a43bad",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T19:10:16",
                                                 "name": "FaceMat.lsmat",
-                                                "hash": "491ef6c9eb88cc9a8c21c6dfc727464c",
+                                                "hash": "ce48e8622623ee8125a223812079e362",
                                                 "children": ""
                                             },
                                             {
@@ -3787,6 +3845,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-20T19:10:52",
+                                        "name": "white.png",
+                                        "hash": "0c8dcfed2f50bb81ac5276a14967c005",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-20T17:47:17",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -3796,9 +3861,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-20T18:23:52",
+                                "lastModified": "2020-05-20T20:15:58",
                                 "name": "Scripts",
-                                "hash": "b7e7d5a51d024041ded767eb173bb1d9",
+                                "hash": "cc8360bf4f18ebff24acfbb120c466e5",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3879,9 +3944,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-20T18:23:52",
+                                        "lastModified": "2020-05-20T20:15:58",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "bf231a76b68439a0f366a0f10ceab30b",
+                                        "hash": "dc8824ae401d1cc16bb0b555615eb107",
                                         "children": ""
                                     },
                                     {
@@ -4506,6 +4571,19 @@
                                         "publicId": "30",
                                         "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-gPHqud\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                         "additional": ""
+                                    },
+                                    {
+                                        "name": "FaceMatUnlit",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "681",
+                                        "dependency": "0",
+                                        "uid": "1589998252400915:67376",
+                                        "fileId": "580",
+                                        "originalId": "581",
+                                        "publicId": "76",
+                                        "source": "",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -4721,6 +4799,19 @@
                                 "originalId": "579",
                                 "publicId": "74",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/opacity_texture.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "white",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "682",
+                                "dependency": "0",
+                                "uid": "1589998252588994:67407",
+                                "fileId": "582",
+                                "originalId": "583",
+                                "publicId": "75",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yegSGu\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             }
                         ]
@@ -6111,7 +6202,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1589824396441814:172450"
+                    "1589989988419228:271561"
                 ]
             }
         },
