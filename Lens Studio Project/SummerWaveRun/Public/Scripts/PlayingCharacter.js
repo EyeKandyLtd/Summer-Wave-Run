@@ -1,7 +1,12 @@
 //@input Component.ScriptComponent worldController
 
 
-//@input float speed = 1.0 {"widget":"slider", "min":1.0, "max":30.0}
+//@input float strafeSpeed = 600.0 {"widget":"slider", "min":50.0, "max":3000.0}
+//@input float turnStickiness = 0.03 {"widget":"slider", "min":0.0001, "max":0.99}
+//@input float horizonalMovementRange = 100 {"widget":"slider", "min":0, "max":200}
+//@input float waveBounceSeconds = 4 {"widget":"slider", "min":0.3, "max":32}
+
+
 if(!script.worldController )
 { throw new Error("One or more fields aren't set."); return; }  // Check to prevent Studio lens failure to let you set null fields when in error
 
@@ -13,10 +18,13 @@ var initialPos;
 
 var markedForPositionReset = false; // because it has to be done in Update
 
+var halfExtentXMovementRange = script.horizonalMovementRange * 0.5
+
 var event = script.createEvent("TurnOnEvent");
 event.bind(function (eventData)
 {
   initialPos = screenTransf.getLocalPosition();
+    
 });
 
 
@@ -41,19 +49,21 @@ updateEvent.bind(function(eventData) {
   var tiltSide = script.worldController.api.GetHeadTiltSide();
 
     
-  if(tiltSide < -0.05) {
-    pos.x -= getDeltaTime() * script.speed * -(tiltSide * 500.0);
-    pos.x = Math.max(pos.x, -100.0);
+    
+  if(tiltSide < -script.turnStickiness) {
+        print("script.strafeSpeed = " + script.strafeSpeed)
+    pos.x -= getDeltaTime() *  -(tiltSide * script.strafeSpeed);
+    pos.x = Math.max(pos.x, -halfExtentXMovementRange);
     facingDirection = -1;
    // imageComp.flipX = false;
   }
-  else if(tiltSide > 0.05) {
-    pos.x += getDeltaTime() * script.speed * (tiltSide * 500.0);
-    pos.x = Math.min(pos.x, 100.0);
+  else if(tiltSide > script.turnStickiness) {
+    pos.x += getDeltaTime() * (tiltSide * script.strafeSpeed);
+    pos.x = Math.min(pos.x, halfExtentXMovementRange);
     facingDirection = 1;
     //imageComp.flipX = true;
   }
-  pos.y = initialPos.y + 3 *  Math.sin(getTime()*4); // wavy oscillation
+  pos.y = initialPos.y + 3 *  Math.sin(getTime()*script.waveBounceSeconds); // wavy oscillation
     
   
     
