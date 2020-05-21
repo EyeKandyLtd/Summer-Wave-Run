@@ -19,57 +19,29 @@ const Patches = require('Patches');
 // Use export keyword to make a symbol available in scripting debug console
 export const Diagnostics = require('Diagnostics');
 
-//require facetracking for Jumping
-const FaceTracking = require('FaceTracking');
-const Reactive = require('Reactive');
-const TouchGestures = require('TouchGestures');
-const Animation = require('Animation');
-
-const Time = require('Time');
-
-const number = Scene.root.find('number');
-//let score = Animation.getScalarValue(score);
-
+var number = Scene.root.find('number');
+var score = Patches.getScalarValue('score');
+var gameOver = Patches.getPulseValue('gameOver');
+var gamePlay = Patches.getPulseValue('gamePlay');
 //Display score number
-//number.text = score.toString();
+number.text = score.toString();
 
-const character = Scene.root.find('jetski_character');
+//Set default
 
-const characterInitialYPos = character.transform.y.pinLastValue();
+Patches.getPulseValue('start'.true);
+Patches.getPulseValue('reset'.false);
 
-const characterEndYPos = character.transform.y.mul(-4).pinLastValue();
+//Switch state
 
-const animationParams = {
-	durationMilliseconds: 500,
-	mirror: true
-};
-
-const timeDriver = Animation.timeDriver({durationMilliseconds: 500});
-
-let linearSampler = Animation.samplers.linear(characterInitialYPos,characterEndYPos);
-
-const mouthOpenness = FaceTracking.face(0).mouth.openness;
-
-//const mouthOpennessPlusOne = mouthOpenness.add(1);
-
-const mouthOpennessValue = FaceTracking.face(0).mouth.openness.pinLastValue();
-
-Diagnostics.log(mouthOpennessValue);
-
-mouthOpenness.monitor().subscribe(function(event) {
-  if(event.newValue > 0.4) {
-  	
-	linearSampler = Animation.samplers.linear(character.transform.y.pinLastValue(), 70);
-	
-	character.transform.y = Animation.animate(timeDriver,linearSampler);
-	timeDriver.start();
-
-	Time.setTimeout(function(){
-		timeDriver.reset();
-	}, 500); 
-  }
+gameOver.subscribe(function(){
+    Patches.getPulseValue('start'.false);
+    Patches.getPulseValue('reset'.true);
 });
 
+gamePlay.subscribe(function(){
+    Patches.getPulseValue('start'.true);
+    Patches.getPulseValue('reset'.false);
+});
 // To use variables and functions across files, use export/import keyword
 // export const animationDuration = 10;
 
