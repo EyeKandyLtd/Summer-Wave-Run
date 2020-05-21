@@ -21,27 +21,11 @@ export const Diagnostics = require('Diagnostics');
 
 var number = Scene.root.find('number');
 var score = Patches.getScalarValue('score');
-var gameOver = Patches.getPulseValue('gameOver');
-var gamePlay = Patches.getPulseValue('gamePlay');
+
 //Display score number
 number.text = score.toString();
 
-//Set default
 
-Patches.getPulseValue('start'.true);
-Patches.getPulseValue('reset'.false);
-
-//Switch state
-
-gameOver.subscribe(function(){
-    Patches.getPulseValue('start'.false);
-    Patches.getPulseValue('reset'.true);
-});
-
-gamePlay.subscribe(function(){
-    Patches.getPulseValue('start'.true);
-    Patches.getPulseValue('reset'.false);
-});
 // To use variables and functions across files, use export/import keyword
 // export const animationDuration = 10;
 
