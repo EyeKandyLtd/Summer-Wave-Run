@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590057041714",
+    "lastChanged": "1590061191062",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -32,6 +32,10 @@
                     [
                         "Animated 3D Assets",
                         "Barrel"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Crate"
                     ],
                     [
                         "Animated 3D Assets",
@@ -79,6 +83,10 @@
                     ],
                     [
                         "Animated 3D Assets",
+                        "FlamingoFloat"
+                    ],
+                    [
+                        "Animated 3D Assets",
                         "FlamingoFloat",
                         "flamingo_float",
                         "Animations"
@@ -119,6 +127,10 @@
                         "Animated 3D Assets",
                         "FlamingoFloat",
                         "flamingo_head"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "JellyFish"
                     ],
                     [
                         "Animated 3D Assets",
@@ -164,6 +176,200 @@
                         "JetSki"
                     ],
                     [
+                        "Animated 3D Assets",
+                        "LifeVest"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "life_vest1_texture"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "Animations",
+                        "Group_006"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "Materials",
+                        "Lifevest"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "Meshes",
+                        "Group_006"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "lifevest"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log",
+                        "log",
+                        "Animations",
+                        "Log"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log",
+                        "log",
+                        "Materials",
+                        "Log"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log",
+                        "log",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log",
+                        "log",
+                        "Meshes",
+                        "Log"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log",
+                        "log",
+                        "log"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Log",
+                        "log_texture"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "Animations",
+                        "Bone"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "Animations",
+                        "Bone.001"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "Materials",
+                        "Sharkey"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "Meshes",
+                        "Parent Sharkbody001"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark",
+                        "shark"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Shark",
+                        "shark_texture"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle shell",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle shell",
+                        "Animations",
+                        "Turtle_Shell"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle shell",
+                        "Materials",
+                        "Shell"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle shell",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle shell",
+                        "Meshes",
+                        "Turtle_Shell"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle shell",
+                        "turtle shell"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle_NRM"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "TurtleShell",
+                        "turtle_texture"
+                    ],
+                    [
                         "Prefabs",
                         "Barrel"
                     ],
@@ -176,10 +382,38 @@
                         "FlamingoFloat"
                     ],
                     [
+                        "Prefabs",
+                        "Jellyfish"
+                    ],
+                    [
+                        "Prefabs",
+                        "LifeVest"
+                    ],
+                    [
+                        "Prefabs",
+                        "Log"
+                    ],
+                    [
+                        "Prefabs",
+                        "Shark"
+                    ],
+                    [
+                        "Prefabs",
+                        "TurtleShell"
+                    ],
+                    [
                         "Scripts"
                     ],
                     [
                         "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "Car_Paint_Noise"
+                    ],
+                    [
+                        "Textures",
+                        "iridescence_combined"
                     ],
                     [
                         "Textures",
@@ -206,7 +440,11 @@
                     "1589990932251601:362797",
                     "1590054919736174:124198",
                     "1590055688247701:217931",
-                    "1590056014111963:251296"
+                    "1590056014111963:251296",
+                    "1590056478670539:354890",
+                    "1590057643053530:536316",
+                    "1590058426681469:632082",
+                    "1590060197134853:794222"
                 ]
             ]
         },
@@ -1600,6 +1838,238 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "709",
+                    "uid": "1590057254828384:497321",
+                    "name": "jellyfish",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "710",
+                    "uid": "1590057610358532:514316",
+                    "name": "Files\/File632.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "711",
+                    "uid": "1590057610421915:514326",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "712",
+                    "uid": "1590057610428479:514353",
+                    "name": "Files\/File633",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "713",
+                    "uid": "1590057610735141:514368",
+                    "name": "Files\/File635.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "714",
+                    "uid": "1590057610795735:514400",
+                    "name": "lifevest",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "717",
+                    "uid": "1590057972378356:565138",
+                    "name": "Files\/File644.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "719",
+                    "uid": "1590058054784860:576364",
+                    "name": "Files\/File648.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "721",
+                    "uid": "1590058196595899:593308",
+                    "name": "lifevest",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "722",
+                    "uid": "1590058412096717:598914",
+                    "name": "Files\/File654.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "723",
+                    "uid": "1590058416767721:609900",
+                    "name": "Files\/File656.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "724",
+                    "uid": "1590058416804961:609910",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "725",
+                    "uid": "1590058416813058:609937",
+                    "name": "Files\/File657",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "726",
+                    "uid": "1590058417425910:609973",
+                    "name": "log",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "727",
+                    "uid": "1590058914804538:709714",
+                    "name": "log",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "729",
+                    "uid": "1590060180163830:760542",
+                    "name": "Files\/File666.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "730",
+                    "uid": "1590060185047406:771661",
+                    "name": "Files\/File668.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "731",
+                    "uid": "1590060185082954:771671",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "732",
+                    "uid": "1590060185084530:771698",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "733",
+                    "uid": "1590060185091752:771725",
+                    "name": "Files\/File669",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "734",
+                    "uid": "1590060185428680:771773",
+                    "name": "shark",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "735",
+                    "uid": "1590060386635040:806367",
+                    "name": "shark",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "736",
+                    "uid": "1590060535564709:869187",
+                    "name": "Files\/File676.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "737",
+                    "uid": "1590060535616750:869197",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "738",
+                    "uid": "1590060535627011:869224",
+                    "name": "Files\/File677",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "739",
+                    "uid": "1590060535882678:869239",
+                    "name": "Files\/File679.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "740",
+                    "uid": "1590060535908630:869271",
+                    "name": "turtle shell",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "742",
+                    "uid": "1590060631948757:914921",
+                    "name": "turtle shell",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "743",
+                    "uid": "1590060893162969:1001181",
+                    "name": "Files\/File688.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -1720,7 +2190,19 @@
                 "94": "1590056014111963:251296",
                 "95": "1590056014115188:251302",
                 "96": "1590056478670539:354890",
-                "97": "1590056478672936:354900"
+                "97": "1590056478672936:354900",
+                "98": "1590057643053530:536316",
+                "99": "1590057643059299:536326",
+                "100": "1590058426681469:632082",
+                "101": "1590058426699153:632092",
+                "102": "1590060197134853:794222",
+                "103": "1590060197139527:794236",
+                "104": "1590060197146714:794253",
+                "105": "1590060197173846:794327",
+                "106": "1590060197176643:794331",
+                "107": "1590060197178871:794335",
+                "108": "1590060555187304:892033",
+                "109": "1590060555191611:892043"
             }
         },
         "LayerComponent": {
@@ -2520,6 +3002,198 @@
                 {
                     "k": "629",
                     "v": "Files\/File629.lsmat"
+                },
+                {
+                    "k": "630",
+                    "v": "Files\/File630.oprfb"
+                },
+                {
+                    "k": "631",
+                    "v": "Files\/File631.oprfb"
+                },
+                {
+                    "k": "632",
+                    "v": "Files\/File632.mesh"
+                },
+                {
+                    "k": "633",
+                    "v": "Files\/File633"
+                },
+                {
+                    "k": "634",
+                    "v": "Files\/File634.lsmat"
+                },
+                {
+                    "k": "635",
+                    "v": "Files\/File635.jpg"
+                },
+                {
+                    "k": "636",
+                    "v": "Files\/File636.jpg"
+                },
+                {
+                    "k": "637",
+                    "v": "Files\/File637.oprfb"
+                },
+                {
+                    "k": "638",
+                    "v": "Files\/File638.fbx"
+                },
+                {
+                    "k": "641",
+                    "v": "Files\/File641.oprfb"
+                },
+                {
+                    "k": "644",
+                    "v": "Files\/File644.png"
+                },
+                {
+                    "k": "645",
+                    "v": "Files\/File645.png"
+                },
+                {
+                    "k": "648",
+                    "v": "Files\/File648.jpg"
+                },
+                {
+                    "k": "649",
+                    "v": "Files\/File649.jpg"
+                },
+                {
+                    "k": "652",
+                    "v": "Files\/File652.oprfb"
+                },
+                {
+                    "k": "653",
+                    "v": "Files\/File653.oprfb"
+                },
+                {
+                    "k": "654",
+                    "v": "Files\/File654.jpg"
+                },
+                {
+                    "k": "655",
+                    "v": "Files\/File655.jpg"
+                },
+                {
+                    "k": "656",
+                    "v": "Files\/File656.mesh"
+                },
+                {
+                    "k": "657",
+                    "v": "Files\/File657"
+                },
+                {
+                    "k": "658",
+                    "v": "Files\/File658.lsmat"
+                },
+                {
+                    "k": "659",
+                    "v": "Files\/File659.oprfb"
+                },
+                {
+                    "k": "660",
+                    "v": "Files\/File660.fbx"
+                },
+                {
+                    "k": "661",
+                    "v": "Files\/File661.oprfb"
+                },
+                {
+                    "k": "662",
+                    "v": "Files\/File662.oprfb"
+                },
+                {
+                    "k": "663",
+                    "v": "Files\/File663.oprfb"
+                },
+                {
+                    "k": "666",
+                    "v": "Files\/File666.jpg"
+                },
+                {
+                    "k": "667",
+                    "v": "Files\/File667.jpg"
+                },
+                {
+                    "k": "668",
+                    "v": "Files\/File668.mesh"
+                },
+                {
+                    "k": "669",
+                    "v": "Files\/File669"
+                },
+                {
+                    "k": "670",
+                    "v": "Files\/File670.lsmat"
+                },
+                {
+                    "k": "671",
+                    "v": "Files\/File671.oprfb"
+                },
+                {
+                    "k": "672",
+                    "v": "Files\/File672.fbx"
+                },
+                {
+                    "k": "673",
+                    "v": "Files\/File673.oprfb"
+                },
+                {
+                    "k": "674",
+                    "v": "Files\/File674.oprfb"
+                },
+                {
+                    "k": "675",
+                    "v": "Files\/File675.oprfb"
+                },
+                {
+                    "k": "676",
+                    "v": "Files\/File676.mesh"
+                },
+                {
+                    "k": "677",
+                    "v": "Files\/File677"
+                },
+                {
+                    "k": "678",
+                    "v": "Files\/File678.lsmat"
+                },
+                {
+                    "k": "679",
+                    "v": "Files\/File679.jpg"
+                },
+                {
+                    "k": "680",
+                    "v": "Files\/File680.jpg"
+                },
+                {
+                    "k": "681",
+                    "v": "Files\/File681.oprfb"
+                },
+                {
+                    "k": "682",
+                    "v": "Files\/File682.fbx"
+                },
+                {
+                    "k": "685",
+                    "v": "Files\/File685.oprfb"
+                },
+                {
+                    "k": "686",
+                    "v": "Files\/File686.oprfb"
+                },
+                {
+                    "k": "687",
+                    "v": "Files\/File687.oprfb"
+                },
+                {
+                    "k": "688",
+                    "v": "Files\/File688.jpg"
+                },
+                {
+                    "k": "689",
+                    "v": "Files\/File689.jpg"
                 }
             ]
         },
@@ -2923,6 +3597,70 @@
                     {
                         "k": "101",
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/JellyFish\/jellyfish\/Materials\/Jello.lsmat"
+                    },
+                    {
+                        "k": "102",
+                        "v": "Prefabs\/Jellyfish.oprfb"
+                    },
+                    {
+                        "k": "103",
+                        "v": "Animated 3D Assets\/LifeVest\/lifevest.fbx"
+                    },
+                    {
+                        "k": "104",
+                        "v": "Animated 3D Assets\/LifeVest\/life_vest1_texture.jpg"
+                    },
+                    {
+                        "k": "106",
+                        "v": "Textures\/iridescence_combined.png"
+                    },
+                    {
+                        "k": "108",
+                        "v": "Textures\/Car_Paint_Noise.jpg"
+                    },
+                    {
+                        "k": "111",
+                        "v": "Prefabs\/LifeVest.oprfb"
+                    },
+                    {
+                        "k": "112",
+                        "v": "Animated 3D Assets\/Log\/log_texture.jpg"
+                    },
+                    {
+                        "k": "113",
+                        "v": "Animated 3D Assets\/Log\/log.fbx"
+                    },
+                    {
+                        "k": "114",
+                        "v": "Prefabs\/Log.oprfb"
+                    },
+                    {
+                        "k": "116",
+                        "v": "Animated 3D Assets\/Shark\/shark_texture.jpg"
+                    },
+                    {
+                        "k": "117",
+                        "v": "Animated 3D Assets\/Shark\/shark.fbx"
+                    },
+                    {
+                        "k": "118",
+                        "v": "Prefabs\/Shark.oprfb"
+                    },
+                    {
+                        "k": "119",
+                        "v": "Animated 3D Assets\/TurtleShell\/turtle shell.fbx"
+                    },
+                    {
+                        "k": "120",
+                        "v": "Animated 3D Assets\/TurtleShell\/turtle_texture.jpg"
+                    },
+                    {
+                        "k": "122",
+                        "v": "Prefabs\/TurtleShell.oprfb"
+                    },
+                    {
+                        "k": "123",
+                        "v": "Animated 3D Assets\/TurtleShell\/turtle_NRM.jpg"
                     }
                 ],
                 "hashes": [
@@ -3244,15 +3982,103 @@
                     },
                     {
                         "k": "101",
-                        "v": "0c09d76d2e18ab0a79ca496c0a5d2da6"
+                        "v": "fdd5c9227c21bf163f2a3bf5ef9a7c1d"
+                    },
+                    {
+                        "k": "102",
+                        "v": "2fcdfbd079a36bff7038fde5b14c225e"
+                    },
+                    {
+                        "k": "103",
+                        "v": "3359015914c1ebe80df5f756cd7b7fd3"
+                    },
+                    {
+                        "k": "104",
+                        "v": "1f701a7ad0fa61f9c6a69bf23a915dfe"
+                    },
+                    {
+                        "k": "105",
+                        "v": "1f701a7ad0fa61f9c6a69bf23a915dfe"
+                    },
+                    {
+                        "k": "106",
+                        "v": "464f444dfcba88908c256dddc14e2779"
+                    },
+                    {
+                        "k": "107",
+                        "v": "6650f2f97ffe451b988b91dcf71e9199"
+                    },
+                    {
+                        "k": "108",
+                        "v": "0c54c119030470f52a2c73733233d08d"
+                    },
+                    {
+                        "k": "109",
+                        "v": "54a84e4064dbea5f9e2065e36ade2761"
+                    },
+                    {
+                        "k": "110",
+                        "v": "1dd96af87e11b8b712b15bf4add8b17f"
+                    },
+                    {
+                        "k": "111",
+                        "v": "b2576a3aead024cd95dd653a2b88f4e4"
+                    },
+                    {
+                        "k": "112",
+                        "v": "ae142ed091f2ed92ae3b34dcb89b9991"
+                    },
+                    {
+                        "k": "113",
+                        "v": "4bcd9a13db5a5c4a025fa12e2a33d716"
+                    },
+                    {
+                        "k": "114",
+                        "v": "27701f49fda824e9eabc51f746491da5"
+                    },
+                    {
+                        "k": "115",
+                        "v": "014cf7baad610c77a71b3a38d50369e0"
+                    },
+                    {
+                        "k": "116",
+                        "v": "956d1b09b59761e56edce65a30a76581"
+                    },
+                    {
+                        "k": "117",
+                        "v": "fc227b1eb924ceada7b6a7e34fd0aa45"
+                    },
+                    {
+                        "k": "118",
+                        "v": "b43948481765d1d5f793c5b64cd9005a"
+                    },
+                    {
+                        "k": "119",
+                        "v": "8c680f828c5ee9eae4739d88e31d6245"
+                    },
+                    {
+                        "k": "120",
+                        "v": "b1dfbc4823de714d035a523ddf5a5535"
+                    },
+                    {
+                        "k": "121",
+                        "v": "b1dfbc4823de714d035a523ddf5a5535"
+                    },
+                    {
+                        "k": "122",
+                        "v": "d4d575e22ba9b646869560dcbd60c7c3"
+                    },
+                    {
+                        "k": "123",
+                        "v": "5cc3c3c3f5d8a4d24cfcd701385b6ab5"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-21T11:24:57",
+                        "lastModified": "2020-05-21T12:34:39",
                         "name": "Public",
-                        "hash": "61f439b3ce779e34c4544bbec180ff07",
+                        "hash": "c4595555383f3c4e8639574386725741",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -3287,7 +4113,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-05-21T11:12:48",
                                 "name": "Animated 3D Assets",
-                                "hash": "f0dd8745f9bae11370eda4a273a99467",
+                                "hash": "b9d0326475631bcd1b3067a2b9f5c539",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -3407,10 +4233,31 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T10:53:41",
+                                        "lastModified": "2020-05-21T12:37:21",
                                         "name": "TurtleShell",
-                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                        "hash": "8c6bcb9322967b49c33c71b31130fd71",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-21T12:37:21",
+                                                "name": "turtle_NRM.jpg",
+                                                "hash": "5cc3c3c3f5d8a4d24cfcd701385b6ab5",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T17:29:42",
+                                                "name": "turtle shell.fbx",
+                                                "hash": "8c680f828c5ee9eae4739d88e31d6245",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T13:52:03",
+                                                "name": "turtle_texture.jpg",
+                                                "hash": "b1dfbc4823de714d035a523ddf5a5535",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-05-21T10:53:41",
@@ -3488,10 +4335,24 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T10:53:06",
+                                        "lastModified": "2020-05-21T12:22:52",
                                         "name": "Log",
-                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                        "hash": "5e54407426d89880a06d0969e00ba0ea",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T13:52:03",
+                                                "name": "log_texture.jpg",
+                                                "hash": "ae142ed091f2ed92ae3b34dcb89b9991",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T17:29:41",
+                                                "name": "log.fbx",
+                                                "hash": "4bcd9a13db5a5c4a025fa12e2a33d716",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-05-21T10:53:06",
@@ -3503,10 +4364,24 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T10:53:10",
+                                        "lastModified": "2020-05-21T11:45:13",
                                         "name": "LifeVest",
-                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                        "hash": "2a084a36978e4eab970c13aadcd50f9a",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T17:29:41",
+                                                "name": "lifevest.fbx",
+                                                "hash": "3359015914c1ebe80df5f756cd7b7fd3",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T13:52:03",
+                                                "name": "life_vest1_texture.jpg",
+                                                "hash": "1f701a7ad0fa61f9c6a69bf23a915dfe",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-05-21T10:52:53",
@@ -3518,10 +4393,24 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T10:53:33",
+                                        "lastModified": "2020-05-21T12:28:28",
                                         "name": "Shark",
-                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
+                                        "hash": "c425dede5ecb3c6f1417275fb6da2ae3",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T13:52:03",
+                                                "name": "shark_texture.jpg",
+                                                "hash": "956d1b09b59761e56edce65a30a76581",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T17:29:41",
+                                                "name": "shark.fbx",
+                                                "hash": "fc227b1eb924ceada7b6a7e34fd0aa45",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-05-21T10:53:33",
@@ -3542,10 +4431,17 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-20T19:10:52",
+                                "lastModified": "2020-05-21T11:47:34",
                                 "name": "Textures",
-                                "hash": "26b8f2266ce398811a8fccdd8eb6a805",
+                                "hash": "d0d93d3cf42360aa1e72560d39d700b7",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-21T11:47:34",
+                                        "name": "Car_Paint_Noise.jpg",
+                                        "hash": "0c54c119030470f52a2c73733233d08d",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "true",
                                         "lastModified": "2020-05-20T20:28:38",
@@ -3832,6 +4728,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-21T11:46:12",
+                                        "name": "iridescence_combined.png",
+                                        "hash": "464f444dfcba88908c256dddc14e2779",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-20T17:46:30",
                                         "name": "opacity_texture.png",
                                         "hash": "a6f8a3ac219470442c9193f428161d56",
@@ -3855,9 +4758,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-21T11:19:20",
+                                "lastModified": "2020-05-21T12:32:52",
                                 "name": "Prefabs",
-                                "hash": "99ded7090c9f055424ea7cfcbed994e9",
+                                "hash": "79f863036a003272562c11878a7906b2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -3875,9 +4778,30 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-21T12:26:51",
+                                        "name": "LifeVest.oprfb",
+                                        "hash": "b2576a3aead024cd95dd653a2b88f4e4",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-21T11:18:45",
                                         "name": "FlamingoFloat.oprfb",
                                         "hash": "5934568b77ded923e6ca5cb976085d72",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-21T12:27:11",
+                                        "name": "Shark.oprfb",
+                                        "hash": "b43948481765d1d5f793c5b64cd9005a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-21T12:26:39",
+                                        "name": "Jellyfish.oprfb",
+                                        "hash": "2fcdfbd079a36bff7038fde5b14c225e",
                                         "children": ""
                                     },
                                     {
@@ -3892,6 +4816,20 @@
                                         "lastModified": "2020-05-21T10:56:40",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-21T12:32:52",
+                                        "name": "TurtleShell.oprfb",
+                                        "hash": "d4d575e22ba9b646869560dcbd60c7c3",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-21T12:27:00",
+                                        "name": "Log.oprfb",
+                                        "hash": "27701f49fda824e9eabc51f746491da5",
                                         "children": ""
                                     }
                                 ]
@@ -4849,6 +5787,32 @@
                                 "originalId": "583",
                                 "publicId": "75",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yegSGu\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "iridescence_combined",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "717",
+                                "dependency": "0",
+                                "uid": "1590057972378356:565138",
+                                "fileId": "644",
+                                "originalId": "645",
+                                "publicId": "106",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Car_Paint_Noise",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "719",
+                                "dependency": "0",
+                                "uid": "1590058054784860:576364",
+                                "fileId": "648",
+                                "originalId": "649",
+                                "publicId": "108",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             }
                         ]
@@ -6818,7 +7782,140 @@
                                 "publicId": "82",
                                 "source": "",
                                 "additional": "",
-                                "resources": ""
+                                "resources": [
+                                    {
+                                        "name": "lifevest",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "638",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "103",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/LifeVest\/lifevest.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Lifevest",
+                                                    "v": "1590057610428479:514353"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Group_006",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "710",
+                                                        "dependency": "1",
+                                                        "uid": "1590057610358532:514316",
+                                                        "fileId": "632",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Group_006",
+                                                        "type": "8",
+                                                        "subtype": "0",
+                                                        "resourceId": "711",
+                                                        "dependency": "1",
+                                                        "uid": "1590057610421915:514326",
+                                                        "fileId": "18446744073709551615",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Lifevest",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "712",
+                                                        "dependency": "0",
+                                                        "uid": "1590057610428479:514353",
+                                                        "fileId": "633",
+                                                        "originalId": "634",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "lifevest",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "714",
+                                                "dependency": "1",
+                                                "uid": "1590057610795735:514400",
+                                                "fileId": "637",
+                                                "originalId": "641",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "life_vest1_texture",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "713",
+                                        "dependency": "0",
+                                        "uid": "1590057610735141:514368",
+                                        "fileId": "635",
+                                        "originalId": "636",
+                                        "publicId": "104",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    }
+                                ]
                             },
                             {
                                 "name": "Log",
@@ -6832,7 +7929,140 @@
                                 "publicId": "83",
                                 "source": "",
                                 "additional": "",
-                                "resources": ""
+                                "resources": [
+                                    {
+                                        "name": "log_texture",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "722",
+                                        "dependency": "0",
+                                        "uid": "1590058412096717:598914",
+                                        "fileId": "654",
+                                        "originalId": "655",
+                                        "publicId": "112",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Log\/log_texture.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "log",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "660",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "113",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Log\/log.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Log",
+                                                    "v": "1590058416813058:609937"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Log",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "723",
+                                                        "dependency": "1",
+                                                        "uid": "1590058416767721:609900",
+                                                        "fileId": "656",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Log",
+                                                        "type": "8",
+                                                        "subtype": "0",
+                                                        "resourceId": "724",
+                                                        "dependency": "1",
+                                                        "uid": "1590058416804961:609910",
+                                                        "fileId": "18446744073709551615",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Log",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "725",
+                                                        "dependency": "0",
+                                                        "uid": "1590058416813058:609937",
+                                                        "fileId": "657",
+                                                        "originalId": "658",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "log",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "726",
+                                                "dependency": "1",
+                                                "uid": "1590058417425910:609973",
+                                                "fileId": "659",
+                                                "originalId": "661",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "name": "Shark",
@@ -6846,7 +8076,153 @@
                                 "publicId": "84",
                                 "source": "",
                                 "additional": "",
-                                "resources": ""
+                                "resources": [
+                                    {
+                                        "name": "shark_texture",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "729",
+                                        "dependency": "0",
+                                        "uid": "1590060180163830:760542",
+                                        "fileId": "666",
+                                        "originalId": "667",
+                                        "publicId": "116",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Shark\/shark_texture.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "shark",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "672",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "117",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Shark\/shark.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Sharkey",
+                                                    "v": "1590060185091752:771725"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Parent Sharkbody001",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "730",
+                                                        "dependency": "1",
+                                                        "uid": "1590060185047406:771661",
+                                                        "fileId": "668",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Bone",
+                                                        "type": "8",
+                                                        "subtype": "0",
+                                                        "resourceId": "731",
+                                                        "dependency": "1",
+                                                        "uid": "1590060185082954:771671",
+                                                        "fileId": "18446744073709551615",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    },
+                                                    {
+                                                        "name": "Bone.001",
+                                                        "type": "8",
+                                                        "subtype": "0",
+                                                        "resourceId": "732",
+                                                        "dependency": "1",
+                                                        "uid": "1590060185084530:771698",
+                                                        "fileId": "18446744073709551615",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Sharkey",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "733",
+                                                        "dependency": "0",
+                                                        "uid": "1590060185091752:771725",
+                                                        "fileId": "669",
+                                                        "originalId": "670",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "shark",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "734",
+                                                "dependency": "1",
+                                                "uid": "1590060185428680:771773",
+                                                "fileId": "671",
+                                                "originalId": "673",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
                             },
                             {
                                 "name": "TurtleShell",
@@ -6860,7 +8236,153 @@
                                 "publicId": "85",
                                 "source": "",
                                 "additional": "",
-                                "resources": ""
+                                "resources": [
+                                    {
+                                        "name": "turtle shell",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "682",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "119",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/TurtleShell\/turtle shell.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Shell",
+                                                    "v": "1590060535627011:869224"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Turtle_Shell",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "736",
+                                                        "dependency": "1",
+                                                        "uid": "1590060535564709:869187",
+                                                        "fileId": "676",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Turtle_Shell",
+                                                        "type": "8",
+                                                        "subtype": "0",
+                                                        "resourceId": "737",
+                                                        "dependency": "1",
+                                                        "uid": "1590060535616750:869197",
+                                                        "fileId": "18446744073709551615",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Shell",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "738",
+                                                        "dependency": "0",
+                                                        "uid": "1590060535627011:869224",
+                                                        "fileId": "677",
+                                                        "originalId": "678",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "turtle shell",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "740",
+                                                "dependency": "1",
+                                                "uid": "1590060535908630:869271",
+                                                "fileId": "681",
+                                                "originalId": "685",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "turtle_texture",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "739",
+                                        "dependency": "0",
+                                        "uid": "1590060535882678:869239",
+                                        "fileId": "679",
+                                        "originalId": "680",
+                                        "publicId": "120",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-CBckpr\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "turtle_NRM",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "743",
+                                        "dependency": "0",
+                                        "uid": "1590060893162969:1001181",
+                                        "fileId": "688",
+                                        "originalId": "689",
+                                        "publicId": "123",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/TurtleShell\/turtle_NRM.jpg",
+                                        "additional": ""
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -6928,6 +8450,71 @@
                                 "publicId": "98",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Jellyfish",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "709",
+                                "dependency": "0",
+                                "uid": "1590057254828384:497321",
+                                "fileId": "630",
+                                "originalId": "631",
+                                "publicId": "102",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "LifeVest",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "721",
+                                "dependency": "0",
+                                "uid": "1590058196595899:593308",
+                                "fileId": "652",
+                                "originalId": "653",
+                                "publicId": "111",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Log",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "727",
+                                "dependency": "0",
+                                "uid": "1590058914804538:709714",
+                                "fileId": "662",
+                                "originalId": "663",
+                                "publicId": "114",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Shark",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "735",
+                                "dependency": "0",
+                                "uid": "1590060386635040:806367",
+                                "fileId": "674",
+                                "originalId": "675",
+                                "publicId": "118",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "TurtleShell",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "742",
+                                "dependency": "0",
+                                "uid": "1590060631948757:914921",
+                                "fileId": "686",
+                                "originalId": "687",
+                                "publicId": "122",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     }
@@ -6935,7 +8522,20 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1590060535627011:869224",
+                        "path_list": [
+                            "Animated 3D Assets",
+                            "TurtleShell",
+                            "turtle shell",
+                            "Materials",
+                            "Shell"
+                        ]
+                    }
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -8235,28 +9835,160 @@
                     {
                         "k": "1590056478670539:354890",
                         "v": {
-                            "prefab": "1590056459753229:333249",
+                            "prefab": "1590057254828384:497321",
                             "isActive": "true",
                             "mapping": [
                                 {
-                                    "k": "1590056459743911:333229",
+                                    "k": "1590056478670539:354890",
                                     "v": "1590056478670539:354890"
                                 },
                                 {
-                                    "k": "1590056459745994:333231",
+                                    "k": "1590056478672936:354900",
                                     "v": "1590056478672936:354900"
                                 },
                                 {
-                                    "k": "1590056459747344:333233",
+                                    "k": "1590056478673955:354902",
                                     "v": "1590056478673955:354902"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1590057643053530:536316",
+                        "v": {
+                            "prefab": "1590058196595899:593308",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1590057643053530:536316",
+                                    "v": "1590057643053530:536316"
                                 },
                                 {
-                                    "k": "1590056459750759:333245",
-                                    "v": "1590056478675620:354914"
+                                    "k": "1590057643055906:536324",
+                                    "v": "1590057643055906:536324"
                                 },
                                 {
-                                    "k": "1590056459751670:333247",
-                                    "v": "1590056478672249:354898"
+                                    "k": "1590057643059299:536326",
+                                    "v": "1590057643059299:536326"
+                                },
+                                {
+                                    "k": "1590057643060593:536328",
+                                    "v": "1590057643060593:536328"
+                                },
+                                {
+                                    "k": "1590057643062895:536340",
+                                    "v": "1590057643062895:536340"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1590058426681469:632082",
+                        "v": {
+                            "prefab": "1590058914804538:709714",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1590058426681469:632082",
+                                    "v": "1590058426681469:632082"
+                                },
+                                {
+                                    "k": "1590058426687292:632090",
+                                    "v": "1590058426687292:632090"
+                                },
+                                {
+                                    "k": "1590058426699153:632092",
+                                    "v": "1590058426699153:632092"
+                                },
+                                {
+                                    "k": "1590058426701349:632094",
+                                    "v": "1590058426701349:632094"
+                                },
+                                {
+                                    "k": "1590058426704429:632106",
+                                    "v": "1590058426704429:632106"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1590060197134853:794222",
+                        "v": {
+                            "prefab": "1590060386635040:806367",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1590060197134853:794222",
+                                    "v": "1590060197134853:794222"
+                                },
+                                {
+                                    "k": "1590060197137400:794232",
+                                    "v": "1590060197137400:794232"
+                                },
+                                {
+                                    "k": "1590060197138232:794234",
+                                    "v": "1590060197138232:794234"
+                                },
+                                {
+                                    "k": "1590060197139527:794236",
+                                    "v": "1590060197139527:794236"
+                                },
+                                {
+                                    "k": "1590060197140842:794238",
+                                    "v": "1590060197140842:794238"
+                                },
+                                {
+                                    "k": "1590060197146714:794253",
+                                    "v": "1590060197146714:794253"
+                                },
+                                {
+                                    "k": "1590060197173846:794327",
+                                    "v": "1590060197173846:794327"
+                                },
+                                {
+                                    "k": "1590060197175821:794329",
+                                    "v": "1590060197175821:794329"
+                                },
+                                {
+                                    "k": "1590060197176643:794331",
+                                    "v": "1590060197176643:794331"
+                                },
+                                {
+                                    "k": "1590060197178125:794333",
+                                    "v": "1590060197178125:794333"
+                                },
+                                {
+                                    "k": "1590060197178871:794335",
+                                    "v": "1590060197178871:794335"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1590060555187304:892033",
+                        "v": {
+                            "prefab": "1590060631948757:914921",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1590060555187304:892033",
+                                    "v": "1590060555187304:892033"
+                                },
+                                {
+                                    "k": "1590060555190654:892041",
+                                    "v": "1590060555190654:892041"
+                                },
+                                {
+                                    "k": "1590060555191611:892043",
+                                    "v": "1590060555191611:892043"
+                                },
+                                {
+                                    "k": "1590060555193232:892045",
+                                    "v": "1590060555193232:892045"
+                                },
+                                {
+                                    "k": "1590060555200460:892057",
+                                    "v": "1590060555200460:892057"
                                 }
                             ]
                         }
@@ -10978,6 +12710,192 @@
                                 "Component.RenderMeshVisual"
                             ],
                             "v": "1590056459747344:333233"
+                        }
+                    ]
+                },
+                {
+                    "k": "1590057610795735:514400",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1590057610757274:514380"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1590057610774893:514398"
+                        },
+                        {
+                            "k": [
+                                "Group_006"
+                            ],
+                            "v": "1590057610758539:514382"
+                        },
+                        {
+                            "k": [
+                                "Group_006",
+                                "Component.Animation"
+                            ],
+                            "v": "1590057610773725:514396"
+                        },
+                        {
+                            "k": [
+                                "Group_006",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1590057610762594:514384"
+                        }
+                    ]
+                },
+                {
+                    "k": "1590058417425910:609973",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1590058417390898:609953"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1590058417424351:609971"
+                        },
+                        {
+                            "k": [
+                                "Log"
+                            ],
+                            "v": "1590058417398817:609955"
+                        },
+                        {
+                            "k": [
+                                "Log",
+                                "Component.Animation"
+                            ],
+                            "v": "1590058417423426:609969"
+                        },
+                        {
+                            "k": [
+                                "Log",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1590058417419777:609957"
+                        }
+                    ]
+                },
+                {
+                    "k": "1590060185428680:771773",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1590060185391147:771741"
+                        },
+                        {
+                            "k": [
+                                "Armature"
+                            ],
+                            "v": "1590060185398716:771757"
+                        },
+                        {
+                            "k": [
+                                "Armature",
+                                "Bone"
+                            ],
+                            "v": "1590060185411021:771759"
+                        },
+                        {
+                            "k": [
+                                "Armature",
+                                "Bone",
+                                "Bone.001"
+                            ],
+                            "v": "1590060185415861:771761"
+                        },
+                        {
+                            "k": [
+                                "Armature",
+                                "Bone",
+                                "Bone.001",
+                                "Bone.001_end"
+                            ],
+                            "v": "1590060185417451:771763"
+                        },
+                        {
+                            "k": [
+                                "Armature",
+                                "Bone",
+                                "Bone.001",
+                                "Component.Animation"
+                            ],
+                            "v": "1590060185419438:771765"
+                        },
+                        {
+                            "k": [
+                                "Armature",
+                                "Bone",
+                                "Component.Animation"
+                            ],
+                            "v": "1590060185422957:771767"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1590060185426293:771771"
+                        },
+                        {
+                            "k": [
+                                "Component.Skin"
+                            ],
+                            "v": "1590060185425352:771769"
+                        },
+                        {
+                            "k": [
+                                "Parent Sharkbody001"
+                            ],
+                            "v": "1590060185392512:771743"
+                        },
+                        {
+                            "k": [
+                                "Parent Sharkbody001",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1590060185393374:771745"
+                        }
+                    ]
+                },
+                {
+                    "k": "1590060535908630:869271",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1590060535901126:869251"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1590060535907082:869269"
+                        },
+                        {
+                            "k": [
+                                "Turtle_Shell"
+                            ],
+                            "v": "1590060535902345:869253"
+                        },
+                        {
+                            "k": [
+                                "Turtle_Shell",
+                                "Component.Animation"
+                            ],
+                            "v": "1590060535906200:869267"
+                        },
+                        {
+                            "k": [
+                                "Turtle_Shell",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1590060535903212:869255"
                         }
                     ]
                 }
