@@ -1,4 +1,4 @@
-//@input Component.ScriptComponent worldController
+//@input Component.ScriptComponent gestureManager
 
 
 //@input float strafeSpeed = 600.0 {"widget":"slider", "min":50.0, "max":3000.0}
@@ -9,7 +9,7 @@
 //@input float waveBounceSeconds = 4 {"widget":"slider", "min":0.3, "max":32}
 
 
-if(!script.worldController )
+if(!script.gestureManager )
 { throw new Error("One or more fields aren't set."); return; }  // Check to prevent Studio lens failure to let you set null fields when in error
 
 var playerTransf = script.getSceneObject().getTransform();
@@ -37,7 +37,16 @@ event.bind(function (eventData)
 var updateEvent = script.createEvent("UpdateEvent");
 updateEvent.bind(function(eventData) {
       
+ 
+    UpdatePosition();
+    CheckCollisions();
+ 
+    
+});
 
+
+function UpdatePosition() {
+    
   var pos = playerTransf.getLocalPosition();
   var rot = playerTransf.getLocalRotation().toEulerAngles();
 
@@ -49,9 +58,9 @@ updateEvent.bind(function(eventData) {
     playerTransf.position = pos;
     return;
   }
-
-  var tiltUp = script.worldController.api.GetHeadTiltUp();
-  var tiltSide = script.worldController.api.GetHeadTiltSide();
+    
+  var tiltUp = script.gestureManager.api.GetHeadTiltUp();
+  var tiltSide = script.gestureManager.api.GetHeadTiltSide();
 
     
   //set position
@@ -82,21 +91,14 @@ updateEvent.bind(function(eventData) {
   var targetRot = new vec3(rot.x, rot.y, targetZrot );
     rot=targetRot;
   //rot = vec3.lerp(rot, targetRot, getDeltaTime() * 5.0);
-  playerTransf.setLocalRotation(quat.fromEulerVec(rot));    
+  playerTransf.setLocalRotation(quat.fromEulerVec(rot));   
     
-    
-    
-    
-});
-
-// --- API ---
-script.api.GetFacingDirection = function() {return facingDirection;}
-
-// --- global API ---
-global.HidePlayingCharacter = function() {
-  imageComp.enabled = false;
 }
-global.ShowPlayingCharacter = function(_positionReset) {
-  imageComp.enabled = true;
-  markedForPositionReset = _positionReset; // mark for position reset in Update
+
+function CheckCollisions() {
+
+    global.CheckForCollisions();
+    
 }
+
+
