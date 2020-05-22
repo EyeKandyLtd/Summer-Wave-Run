@@ -1,7 +1,7 @@
 // -----JS CODE-----
-//@input float xLength
-//@input float yLength
-//@input float zLength
+//@input float xLength = 30
+//@input float yLength = 30
+//@input float zLength = 30
 //@input bool isTrigger = false
 
 script.api.minX = 0;
@@ -31,7 +31,7 @@ script.api.RefreshBoundingBox = function() {
 }
 
 script.api.OnIntersection = function (otherCollider) {
-    print ("Intersection registered with: " + otherCollider);
+    print ("Intersection registered with: " + otherCollider.script.getSceneObject().name);
     if (intersectionCallback != null) {
         intersectionCallback(otherCollider);
     }

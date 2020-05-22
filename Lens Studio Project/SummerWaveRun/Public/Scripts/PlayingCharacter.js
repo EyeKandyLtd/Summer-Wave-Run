@@ -1,4 +1,5 @@
 //@input Component.ScriptComponent gestureManager
+//@input Component.ScriptComponent colliderAABB
 
 
 //@input float strafeSpeed = 600.0 {"widget":"slider", "min":50.0, "max":3000.0}
@@ -15,21 +16,25 @@ if(!script.gestureManager )
 var playerTransf = script.getSceneObject().getTransform();
 //var imageComp = 
 var facingDirection = -1; // starts facing left
-
 var initialPos;
 var initialRot;
-
 var markedForPositionReset = false; // because it has to be done in Update
-
 var halfExtentXMovementRange = script.horizonalMovementRange * 0.5
 
-var event = script.createEvent("TurnOnEvent");
-event.bind(function (eventData)
-{
-    initialPos = playerTransf.getLocalPosition();
-    initialRot = playerTransf.getLocalRotation();
+var isInit = false;
+
+function EnsureInit() {
     
-});
+    if (!isInit) {
+        initialPos = playerTransf.getLocalPosition();
+        initialRot = playerTransf.getLocalRotation();
+        
+        script.colliderAABB.api.SetIntersectionCallback(HandleCollision);
+        
+        isInit = true;
+    }
+    
+}
 
 
 
@@ -37,7 +42,7 @@ event.bind(function (eventData)
 var updateEvent = script.createEvent("UpdateEvent");
 updateEvent.bind(function(eventData) {
       
- 
+    EnsureInit();
     UpdatePosition();
     CheckCollisions();
  
@@ -100,5 +105,11 @@ function CheckCollisions() {
     global.CheckForCollisions();
     
 }
+
+function HandleCollision() {
+    print("Player Handling Collision!");    
+    
+}
+
 
 
