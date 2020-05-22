@@ -8,9 +8,9 @@ var colliders = [];
 //}
 
 function intersect(a, b) {
-  return (a.minX <= b.maxX && a.maxX >= b.minX) &&
-         (a.minY <= b.maxY && a.maxY >= b.minY) &&
-         (a.minZ <= b.maxZ && a.maxZ >= b.minZ);
+  return (a.api.minX <= b.api.maxX && a.api.maxX >= b.api.minX) &&
+         (a.api.minY <= b.api.maxY && a.api.maxY >= b.api.minY) &&
+         (a.api.minZ <= b.api.maxZ && a.api.maxZ >= b.api.minZ);
 }
 
 
@@ -25,15 +25,17 @@ function CheckCollisions() {
             x--
         }
     }
-    
+    //print ("checking collisons between " + colliders.length + " colliders");
     for (a = 0; a < colliders.length; a++) { 
         for ( b = a+1; b < colliders.length; b++) {
             var colA = colliders[a];
             var colB = colliders[b];
             if (!colA.api.GetIsTrigger() || !colB.api.GetIsTrigger()) { // skip if both are triggers
+               // print ("Checking intersection..")
                 if (intersect(colA, colB)) {
-                    colA.api.OnIntersection(colB);
-                    colB.api.OnIntersection(colA);
+                    print ("Collision!")
+                    if (!colA.api.GetIsTrigger()) {colA.api.OnIntersection(colB);}
+                    if (!colB.api.GetIsTrigger()) {colB.api.OnIntersection(colA);}
                 }
             }
             
@@ -43,7 +45,7 @@ function CheckCollisions() {
 }
 
 global.RegisterCollider = function (colliderAABB) {
-    print ("AddAABB : " + colliderAABB);
+    
     colliders.push(colliderAABB);
 }
 

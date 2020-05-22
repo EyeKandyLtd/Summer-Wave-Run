@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590147534596",
+    "lastChanged": "1590148555074",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -2196,7 +2196,8 @@
                 "112": "1590145935005006:470729",
                 "113": "1590145935007337:470733",
                 "114": "1590145936849976:477264",
-                "115": "1590145936855706:477284"
+                "115": "1590145936855706:477284",
+                "116": "1590148060664442:766018"
             }
         },
         "LayerComponent": {
@@ -3992,7 +3993,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "ce1ebdcbae205a21231be59961c929ea"
+                        "v": "944e632448c05cf2f29f897b0d4809ea"
                     },
                     {
                         "k": "98",
@@ -4048,11 +4049,11 @@
                     },
                     {
                         "k": "119",
-                        "v": "d9ccf6a5730eea3547da50acb2cbc482"
+                        "v": "70077193b0f4104c4607c137a0132e78"
                     },
                     {
                         "k": "120",
-                        "v": "83d6911323c3316e60a6627715448a45"
+                        "v": "13bf23b97b60acf7eb7aa8ce707828f7"
                     },
                     {
                         "k": "121",
@@ -4104,11 +4105,11 @@
                     },
                     {
                         "k": "133",
-                        "v": "249d33760b158dce020dfc1390960357"
+                        "v": "fb5051fb1b51aaaead8cf127d3287ead"
                     },
                     {
                         "k": "134",
-                        "v": "0a895b4c050158a0638287db460e9b6e"
+                        "v": "9033d74b68fd94e0ce608bdfef986823"
                     }
                 ],
                 "publicState": {
@@ -4116,7 +4117,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-21T19:37:07",
                         "name": "Public",
-                        "hash": "10f1ba7f6c432455a93f50d057d68b2c",
+                        "hash": "20081f657b8de785a87db42daa8a8250",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4796,15 +4797,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T12:24:26",
+                                "lastModified": "2020-05-22T12:53:55",
                                 "name": "Prefabs",
-                                "hash": "482a464a06cbd4a339dc0e0a39654771",
+                                "hash": "bce7efec36ca16686e2613d61b32627e",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T12:24:26",
+                                        "lastModified": "2020-05-22T12:53:55",
                                         "name": "Player.oprfb",
-                                        "hash": "d9ccf6a5730eea3547da50acb2cbc482",
+                                        "hash": "70077193b0f4104c4607c137a0132e78",
                                         "children": ""
                                     },
                                     {
@@ -4844,9 +4845,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T12:23:14",
+                                        "lastModified": "2020-05-22T12:51:50",
                                         "name": "Barrel.oprfb",
-                                        "hash": "83d6911323c3316e60a6627715448a45",
+                                        "hash": "13bf23b97b60acf7eb7aa8ce707828f7",
                                         "children": ""
                                     },
                                     {
@@ -4874,22 +4875,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T12:38:40",
+                                "lastModified": "2020-05-22T12:55:30",
                                 "name": "Scripts",
-                                "hash": "e05992aff100aae810cb36c4c690765c",
+                                "hash": "ee963e3e97b863501bd8b921b3b11eab",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T12:35:02",
+                                        "lastModified": "2020-05-22T12:48:23",
                                         "name": "ColliderAABB.js",
-                                        "hash": "249d33760b158dce020dfc1390960357",
+                                        "hash": "fb5051fb1b51aaaead8cf127d3287ead",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T12:38:40",
+                                        "lastModified": "2020-05-22T12:55:30",
                                         "name": "CollisionManager.js",
-                                        "hash": "0a895b4c050158a0638287db460e9b6e",
+                                        "hash": "9033d74b68fd94e0ce608bdfef986823",
                                         "children": ""
                                     },
                                     {
@@ -8501,14 +8502,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1590142604648181:149537",
-                        "path_list": [
-                            "Scripts",
-                            "CollisionManager"
-                        ]
-                    }
+                "objects": [
+                    "1589824396441814:172450"
                 ]
             }
         },

@@ -14,7 +14,7 @@ script.api.maxZ = 0;
 var intersectionCallback;
 
 script.api.RefreshBoundingBox = function() {
-    print("Refreshing Bounding Boxes");
+    
     var pos = script.getSceneObject().getTransform().getWorldPosition();
     var halfXLength = script.xLength * 0.5;
     var halfYLength = script.yLength * 0.5;
@@ -31,6 +31,7 @@ script.api.RefreshBoundingBox = function() {
 }
 
 script.api.OnIntersection = function (otherCollider) {
+    print ("Intersection registered with: " + otherCollider);
     if (intersectionCallback != null) {
         intersectionCallback(otherCollider);
     }
