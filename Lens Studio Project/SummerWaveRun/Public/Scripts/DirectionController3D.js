@@ -3,7 +3,7 @@
 //@input bool runOnTurnedOn = true
 //@input vec3 initialVector
 //@input bool runOnTurnedOn = true
-//@input float distanceBeforeDeath = 200
+//@input float distanceBeforeDeath = 500
 
 var isOperating = false;
 var thisTransform = script.getSceneObject().getTransform();
