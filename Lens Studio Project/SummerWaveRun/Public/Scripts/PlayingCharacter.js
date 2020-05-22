@@ -1,5 +1,6 @@
 //@input Component.ScriptComponent gestureManager
 //@input Component.ScriptComponent colliderAABB
+//@input Component.ScriptComponent jumpController3D
 
 
 //@input float strafeSpeed = 600.0 {"widget":"slider", "min":50.0, "max":3000.0}
@@ -102,13 +103,17 @@ function UpdatePosition() {
 
 function CheckCollisions() {
 
-    global.CheckForCollisions();
+    if (script.jumpController3D.api.isOnGround) { // optimisation: don't check if in the air..
+        global.CheckForCollisions();
+    }
     
 }
 
 function HandleCollision(other) {
-    other.getSceneObject().script.api.PlayHitSound();
-    print("Player Handling Collision!");    
+    print("Player Handling Collision: " + other.getSceneObject().name);  
+    other.api.PlayHitSound();
+    other.getSceneObject().destroy();
+      
     
 }
 

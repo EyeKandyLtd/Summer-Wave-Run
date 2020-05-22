@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590154911272",
+    "lastChanged": "1590159219837",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -444,9 +444,6 @@
                         "TurtleShell"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "AudioManager"
                     ],
@@ -493,7 +490,6 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589823953420994:170044",
                     "1589824396441814:172450",
                     "1589824979988216:180112",
                     "1589825953195699:187528",
@@ -507,7 +503,8 @@
                     "1590058426681469:632082",
                     "1590060197134853:794222",
                     "1590060555187304:892033",
-                    "1590084222825935:118241"
+                    "1590084222825935:118241",
+                    "1590145903519951:431601"
                 ]
             ]
         },
@@ -4137,11 +4134,11 @@
                     },
                     {
                         "k": "61",
-                        "v": "c20254795677e4dcc66f002c8d969b15"
+                        "v": "c7d1627ae96355c992cc39a03b9c5693"
                     },
                     {
                         "k": "62",
-                        "v": "a5097af9d8bc61a7cb5868521c18447a"
+                        "v": "acda0849d10b966bf56df26eb80cf115"
                     },
                     {
                         "k": "63",
@@ -4225,7 +4222,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "48ad8f4209d00307cf0119e3babd4c34"
+                        "v": "0871bccbdabd3c9285b79196820b8728"
                     },
                     {
                         "k": "98",
@@ -4285,7 +4282,7 @@
                     },
                     {
                         "k": "120",
-                        "v": "13bf23b97b60acf7eb7aa8ce707828f7"
+                        "v": "d1e3a1d966ffb5abad54efa9ba7d1fe7"
                     },
                     {
                         "k": "121",
@@ -4337,11 +4334,11 @@
                     },
                     {
                         "k": "133",
-                        "v": "609630ec4f2f7436a7f0bc1eaf39d8ec"
+                        "v": "4e40bb878687a84fc4dd5796b03483df"
                     },
                     {
                         "k": "134",
-                        "v": "9033d74b68fd94e0ce608bdfef986823"
+                        "v": "076b472f68d35a6a415a34a853c02c8a"
                     },
                     {
                         "k": "144",
@@ -4401,7 +4398,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-22T13:48:39",
                         "name": "Public",
-                        "hash": "4d3f3c99c6e87339bccc4a781c5eb3b2",
+                        "hash": "cac05fc227f1a34fe2b6b474f568827e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5081,9 +5078,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T13:44:55",
+                                "lastModified": "2020-05-22T14:42:35",
                                 "name": "Prefabs",
-                                "hash": "0cda4536248264c835b1512a60b21c6d",
+                                "hash": "ddee66d8bb057a3a6171020c4ea7ec6b",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5129,9 +5126,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T12:51:50",
+                                        "lastModified": "2020-05-22T14:42:35",
                                         "name": "Barrel.oprfb",
-                                        "hash": "13bf23b97b60acf7eb7aa8ce707828f7",
+                                        "hash": "d1e3a1d966ffb5abad54efa9ba7d1fe7",
                                         "children": ""
                                     },
                                     {
@@ -5237,22 +5234,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T14:41:13",
+                                "lastModified": "2020-05-22T15:53:02",
                                 "name": "Scripts",
-                                "hash": "1405251a8e7442edd8c9914d7cf0f58c",
+                                "hash": "d9088fc3bc6928a87d134ce812842e1e",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T14:38:05",
+                                        "lastModified": "2020-05-22T14:55:44",
                                         "name": "ColliderAABB.js",
-                                        "hash": "609630ec4f2f7436a7f0bc1eaf39d8ec",
+                                        "hash": "4e40bb878687a84fc4dd5796b03483df",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T12:58:30",
+                                        "lastModified": "2020-05-22T15:53:02",
                                         "name": "CollisionManager.js",
-                                        "hash": "9033d74b68fd94e0ce608bdfef986823",
+                                        "hash": "076b472f68d35a6a415a34a853c02c8a",
                                         "children": ""
                                     },
                                     {
@@ -5278,9 +5275,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-21T15:25:55",
+                                        "lastModified": "2020-05-22T15:22:26",
                                         "name": "JumpController3D.js",
-                                        "hash": "a5097af9d8bc61a7cb5868521c18447a",
+                                        "hash": "acda0849d10b966bf56df26eb80cf115",
                                         "children": ""
                                     },
                                     {
@@ -5313,9 +5310,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T14:41:13",
+                                        "lastModified": "2020-05-22T15:19:30",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "c20254795677e4dcc66f002c8d969b15",
+                                        "hash": "c7d1627ae96355c992cc39a03b9c5693",
                                         "children": ""
                                     },
                                     {
@@ -9036,8 +9033,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1590145903519951:431601"
+                "resources": [
+                    {
+                        "uid": "1589882404097941:100708",
+                        "path_list": [
+                            "Scripts",
+                            "JumpController3D"
+                        ]
+                    }
                 ]
             }
         },

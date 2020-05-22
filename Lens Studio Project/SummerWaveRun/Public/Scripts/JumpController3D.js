@@ -5,8 +5,10 @@ var isJumpRequested = false;
 var requestedJumpHeight;
 var requestedJumpTime;
 
-var isOnGround = true;
+
 var jumpStartTime;
+
+script.api.isOnGround = true;
 
 function Init() {
     jumpTrans = script.getSceneObject().getTransform();
@@ -29,15 +31,15 @@ updateEvent.bind(function(eventData){
    
     if (isJumpRequested) {
         isJumpRequested = false
-        if (isOnGround) {
-            isOnGround = false;
+        if (script.api.isOnGround) {
+            script.api.isOnGround = false;
             jumpStartTime = getTime();
         } else {
             print("Ignoring jump request as object is not on the ground.");
         }
     }
     
-    if (!isOnGround) {
+    if (!script.api.isOnGround) {
         ContinueJump();        
             
     }
@@ -52,7 +54,7 @@ function ContinueJump() {
     
      if (y< 0) {
         y = 0;
-        isOnGround = true; 
+        script.api.isOnGround = true; 
      }
     
     pos.y = y;

@@ -52,7 +52,7 @@ script.api.PlayHitSound = function() {
 
     if (script.hitSounds != null) {
         var randomIndex = Math.floor(Math.random() * script.hitSounds.length);
-        var clip =  script.prefabPool[randomIndex];     
+        var clip =  script.hitSounds[randomIndex];     
         global.playAudioAsset(clip, 1, 0.5);
         
     }
