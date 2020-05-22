@@ -106,7 +106,8 @@ function CheckCollisions() {
     
 }
 
-function HandleCollision() {
+function HandleCollision(other) {
+    other.getSceneObject().script.api.PlayHitSound();
     print("Player Handling Collision!");    
     
 }

@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590151489412",
+    "lastChanged": "1590154911272",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -370,7 +370,46 @@
                         "turtle_texture"
                     ],
                     [
+                        "Audio",
+                        "Best-win"
+                    ],
+                    [
+                        "Audio",
+                        "Bonus"
+                    ],
+                    [
+                        "Audio",
+                        "Booing"
+                    ],
+                    [
+                        "Audio",
+                        "Fanfare"
+                    ],
+                    [
+                        "Audio",
+                        "Jet-Ski-Motor"
+                    ],
+                    [
+                        "Audio",
+                        "Low-win"
+                    ],
+                    [
+                        "Audio",
+                        "Mid-win"
+                    ],
+                    [
+                        "Audio",
+                        "Sea"
+                    ],
+                    [
+                        "Audio",
+                        "Small-cheer"
+                    ],
+                    [
                         "Mesh"
+                    ],
+                    [
+                        "Prefabs"
                     ],
                     [
                         "Prefabs",
@@ -405,6 +444,13 @@
                         "TurtleShell"
                     ],
                     [
+                        "Scripts"
+                    ],
+                    [
+                        "Scripts",
+                        "AudioManager"
+                    ],
+                    [
                         "Scripts",
                         "ColliderAABB"
                     ],
@@ -415,6 +461,10 @@
                     [
                         "Scripts",
                         "DirectionController3D"
+                    ],
+                    [
+                        "Scripts",
+                        "GamePlayManager"
                     ],
                     [
                         "Scripts",
@@ -443,6 +493,7 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
+                    "1589823953420994:170044",
                     "1589824396441814:172450",
                     "1589824979988216:180112",
                     "1589825953195699:187528",
@@ -2058,6 +2109,94 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "751",
+                    "uid": "1590151731826013:1540342",
+                    "name": "Files\/File699.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "752",
+                    "uid": "1590151731849301:1540349",
+                    "name": "Files\/File700.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "753",
+                    "uid": "1590151731865805:1540356",
+                    "name": "Files\/File701.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "754",
+                    "uid": "1590151731872624:1540363",
+                    "name": "Files\/File702.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "755",
+                    "uid": "1590151731877052:1540370",
+                    "name": "Files\/File703.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "756",
+                    "uid": "1590151731887632:1540377",
+                    "name": "Files\/File704.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "757",
+                    "uid": "1590151731897247:1540384",
+                    "name": "Files\/File705.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "758",
+                    "uid": "1590151731905481:1540391",
+                    "name": "Files\/File706.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "759",
+                    "uid": "1590151731912858:1540398",
+                    "name": "Files\/File707.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "760",
+                    "uid": "1590152707078094:1631017",
+                    "name": "Files\/File708.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "761",
+                    "uid": "1590154209727334:1674551",
+                    "name": "Files\/File709.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2197,7 +2336,8 @@
                 "113": "1590145935007337:470733",
                 "114": "1590145936849976:477264",
                 "115": "1590145936855706:477284",
-                "116": "1590148060664442:766018"
+                "116": "1590148060664442:766018",
+                "117": "1590152610387780:1614028"
             }
         },
         "LayerComponent": {
@@ -3177,6 +3317,50 @@
                 {
                     "k": "698",
                     "v": "Files\/File698.js"
+                },
+                {
+                    "k": "699",
+                    "v": "Files\/File699.mp3"
+                },
+                {
+                    "k": "700",
+                    "v": "Files\/File700.mp3"
+                },
+                {
+                    "k": "701",
+                    "v": "Files\/File701.mp3"
+                },
+                {
+                    "k": "702",
+                    "v": "Files\/File702.mp3"
+                },
+                {
+                    "k": "703",
+                    "v": "Files\/File703.mp3"
+                },
+                {
+                    "k": "704",
+                    "v": "Files\/File704.mp3"
+                },
+                {
+                    "k": "705",
+                    "v": "Files\/File705.mp3"
+                },
+                {
+                    "k": "706",
+                    "v": "Files\/File706.mp3"
+                },
+                {
+                    "k": "707",
+                    "v": "Files\/File707.mp3"
+                },
+                {
+                    "k": "708",
+                    "v": "Files\/File708.js"
+                },
+                {
+                    "k": "709",
+                    "v": "Files\/File709.js"
                 }
             ]
         },
@@ -3692,6 +3876,54 @@
                     {
                         "k": "134",
                         "v": "Scripts\/CollisionManager.js"
+                    },
+                    {
+                        "k": "145",
+                        "v": "Audio"
+                    },
+                    {
+                        "k": "146",
+                        "v": "Audio\/Low-win.mp3"
+                    },
+                    {
+                        "k": "147",
+                        "v": "Audio\/Jet-Ski-Motor.mp3"
+                    },
+                    {
+                        "k": "148",
+                        "v": "Audio\/Sea.mp3"
+                    },
+                    {
+                        "k": "149",
+                        "v": "Audio\/Fanfare.mp3"
+                    },
+                    {
+                        "k": "150",
+                        "v": "Audio\/Small-cheer.mp3"
+                    },
+                    {
+                        "k": "151",
+                        "v": "Audio\/Mid-win.mp3"
+                    },
+                    {
+                        "k": "152",
+                        "v": "Audio\/Bonus.mp3"
+                    },
+                    {
+                        "k": "153",
+                        "v": "Audio\/Booing.mp3"
+                    },
+                    {
+                        "k": "154",
+                        "v": "Audio\/Best-win.mp3"
+                    },
+                    {
+                        "k": "155",
+                        "v": "Scripts\/GamePlayManager.js"
+                    },
+                    {
+                        "k": "156",
+                        "v": "Scripts\/AudioManager.js"
                     }
                 ],
                 "hashes": [
@@ -3905,7 +4137,7 @@
                     },
                     {
                         "k": "61",
-                        "v": "b41698badfe8229ab90fdafe576013fe"
+                        "v": "c20254795677e4dcc66f002c8d969b15"
                     },
                     {
                         "k": "62",
@@ -3993,7 +4225,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "33d1acbbff2be9411bae31a4e0cca523"
+                        "v": "48ad8f4209d00307cf0119e3babd4c34"
                     },
                     {
                         "k": "98",
@@ -4049,7 +4281,7 @@
                     },
                     {
                         "k": "119",
-                        "v": "a56d41751abf066a10602f7d439d0fa4"
+                        "v": "85fc3f49a8dfb69c73f60bfb52331bfd"
                     },
                     {
                         "k": "120",
@@ -4105,19 +4337,71 @@
                     },
                     {
                         "k": "133",
-                        "v": "9d0249c811c88cbefa0575e345a15520"
+                        "v": "609630ec4f2f7436a7f0bc1eaf39d8ec"
                     },
                     {
                         "k": "134",
                         "v": "9033d74b68fd94e0ce608bdfef986823"
+                    },
+                    {
+                        "k": "144",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "145",
+                        "v": "59adb24ef3cdbe0297f05b395827453f"
+                    },
+                    {
+                        "k": "146",
+                        "v": "ea7a758ed8f76069cf02bc64d47ee98e"
+                    },
+                    {
+                        "k": "147",
+                        "v": "e5b09c84a6629cff88e3a38a4a58c241"
+                    },
+                    {
+                        "k": "148",
+                        "v": "efaedd0700ffac33f78db5781397b09e"
+                    },
+                    {
+                        "k": "149",
+                        "v": "1e68335c7d879415873d19ef77affb0f"
+                    },
+                    {
+                        "k": "150",
+                        "v": "cdcd6920f33d1c5c5d5f31164ddaa2c0"
+                    },
+                    {
+                        "k": "151",
+                        "v": "90c0d176e88d52c6fee9621053d396f2"
+                    },
+                    {
+                        "k": "152",
+                        "v": "ef667b9405bbe3a95872d38b0acdde4c"
+                    },
+                    {
+                        "k": "153",
+                        "v": "136a65256406b9e16ecd8e8ab9da3fbf"
+                    },
+                    {
+                        "k": "154",
+                        "v": "770e08d6799ef062dadcdbcbbc74c1e4"
+                    },
+                    {
+                        "k": "155",
+                        "v": "bd244b4085a47f92b54c53d949fe43c6"
+                    },
+                    {
+                        "k": "156",
+                        "v": "da54ae25a78d43c7cdddb6afcf093ecb"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-21T19:37:07",
+                        "lastModified": "2020-05-22T13:48:39",
                         "name": "Public",
-                        "hash": "6cd1ee9e499617c66e160b1d2d0913c4",
+                        "hash": "4d3f3c99c6e87339bccc4a781c5eb3b2",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -4797,15 +5081,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T13:36:19",
+                                "lastModified": "2020-05-22T13:44:55",
                                 "name": "Prefabs",
-                                "hash": "72e0268d52512a839c911e2b7abb4091",
+                                "hash": "0cda4536248264c835b1512a60b21c6d",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T13:36:19",
+                                        "lastModified": "2020-05-22T13:44:55",
                                         "name": "Player.oprfb",
-                                        "hash": "a56d41751abf066a10602f7d439d0fa4",
+                                        "hash": "85fc3f49a8dfb69c73f60bfb52331bfd",
                                         "children": ""
                                     },
                                     {
@@ -4875,15 +5159,93 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T13:42:50",
-                                "name": "Scripts",
-                                "hash": "9d1527b5e38cc5a00935fbce8c434a23",
+                                "lastModified": "2020-05-22T14:04:41",
+                                "name": "Audio",
+                                "hash": "877916fbff51dc9a9da74187c6517d85",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T13:42:50",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Low-win.mp3",
+                                        "hash": "ea7a758ed8f76069cf02bc64d47ee98e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Jet-Ski-Motor.mp3",
+                                        "hash": "e5b09c84a6629cff88e3a38a4a58c241",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Sea.mp3",
+                                        "hash": "efaedd0700ffac33f78db5781397b09e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Fanfare.mp3",
+                                        "hash": "1e68335c7d879415873d19ef77affb0f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Small-cheer.mp3",
+                                        "hash": "cdcd6920f33d1c5c5d5f31164ddaa2c0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Mid-win.mp3",
+                                        "hash": "90c0d176e88d52c6fee9621053d396f2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Bonus.mp3",
+                                        "hash": "ef667b9405bbe3a95872d38b0acdde4c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Booing.mp3",
+                                        "hash": "136a65256406b9e16ecd8e8ab9da3fbf",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T13:48:58",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T12:41:27",
+                                        "name": "Best-win.mp3",
+                                        "hash": "770e08d6799ef062dadcdbcbbc74c1e4",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-05-22T14:41:13",
+                                "name": "Scripts",
+                                "hash": "1405251a8e7442edd8c9914d7cf0f58c",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T14:38:05",
                                         "name": "ColliderAABB.js",
-                                        "hash": "9d0249c811c88cbefa0575e345a15520",
+                                        "hash": "609630ec4f2f7436a7f0bc1eaf39d8ec",
                                         "children": ""
                                     },
                                     {
@@ -4898,6 +5260,13 @@
                                         "lastModified": "2020-05-21T17:09:54",
                                         "name": "ObjectSpawner.js",
                                         "hash": "e47969756db9752d57aa93443a36f28d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T14:30:15",
+                                        "name": "AudioManager.js",
+                                        "hash": "da54ae25a78d43c7cdddb6afcf093ecb",
                                         "children": ""
                                     },
                                     {
@@ -4930,6 +5299,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-22T14:29:51",
+                                        "name": "GamePlayManager.js",
+                                        "hash": "bd244b4085a47f92b54c53d949fe43c6",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-21T15:25:55",
                                         "name": "EarsAnimation.js",
                                         "hash": "c7558659befa8bb5b97fd28a5020a431",
@@ -4937,9 +5313,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T13:42:46",
+                                        "lastModified": "2020-05-22T14:41:13",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "b41698badfe8229ab90fdafe576013fe",
+                                        "hash": "c20254795677e4dcc66f002c8d969b15",
                                         "children": ""
                                     },
                                     {
@@ -6004,6 +6380,32 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "134",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-MeaAvR\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "GamePlayManager",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "760",
+                                "dependency": "0",
+                                "uid": "1590152707078094:1631017",
+                                "fileId": "708",
+                                "originalId": "18446744073709551615",
+                                "publicId": "155",
+                                "source": "\/Users\/isaacdart\/Downloads\/untitled folder 2\/GamePlayManager.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "AudioManager",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "761",
+                                "dependency": "0",
+                                "uid": "1590154209727334:1674551",
+                                "fileId": "709",
+                                "originalId": "18446744073709551615",
+                                "publicId": "156",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-jRSarp\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -8496,6 +8898,138 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Audio",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "145",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Low-win",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "751",
+                                "dependency": "0",
+                                "uid": "1590151731826013:1540342",
+                                "fileId": "699",
+                                "originalId": "18446744073709551615",
+                                "publicId": "146",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Low-win.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Jet-Ski-Motor",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "752",
+                                "dependency": "0",
+                                "uid": "1590151731849301:1540349",
+                                "fileId": "700",
+                                "originalId": "18446744073709551615",
+                                "publicId": "147",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Jet-Ski-Motor.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Sea",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "753",
+                                "dependency": "0",
+                                "uid": "1590151731865805:1540356",
+                                "fileId": "701",
+                                "originalId": "18446744073709551615",
+                                "publicId": "148",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Sea.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Fanfare",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "754",
+                                "dependency": "0",
+                                "uid": "1590151731872624:1540363",
+                                "fileId": "702",
+                                "originalId": "18446744073709551615",
+                                "publicId": "149",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Fanfare.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Small-cheer",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "755",
+                                "dependency": "0",
+                                "uid": "1590151731877052:1540370",
+                                "fileId": "703",
+                                "originalId": "18446744073709551615",
+                                "publicId": "150",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Small-cheer.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Mid-win",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "756",
+                                "dependency": "0",
+                                "uid": "1590151731887632:1540377",
+                                "fileId": "704",
+                                "originalId": "18446744073709551615",
+                                "publicId": "151",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Mid-win.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Bonus",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "757",
+                                "dependency": "0",
+                                "uid": "1590151731897247:1540384",
+                                "fileId": "705",
+                                "originalId": "18446744073709551615",
+                                "publicId": "152",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Bonus.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Booing",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "758",
+                                "dependency": "0",
+                                "uid": "1590151731905481:1540391",
+                                "fileId": "706",
+                                "originalId": "18446744073709551615",
+                                "publicId": "153",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Booing-.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Best-win",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "759",
+                                "dependency": "0",
+                                "uid": "1590151731912858:1540398",
+                                "fileId": "707",
+                                "originalId": "18446744073709551615",
+                                "publicId": "154",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Best-win.mp3",
+                                "additional": ""
+                            }
+                        ]
                     }
                 ]
             }
@@ -8503,7 +9037,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1589824396441814:172450"
+                    "1590145903519951:431601"
                 ]
             }
         },

@@ -3,6 +3,8 @@
 //@input float yLength = 30
 //@input float zLength = 30
 //@input bool isTrigger = false
+//@input Asset.AudioTrackAsset[] hitSounds
+
 
 script.api.minX = 0;
 script.api.maxX = 0;
@@ -44,6 +46,17 @@ script.api.SetIntersectionCallback = function(callback) {
 
 script.api.GetIsTrigger = function() {
     return script.isTrigger;    
+}
+
+script.api.PlayHitSound = function() {
+
+    if (script.hitSounds != null) {
+        var randomIndex = Math.floor(Math.random() * script.hitSounds.length);
+        var clip =  script.prefabPool[randomIndex];     
+        global.playAudioAsset(clip, 1, 0.5);
+        
+    }
+    
 }
 
 global.RegisterCollider(script); 
