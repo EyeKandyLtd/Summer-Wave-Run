@@ -4,7 +4,9 @@
 
 // -----JS CODE-----
 //@input Component.Camera camera
-//@input Component.ScriptComponent[] levelSpawners
+//@input Component.ScriptComponent hudController
+
+//@input Component.ScriptComponent[] levels
 
 //@input Asset.AudioTrackAsset soundIntroMusic
 //@input Asset.AudioTrackAsset soundStartGame
@@ -16,12 +18,15 @@
 
 //@input Component.Text textHint
 //@input Component.Text textScore
-//@input string hintTapToPlace 
 //@input Asset.ObjectPrefab selectedHaloPrefab
-//@input SceneObject[] activateOnWin
-//@input SceneObject[] deactivateOnWin
+
+//@input SceneObject[] deactiveOnStart
+//@input SceneObject[] activateOnStart
+//@input SceneObject[] activateOnGameEnd
+
 //@input Component.Text frontCamTopMessage
 //@input SceneObject[] unlockIfPreviouslyWon
+
 
 
 global.gamePlayManager = script;
@@ -39,15 +44,24 @@ var _isGameFinished = false;
 var _currLevel = 0;
 var _highScore = 0;
 var _currScore = 0;
-
+var _lifeCount = 3;
+var _maxLives = 3;
+var currLevel;
+var _distance = 0;
+var _timeGameStarted = 0;
 
 var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { onTapEvent(eventData); });
-var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
+//var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
 
 script.createEvent("CameraFrontEvent").bind(onFrontCamEvent);
 script.createEvent("CameraBackEvent").bind(onBackCamEvent);
 
-
+var mouthOpenedEvent = script.createEvent("MouthOpenedEvent");
+mouthOpenedEvent.faceIndex = 0;
+mouthOpenedEvent.bind(function (eventData)
+{
+    script.api.StartGameplay();
+});
 
 
 global.SetContentEnabled = function(content, isEnabled) {
@@ -65,6 +79,9 @@ function ResetVars() {
     _currLevel = 0;
     _highScore = 0;
     _currScore = 0;
+    _lifeCount = _maxLives;
+    _distance = 0;
+    _timeGameStarted = 0;
 }
 
 script.api.onLoad = function() {
@@ -72,17 +89,22 @@ script.api.onLoad = function() {
     global.playAudioAsset(script.soundIntroMusic, -1, 0.05);  
 }
 
-//alled from Start tutorial button
 script.api.StartGameplay = function() {
-    Init();
+   
+    
+     //start game on tap..
+    if (!_isGamePlaying) {
+        Init();
+        StartLevel(_currLevel);
+    }
 }
 
 function Init() {
     ResetVars();
 
-
-    global.SetContentEnabled(script.activateOnWin, false);
-    global.SetContentEnabled(script.deactivateOnWin, true);
+    
+    global.SetContentEnabled(script.deactiveOnStart, false);
+    global.SetContentEnabled(script.activateOnStart, true);
 
     _highScore = global.GetHighScore();
     var didWinBefore = _highScore > 0;
@@ -97,57 +119,51 @@ function Init() {
     hideScore();
     
      print("GamePlay Initialised, Last High Score was " + _highScore);
-}
-
-
-function onTapEvent(e) {
-
-    if (global.wasSomthingHitThisFrame) return;
     
-    if (!_isInit) {
-        print("Error: GamePlay Not Initalised yet..");
-        return;
-    }
+    
+}
 
-
-    hideHint();
-
-
-    _isFindingPlayArea = false;
-
-    //start game on tap..
-    if (!_isGamePlaying) {
-       
-        StartLevel(_currLevel);
-    }
-
+script.api.Lives_Increment = function() {
    
-}
-
-
-
-
-
-//not working ? to confirm
-function showHint(text) {
-    if (script.textHint != null) {
-        script.textHint.enabled = true;
-        script.textHint.text.enabled = true;
-        if (text != null) script.textHint.text = text;
-       
-    } else {
-        print("Error: textHint was null");
+    if (_isGamePlaying) {
+       if (_lifeCount < _maxLives) {
+            _lifeCount++;
+            script.hudController.api.SetLives(_lifeCount);            
+        }
     }
 }
 
-function hideHint() {
-    if (script.textHint != null) {
-        script.textHint.enabled = false;
-        script.textHint.text.enabled = false;
-    } else {
-        print("Error: textHint was null");
+script.api.Lives_Decrement = function() {
+    print("life count " + _lifeCount);
+    
+    if (_isGamePlaying) {
+       if (_lifeCount > 0) {
+            _lifeCount--;
+            script.hudController.api.SetLives(_lifeCount);            
+        } else {
+            DoFinishedGame();
+        }
+        
     }
+    
 }
+
+var updateEvent = script.createEvent("UpdateEvent");
+updateEvent.bind(function(eventData) {
+      
+   if (_isGamePlaying) {
+        var d = Math.floor((getTime() - _timeGameStarted) * 7 * (1+_currLevel)) ;
+        _distance = d;
+        
+        script.hudController.api.SetScore (_distance);
+    }
+ 
+    
+});
+
+
+
+
 
 
 
@@ -157,12 +173,9 @@ function showScore() {
         //print("showScore(): Showing score! ");
         script.textScore.enabled = true;
         script.textScore.text.enabled = true;
-        remBoxes = script.gameWorldCreatorScript.api.GetRemainingBoxes();
-        var totalPairs = script.pairsPerLevel[_currLevel];
-        var matchedPairs = totalPairs - remBoxes.length * 0.500000;
+       
 
-
-        var text = "Level "+(_currLevel + 1) + " - " + matchedPairs + " / " + totalPairs;
+        var text = "Level "+(_currLevel + 1) 
         script.textScore.text = text;
 
     } else {
@@ -192,8 +205,8 @@ function StartLevel(level) {
     StopGame();
     print("Starting level " + level);
 
-    if (_currLevel < script.levelSpawners.length) {
-       StartSpawner();
+    if (_currLevel < script.levels.length) {
+       StartSpawner(level);
 
     } else {
         //Show winning screen..
@@ -205,15 +218,30 @@ function StartLevel(level) {
      global.playAudioAsset(script.soundStartGame, 1);   
      showScore();
 
-    _isGamePlaying = _isWorldCreated;
+    _timeGameStarted = getTime();
+    _isGamePlaying = true;
 }
+
 
 
 
 function StartSpawner( level) {
     
-    for (int i = 0; i < script.levelSpawners.length; i++) {
-        script.levelSpawners[i].getSceneObject().enabled = (level == _currLevel);        
+    for (i = 0; i < script.levels.length; i++) {
+
+        var level = script.levels[i];
+        var so = level.getSceneObject();
+       
+        if (so.enabled) {
+             level.api.StopSpawning();
+        }
+        
+        so.enabled = (i == _currLevel);  
+        
+        if (so.enabled) {
+            currLevel = level;
+            level.api.StartSpawning();
+        }
     }
 
 }
@@ -290,30 +318,35 @@ function DoFinishedGame() {
 
 
     //global.ResetHighScore(); //debug only
+    print ("Game over");
 
     _isGameFinished = true;
+    currLevel.api.StopSpawning();
 
-    global.SetContentEnabled(script.activateOnWin, true);
-    global.SetContentEnabled(script.deactivateOnWin, false);
+       global.SetContentEnabled(script.activateOnGameEnd, true);
+    global.SetContentEnabled(script.activateOnStart, false);
 
     var score = CalcCurrentScore();
     var grade = DerriveGrade(score);
     var wasHighScore = global.TrySetHighScore(score);
 
 
-    var selfieBannerMessage = "Class of " + new Date().getFullYear() + "\n Grade: " + grade + "";
+    var selfieBannerMessage = "Jet Ski Distance " + "\n " + _distance + "";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
     script.frontCamTopMessage.text = selfieBannerMessage;
+    
 
 
     var winTypeMessage = "have graduated.";
     if (wasHighScore) winTypeMessage = "graduated with a new high score.";
 
     var endOfGameMessage = "Congratulations! You " +  winTypeMessage + " Take a selfie to celebrate.\n\nFlip camera!";
+    
 
-    global.ShowLevelUI(endOfGameMessage, null);
 
-    hideScore();
+    //global.ShowLevelUI(endOfGameMessage, null);
+
+    //hideScore();
 
     /*
     var userCity = "";
@@ -355,74 +388,6 @@ function GetComponentWorldPos(component) {
 }
 
 
-
-
-global.gameAudioCompoent = null;
-
-global.playAudioAsset = function (audioAsset, loops, vol) {
-
-    if (audioAsset == null) {
-        print("global.playAudioAsset() Error: audioAsset was null");
-        return;
-    }
-
-    if (global.gameAudioCompoent == null) {
-        global.gameAudioCompoent = script.getSceneObject().createComponent("Component.AudioComponent");
-    }
-
-
-
-    if (global.gameAudioCompoent) {
-       
-        if (global.gameAudioCompoent.audioTrack != null && global.gameAudioCompoent.isPlaying()) {
-            global.gameAudioCompoent.stop(false);
-        }
-       
-        if (!audioAsset.isSame(global.gameAudioCompoent.audioTrack)) {
-            global.gameAudioCompoent.audioTrack = audioAsset;
-        }
-
-        global.gameAudioCompoent.play(loops);
-
-        if (vol == null) vol = 1;
-        global.gameAudioCompoent.volume = vol;
-        print("global.playAudioAsset() Playing audio at vol " + global.gameAudioCompoent.volume);
-
-    } else {
-        print("global.playAudioAsset() Error: global.gameAudioCompoent failed to initalise..");
-    }
-
-
-}
-
-
-
-global.stopAudioAsset = function (audioAsset) {
-
-    if (audioAsset == null) {
-        print("global.stopAudioAsset() Error: audioAsset was null");
-        return;
-    }
-
-    if (global.gameAudioCompoent = null) {
-        return;
-    }
-
-    if (global.gameAudioCompoent.isPlaying() && audioAsset.isSame(global.gameAudioCompoent.audioTrack)) {
-        global.gameAudioCompoent.stop();
-    }
-
-}
-
-global.stopAudioAll = function () {
-
-    if (global.gameAudioCompoent = null) {
-        return;
-    }
-
-    global.gameAudioCompoent.stop();
-
-}
 
 
 

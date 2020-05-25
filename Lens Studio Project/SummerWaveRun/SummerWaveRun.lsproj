@@ -1,9 +1,9 @@
 {
-    "lens_id": "",
+    "lens_id": "2083c9a8-51fb-47b5-a742-34054ef43dd3",
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590162062800",
+    "lastChanged": "1590447765241",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -489,6 +489,10 @@
                     ],
                     [
                         "Scripts",
+                        "CameraContentController"
+                    ],
+                    [
+                        "Scripts",
                         "ColliderAABB"
                     ],
                     [
@@ -506,6 +510,14 @@
                     [
                         "Scripts",
                         "GamePlayManager"
+                    ],
+                    [
+                        "Scripts",
+                        "GamePlayManager_OLD"
+                    ],
+                    [
+                        "Scripts",
+                        "HUDController"
                     ],
                     [
                         "Scripts",
@@ -532,6 +544,22 @@
                     ],
                     [
                         "Textures",
+                        "Face"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon"
+                    ],
+                    [
+                        "Textures",
+                        "Pier_EnvMap"
+                    ],
+                    [
+                        "Textures",
+                        "Water"
+                    ],
+                    [
+                        "Textures",
                         "main_title"
                     ],
                     [
@@ -543,7 +571,8 @@
                         "tinified"
                     ],
                     [
-                        "UI"
+                        "Textures",
+                        "tutorial_bg"
                     ],
                     [
                         "UI",
@@ -552,9 +581,6 @@
                     [
                         "UI",
                         "comic_zine_ot"
-                    ],
-                    [
-                        "Video"
                     ],
                     [
                         "Video",
@@ -566,7 +592,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -577,9 +602,9 @@
                     "1574374499852074:172575",
                     "1589812223050539:24966",
                     "1589823953420994:170044",
-                    "1589824396441814:172450",
                     "1589824979988216:180112",
                     "1589825953195699:187528",
+                    "1589989988441829:271713",
                     "1589990932246686:362645",
                     "1589990932251601:362797",
                     "1590054919736174:124198",
@@ -598,7 +623,11 @@
                     "1590145930961939:457693",
                     "1590145932889509:464174",
                     "1590145934977740:470682",
-                    "1590145936849976:477264"
+                    "1590145936849976:477264",
+                    "1590161584848848:504717",
+                    "1590161584850241:504719",
+                    "1590161586614319:506540",
+                    "1590441884156890:1008202"
                 ]
             ]
         },
@@ -989,14 +1018,6 @@
                     "resId": "199",
                     "uid": "1589820689873231:140510",
                     "name": "Files\/File337.mesh",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "200",
-                    "uid": "1589823669371056:160684",
-                    "name": "Files\/File338",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -2170,22 +2191,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "747",
-                    "uid": "1590137478881881:15465",
-                    "name": "Files\/File693.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "748",
-                    "uid": "1590137479018029:15472",
-                    "name": "Files\/File695.png",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "749",
                     "uid": "1590139248954598:70250",
                     "name": "Files\/File697.js",
@@ -2464,6 +2469,46 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "859",
+                    "uid": "1590163105346906:743216",
+                    "name": "Files\/File856.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "860",
+                    "uid": "1590164382506544:1091448",
+                    "name": "Files\/File857.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "861",
+                    "uid": "1590167713603994:83557",
+                    "name": "Files\/File859.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "862",
+                    "uid": "1590173065339652:346790",
+                    "name": "Files\/File860.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "863",
+                    "uid": "1590442017309534:1057282",
+                    "name": "Files\/File861.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2566,48 +2611,6 @@
                             }
                         },
                         {
-                            "k": "1590161586053886:505471",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "true",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590161586236193:505659",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "true",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590161586306404:505843",
-                            "v": {
-                                "isBasicMode": "false",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
                             "k": "1590161586364950:505984",
                             "v": {
                                 "isBasicMode": "true",
@@ -2636,49 +2639,7 @@
                             }
                         },
                         {
-                            "k": "1590161586484687:506262",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
                             "k": "1590161586542080:506402",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590161586617286:506544",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590161586841517:506732",
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
@@ -2687,21 +2648,7 @@
                                     "attachBottom": "true",
                                     "attachLeft": "true",
                                     "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590161586935209:506872",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
+                                    "attachTop": "false"
                                 }
                             }
                         },
@@ -2720,20 +2667,6 @@
                             }
                         },
                         {
-                            "k": "1590161587205865:507196",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "false",
-                                    "attachRight": "false",
-                                    "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
                             "k": "1590161587314828:507335",
                             "v": {
                                 "isBasicMode": "true",
@@ -2744,20 +2677,6 @@
                                     "attachLeft": "false",
                                     "attachRight": "false",
                                     "attachTop": "false"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590161587390456:507473",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
                                 }
                             }
                         },
@@ -2786,6 +2705,90 @@
                                     "attachLeft": "false",
                                     "attachRight": "false",
                                     "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1590438084266157:213869",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1590441732482912:935476",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1590441829484208:975325",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1590441831302248:977206",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "false",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1590441884157486:1008203",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1590444928982872:1544521",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
                                 }
                             }
                         }
@@ -2889,33 +2892,31 @@
                 "90": "1590076443343796:45080",
                 "91": "1590145056885033:281418",
                 "92": "1590145099989426:281557",
-                "93": "1590145124669280:287260",
-                "94": "1590145148103855:287270",
-                "95": "1590148060664442:766018",
-                "96": "1590152610387780:1614028",
-                "97": "1590161584667918:504392",
-                "98": "1590161584670483:504394",
-                "99": "1590161584672679:504396",
-                "100": "1590161584848848:504717",
-                "101": "1590161584850241:504719",
-                "102": "1590161584853274:504721",
-                "103": "1590161584855616:504723",
-                "104": "1590161585349610:504909",
-                "105": "1590161585668000:505095",
-                "106": "1590161585864835:505281",
-                "107": "1590161586051324:505467",
-                "108": "1590161586052776:505469",
-                "109": "1590161586480797:506256",
-                "110": "1590161586482049:506258",
-                "111": "1590161586483190:506260",
-                "112": "1590161586540806:506400",
-                "113": "1590161586614319:506540",
-                "114": "1590161586615178:506542",
-                "115": "1590161586840146:506730",
-                "116": "1590161587387558:507469",
-                "117": "1590161587389094:507471",
-                "118": "1590161587469384:507611",
-                "119": "1590162005045638:595846"
+                "93": "1590145148103855:287270",
+                "94": "1590152610387780:1614028",
+                "95": "1590161584667918:504392",
+                "96": "1590161584670483:504394",
+                "97": "1590161584672679:504396",
+                "98": "1590161584848848:504717",
+                "99": "1590161584850241:504719",
+                "100": "1590161584853274:504721",
+                "101": "1590161584855616:504723",
+                "102": "1590161585349610:504909",
+                "103": "1590161585668000:505095",
+                "104": "1590161585864835:505281",
+                "105": "1590161586482049:506258",
+                "106": "1590161586540806:506400",
+                "107": "1590161587387558:507469",
+                "108": "1590161587469384:507611",
+                "109": "1590162005045638:595846",
+                "110": "1590163227697638:803504",
+                "111": "1590336882917086:261922",
+                "112": "1590438084215623:213609",
+                "113": "1590441732482510:935475",
+                "114": "1590441829382018:975065",
+                "115": "1590441831220006:976946",
+                "116": "1590441884156890:1008202",
+                "117": "1590444928980928:1544519"
             }
         },
         "LayerComponent": {
@@ -3327,14 +3328,6 @@
                 {
                     "k": "337",
                     "v": "Files\/File337.mesh"
-                },
-                {
-                    "k": "338",
-                    "v": "Files\/File338"
-                },
-                {
-                    "k": "339",
-                    "v": "Files\/File339.lsmat"
                 },
                 {
                     "k": "344",
@@ -3873,22 +3866,6 @@
                     "v": "Files\/File692.js"
                 },
                 {
-                    "k": "693",
-                    "v": "Files\/File693.jpg"
-                },
-                {
-                    "k": "694",
-                    "v": "Files\/File694.jpg"
-                },
-                {
-                    "k": "695",
-                    "v": "Files\/File695.png"
-                },
-                {
-                    "k": "696",
-                    "v": "Files\/File696.png"
-                },
-                {
                     "k": "697",
                     "v": "Files\/File697.js"
                 },
@@ -4051,6 +4028,30 @@
                 {
                     "k": "855",
                     "v": "Files\/File855.oprfb"
+                },
+                {
+                    "k": "856",
+                    "v": "Files\/File856.js"
+                },
+                {
+                    "k": "857",
+                    "v": "Files\/File857.png"
+                },
+                {
+                    "k": "858",
+                    "v": "Files\/File858.png"
+                },
+                {
+                    "k": "859",
+                    "v": "Files\/File859.js"
+                },
+                {
+                    "k": "860",
+                    "v": "Files\/File860.js"
+                },
+                {
+                    "k": "861",
+                    "v": "Files\/File861.js"
                 }
             ]
         },
@@ -4101,7 +4102,7 @@
                     },
                     {
                         "k": "10",
-                        "v": "Textures\/tinified\/Extra-life.png"
+                        "v": "UI\/Extra-life.png"
                     },
                     {
                         "k": "11",
@@ -4234,10 +4235,6 @@
                     {
                         "k": "43",
                         "v": "Textures\/MaterialParams.png"
-                    },
-                    {
-                        "k": "44",
-                        "v": "Textures\/Matte Shadow.lsmat"
                     },
                     {
                         "k": "45",
@@ -4552,14 +4549,6 @@
                         "v": "Scripts\/DirectionController3D.js"
                     },
                     {
-                        "k": "131",
-                        "v": "Textures\/Car_Paint_Noise.jpg"
-                    },
-                    {
-                        "k": "132",
-                        "v": "Textures\/iridescence_combined.png"
-                    },
-                    {
                         "k": "133",
                         "v": "Scripts\/ColliderAABB.js"
                     },
@@ -4718,6 +4707,26 @@
                     {
                         "k": "307",
                         "v": "Video\/Tutorial_Animation_V9"
+                    },
+                    {
+                        "k": "308",
+                        "v": "Scripts\/CameraContentController.js"
+                    },
+                    {
+                        "k": "309",
+                        "v": "Textures\/tutorial_bg.png"
+                    },
+                    {
+                        "k": "310",
+                        "v": "Scripts\/GamePlayManager_OLD.js"
+                    },
+                    {
+                        "k": "311",
+                        "v": "Scripts\/SimpleHighScoreController.js"
+                    },
+                    {
+                        "k": "312",
+                        "v": "Scripts\/HUDController.js"
                     }
                 ],
                 "hashes": [
@@ -4931,7 +4940,7 @@
                     },
                     {
                         "k": "61",
-                        "v": "c7d1627ae96355c992cc39a03b9c5693"
+                        "v": "12b44a651d330fa8373cd4136881764f"
                     },
                     {
                         "k": "62",
@@ -5019,7 +5028,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "3c4c70182663a8e1cdcfebc0909656fa"
+                        "v": "4faffc660e8d3f9d562cb318e1bfc0cc"
                     },
                     {
                         "k": "98",
@@ -5075,7 +5084,7 @@
                     },
                     {
                         "k": "119",
-                        "v": "85fc3f49a8dfb69c73f60bfb52331bfd"
+                        "v": "b25164ded896a1be473df448ac1f7102"
                     },
                     {
                         "k": "120",
@@ -5183,7 +5192,7 @@
                     },
                     {
                         "k": "155",
-                        "v": "bd244b4085a47f92b54c53d949fe43c6"
+                        "v": "1a4fef6549db6b9835dfd94ee209e5f5"
                     },
                     {
                         "k": "156",
@@ -5563,7 +5572,7 @@
                     },
                     {
                         "k": "303",
-                        "v": "49dee8a2380acaa1914f6ae9d2242e73"
+                        "v": "79fa71f2fb9484fdfd1aa9c58d7c72b8"
                     },
                     {
                         "k": "304",
@@ -5578,8 +5587,24 @@
                         "v": "d95e88d899cac036de39b5b9e75ffe1e"
                     },
                     {
+                        "k": "308",
+                        "v": "1c1f7e1b21c4d631b8a9d20ddc484527"
+                    },
+                    {
+                        "k": "309",
+                        "v": "3aca3bbf49584b5ff04857d52adfe747"
+                    },
+                    {
                         "k": "310",
-                        "v": "ff4e13050372615296ee5c819c6e3662"
+                        "v": "2cd55afa84ba45418fe024df80805858"
+                    },
+                    {
+                        "k": "311",
+                        "v": "e5ca06d1f63908ffdd76528279d7ab1c"
+                    },
+                    {
+                        "k": "312",
+                        "v": "18ea3c504c63e5bb40611fde94890e18"
                     }
                 ],
                 "publicState": {
@@ -5587,7 +5612,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-22T16:34:49",
                         "name": "Public",
-                        "hash": "e5e9b55a9d1fc5371e06421948059d0d",
+                        "hash": "0166d4ffabdfa2a0d65cee9a4280559b",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5620,15 +5645,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:33:02",
+                                "lastModified": "2020-05-25T22:10:02",
                                 "name": "UI",
-                                "hash": "0533edf1d51d50ce4b59bd9dbe764487",
+                                "hash": "b571986f00e633957c51a0b89322fb78",
                                 "children": [
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-05-22T16:32:52",
                                         "name": "KOMIKAX_.ttf",
                                         "hash": "58182d5fa2499a9cacb719bbf2025f7b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-21T15:25:55",
+                                        "name": "Extra-life.png",
+                                        "hash": "b7f131b63c8a13af7f93a1028d1f6149",
                                         "children": ""
                                     },
                                     {
@@ -5969,22 +6001,22 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:38:07",
+                                "lastModified": "2020-05-25T22:08:16",
                                 "name": "Textures",
-                                "hash": "cc127d88dc08b6bb465a35ec98bae09d",
+                                "hash": "528f63258f525ddfe870bdd1e6998611",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T16:32:52",
-                                        "name": "main_title.png",
-                                        "hash": "49dee8a2380acaa1914f6ae9d2242e73",
+                                        "lastModified": "2020-05-22T17:25:19",
+                                        "name": "tutorial_bg.png",
+                                        "hash": "3aca3bbf49584b5ff04857d52adfe747",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T09:46:50",
-                                        "name": "Car_Paint_Noise.jpg",
-                                        "hash": "0c54c119030470f52a2c73733233d08d",
+                                        "lastModified": "2020-05-22T17:18:17",
+                                        "name": "main_title.png",
+                                        "hash": "79fa71f2fb9484fdfd1aa9c58d7c72b8",
                                         "children": ""
                                     },
                                     {
@@ -6068,9 +6100,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T15:25:57",
+                                        "lastModified": "2020-05-25T22:10:02",
                                         "name": "tinified",
-                                        "hash": "59ed5a72b2014b4c5d9f3d45ac6fe0b0",
+                                        "hash": "0d33826a1a25426e9c959d9596727c5d",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -6119,13 +6151,6 @@
                                                 "lastModified": "2020-05-21T15:25:55",
                                                 "name": "Watermelon-2.png",
                                                 "hash": "1dabd83ee80d246c73aab95bfffcd12e",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-05-21T15:25:55",
-                                                "name": "Extra-life.png",
-                                                "hash": "b7f131b63c8a13af7f93a1028d1f6149",
                                                 "children": ""
                                             },
                                             {
@@ -6253,13 +6278,6 @@
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-05-21T15:25:55",
-                                        "name": "Matte Shadow.lsmat",
-                                        "hash": "b0f05f033c3ffc25040b24d6f8c20d73",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-05-21T15:25:55",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
@@ -6269,13 +6287,6 @@
                                         "lastModified": "2020-05-21T15:25:55",
                                         "name": "Pier_EnvMap.hdr",
                                         "hash": "a934f4a6c4ee2ebef8d37fbc49caf965",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-05-22T09:46:50",
-                                        "name": "iridescence_combined.png",
-                                        "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
@@ -6310,7 +6321,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:33:04",
+                                "lastModified": "2020-05-24T16:08:16",
                                 "name": "Video",
                                 "hash": "de6bc13fccacce67c184bfcd8da19120",
                                 "children": [
@@ -6369,15 +6380,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:33:55",
+                                "lastModified": "2020-05-25T22:53:38",
                                 "name": "Prefabs",
-                                "hash": "f8917388790a2a3357dd3ac01688d52b",
+                                "hash": "088955592663d61a8a542757bb44b152",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T13:44:55",
+                                        "lastModified": "2020-05-25T22:53:38",
                                         "name": "Player.oprfb",
-                                        "hash": "85fc3f49a8dfb69c73f60bfb52331bfd",
+                                        "hash": "b25164ded896a1be473df448ac1f7102",
                                         "children": ""
                                     },
                                     {
@@ -6603,9 +6614,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:38:51",
+                                "lastModified": "2020-05-26T00:01:58",
                                 "name": "Scripts",
-                                "hash": "5b7d31757a05e433b2eefad9890459f1",
+                                "hash": "bafce5cf5f0c4683e51bd3370200a5e0",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6626,6 +6637,13 @@
                                         "lastModified": "2020-05-22T16:32:52",
                                         "name": "DelayedDestroy.js",
                                         "hash": "14692178fa42e7805f2ad0f10a899173",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T19:18:09",
+                                        "name": "CameraContentController.js",
+                                        "hash": "1c1f7e1b21c4d631b8a9d20ddc484527",
                                         "children": ""
                                     },
                                     {
@@ -6672,9 +6690,23 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-22T16:47:52",
+                                        "name": "GamePlayManager_OLD.js",
+                                        "hash": "2cd55afa84ba45418fe024df80805858",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-22T10:26:55",
                                         "name": "DirectionController3D.js",
                                         "hash": "470aa22490ae1f85ff87ff8ad5b08c15",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-25T23:47:03",
+                                        "name": "HUDController.js",
+                                        "hash": "18ea3c504c63e5bb40611fde94890e18",
                                         "children": ""
                                     },
                                     {
@@ -6700,6 +6732,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-22T19:43:10",
+                                        "name": "SimpleHighScoreController.js",
+                                        "hash": "e5ca06d1f63908ffdd76528279d7ab1c",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-22T16:32:52",
                                         "name": "Button.js",
                                         "hash": "5786a5d63282cdd65dd6a374fbdaedab",
@@ -6707,9 +6746,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T14:29:51",
+                                        "lastModified": "2020-05-26T00:01:58",
                                         "name": "GamePlayManager.js",
-                                        "hash": "bd244b4085a47f92b54c53d949fe43c6",
+                                        "hash": "1a4fef6549db6b9835dfd94ee209e5f5",
                                         "children": ""
                                     },
                                     {
@@ -6721,9 +6760,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T15:19:30",
+                                        "lastModified": "2020-05-25T22:58:11",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "c7d1627ae96355c992cc39a03b9c5693",
+                                        "hash": "12b44a651d330fa8373cd4136881764f",
                                         "children": ""
                                     },
                                     {
@@ -6910,19 +6949,6 @@
                                         "originalId": "218",
                                         "publicId": "9",
                                         "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Watermelon-2.png",
-                                        "additional": ""
-                                    },
-                                    {
-                                        "name": "Extra-life",
-                                        "type": "1",
-                                        "subtype": "9",
-                                        "resourceId": "137",
-                                        "dependency": "0",
-                                        "uid": "1589812695249971:27302",
-                                        "fileId": "219",
-                                        "originalId": "220",
-                                        "publicId": "10",
-                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Extra-life.png",
                                         "additional": ""
                                     },
                                     {
@@ -7555,19 +7581,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Matte Shadow",
-                                "type": "2",
-                                "subtype": "0",
-                                "resourceId": "200",
-                                "dependency": "0",
-                                "uid": "1589823669371056:160684",
-                                "fileId": "338",
-                                "originalId": "339",
-                                "publicId": "44",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
                                 "name": "opacity_texture",
                                 "type": "1",
                                 "subtype": "9",
@@ -7594,32 +7607,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Car_Paint_Noise",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "747",
-                                "dependency": "0",
-                                "uid": "1590137478881881:15465",
-                                "fileId": "693",
-                                "originalId": "694",
-                                "publicId": "131",
-                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Car_Paint_Noise.jpg",
-                                "additional": ""
-                            },
-                            {
-                                "name": "iridescence_combined",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "748",
-                                "dependency": "0",
-                                "uid": "1590137479018029:15472",
-                                "fileId": "695",
-                                "originalId": "696",
-                                "publicId": "132",
-                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/iridescence_combined.png",
-                                "additional": ""
-                            },
-                            {
                                 "name": "red_button",
                                 "type": "1",
                                 "subtype": "9",
@@ -7642,7 +7629,20 @@
                                 "fileId": "838",
                                 "originalId": "839",
                                 "publicId": "303",
-                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-vjFEgX\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/main_title.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "tutorial_bg",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "860",
+                                "dependency": "0",
+                                "uid": "1590164382506544:1091448",
+                                "fileId": "857",
+                                "originalId": "858",
+                                "publicId": "309",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tutorial_bg.png",
                                 "additional": ""
                             }
                         ]
@@ -7920,6 +7920,58 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "279",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-vjFEgX\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "CameraContentController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "859",
+                                "dependency": "0",
+                                "uid": "1590163105346906:743216",
+                                "fileId": "856",
+                                "originalId": "18446744073709551615",
+                                "publicId": "308",
+                                "source": "\/Users\/isaacdart\/Downloads\/untitled folder 2\/CameraContentController.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "GamePlayManager_OLD",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "861",
+                                "dependency": "0",
+                                "uid": "1590167713603994:83557",
+                                "fileId": "859",
+                                "originalId": "18446744073709551615",
+                                "publicId": "310",
+                                "source": "\/Users\/isaacdart\/Downloads\/GamePlayManager_OLD.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "SimpleHighScoreController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "862",
+                                "dependency": "0",
+                                "uid": "1590173065339652:346790",
+                                "fileId": "860",
+                                "originalId": "18446744073709551615",
+                                "publicId": "311",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/SimpleHighScoreController.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "HUDController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "863",
+                                "dependency": "0",
+                                "uid": "1590442017309534:1057282",
+                                "fileId": "861",
+                                "originalId": "18446744073709551615",
+                                "publicId": "312",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-ERqTTN\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -10756,6 +10808,19 @@
                                 "publicId": "289",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-vjFEgX\/\/system\/\/emergencyFiles\/emergencyTtf.ttf",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Extra-life",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "137",
+                                "dependency": "0",
+                                "uid": "1589812695249971:27302",
+                                "fileId": "219",
+                                "originalId": "220",
+                                "publicId": "10",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Extra-life.png",
+                                "additional": ""
                             }
                         ]
                     },
@@ -10793,7 +10858,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1590161584667918:504392"
+                    "1590161587387558:507469"
                 ]
             }
         },
