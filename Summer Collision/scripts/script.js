@@ -13,6 +13,7 @@ Patches.setPoint2DValue("ob5", Reactive.point2d(Scene.root.find('plane4').transf
 Patches.setPoint2DValue("ob6", Reactive.point2d(Scene.root.find('plane5').transform.z, Scene.root.find('plane5').transform.x));
 Patches.setPoint2DValue("ob7", Reactive.point2d(Scene.root.find('plane6').transform.z, Scene.root.find('plane6').transform.x));
 Patches.setPoint2DValue("ob8", Reactive.point2d(Scene.root.find('plane7').transform.z, Scene.root.find('plane7').transform.x));
+Patches.setPoint2DValue("ob9", Reactive.point2d(Scene.root.find('plane8').transform.z, Scene.root.find('plane8').transform.x));
 
 var number = Scene.root.find('score0');
 var score = Patches.getScalarValue('distance');
