@@ -1,3 +1,4 @@
+//@input Component.ScriptComponent gameplayManager
 //@input Component.ScriptComponent gestureManager
 //@input Component.ScriptComponent colliderAABB
 //@input Component.ScriptComponent jumpController3D
@@ -110,7 +111,16 @@ function CheckCollisions() {
 }
 
 function HandleCollision(other) {
-    print("Player Handling Collision: " + other.getSceneObject().name);  
+    var otherName = other.getSceneObject().name;
+    
+    if (otherName == "LifeVest") {
+        script.gameplayManager.api.Lives_Increment();
+    } else {
+         script.gameplayManager.api.Lives_Decrement();
+    }
+    
+    print("Player Handling Collision: " + otherName);  
+    
     other.api.PlayHitSound();
     other.getSceneObject().destroy();
       
