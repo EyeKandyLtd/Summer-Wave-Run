@@ -50,7 +50,7 @@ var currLevel;
 var _distance = 0;
 var _timeGameStarted = 0;
 
-var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { onTapEvent(eventData); });
+//var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { onTapEvent(eventData); });
 //var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
 
 script.createEvent("CameraFrontEvent").bind(onFrontCamEvent);
