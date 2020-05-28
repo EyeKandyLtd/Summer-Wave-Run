@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590483819380",
+    "lastChanged": "1590668677763",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -474,6 +474,9 @@
                         "TurtleShell"
                     ],
                     [
+                        "Scripts"
+                    ],
+                    [
                         "Scripts",
                         "AudioManager"
                     ],
@@ -508,6 +511,10 @@
                     [
                         "Scripts",
                         "GamePlayManager_OLD"
+                    ],
+                    [
+                        "Scripts",
+                        "GlobalGameLogic"
                     ],
                     [
                         "Scripts",
@@ -569,6 +576,9 @@
                         "tutorial_bg"
                     ],
                     [
+                        "UI"
+                    ],
+                    [
                         "UI",
                         "KOMIKAX_"
                     ],
@@ -623,7 +633,8 @@
                     "1590161584667918:504392",
                     "1590161584850241:504719",
                     "1590161586614319:506540",
-                    "1590441884156890:1008202"
+                    "1590441884156890:1008202",
+                    "1590483410975235:248916"
                 ]
             ]
         },
@@ -2505,6 +2516,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "864",
+                    "uid": "1590664223906530:670938",
+                    "name": "Files\/File862.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2917,7 +2936,8 @@
                 "119": "1590483441785178:256899",
                 "120": "1590483442621967:264921",
                 "121": "1590483443238474:273018",
-                "122": "1590483444039471:281192"
+                "122": "1590483444039471:281192",
+                "123": "1590664189499370:662897"
             }
         },
         "LayerComponent": {
@@ -4053,6 +4073,10 @@
                 {
                     "k": "861",
                     "v": "Files\/File861.js"
+                },
+                {
+                    "k": "862",
+                    "v": "Files\/File862.js"
                 }
             ]
         },
@@ -4728,6 +4752,10 @@
                     {
                         "k": "312",
                         "v": "Scripts\/HUDController.js"
+                    },
+                    {
+                        "k": "313",
+                        "v": "Scripts\/GlobalGameLogic.js"
                     }
                 ],
                 "hashes": [
@@ -5029,7 +5057,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "1d9e0ef7ec2b4973b89dafe6e77d587d"
+                        "v": "ed0dc231e743990357dcffcb02359bf6"
                     },
                     {
                         "k": "98",
@@ -5105,7 +5133,7 @@
                     },
                     {
                         "k": "124",
-                        "v": "f776ba431923c475f3ce3387418b9701"
+                        "v": "581f4b2ac64a5df83f74182bd73476f9"
                     },
                     {
                         "k": "125",
@@ -5121,7 +5149,7 @@
                     },
                     {
                         "k": "128",
-                        "v": "e47969756db9752d57aa93443a36f28d"
+                        "v": "e85a8de5353ab6311dadda23bcf67882"
                     },
                     {
                         "k": "129",
@@ -5129,7 +5157,7 @@
                     },
                     {
                         "k": "130",
-                        "v": "470aa22490ae1f85ff87ff8ad5b08c15"
+                        "v": "b0c8a321a2216863762a99acd88a2656"
                     },
                     {
                         "k": "131",
@@ -5193,7 +5221,7 @@
                     },
                     {
                         "k": "155",
-                        "v": "b8386d4f64a592c0f052620e9ff4139c"
+                        "v": "87b835c8c4135cc1445212c3e14f459d"
                     },
                     {
                         "k": "156",
@@ -5606,6 +5634,10 @@
                     {
                         "k": "312",
                         "v": "18ea3c504c63e5bb40611fde94890e18"
+                    },
+                    {
+                        "k": "313",
+                        "v": "ab89f8d62cb9126427a16bac7623a10e"
                     }
                 ],
                 "publicState": {
@@ -5613,7 +5645,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-22T16:34:49",
                         "name": "Public",
-                        "hash": "06e76e7334579e3049bb02dbb6b36ca8",
+                        "hash": "4d2f04129894b65d175f8c1b729c0c73",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6381,9 +6413,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-25T22:53:38",
+                                "lastModified": "2020-05-28T12:29:39",
                                 "name": "Prefabs",
-                                "hash": "088955592663d61a8a542757bb44b152",
+                                "hash": "74b98953f7c9146c95f6e4ca6f2f067d",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6408,9 +6440,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T16:15:04",
+                                        "lastModified": "2020-05-28T12:29:39",
                                         "name": "LifeVest.oprfb",
-                                        "hash": "f776ba431923c475f3ce3387418b9701",
+                                        "hash": "581f4b2ac64a5df83f74182bd73476f9",
                                         "children": ""
                                     },
                                     {
@@ -6615,9 +6647,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-26T09:15:00",
+                                "lastModified": "2020-05-28T13:22:29",
                                 "name": "Scripts",
-                                "hash": "87dd284e4b0195e5cc7d9e3374469c94",
+                                "hash": "a8ee271a4ea88c0c2f17900cb347476c",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6656,9 +6688,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-21T17:09:54",
+                                        "lastModified": "2020-05-28T12:40:42",
                                         "name": "ObjectSpawner.js",
-                                        "hash": "e47969756db9752d57aa93443a36f28d",
+                                        "hash": "e85a8de5353ab6311dadda23bcf67882",
                                         "children": ""
                                     },
                                     {
@@ -6666,6 +6698,13 @@
                                         "lastModified": "2020-05-22T16:32:52",
                                         "name": "ParticalBurst.js",
                                         "hash": "8846727e67219b89d2ff4f2dbb1f8160",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T12:21:53",
+                                        "name": "GlobalGameLogic.js",
+                                        "hash": "ab89f8d62cb9126427a16bac7623a10e",
                                         "children": ""
                                     },
                                     {
@@ -6698,9 +6737,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T10:26:55",
+                                        "lastModified": "2020-05-28T13:05:21",
                                         "name": "DirectionController3D.js",
-                                        "hash": "470aa22490ae1f85ff87ff8ad5b08c15",
+                                        "hash": "b0c8a321a2216863762a99acd88a2656",
                                         "children": ""
                                     },
                                     {
@@ -6747,9 +6786,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-26T09:15:00",
+                                        "lastModified": "2020-05-28T13:22:29",
                                         "name": "GamePlayManager.js",
-                                        "hash": "b8386d4f64a592c0f052620e9ff4139c",
+                                        "hash": "87b835c8c4135cc1445212c3e14f459d",
                                         "children": ""
                                     },
                                     {
@@ -7973,6 +8012,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "312",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-ERqTTN\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "GlobalGameLogic",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "864",
+                                "dependency": "0",
+                                "uid": "1590664223906530:670938",
+                                "fileId": "862",
+                                "originalId": "18446744073709551615",
+                                "publicId": "313",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-ETBNQx\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -10857,11 +10909,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1590163227697638:803504"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
