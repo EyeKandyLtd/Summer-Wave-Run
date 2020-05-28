@@ -20,7 +20,7 @@ var mouthOpenedEvent = script.createEvent("MouthOpenedEvent");
 mouthOpenedEvent.faceIndex = 0;
 mouthOpenedEvent.bind(function (eventData)
 {
-    print("Mouth was opened on face 0");
+   
     script.api.Jump(70, 1.5);
 });
 

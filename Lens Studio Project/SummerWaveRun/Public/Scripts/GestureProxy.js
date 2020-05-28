@@ -20,6 +20,7 @@ var playerTransform = script.playerCh.getTransform();
 // });
 
 // FACE FOUND
+/*
 var faceFoundEvent = script.createEvent("FaceFoundEvent");
 faceFoundEvent.faceIndex = 0;
 faceFoundEvent.bind(function(eventData) {
@@ -32,7 +33,7 @@ faceLostEvent.faceIndex = 0;
 faceLostEvent.bind(function(){
   print("Face 0 lost.");
 });
-
+*/
 
 
 function GetHeadTiltUp() {

@@ -24,6 +24,11 @@ script.api.SetSecondsBetweenSpawns = function (secondsBetweenSpawns) {
     script.secondsBetweenSpawns = secondsBetweenSpawns;
 };
 
+script.api.GetSecondsBetweenSpawns = function (secondsBetweenSpawns) {
+    return script.secondsBetweenSpawns ;
+};
+
+
 script.api.SetSpawnCallback = function(callback) {
     spawnCallback = callback;
 }

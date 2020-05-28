@@ -33,7 +33,7 @@ script.api.RefreshBoundingBox = function() {
 }
 
 script.api.OnIntersection = function (otherCollider) {
-    print ("Intersection registered with: " + otherCollider.script.getSceneObject().name);
+   // print ("Intersection registered with: " + otherCollider.script.getSceneObject().name);
     if (intersectionCallback != null) {
         intersectionCallback(otherCollider);
     }
