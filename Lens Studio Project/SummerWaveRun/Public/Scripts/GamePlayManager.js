@@ -7,9 +7,11 @@
 //@input Component.ScriptComponent hudController
 
 //@input Component.ScriptComponent[] levels
+//@input float distancePerLevel = 250
 
 //@input Asset.AudioTrackAsset soundIntroMusic
 //@input Asset.AudioTrackAsset soundStartGame
+//@input Asset.AudioTrackAsset soundStartLevel
 //@input Asset.AudioTrackAsset soundLevelPassed
 //@input Asset.AudioTrackAsset soundBestWin
 //@input Asset.AudioTrackAsset soundMinWin
@@ -32,8 +34,6 @@
 global.gamePlayManager = script;
 
 
-
-
 const  persistant_lastFrontMessageKey = "EK_key_lastFrontMessage";
 
 var _isInit = false;
@@ -41,7 +41,7 @@ var _isInit = false;
 var _isGamePlaying = false;
 var _isLevelWon = false;
 var _isGameFinished = false;
-var _currLevel = 0;
+var _currLevelNumber = 0;
 var _highScore = 0;
 var _currScore = 0;
 var _lifeCount = 3;
@@ -49,6 +49,11 @@ var _maxLives = 3;
 var currLevel;
 var _distance = 0;
 var _timeGameStarted = 0;
+var _distanceThisLevel = 0;
+
+
+var initialLevelVec = new vec3(0,0,-50);
+
 
 //var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { onTapEvent(eventData); });
 //var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
@@ -76,12 +81,13 @@ function ResetVars() {
     _isGamePlaying = false;
     _isLevelWon = false;
     _isGameFinished = false;
-    _currLevel = 0;
+    _currLevelNumber = 0;
     _highScore = 0;
     _currScore = 0;
     _lifeCount = _maxLives;
     _distance = 0;
     _timeGameStarted = 0;
+    _distanceThisLevel = 0;
 }
 
 script.api.onLoad = function() {
@@ -95,7 +101,8 @@ script.api.StartGameplay = function() {
      //start game on tap..
     if (!_isGamePlaying) {
         Init();
-        StartLevel(_currLevel);
+        StartGame();
+        StartLevel(_currLevelNumber);
     }
 }
 
@@ -116,12 +123,32 @@ function Init() {
 
     _isInit = true;
     
-    hideScore();
     
      print("GamePlay Initialised, Last High Score was " + _highScore);
     
     
 }
+
+var updateEvent = script.createEvent("UpdateEvent");
+updateEvent.bind(function(eventData) {
+      
+   if (_isGamePlaying) {
+        
+        var deltaDist = getDeltaTime() * GetLevelSpeed();
+        _distance += deltaDist;
+        _distanceThisLevel += deltaDist;
+        
+        
+        script.hudController.api.SetScore (Math.floor(_distance));
+        
+        if (_distanceThisLevel > script.distancePerLevel) {
+            StartLevel( _currLevelNumber + 1);
+            
+        }
+    }
+ 
+    
+});
 
 script.api.Lives_Increment = function() {
    
@@ -148,78 +175,50 @@ script.api.Lives_Decrement = function() {
     
 }
 
-var updateEvent = script.createEvent("UpdateEvent");
-updateEvent.bind(function(eventData) {
+
+
+function StartGame() {
       
-   if (_isGamePlaying) {
-        var d = Math.floor((getTime() - _timeGameStarted) * 7 * (1+_currLevel)) ;
-        _distance = d;
-        
-        script.hudController.api.SetScore (_distance);
-    }
- 
+    StopGame();
+    print("Starting game");
+
+      
+     global.playAudioAsset(script.soundStartGame, 1);   
     
-});
-
-
-
-
-
-
-
-function showScore() {
-
-    if (script.textScore != null) {
-        //print("showScore(): Showing score! ");
-        script.textScore.enabled = true;
-        script.textScore.text.enabled = true;
-       
-
-        var text = "Level "+(_currLevel + 1) 
-        script.textScore.text = text;
-
-    } else {
-        print("showScore(): Error textScore was null");
-    }
+    _timeGameStarted = getTime();
+    _isGamePlaying = true;
+    
 }
 
 
-function hideScore() {
-    if (script.textScore != null) {
-         print("showScore(): Hiding score! ");
-        script.textScore.text.enabled = false;
-        script.textScore.enabled = false;
-    } else {
-        print("hideScore(): Error textScore was null");
-    }
+function GetLevelSpeed() {
+    return 1.5 * (1 + _currLevelNumber * 0.25);
+    
 }
-
-
 
 function StartLevel(level) {
 
-    _currLevel = level;
-    _isLevelWon = false;
-   
-
-    StopGame();
-    print("Starting level " + level);
-
-    if (_currLevel < script.levels.length) {
-       StartSpawner(level);
+    if (level < script.levels.length) {
+         print("Starting level " + level);
+         _currLevelNumber = level;
+         _isLevelWon = false;
+         _distanceThisLevel = 0;
+        
+        global.directionController3DVector = initialLevelVec.uniformScale(GetLevelSpeed());
+        
+        StartSpawner(level);
 
     } else {
         //Show winning screen..
         print("You have finished the game.");
-        hideScore();
+        
         return;
     }
-   
-     global.playAudioAsset(script.soundStartGame, 1);   
-     showScore();
+    
+    if (level > 0) {
+        global.playAudioAsset(script.soundStartLevel, 1);   
+    }
 
-    _timeGameStarted = getTime();
-    _isGamePlaying = true;
 }
 
 
@@ -236,14 +235,25 @@ function StartSpawner( level) {
              level.api.StopSpawning();
         }
         
-        so.enabled = (i == _currLevel);  
+        so.enabled = (i == _currLevelNumber);  
         
         if (so.enabled) {
             currLevel = level;
+            level.api.SetSpawnCallback(OnObjectSpawned);
             level.api.StartSpawning();
         }
     }
 
+}
+
+function OnObjectSpawned(inst) {
+    
+    var s = inst.getFirstComponent("Component.ScriptComponent");
+    
+    s.api.onLoad = function() {
+        s.api.UpdateDirection(global.directionController3DVector );
+    };
+        
 }
 
 
@@ -288,14 +298,13 @@ function DoCheckWin() {
 
     if (_isLevelWon) {
 
-        hideScore();
 
         global.playAudioAsset(script.soundWonLevel, 1);
         print("Level completed");
-        _currLevel++;
+        _currLevelNumber++;
 
-        if (_currLevel < script.levelSpawners.length) {
-            winMsg = "Nice job! Let’s make this a little harder. Get ready for level " + (_currLevel + 1) + "!";
+        if (_currLevelNumber < script.levelSpawners.length) {
+            winMsg = "Nice job! Let’s make this a little harder. Get ready for level " + (_currLevelNumber + 1) + "!";
             global.ShowLevelUI(winMsg, StartCurrentLevel);
         } else {
             DoFinishedGame();
@@ -309,7 +318,7 @@ function DoCheckWin() {
 }
 
 function StartCurrentLevel() {
-    StartLevel(_currLevel);
+    StartLevel(_currLevelNumber);
 
 }
 
@@ -331,7 +340,7 @@ function DoFinishedGame() {
     var wasHighScore = global.TrySetHighScore(score);
 
 
-    var selfieBannerMessage = "Jet Ski Distance " + "\n " + _distance + "";
+    var selfieBannerMessage = "Jet Ski Distance " + "\n " + Math.floor(_distance) + "";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
     script.frontCamTopMessage.text = selfieBannerMessage;
     
@@ -344,16 +353,6 @@ function DoFinishedGame() {
     
 
 
-    //global.ShowLevelUI(endOfGameMessage, null);
-
-    //hideScore();
-
-    /*
-    var userCity = "";
-    global.userContextSystem.requestCity(function(city) {
-        userCity = city;
-        });
-    */
 
 }
 

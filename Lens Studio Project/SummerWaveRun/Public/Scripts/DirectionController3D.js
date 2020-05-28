@@ -13,6 +13,7 @@ var initialPos = script.getSceneObject().getTransform().getLocalPosition();
 var isInit = false;
 
 
+
 function EnsureInitialized() {
     
     if (!isInit) {
@@ -44,10 +45,15 @@ script.api.StartMoving = function () {
     
 };
 
+script.api.UpdateDirection = function(newVec) {
+   currVec = newVec;
+}
+
 
 function DoUpdateMovement() {
     
      if (isOperating) {
+       
         var deltaVec = currVec.uniformScale(getDeltaTime());
         var newPos = thisTransform.getLocalPosition().add(deltaVec);
         thisTransform.setLocalPosition(newPos);
@@ -70,5 +76,9 @@ function CheckIfThisShouldDie() {
     }
 
     
+}
+
+if (script.api.onLoad) {
+    script.api.onLoad();
 }
 

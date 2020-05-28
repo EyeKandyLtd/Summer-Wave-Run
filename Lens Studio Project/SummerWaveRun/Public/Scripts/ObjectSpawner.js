@@ -10,7 +10,7 @@
 var objectInstances = [];
 var isRunning = false;
 var timeLastSpawned = 0;
-
+var spawnCallback;
 
 script.api.SetPrefabPool = function (prefabPool) { 
     script.prefabPool = prefabPool;
@@ -24,6 +24,9 @@ script.api.SetSecondsBetweenSpawns = function (secondsBetweenSpawns) {
     script.secondsBetweenSpawns = secondsBetweenSpawns;
 };
 
+script.api.SetSpawnCallback = function(callback) {
+    spawnCallback = callback;
+}
 
 
 script.api.StartSpawning = function () {
@@ -79,7 +82,7 @@ script.api.DoSpawnOneShot = function () {
                     spawnPos = targetObject.getTransform().getWorldPosition();
                     var inst = prefab.instantiate(targetObject);
                     inst.getTransform().setWorldPosition(spawnPos);
-                
+                    if (spawnCallback != null) {spawnCallback(inst);}
                     // objectInstances.push(inst);
                  
                 }
