@@ -15,6 +15,7 @@ var life_counter_3 = Scene.root.find('lifevest_counter_3');
 //Scene.root.find("2dText0").text = Patches.getScalarValue("score").toString();
 
 Scene.root.find("2dText0").text = initialLives.toString();
+Scene.root.find("2dText0").hidden = true;
 
 
 Patches.setPoint2DValue("ob1", Reactive.point2d(Scene.root.find('plane0').transform.z, Scene.root.find('plane0').transform.x));
@@ -56,6 +57,7 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		life_counter_2.hidden = true;
 		life_counter_3.hidden = true;
 
+		Scene.root.find("2dText0").hidden = false;
 		Scene.root.find("2dText0").text = 'GAME OVER!'
 	}
 });
