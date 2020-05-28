@@ -6,7 +6,7 @@ global.gameAudioCompoent = null;
 global.playAudioAsset = function (audioAsset, loops, vol) {
 
     if (audioAsset == null) {
-        print("global.playAudioAsset() Error: audioAsset was null");
+        //print("global.playAudioAsset() Error: audioAsset was null");
         return;
     }
 
@@ -30,10 +30,10 @@ global.playAudioAsset = function (audioAsset, loops, vol) {
 
         if (vol == null) vol = 1;
         global.gameAudioCompoent.volume = vol;
-        print("global.playAudioAsset() Playing audio at vol " + global.gameAudioCompoent.volume);
+       // print("global.playAudioAsset() Playing audio at vol " + global.gameAudioCompoent.volume);
 
     } else {
-        print("global.playAudioAsset() Error: global.gameAudioCompoent failed to initalise..");
+        //print("global.playAudioAsset() Error: global.gameAudioCompoent failed to initalise..");
     }
 
 
@@ -44,7 +44,7 @@ global.playAudioAsset = function (audioAsset, loops, vol) {
 global.stopAudioAsset = function (audioAsset) {
 
     if (audioAsset == null) {
-        print("global.stopAudioAsset() Error: audioAsset was null");
+        //print("global.stopAudioAsset() Error: audioAsset was null");
         return;
     }
 

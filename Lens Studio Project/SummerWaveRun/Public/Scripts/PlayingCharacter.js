@@ -119,7 +119,7 @@ function HandleCollision(other) {
          script.gameplayManager.api.Lives_Decrement();
     }
     
-    print("Player Handling Collision: " + otherName);  
+    //print("Player Handling Collision: " + otherName);  
     
     other.api.PlayHitSound();
     other.getSceneObject().destroy();

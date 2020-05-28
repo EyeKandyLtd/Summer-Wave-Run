@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590668677763",
+    "lastChanged": "1590677110481",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -438,6 +438,9 @@
                         "Particles Mesh"
                     ],
                     [
+                        "Prefabs"
+                    ],
+                    [
                         "Prefabs",
                         "Barrel"
                     ],
@@ -472,9 +475,6 @@
                     [
                         "Prefabs",
                         "TurtleShell"
-                    ],
-                    [
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -522,6 +522,10 @@
                     ],
                     [
                         "Scripts",
+                        "MaterialAnimator"
+                    ],
+                    [
+                        "Scripts",
                         "MenuUI"
                     ],
                     [
@@ -541,9 +545,6 @@
                         "WorldObjectController"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
                         "Textures",
                         "Face"
                     ],
@@ -554,10 +555,6 @@
                     [
                         "Textures",
                         "Pier_EnvMap"
-                    ],
-                    [
-                        "Textures",
-                        "Water"
                     ],
                     [
                         "Textures",
@@ -606,11 +603,9 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589823953420994:170044",
-                    "1589824396441814:172450",
-                    "1589824979988216:180112",
                     "1589825953195699:187528",
-                    "1589989988441829:271713",
+                    "1589989988549559:271830",
+                    "1589989988554668:271832",
                     "1589990932246686:362645",
                     "1589990932251601:362797",
                     "1590054919736174:124198",
@@ -633,8 +628,7 @@
                     "1590161584667918:504392",
                     "1590161584850241:504719",
                     "1590161586614319:506540",
-                    "1590441884156890:1008202",
-                    "1590483410975235:248916"
+                    "1590441884156890:1008202"
                 ]
             ]
         },
@@ -2524,6 +2518,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "865",
+                    "uid": "1590671838037695:1014355",
+                    "name": "Files\/File863.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4077,6 +4079,10 @@
                 {
                     "k": "862",
                     "v": "Files\/File862.js"
+                },
+                {
+                    "k": "863",
+                    "v": "Files\/File863.js"
                 }
             ]
         },
@@ -4756,6 +4762,10 @@
                     {
                         "k": "313",
                         "v": "Scripts\/GlobalGameLogic.js"
+                    },
+                    {
+                        "k": "314",
+                        "v": "Scripts\/MaterialAnimator.js"
                     }
                 ],
                 "hashes": [
@@ -4877,7 +4887,7 @@
                     },
                     {
                         "k": "35",
-                        "v": "2f0e42d3c944d4a5937c52a5cd23b832"
+                        "v": "bdb9ee4e6f92beee22f8669d658431f7"
                     },
                     {
                         "k": "36",
@@ -4953,7 +4963,7 @@
                     },
                     {
                         "k": "57",
-                        "v": "4c230633fb7f5284ba88a91bfd14f1c3"
+                        "v": "04763c3058d09b7fed85ebaca75c2a75"
                     },
                     {
                         "k": "58",
@@ -4969,11 +4979,11 @@
                     },
                     {
                         "k": "61",
-                        "v": "12b44a651d330fa8373cd4136881764f"
+                        "v": "74f54361ecbb9457b7e54f12a8d6acc7"
                     },
                     {
                         "k": "62",
-                        "v": "acda0849d10b966bf56df26eb80cf115"
+                        "v": "f05d3957f4d346c9009a0c38addf7cd2"
                     },
                     {
                         "k": "63",
@@ -5057,7 +5067,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "ed0dc231e743990357dcffcb02359bf6"
+                        "v": "28f2932e09ffcc203d1faed0c039d235"
                     },
                     {
                         "k": "98",
@@ -5149,7 +5159,7 @@
                     },
                     {
                         "k": "128",
-                        "v": "e85a8de5353ab6311dadda23bcf67882"
+                        "v": "e2f06484fd06137a6ac9a3cc8da2ede1"
                     },
                     {
                         "k": "129",
@@ -5157,7 +5167,7 @@
                     },
                     {
                         "k": "130",
-                        "v": "b0c8a321a2216863762a99acd88a2656"
+                        "v": "e801e4961b22f73ff01ba65622b0006b"
                     },
                     {
                         "k": "131",
@@ -5169,7 +5179,7 @@
                     },
                     {
                         "k": "133",
-                        "v": "4e40bb878687a84fc4dd5796b03483df"
+                        "v": "fbfc79415df7e3dca82c90da741c11ff"
                     },
                     {
                         "k": "134",
@@ -5221,11 +5231,11 @@
                     },
                     {
                         "k": "155",
-                        "v": "87b835c8c4135cc1445212c3e14f459d"
+                        "v": "92cc6ccab4217c7654afb5b2d3a80ece"
                     },
                     {
                         "k": "156",
-                        "v": "da54ae25a78d43c7cdddb6afcf093ecb"
+                        "v": "26124ebbdbf9d9b3bb06f3355cd12197"
                     },
                     {
                         "k": "157",
@@ -5638,6 +5648,10 @@
                     {
                         "k": "313",
                         "v": "ab89f8d62cb9126427a16bac7623a10e"
+                    },
+                    {
+                        "k": "314",
+                        "v": "626dd452845d679228c6b11fd2318a89"
                     }
                 ],
                 "publicState": {
@@ -5645,7 +5659,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-22T16:34:49",
                         "name": "Public",
-                        "hash": "4d2f04129894b65d175f8c1b729c0c73",
+                        "hash": "ec7e510841c200a481ab3f13823e03cb",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6036,7 +6050,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-05-25T22:08:16",
                                 "name": "Textures",
-                                "hash": "528f63258f525ddfe870bdd1e6998611",
+                                "hash": "3202a02419c03764ad2860f9580298e1",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6054,9 +6068,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T15:25:57",
+                                        "lastModified": "2020-05-28T14:59:37",
                                         "name": "Water",
-                                        "hash": "aedf5b7ce37f60510b3c3b507b933e7a",
+                                        "hash": "db214d9298a0ea9eb98c9498ae3e05fb",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -6074,9 +6088,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-21T15:25:55",
+                                                "lastModified": "2020-05-28T14:59:37",
                                                 "name": "Ocean.lsmat",
-                                                "hash": "2f0e42d3c944d4a5937c52a5cd23b832",
+                                                "hash": "bdb9ee4e6f92beee22f8669d658431f7",
                                                 "children": ""
                                             },
                                             {
@@ -6647,15 +6661,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-28T13:22:29",
+                                "lastModified": "2020-05-28T15:43:06",
                                 "name": "Scripts",
-                                "hash": "a8ee271a4ea88c0c2f17900cb347476c",
+                                "hash": "979db9ca294d0bd8262e46346d8c517b",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T14:55:44",
+                                        "lastModified": "2020-05-28T15:42:30",
                                         "name": "ColliderAABB.js",
-                                        "hash": "4e40bb878687a84fc4dd5796b03483df",
+                                        "hash": "fbfc79415df7e3dca82c90da741c11ff",
                                         "children": ""
                                     },
                                     {
@@ -6688,9 +6702,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T12:40:42",
+                                        "lastModified": "2020-05-28T15:24:05",
                                         "name": "ObjectSpawner.js",
-                                        "hash": "e85a8de5353ab6311dadda23bcf67882",
+                                        "hash": "e2f06484fd06137a6ac9a3cc8da2ede1",
                                         "children": ""
                                     },
                                     {
@@ -6709,9 +6723,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T14:30:15",
+                                        "lastModified": "2020-05-28T15:43:06",
                                         "name": "AudioManager.js",
-                                        "hash": "da54ae25a78d43c7cdddb6afcf093ecb",
+                                        "hash": "26124ebbdbf9d9b3bb06f3355cd12197",
                                         "children": ""
                                     },
                                     {
@@ -6737,9 +6751,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T13:05:21",
+                                        "lastModified": "2020-05-28T13:44:09",
                                         "name": "DirectionController3D.js",
-                                        "hash": "b0c8a321a2216863762a99acd88a2656",
+                                        "hash": "e801e4961b22f73ff01ba65622b0006b",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T14:58:23",
+                                        "name": "MaterialAnimator.js",
+                                        "hash": "626dd452845d679228c6b11fd2318a89",
                                         "children": ""
                                     },
                                     {
@@ -6765,9 +6786,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-21T15:25:55",
+                                        "lastModified": "2020-05-28T15:40:19",
                                         "name": "GestureProxy.js",
-                                        "hash": "4c230633fb7f5284ba88a91bfd14f1c3",
+                                        "hash": "04763c3058d09b7fed85ebaca75c2a75",
                                         "children": ""
                                     },
                                     {
@@ -6786,9 +6807,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T13:22:29",
+                                        "lastModified": "2020-05-28T15:37:09",
                                         "name": "GamePlayManager.js",
-                                        "hash": "87b835c8c4135cc1445212c3e14f459d",
+                                        "hash": "92cc6ccab4217c7654afb5b2d3a80ece",
                                         "children": ""
                                     },
                                     {
@@ -6800,9 +6821,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-25T22:58:11",
+                                        "lastModified": "2020-05-28T15:41:35",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "12b44a651d330fa8373cd4136881764f",
+                                        "hash": "74f54361ecbb9457b7e54f12a8d6acc7",
                                         "children": ""
                                     },
                                     {
@@ -8025,6 +8046,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "313",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-ETBNQx\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MaterialAnimator",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "865",
+                                "dependency": "0",
+                                "uid": "1590671838037695:1014355",
+                                "fileId": "863",
+                                "originalId": "18446744073709551615",
+                                "publicId": "314",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-fWVCJf\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -10909,7 +10943,17 @@
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1589882404097941:100708",
+                        "path_list": [
+                            "Scripts",
+                            "JumpController3D"
+                        ]
+                    }
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
