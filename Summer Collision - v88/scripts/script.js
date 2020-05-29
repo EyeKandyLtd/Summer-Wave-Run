@@ -29,6 +29,10 @@ Patches.setPoint2DValue("ob8", Reactive.point2d(Scene.root.find('plane7').transf
 Patches.setPoint2DValue("ob9", Reactive.point2d(Scene.root.find('plane8').transform.z, Scene.root.find('plane8').transform.x));
 
 var number = Scene.root.find('score0');
+var game_over = Scene.root.find('game_over');
+var highest_score = Scene.root.find('highest_score');
+var highest_score_score = Scene.root.find('highest_score_score');
+var restart = Scene.root.find('restart');
 var score = Patches.getScalarValue('distance');
 
 var initialLives = 3;
@@ -57,8 +61,10 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		life_counter_2.hidden = true;
 		life_counter_3.hidden = true;
 
-		Scene.root.find("2dText0").hidden = false;
-		Scene.root.find("2dText0").text = 'GAME OVER!';
+		game_over.hidden = false;
+		restart.hidden = false;
+		highest_score.hidden = false;
+		highest_score_score.hidden = false;
 	}
 
 	if(event.newValue > 0) {
@@ -68,8 +74,13 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 	Diagnostics.log(event.newValue);
 });
 
+highest_score.text = 'Your Highest Score: ';
+//highest_score.add(score.toString());
+
 //Display score number
 number.text = score.toString();
+
+highest_score_score.text = score.toString();
 
 //Diagnostics.log(number);
 //Diagnostics.log(score);
