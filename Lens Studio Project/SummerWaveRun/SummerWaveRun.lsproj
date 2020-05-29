@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590677110481",
+    "lastChanged": "1590691418625",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -425,13 +425,85 @@
                     ],
                     [
                         "Materials",
+                        "particle_confetti_1 2"
+                    ],
+                    [
+                        "Materials",
                         "particle_confetti_2"
+                    ],
+                    [
+                        "Materials",
+                        "particle_confetti_2 2"
                     ],
                     [
                         "Mesh"
                     ],
                     [
-                        "Particles"
+                        "ParticleMaterials"
+                    ],
+                    [
+                        "ParticleMaterials",
+                        "World",
+                        "Fountain"
+                    ],
+                    [
+                        "ParticleMaterials",
+                        "World",
+                        "Fountain",
+                        "fountain _waterdrops [EDIT_ME]"
+                    ],
+                    [
+                        "ParticleMaterials",
+                        "World",
+                        "Fountain",
+                        "fountain_distortion [EDIT_ME]"
+                    ],
+                    [
+                        "ParticleMaterials",
+                        "World",
+                        "Fountain",
+                        "fountain_splash [EDIT_ME]"
+                    ],
+                    [
+                        "ParticleResources"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Meshes"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Meshes",
+                        "emitter_1000"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Textures",
+                        "cr_linear_blend"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Textures",
+                        "cr_white_fade"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Textures",
+                        "fx_rain_2x2"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Textures",
+                        "fx_water_splash_2x2"
+                    ],
+                    [
+                        "ParticleResources",
+                        "Textures",
+                        "fx_water_splash_2x2_distortion"
+                    ],
+                    [
+                        "Particles",
+                        "Confetti"
                     ],
                     [
                         "Particles",
@@ -510,10 +582,6 @@
                     ],
                     [
                         "Scripts",
-                        "GamePlayManager_OLD"
-                    ],
-                    [
-                        "Scripts",
                         "GlobalGameLogic"
                     ],
                     [
@@ -538,11 +606,18 @@
                     ],
                     [
                         "Scripts",
+                        "PfxManager"
+                    ],
+                    [
+                        "Scripts",
                         "TutorialUI"
                     ],
                     [
                         "Scripts",
                         "WorldObjectController"
+                    ],
+                    [
+                        "Textures"
                     ],
                     [
                         "Textures",
@@ -555,6 +630,14 @@
                     [
                         "Textures",
                         "Pier_EnvMap"
+                    ],
+                    [
+                        "Textures",
+                        "Water"
+                    ],
+                    [
+                        "Textures",
+                        "confetti"
                     ],
                     [
                         "Textures",
@@ -584,6 +667,9 @@
                         "comic_zine_ot"
                     ],
                     [
+                        "Video"
+                    ],
+                    [
                         "Video",
                         "Tutorial_Animation_V9"
                     ]
@@ -593,8 +679,8 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "101:100",
                     "1517446348227994:84813",
-                    "1573760244197350:23208",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
                     "1573774070522996:822410",
@@ -603,7 +689,9 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
+                    "1589823953420994:170044",
                     "1589825953195699:187528",
+                    "1589989988419228:271561",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -628,7 +716,8 @@
                     "1590161584667918:504392",
                     "1590161584850241:504719",
                     "1590161586614319:506540",
-                    "1590441884156890:1008202"
+                    "1590441884156890:1008202",
+                    "1590483410975235:248916"
                 ]
             ]
         },
@@ -2488,14 +2577,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "861",
-                    "uid": "1590167713603994:83557",
-                    "name": "Files\/File859.js",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "862",
                     "uid": "1590173065339652:346790",
                     "name": "Files\/File860.js",
@@ -2526,6 +2607,118 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "866",
+                    "uid": "1590680662971595:2049361",
+                    "name": "Files\/File864.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "867",
+                    "uid": "1590680663323517:2049373",
+                    "name": "Files\/File865.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "868",
+                    "uid": "1590680663569492:2049385",
+                    "name": "Files\/File867.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "869",
+                    "uid": "1590680663755650:2049397",
+                    "name": "Files\/File869.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "870",
+                    "uid": "1590680664028747:2049409",
+                    "name": "Files\/File871.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "871",
+                    "uid": "1590680664241212:2049421",
+                    "name": "Files\/File873.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "872",
+                    "uid": "1590680664275047:2049433",
+                    "name": "Files\/File875",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "873",
+                    "uid": "1590680664404902:2049448",
+                    "name": "Files\/File877",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "874",
+                    "uid": "1590680664555373:2049463",
+                    "name": "Files\/File879",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "875",
+                    "uid": "1590687412677146:2530938",
+                    "name": "Files\/File881.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "876",
+                    "uid": "1590687412720189:2530951",
+                    "name": "Files\/File883",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "877",
+                    "uid": "1590687412747474:2530966",
+                    "name": "Files\/File885",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "878",
+                    "uid": "1590688827818093:2588027",
+                    "name": "Files\/File887.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "879",
+                    "uid": "1590690059082972:2725918",
+                    "name": "Confetti",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2939,7 +3132,9 @@
                 "120": "1590483442621967:264921",
                 "121": "1590483443238474:273018",
                 "122": "1590483444039471:281192",
-                "123": "1590664189499370:662897"
+                "123": "1590664189499370:662897",
+                "124": "1590680665056796:2049551",
+                "125": "1590688800087425:2588023"
             }
         },
         "LayerComponent": {
@@ -4065,10 +4260,6 @@
                     "v": "Files\/File858.png"
                 },
                 {
-                    "k": "859",
-                    "v": "Files\/File859.js"
-                },
-                {
                     "k": "860",
                     "v": "Files\/File860.js"
                 },
@@ -4083,6 +4274,110 @@
                 {
                     "k": "863",
                     "v": "Files\/File863.js"
+                },
+                {
+                    "k": "864",
+                    "v": "Files\/File864.mesh"
+                },
+                {
+                    "k": "865",
+                    "v": "Files\/File865.png"
+                },
+                {
+                    "k": "866",
+                    "v": "Files\/File866.png"
+                },
+                {
+                    "k": "867",
+                    "v": "Files\/File867.png"
+                },
+                {
+                    "k": "868",
+                    "v": "Files\/File868.png"
+                },
+                {
+                    "k": "869",
+                    "v": "Files\/File869.png"
+                },
+                {
+                    "k": "870",
+                    "v": "Files\/File870.png"
+                },
+                {
+                    "k": "871",
+                    "v": "Files\/File871.png"
+                },
+                {
+                    "k": "872",
+                    "v": "Files\/File872.png"
+                },
+                {
+                    "k": "873",
+                    "v": "Files\/File873.png"
+                },
+                {
+                    "k": "874",
+                    "v": "Files\/File874.png"
+                },
+                {
+                    "k": "875",
+                    "v": "Files\/File875"
+                },
+                {
+                    "k": "876",
+                    "v": "Files\/File876.lsmat"
+                },
+                {
+                    "k": "877",
+                    "v": "Files\/File877"
+                },
+                {
+                    "k": "878",
+                    "v": "Files\/File878.lsmat"
+                },
+                {
+                    "k": "879",
+                    "v": "Files\/File879"
+                },
+                {
+                    "k": "880",
+                    "v": "Files\/File880.lsmat"
+                },
+                {
+                    "k": "881",
+                    "v": "Files\/File881.png"
+                },
+                {
+                    "k": "882",
+                    "v": "Files\/File882.png"
+                },
+                {
+                    "k": "883",
+                    "v": "Files\/File883"
+                },
+                {
+                    "k": "884",
+                    "v": "Files\/File884.lsmat"
+                },
+                {
+                    "k": "885",
+                    "v": "Files\/File885"
+                },
+                {
+                    "k": "886",
+                    "v": "Files\/File886.lsmat"
+                },
+                {
+                    "k": "887",
+                    "v": "Files\/File887.js"
+                },
+                {
+                    "k": "888",
+                    "v": "Files\/File888.oprfb"
+                },
+                {
+                    "k": "889",
+                    "v": "Files\/File889.oprfb"
                 }
             ]
         },
@@ -4748,10 +5043,6 @@
                         "v": "Textures\/tutorial_bg.png"
                     },
                     {
-                        "k": "310",
-                        "v": "Scripts\/GamePlayManager_OLD.js"
-                    },
-                    {
                         "k": "311",
                         "v": "Scripts\/SimpleHighScoreController.js"
                     },
@@ -4766,6 +5057,86 @@
                     {
                         "k": "314",
                         "v": "Scripts\/MaterialAnimator.js"
+                    },
+                    {
+                        "k": "514",
+                        "v": "ParticleResources"
+                    },
+                    {
+                        "k": "515",
+                        "v": "ParticleResources\/Meshes"
+                    },
+                    {
+                        "k": "516",
+                        "v": "ParticleResources\/Meshes\/emitter_1000.mesh"
+                    },
+                    {
+                        "k": "517",
+                        "v": "ParticleResources\/Textures"
+                    },
+                    {
+                        "k": "518",
+                        "v": "ParticleResources\/Textures\/fx_water_splash_2x2.png"
+                    },
+                    {
+                        "k": "519",
+                        "v": "ParticleResources\/Textures\/fx_water_splash_2x2_distortion.png"
+                    },
+                    {
+                        "k": "520",
+                        "v": "ParticleResources\/Textures\/cr_linear_blend.png"
+                    },
+                    {
+                        "k": "521",
+                        "v": "ParticleResources\/Textures\/fx_rain_2x2.png"
+                    },
+                    {
+                        "k": "522",
+                        "v": "ParticleResources\/Textures\/cr_white_fade.png"
+                    },
+                    {
+                        "k": "523",
+                        "v": "ParticleMaterials"
+                    },
+                    {
+                        "k": "524",
+                        "v": "ParticleMaterials\/World"
+                    },
+                    {
+                        "k": "525",
+                        "v": "ParticleMaterials\/World\/Fountain"
+                    },
+                    {
+                        "k": "526",
+                        "v": "ParticleMaterials\/World\/Fountain\/fountain_splash [EDIT_ME].lsmat"
+                    },
+                    {
+                        "k": "527",
+                        "v": "ParticleMaterials\/World\/Fountain\/fountain_distortion [EDIT_ME].lsmat"
+                    },
+                    {
+                        "k": "528",
+                        "v": "ParticleMaterials\/World\/Fountain\/fountain _waterdrops [EDIT_ME].lsmat"
+                    },
+                    {
+                        "k": "529",
+                        "v": "Textures\/confetti.png"
+                    },
+                    {
+                        "k": "530",
+                        "v": "Materials\/particle_confetti_1 2.lsmat"
+                    },
+                    {
+                        "k": "531",
+                        "v": "Materials\/particle_confetti_2 2.lsmat"
+                    },
+                    {
+                        "k": "532",
+                        "v": "Scripts\/PfxManager.js"
+                    },
+                    {
+                        "k": "533",
+                        "v": "Particles\/Confetti.oprfb"
                     }
                 ],
                 "hashes": [
@@ -4887,7 +5258,7 @@
                     },
                     {
                         "k": "35",
-                        "v": "bdb9ee4e6f92beee22f8669d658431f7"
+                        "v": "0ac89de09c46e155b05c5d5cc04a91be"
                     },
                     {
                         "k": "36",
@@ -4903,7 +5274,7 @@
                     },
                     {
                         "k": "40",
-                        "v": "b9e38df13062035f3110971444d9c324"
+                        "v": "aa749e739a6c15b61084bccd9ebb70e3"
                     },
                     {
                         "k": "41",
@@ -4979,7 +5350,7 @@
                     },
                     {
                         "k": "61",
-                        "v": "74f54361ecbb9457b7e54f12a8d6acc7"
+                        "v": "c436fc86a606ce1fd812dc964e290f5a"
                     },
                     {
                         "k": "62",
@@ -5067,7 +5438,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "28f2932e09ffcc203d1faed0c039d235"
+                        "v": "865dc6e2e12da3b7eef6643381897925"
                     },
                     {
                         "k": "98",
@@ -5179,7 +5550,7 @@
                     },
                     {
                         "k": "133",
-                        "v": "fbfc79415df7e3dca82c90da741c11ff"
+                        "v": "65b9ba64348bbcd7ea29c6839385af45"
                     },
                     {
                         "k": "134",
@@ -5231,7 +5602,7 @@
                     },
                     {
                         "k": "155",
-                        "v": "92cc6ccab4217c7654afb5b2d3a80ece"
+                        "v": "5c4bb241b19d58127e5068b75699b223"
                     },
                     {
                         "k": "156",
@@ -5652,14 +6023,70 @@
                     {
                         "k": "314",
                         "v": "626dd452845d679228c6b11fd2318a89"
+                    },
+                    {
+                        "k": "516",
+                        "v": "adc36fff2957674601d705ed729586cf"
+                    },
+                    {
+                        "k": "518",
+                        "v": "e96991a1986a864b2587b53b48d34a0d"
+                    },
+                    {
+                        "k": "519",
+                        "v": "6e2123b442c0e10838554bc01371d529"
+                    },
+                    {
+                        "k": "520",
+                        "v": "a4351832b6036772e2116d55c7e15da6"
+                    },
+                    {
+                        "k": "521",
+                        "v": "02805090447be76cc39c3f2bb0ab91a2"
+                    },
+                    {
+                        "k": "522",
+                        "v": "08b700065f99ce724b9b5bff8e763bba"
+                    },
+                    {
+                        "k": "526",
+                        "v": "2cbcabb0c45b156db7670a8a70f142c7"
+                    },
+                    {
+                        "k": "527",
+                        "v": "e76ad920914ba959fa42a4c0bbea95fd"
+                    },
+                    {
+                        "k": "528",
+                        "v": "ae97a2e13fb224a95929ec6e0eca3ceb"
+                    },
+                    {
+                        "k": "529",
+                        "v": "790f030ed113b43fe6ce2a222bd06a6f"
+                    },
+                    {
+                        "k": "530",
+                        "v": "1c3d48ca1e12e0341c42451e225c8a91"
+                    },
+                    {
+                        "k": "531",
+                        "v": "708cd1c4a121c584830c356e0b1d45f7"
+                    },
+                    {
+                        "k": "532",
+                        "v": "5c5e6e220f0217950817fab4858988e8"
+                    },
+                    {
+                        "k": "533",
+                        "v": "7ed119a62fa9f59b0110978a4a45faf3"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-22T16:34:49",
+                        "lastModified": "2020-05-28T16:44:24",
                         "name": "Public",
-                        "hash": "ec7e510841c200a481ab3f13823e03cb",
+                        "hash": "390df7daf947417948656e8a76e3eacb",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6048,9 +6475,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-25T22:08:16",
+                                "lastModified": "2020-05-28T18:36:52",
                                 "name": "Textures",
-                                "hash": "3202a02419c03764ad2860f9580298e1",
+                                "hash": "47a509f1c391d5de194ccdcabb9b92b7",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6067,10 +6494,17 @@
                                         "children": ""
                                     },
                                     {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T18:36:52",
+                                        "name": "confetti.png",
+                                        "hash": "790f030ed113b43fe6ce2a222bd06a6f",
+                                        "children": ""
+                                    },
+                                    {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-28T14:59:37",
+                                        "lastModified": "2020-05-28T17:38:56",
                                         "name": "Water",
-                                        "hash": "db214d9298a0ea9eb98c9498ae3e05fb",
+                                        "hash": "de242ba2eda162be0a27b46b3389bf23",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -6088,9 +6522,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-28T14:59:37",
+                                                "lastModified": "2020-05-28T17:38:56",
                                                 "name": "Ocean.lsmat",
-                                                "hash": "bdb9ee4e6f92beee22f8669d658431f7",
+                                                "hash": "0ac89de09c46e155b05c5d5cc04a91be",
                                                 "children": ""
                                             },
                                             {
@@ -6288,15 +6722,15 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-21T15:25:57",
+                                        "lastModified": "2020-05-28T17:45:20",
                                         "name": "Horizon",
-                                        "hash": "d156c8eb5901c8d4d7d2c965411a29e8",
+                                        "hash": "63f5374d5063dea028afd66c640564a2",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-21T15:25:55",
+                                                "lastModified": "2020-05-28T17:45:20",
                                                 "name": "HorizonMat.lsmat",
-                                                "hash": "b9e38df13062035f3110971444d9c324",
+                                                "hash": "aa749e739a6c15b61084bccd9ebb70e3",
                                                 "children": ""
                                             },
                                             {
@@ -6398,10 +6832,24 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:34:41",
+                                "lastModified": "2020-05-28T18:36:53",
                                 "name": "Materials",
-                                "hash": "28bd2c4400cdfb520018f8d1e5eda7e2",
+                                "hash": "8d06b8aa4a8901b930b670aedb515009",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T18:36:53",
+                                        "name": "particle_confetti_1 2.lsmat",
+                                        "hash": "1c3d48ca1e12e0341c42451e225c8a91",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T18:36:53",
+                                        "name": "particle_confetti_2 2.lsmat",
+                                        "hash": "708cd1c4a121c584830c356e0b1d45f7",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-05-22T16:33:18",
@@ -6512,10 +6960,17 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-22T16:33:00",
+                                "lastModified": "2020-05-28T19:20:59",
                                 "name": "Particles",
-                                "hash": "58445592255d44bde37cb809ca4f6007",
+                                "hash": "24bd240a6e8b95dc15f4281db0fee04f",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T19:20:59",
+                                        "name": "Confetti.oprfb",
+                                        "hash": "7ed119a62fa9f59b0110978a4a45faf3",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-05-22T16:32:52",
@@ -6661,15 +7116,81 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-28T15:43:06",
+                                "lastModified": "2020-05-28T16:44:24",
+                                "name": "ParticleMaterials",
+                                "hash": "3f708afa6094a289e297266517ca136b",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-05-28T16:44:24",
+                                        "name": "World",
+                                        "hash": "0fff2006065089a30bf699bc7f11a3e3",
+                                        "children": [
+                                            {
+                                                "isFolder": "true",
+                                                "lastModified": "2020-05-28T17:54:31",
+                                                "name": "Fountain",
+                                                "hash": "99d259a33bbe7614099e416ccbca3e13",
+                                                "children": [
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-05-28T17:54:31",
+                                                        "name": "fountain_distortion [EDIT_ME].lsmat",
+                                                        "hash": "e76ad920914ba959fa42a4c0bbea95fd",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-05-28T16:44:27",
+                                                        "name": "fountain _waterdrops [EDIT_ME].lsmat",
+                                                        "hash": "ae97a2e13fb224a95929ec6e0eca3ceb",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-05-28T17:50:40",
+                                                        "name": "fountain_splash [EDIT_ME].lsmat",
+                                                        "hash": "2cbcabb0c45b156db7670a8a70f142c7",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-05-28T16:44:24",
+                                                        "name": "folder.lock",
+                                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                        "children": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:24",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T16:44:24",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-05-28T19:42:33",
                                 "name": "Scripts",
-                                "hash": "979db9ca294d0bd8262e46346d8c517b",
+                                "hash": "376779081295161030e0928cb3f3b939",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T15:42:30",
+                                        "lastModified": "2020-05-28T19:42:33",
                                         "name": "ColliderAABB.js",
-                                        "hash": "fbfc79415df7e3dca82c90da741c11ff",
+                                        "hash": "65b9ba64348bbcd7ea29c6839385af45",
                                         "children": ""
                                     },
                                     {
@@ -6744,13 +7265,6 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T16:47:52",
-                                        "name": "GamePlayManager_OLD.js",
-                                        "hash": "2cd55afa84ba45418fe024df80805858",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
                                         "lastModified": "2020-05-28T13:44:09",
                                         "name": "DirectionController3D.js",
                                         "hash": "e801e4961b22f73ff01ba65622b0006b",
@@ -6772,9 +7286,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T15:22:26",
+                                        "lastModified": "2020-05-28T15:44:59",
                                         "name": "JumpController3D.js",
-                                        "hash": "acda0849d10b966bf56df26eb80cf115",
+                                        "hash": "f05d3957f4d346c9009a0c38addf7cd2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T19:41:55",
+                                        "name": "PfxManager.js",
+                                        "hash": "5c5e6e220f0217950817fab4858988e8",
                                         "children": ""
                                     },
                                     {
@@ -6807,9 +7328,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T15:37:09",
+                                        "lastModified": "2020-05-28T19:13:13",
                                         "name": "GamePlayManager.js",
-                                        "hash": "92cc6ccab4217c7654afb5b2d3a80ece",
+                                        "hash": "5c4bb241b19d58127e5068b75699b223",
                                         "children": ""
                                     },
                                     {
@@ -6821,9 +7342,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T15:41:35",
+                                        "lastModified": "2020-05-28T19:26:44",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "74f54361ecbb9457b7e54f12a8d6acc7",
+                                        "hash": "c436fc86a606ce1fd812dc964e290f5a",
                                         "children": ""
                                     },
                                     {
@@ -6841,6 +7362,93 @@
                                 "name": "Box.mesh",
                                 "hash": "0f22bac28f4bb7f9303722acb5d035e0",
                                 "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-05-28T16:44:23",
+                                "name": "ParticleResources",
+                                "hash": "a2bb987d822a294eee0516e004e3791a",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-05-28T16:44:24",
+                                        "name": "Textures",
+                                        "hash": "614e6ee8c5fdbb4f65f8a0462e1ce25c",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "fx_water_splash_2x2.png",
+                                                "hash": "e96991a1986a864b2587b53b48d34a0d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "fx_rain_2x2.png",
+                                                "hash": "02805090447be76cc39c3f2bb0ab91a2",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "cr_linear_blend.png",
+                                                "hash": "a4351832b6036772e2116d55c7e15da6",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "cr_white_fade.png",
+                                                "hash": "08b700065f99ce724b9b5bff8e763bba",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "fx_water_splash_2x2_distortion.png",
+                                                "hash": "6e2123b442c0e10838554bc01371d529",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:23",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-05-28T16:44:22",
+                                        "name": "Meshes",
+                                        "hash": "d7a591cced5cae3eff4182207df71439",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "emitter_1000.mesh",
+                                                "hash": "adc36fff2957674601d705ed729586cf",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-28T16:44:22",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-28T16:44:22",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
                             },
                             {
                                 "isFolder": "false",
@@ -7705,6 +8313,19 @@
                                 "publicId": "309",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tutorial_bg.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "confetti",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "875",
+                                "dependency": "0",
+                                "uid": "1590687412677146:2530938",
+                                "fileId": "881",
+                                "originalId": "882",
+                                "publicId": "529",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-lrsMVQ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
                             }
                         ]
                     },
@@ -7997,19 +8618,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "GamePlayManager_OLD",
-                                "type": "4",
-                                "subtype": "0",
-                                "resourceId": "861",
-                                "dependency": "0",
-                                "uid": "1590167713603994:83557",
-                                "fileId": "859",
-                                "originalId": "18446744073709551615",
-                                "publicId": "310",
-                                "source": "\/Users\/isaacdart\/Downloads\/GamePlayManager_OLD.js",
-                                "additional": ""
-                            },
-                            {
                                 "name": "SimpleHighScoreController",
                                 "type": "4",
                                 "subtype": "0",
@@ -8059,6 +8667,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "314",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-fWVCJf\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PfxManager",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "878",
+                                "dependency": "0",
+                                "uid": "1590688827818093:2588027",
+                                "fileId": "887",
+                                "originalId": "18446744073709551615",
+                                "publicId": "532",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-lrsMVQ\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -10826,6 +11447,32 @@
                                 "publicId": "274",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "particle_confetti_1 2",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "876",
+                                "dependency": "0",
+                                "uid": "1590687412720189:2530951",
+                                "fileId": "883",
+                                "originalId": "884",
+                                "publicId": "530",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "particle_confetti_2 2",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "877",
+                                "dependency": "0",
+                                "uid": "1590687412747474:2530966",
+                                "fileId": "885",
+                                "originalId": "886",
+                                "publicId": "531",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -10853,6 +11500,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "272",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-vjFEgX\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Confetti",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "879",
+                                "dependency": "0",
+                                "uid": "1590690059082972:2725918",
+                                "fileId": "888",
+                                "originalId": "889",
+                                "publicId": "533",
+                                "source": "",
                                 "additional": ""
                             }
                         ]
@@ -10938,20 +11598,221 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "ParticleResources",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "514",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Meshes",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "515",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "emitter_1000",
+                                        "type": "3",
+                                        "subtype": "0",
+                                        "resourceId": "866",
+                                        "dependency": "0",
+                                        "uid": "1590680662971595:2049361",
+                                        "fileId": "864",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "516",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-BqcKjq\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Textures",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "517",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "fx_water_splash_2x2",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "867",
+                                        "dependency": "0",
+                                        "uid": "1590680663323517:2049373",
+                                        "fileId": "865",
+                                        "originalId": "866",
+                                        "publicId": "518",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-BqcKjq\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "fx_water_splash_2x2_distortion",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "868",
+                                        "dependency": "0",
+                                        "uid": "1590680663569492:2049385",
+                                        "fileId": "867",
+                                        "originalId": "868",
+                                        "publicId": "519",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-BqcKjq\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "cr_linear_blend",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "869",
+                                        "dependency": "0",
+                                        "uid": "1590680663755650:2049397",
+                                        "fileId": "869",
+                                        "originalId": "870",
+                                        "publicId": "520",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-BqcKjq\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "fx_rain_2x2",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "870",
+                                        "dependency": "0",
+                                        "uid": "1590680664028747:2049409",
+                                        "fileId": "871",
+                                        "originalId": "872",
+                                        "publicId": "521",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-BqcKjq\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "cr_white_fade",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "871",
+                                        "dependency": "0",
+                                        "uid": "1590680664241212:2049421",
+                                        "fileId": "873",
+                                        "originalId": "874",
+                                        "publicId": "522",
+                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-BqcKjq\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                        "additional": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "ParticleMaterials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "523",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "World",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "524",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Fountain",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "525",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "fountain_splash [EDIT_ME]",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "872",
+                                                "dependency": "0",
+                                                "uid": "1590680664275047:2049433",
+                                                "fileId": "875",
+                                                "originalId": "876",
+                                                "publicId": "526",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "fountain_distortion [EDIT_ME]",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "873",
+                                                "dependency": "0",
+                                                "uid": "1590680664404902:2049448",
+                                                "fileId": "877",
+                                                "originalId": "878",
+                                                "publicId": "527",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "fountain _waterdrops [EDIT_ME]",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "874",
+                                                "dependency": "0",
+                                                "uid": "1590680664555373:2049463",
+                                                "fileId": "879",
+                                                "originalId": "880",
+                                                "publicId": "528",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1589882404097941:100708",
-                        "path_list": [
-                            "Scripts",
-                            "JumpController3D"
-                        ]
-                    }
+                "objects": [
+                    "1590688800087425:2588023"
                 ]
             }
         },

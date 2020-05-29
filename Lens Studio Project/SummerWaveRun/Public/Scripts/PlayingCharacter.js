@@ -122,6 +122,7 @@ function HandleCollision(other) {
     //print("Player Handling Collision: " + otherName);  
     
     other.api.PlayHitSound();
+    other.api.DoHitPFX();
     other.getSceneObject().destroy();
       
     

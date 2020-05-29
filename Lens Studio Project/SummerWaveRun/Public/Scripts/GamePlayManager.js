@@ -5,10 +5,13 @@
 // -----JS CODE-----
 //@input Component.Camera camera
 //@input Component.ScriptComponent hudController
+//@input Component.ScriptComponent pfxManager
 //@input Component.ScriptComponent scrollingWater
 
 //@input Component.ScriptComponent[] levels
 //@input float scorePerLevel = 200
+
+
 
 //@input Asset.AudioTrackAsset soundIntroMusic
 //@input Asset.AudioTrackAsset soundStartGame
@@ -18,10 +21,6 @@
 //@input Asset.AudioTrackAsset soundMinWin
 //@input Asset.AudioTrackAsset soundLowWin
 
-
-//@input Component.Text textHint
-//@input Component.Text textScore
-//@input Asset.ObjectPrefab selectedHaloPrefab
 
 //@input SceneObject[] deactiveOnStart
 //@input SceneObject[] activateOnStart
@@ -112,6 +111,8 @@ script.api.StartGameplay = function() {
         StartLevel(_currLevelNumber);
     }
 }
+
+
 
 function Init() {
     ResetVars();

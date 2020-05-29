@@ -12,23 +12,25 @@ script.api.minY = 0;
 script.api.maxY = 0;
 script.api.minZ = 0;
 script.api.maxZ = 0;
+script.api.worldPos = vec3.zero;
+
 
 var intersectionCallback;
 
+
 script.api.RefreshBoundingBox = function() {
     
-    var pos = script.getSceneObject().getTransform().getWorldPosition();
+    script.api.worldPos = script.getSceneObject().getTransform().getWorldPosition();
     var halfXLength = script.xLength * 0.5;
     var halfYLength = script.yLength * 0.5;
     var halfZLength = script.zLength * 0.5;
     
-    script.api.minX = pos.x-halfXLength;
-    script.api.maxX = pos.x+halfXLength;
-    script.api.minY = pos.y-halfYLength;
-    script.api.maxY = pos.y+halfYLength;
-    script.api.minZ = pos.z-halfZLength;
-    script.api.maxZ = pos.z+halfZLength;
-       
+    script.api.minX = script.api.worldPos.x-halfXLength;
+    script.api.maxX = script.api.worldPos.x+halfXLength;
+    script.api.minY = script.api.worldPos.y-halfYLength;
+    script.api.maxY = script.api.worldPos.y+halfYLength;
+    script.api.minZ = script.api.worldPos.z-halfZLength;
+    script.api.maxZ = script.api.worldPos.z+halfZLength;
     
 }
 
@@ -53,10 +55,13 @@ script.api.PlayHitSound = function() {
     if (script.hitSounds != null) {
         var randomIndex = Math.floor(Math.random() * script.hitSounds.length);
         var clip =  script.hitSounds[randomIndex];     
-        global.playAudioAsset(clip, 1, 0.5);
-        
+        global.playAudioAsset(clip, 1, 0.5);    
     }
-    
+}
+
+script.api.DoHitPFX = function() {
+    print("DoHitPFX");
+    global.gamePlayManager.pfxManager.api.DoPFX_HitObject(script.api.worldPos);
 }
 
 global.RegisterCollider(script); 
