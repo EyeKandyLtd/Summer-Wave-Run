@@ -4,6 +4,10 @@
 //@input float zLength = 30
 //@input bool isTrigger = false
 //@input Asset.AudioTrackAsset[] hitSounds
+//@input float xOffset = 0
+//@input float yOffset = 0
+//@input float zOffset = 0
+
 
 
 script.api.minX = 0;
@@ -25,12 +29,12 @@ script.api.RefreshBoundingBox = function() {
     var halfYLength = script.yLength * 0.5;
     var halfZLength = script.zLength * 0.5;
     
-    script.api.minX = script.api.worldPos.x-halfXLength;
-    script.api.maxX = script.api.worldPos.x+halfXLength;
-    script.api.minY = script.api.worldPos.y-halfYLength;
-    script.api.maxY = script.api.worldPos.y+halfYLength;
-    script.api.minZ = script.api.worldPos.z-halfZLength;
-    script.api.maxZ = script.api.worldPos.z+halfZLength;
+    script.api.minX = script.api.worldPos.x-halfXLength;// + xOffset;
+    script.api.maxX = script.api.worldPos.x+halfXLength;// + xOffset;
+    script.api.minY = script.api.worldPos.y-halfYLength;// + yOffset;
+    script.api.maxY = script.api.worldPos.y+halfYLength;// + yOffset;
+    script.api.minZ = script.api.worldPos.z-halfZLength;// + zOffset;
+    script.api.maxZ = script.api.worldPos.z+halfZLength;// + zOffset;
     
 }
 

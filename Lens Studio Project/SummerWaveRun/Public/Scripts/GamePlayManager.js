@@ -21,6 +21,7 @@
 //@input Asset.AudioTrackAsset soundBestWin
 //@input Asset.AudioTrackAsset soundMinWin
 //@input Asset.AudioTrackAsset soundLowWin
+//@input Asset.AudioTrackAsset soundGameFinished
 
 
 //@input SceneObject[] deactiveOnStart
@@ -191,7 +192,7 @@ updateEvent.bind(function(eventData) {
             StartLevel( _currLevelNumber + 1);
             
         }
-        print ("_scoreThisLevel = " + _scoreThisLevel) ;
+       
     }
  
     
@@ -418,6 +419,7 @@ function DoFinishedGame() {
     script.frontCamMiddleMessage.text = highScoreText;
     
     StopGame();
+    global.playAudioAsset(script.soundGameFinished, 1);   
 
 
 }
