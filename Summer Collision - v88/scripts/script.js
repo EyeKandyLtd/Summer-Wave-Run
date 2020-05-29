@@ -58,8 +58,14 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		life_counter_3.hidden = true;
 
 		Scene.root.find("2dText0").hidden = false;
-		Scene.root.find("2dText0").text = 'GAME OVER!'
+		Scene.root.find("2dText0").text = 'GAME OVER!';
 	}
+
+	if(event.newValue > 0) {
+		event.newValue = 0;
+	}
+
+	Diagnostics.log(event.newValue);
 });
 
 //Display score number
@@ -67,4 +73,4 @@ number.text = score.toString();
 
 //Diagnostics.log(number);
 //Diagnostics.log(score);
-Diagnostics.log(Patches.getScalarValue("score"));
+//Diagnostics.log(Patches.getScalarValue("score"));
