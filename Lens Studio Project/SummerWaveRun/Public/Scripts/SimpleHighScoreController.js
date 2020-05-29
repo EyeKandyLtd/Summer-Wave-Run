@@ -1,7 +1,7 @@
 
 
 // Define the key which the persistent storage system will use to save the data to
-const highScoreKey = "gobackbig_key_high_score";
+const highScoreKey = "ek_key_high_score";
 
 //if heighest score recorded, set it and return true; else return false
 global.TrySetHighScore = function (currentScore) {
