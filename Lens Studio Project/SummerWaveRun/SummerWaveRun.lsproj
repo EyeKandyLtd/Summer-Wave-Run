@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590756139087",
+    "lastChanged": "1590758303883",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,9 +29,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Animated 3D Assets"
-                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -166,10 +163,6 @@
                         "JellyFish",
                         "jellyfish",
                         "jellyfish"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "JetSki"
                     ],
                     [
                         "Animated 3D Assets",
@@ -513,9 +506,6 @@
                         "Particles Mesh"
                     ],
                     [
-                        "Prefabs"
-                    ],
-                    [
                         "Prefabs",
                         "Barrel"
                     ],
@@ -624,13 +614,6 @@
                         "WorldObjectController"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
-                        "Textures",
-                        "Face"
-                    ],
-                    [
                         "Textures",
                         "Pier_EnvMap"
                     ],
@@ -722,7 +705,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -732,6 +714,7 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
+                    "1589823953420994:170044",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -753,9 +736,9 @@
                     "1590145932889509:464174",
                     "1590145934977740:470682",
                     "1590145936849976:477264",
-                    "1590161584667918:504392",
                     "1590161584850241:504719",
                     "1590161586614319:506540",
+                    "1590161587387558:507469",
                     "1590441884156890:1008202",
                     "1590483410975235:248916"
                 ]
@@ -803,7 +786,8 @@
                     "1573760413219268:39660",
                     "1573852247047445:20954",
                     "1589813121912442:40072",
-                    "1589813137499468:41637"
+                    "1589813137499468:41637",
+                    "1590482893382701:192715"
                 ],
                 ""
             ]
@@ -5701,7 +5685,7 @@
                     },
                     {
                         "k": "70",
-                        "v": "1b2e979974ba18b88097bc199f290b96"
+                        "v": "766ee78ab86fc916b59bf2636ec6b01c"
                     },
                     {
                         "k": "71",
@@ -5765,7 +5749,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "f09e010da8f1ed29b027f1d10a525d5d"
+                        "v": "8333f655b42d6b1d4efa25b4970a65c9"
                     },
                     {
                         "k": "98",
@@ -5841,7 +5825,7 @@
                     },
                     {
                         "k": "124",
-                        "v": "aab4f0f9865f57f6329f145ae778fe7a"
+                        "v": "ab6b6aeeaec4e675c61ff46489224c88"
                     },
                     {
                         "k": "125",
@@ -5929,7 +5913,7 @@
                     },
                     {
                         "k": "155",
-                        "v": "3526925a6e4857cb79eae21a88535255"
+                        "v": "55c28b980d6ea7145b321774116018b5"
                     },
                     {
                         "k": "156",
@@ -6469,7 +6453,7 @@
                     },
                     {
                         "k": "549",
-                        "v": "2d3346a1ba41e3038c705e6124d3b8a5"
+                        "v": "2dc21159629171c3827c18d64da13877"
                     }
                 ],
                 "publicState": {
@@ -6477,7 +6461,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-29T12:21:17",
                         "name": "Public",
-                        "hash": "84e2f2f0f0960ceea521e96b85901041",
+                        "hash": "70bfb104fa98256ceffc39c7f8b7f40a",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -7365,9 +7349,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T09:13:35",
+                                "lastModified": "2020-05-29T13:48:50",
                                 "name": "Prefabs",
-                                "hash": "e9c21c93e9fd3d7172ad1ccc3d48d217",
+                                "hash": "d500c98bf2db50f75a467cf613cad7e9",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7392,9 +7376,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T09:13:34",
+                                        "lastModified": "2020-05-29T13:48:50",
                                         "name": "LifeVest.oprfb",
-                                        "hash": "aab4f0f9865f57f6329f145ae778fe7a",
+                                        "hash": "ab6b6aeeaec4e675c61ff46489224c88",
                                         "children": ""
                                     },
                                     {
@@ -7679,9 +7663,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T13:41:30",
+                                "lastModified": "2020-05-29T14:10:29",
                                 "name": "Scripts",
-                                "hash": "c3b3c79aa35f05fc2cf02fbce6156671",
+                                "hash": "af1704d701a95fa7e0e0501b27eefa3b",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7755,9 +7739,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T13:41:30",
+                                        "lastModified": "2020-05-29T14:08:10",
                                         "name": "WearablesManager.js",
-                                        "hash": "2d3346a1ba41e3038c705e6124d3b8a5",
+                                        "hash": "2dc21159629171c3827c18d64da13877",
                                         "children": ""
                                     },
                                     {
@@ -7832,9 +7816,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T13:40:50",
+                                        "lastModified": "2020-05-29T14:10:29",
                                         "name": "GamePlayManager.js",
-                                        "hash": "3526925a6e4857cb79eae21a88535255",
+                                        "hash": "55c28b980d6ea7145b321774116018b5",
                                         "children": ""
                                     },
                                     {
@@ -12514,10 +12498,13 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1590752128016089:246149",
+                        "uid": "1589989947101742:254531",
                         "path_list": [
-                            "Scripts",
-                            "WearablesManager"
+                            "Animated 3D Assets",
+                            "JetSki",
+                            "JetSki",
+                            "Materials00",
+                            "Head_Front"
                         ]
                     }
                 ]

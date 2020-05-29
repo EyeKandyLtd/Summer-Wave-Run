@@ -58,7 +58,7 @@ var _distance = 0;
 
 
 
-var initialLevelVec = new vec3(0,0,-50);
+var initialLevelVec = new vec3(0,0,-70);
 
 
 //var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { onTapEvent(eventData); });
@@ -141,6 +141,7 @@ function Init() {
 function StartGame() {
       
     StopGame();
+    
     print("Starting game");
 
       
@@ -151,7 +152,9 @@ function StartGame() {
      script.hudController.api.SetLives(_lifeCount);     
      script.hudController.api.SetScore (Math.floor(_currScore));
     
-    _isGamePlaying = true;
+     _isGamePlaying = true;
+   // StartLevel(0);
+   
     
 }
 
@@ -185,6 +188,7 @@ function StartLevel(level) {
          _scoreThisLevel = 0;
         
         script.wearablesManager.api.ActiveLevelWearables(level);
+        
         RefreshSpeed();
         
         StartSpawner(level);
