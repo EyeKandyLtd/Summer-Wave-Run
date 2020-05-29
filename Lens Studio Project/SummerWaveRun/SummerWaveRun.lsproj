@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590762894590",
+    "lastChanged": "1590765838616",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -259,6 +259,65 @@
                     ],
                     [
                         "Animated 3D Assets",
+                        "Ramp"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "Map #32"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "Animations",
+                        "Box001"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "Materials"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "Materials",
+                        "Material #172"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "Meshes",
+                        "Box001"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Ramp",
+                        "animated ramp",
+                        "animated ramp"
+                    ],
+                    [
+                        "Animated 3D Assets",
                         "Shark"
                     ],
                     [
@@ -509,6 +568,9 @@
                         "Particles Mesh"
                     ],
                     [
+                        "Prefabs"
+                    ],
+                    [
                         "Prefabs",
                         "Barrel"
                     ],
@@ -543,9 +605,6 @@
                     [
                         "Prefabs",
                         "TurtleShell"
-                    ],
-                    [
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -593,6 +652,10 @@
                     ],
                     [
                         "Scripts",
+                        "MaterialFader"
+                    ],
+                    [
+                        "Scripts",
                         "MenuUI"
                     ],
                     [
@@ -621,11 +684,43 @@
                     ],
                     [
                         "Textures",
+                        "Face"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon",
+                        "HorizonNight"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon",
+                        "New-Horizons---Day"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon",
+                        "New-Horizons---Evening"
+                    ],
+                    [
+                        "Textures",
                         "Pier_EnvMap"
                     ],
                     [
                         "Textures",
                         "Water"
+                    ],
+                    [
+                        "Textures",
+                        "Water",
+                        "Evening-water"
+                    ],
+                    [
+                        "Textures",
+                        "Wearables"
                     ],
                     [
                         "Textures",
@@ -721,7 +816,6 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589823953420994:170044",
                     "1589824396441814:172450",
                     "1589989988470715:271741",
                     "1589989988549559:271830",
@@ -2863,6 +2957,86 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "895",
+                    "uid": "1590763127482082:328003",
+                    "name": "Files\/File919.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "896",
+                    "uid": "1590763873380966:370467",
+                    "name": "Files\/File921",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "901",
+                    "uid": "1590764452967150:447532",
+                    "name": "Files\/File929.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "902",
+                    "uid": "1590764455731479:464505",
+                    "name": "Files\/File931.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "903",
+                    "uid": "1590764455751677:464515",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "904",
+                    "uid": "1590764455762680:464542",
+                    "name": "Files\/File932",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "905",
+                    "uid": "1590764455859534:464578",
+                    "name": "animated ramp",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "906",
+                    "uid": "1590764614452416:490202",
+                    "name": "Files\/File937.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "907",
+                    "uid": "1590764614517923:490209",
+                    "name": "Files\/File939.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "908",
+                    "uid": "1590765098687192:569367",
+                    "name": "Files\/File941.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3301,12 +3475,8 @@
                 "131": "1590752150231946:262981",
                 "132": "1590754890135835:388697",
                 "133": "1590760434866892:747612",
-                "134": "1590762795719966:187279",
-                "135": "1590762795729359:187319",
-                "136": "1590762795994994:187377",
-                "137": "1590762795997387:187379",
-                "138": "1590762796001839:187383",
-                "139": "1590762796005063:187387"
+                "134": "1590764691136016:507500",
+                "135": "1590764828961203:551174"
             }
         },
         "LayerComponent": {
@@ -4658,6 +4828,74 @@
                 {
                     "k": "918",
                     "v": "Files\/File918.js"
+                },
+                {
+                    "k": "919",
+                    "v": "Files\/File919.png"
+                },
+                {
+                    "k": "920",
+                    "v": "Files\/File920.png"
+                },
+                {
+                    "k": "921",
+                    "v": "Files\/File921"
+                },
+                {
+                    "k": "922",
+                    "v": "Files\/File922.lsmat"
+                },
+                {
+                    "k": "929",
+                    "v": "Files\/File929.jpg"
+                },
+                {
+                    "k": "930",
+                    "v": "Files\/File930.jpg"
+                },
+                {
+                    "k": "931",
+                    "v": "Files\/File931.mesh"
+                },
+                {
+                    "k": "932",
+                    "v": "Files\/File932"
+                },
+                {
+                    "k": "933",
+                    "v": "Files\/File933.lsmat"
+                },
+                {
+                    "k": "934",
+                    "v": "Files\/File934.oprfb"
+                },
+                {
+                    "k": "935",
+                    "v": "Files\/File935.fbx"
+                },
+                {
+                    "k": "936",
+                    "v": "Files\/File936.oprfb"
+                },
+                {
+                    "k": "937",
+                    "v": "Files\/File937.png"
+                },
+                {
+                    "k": "938",
+                    "v": "Files\/File938.png"
+                },
+                {
+                    "k": "939",
+                    "v": "Files\/File939.png"
+                },
+                {
+                    "k": "940",
+                    "v": "Files\/File940.png"
+                },
+                {
+                    "k": "941",
+                    "v": "Files\/File941.js"
                 }
             ]
         },
@@ -4828,7 +5066,7 @@
                     },
                     {
                         "k": "40",
-                        "v": "Textures\/Horizon\/HorizonMat.lsmat"
+                        "v": "Textures\/Horizon\/HorizonDay.lsmat"
                     },
                     {
                         "k": "41",
@@ -5477,6 +5715,38 @@
                     {
                         "k": "549",
                         "v": "Scripts\/WearablesManager.js"
+                    },
+                    {
+                        "k": "550",
+                        "v": "Textures\/Water\/Evening-water.png"
+                    },
+                    {
+                        "k": "551",
+                        "v": "Textures\/Horizon\/HorizonNight.lsmat"
+                    },
+                    {
+                        "k": "552",
+                        "v": "Animated 3D Assets\/Ramp"
+                    },
+                    {
+                        "k": "554",
+                        "v": "Animated 3D Assets\/Ramp\/Map #32.jpg"
+                    },
+                    {
+                        "k": "555",
+                        "v": "Animated 3D Assets\/Ramp\/animated ramp.fbx"
+                    },
+                    {
+                        "k": "556",
+                        "v": "Textures\/Horizon\/New-Horizons---Evening.png"
+                    },
+                    {
+                        "k": "557",
+                        "v": "Textures\/Horizon\/New-Horizons---Day.png"
+                    },
+                    {
+                        "k": "558",
+                        "v": "Scripts\/MaterialFader.js"
                     }
                 ],
                 "hashes": [
@@ -5614,7 +5884,7 @@
                     },
                     {
                         "k": "40",
-                        "v": "69a11bae6790f19d846ba5749b17e2ae"
+                        "v": "04b67c7dadb54b67ba5fcba52f043753"
                     },
                     {
                         "k": "41",
@@ -5778,7 +6048,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "1936d67a6fa0170165a3e0b65f77f475"
+                        "v": "ebfa4cccb2a073c23213fad931999287"
                     },
                     {
                         "k": "98",
@@ -5862,7 +6132,7 @@
                     },
                     {
                         "k": "126",
-                        "v": "31a6c6434bb1c50dd7dad6036b096811"
+                        "v": "2f70df2a1d5916cfc277832e5dd4222d"
                     },
                     {
                         "k": "127",
@@ -5942,7 +6212,7 @@
                     },
                     {
                         "k": "155",
-                        "v": "f333d33dbdd1dbc7398bfce275e8e5f9"
+                        "v": "f96acf853f5d7f17fcc14927bc92d949"
                     },
                     {
                         "k": "156",
@@ -6483,6 +6753,42 @@
                     {
                         "k": "549",
                         "v": "0c67959cd69115b7189de90327082571"
+                    },
+                    {
+                        "k": "550",
+                        "v": "75d80e7558bc21ceb3d7e5387c5ca451"
+                    },
+                    {
+                        "k": "551",
+                        "v": "203bba41f5dfafc16f952df2fa3ff6ed"
+                    },
+                    {
+                        "k": "552",
+                        "v": "d41d8cd98f00b204e9800998ecf8427e"
+                    },
+                    {
+                        "k": "553",
+                        "v": "321e2e9dc683a714f0fae88fc6c52cf2"
+                    },
+                    {
+                        "k": "554",
+                        "v": "f266ce079d9a92c8d585765b081bc588"
+                    },
+                    {
+                        "k": "555",
+                        "v": "321e2e9dc683a714f0fae88fc6c52cf2"
+                    },
+                    {
+                        "k": "556",
+                        "v": "a71f5dac14e1f15972b85262521e8c20"
+                    },
+                    {
+                        "k": "557",
+                        "v": "c383f0421ef77b9170377c7c17417583"
+                    },
+                    {
+                        "k": "558",
+                        "v": "0ed7e15d1f7f203ffb4a6ac631761f4a"
                     }
                 ],
                 "publicState": {
@@ -6490,7 +6796,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-29T12:21:17",
                         "name": "Public",
-                        "hash": "a569668e3521def4f591036acded183c",
+                        "hash": "0bbb3d1410b96530d555d8655c2bda93",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6559,9 +6865,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-21T15:25:57",
+                                "lastModified": "2020-05-29T15:58:29",
                                 "name": "Animated 3D Assets",
-                                "hash": "b9d0326475631bcd1b3067a2b9f5c539",
+                                "hash": "d3812d823d460de2bb3aceddb1fba24e",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -6812,6 +7118,35 @@
                                     },
                                     {
                                         "isFolder": "true",
+                                        "lastModified": "2020-05-29T16:00:52",
+                                        "name": "Ramp",
+                                        "hash": "1036a1fa51974a1495ce03a9aebdf91a",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T12:20:53",
+                                                "name": "Map #32.jpg",
+                                                "hash": "f266ce079d9a92c8d585765b081bc588",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T15:54:27",
+                                                "name": "animated ramp.fbx",
+                                                "hash": "321e2e9dc683a714f0fae88fc6c52cf2",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T15:58:11",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
                                         "lastModified": "2020-05-28T21:48:11",
                                         "name": "LifeVest",
                                         "hash": "2a084a36978e4eab970c13aadcd50f9a",
@@ -6881,7 +7216,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-05-28T22:52:35",
                                 "name": "Textures",
-                                "hash": "b48de46fc66207254a4bd977f7288ad9",
+                                "hash": "8505cd36ec3b28af181cf0d50a9ed7b3",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6906,9 +7241,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-29T09:13:32",
+                                        "lastModified": "2020-05-29T15:38:45",
                                         "name": "Water",
-                                        "hash": "acf6d1273573bc9fead157e80560b4fd",
+                                        "hash": "8276b99241d0f635b8b853d071a77d69",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -6922,6 +7257,13 @@
                                                 "lastModified": "2020-05-28T21:48:12",
                                                 "name": "ripple_height_map_idea.png",
                                                 "hash": "4c0665399395b3eb7158369b554dd06e",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-20T17:29:42",
+                                                "name": "Evening-water.png",
+                                                "hash": "75d80e7558bc21ceb3d7e5387c5ca451",
                                                 "children": ""
                                             },
                                             {
@@ -7126,10 +7468,17 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-29T12:01:32",
+                                        "lastModified": "2020-05-29T16:08:44",
                                         "name": "Horizon",
-                                        "hash": "3de756be9f5e35696a46219a8bdca83d",
+                                        "hash": "122abe44cd119c9f54640da504e1f741",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T16:08:44",
+                                                "name": "HorizonNight.lsmat",
+                                                "hash": "203bba41f5dfafc16f952df2fa3ff6ed",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-05-28T10:01:18",
@@ -7139,9 +7488,23 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-05-29T12:01:32",
-                                                "name": "HorizonMat.lsmat",
-                                                "hash": "69a11bae6790f19d846ba5749b17e2ae",
+                                                "lastModified": "2020-05-29T16:02:35",
+                                                "name": "New-Horizons---Evening.png",
+                                                "hash": "a71f5dac14e1f15972b85262521e8c20",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T16:02:35",
+                                                "name": "New-Horizons---Day.png",
+                                                "hash": "c383f0421ef77b9170377c7c17417583",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T16:08:28",
+                                                "name": "HorizonDay.lsmat",
+                                                "hash": "04b67c7dadb54b67ba5fcba52f043753",
                                                 "children": ""
                                             },
                                             {
@@ -7378,9 +7741,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T15:34:10",
+                                "lastModified": "2020-05-29T15:35:01",
                                 "name": "Prefabs",
-                                "hash": "9ea7576d3310861e5dfc23565efd4a39",
+                                "hash": "6ac2fb92e1c39699314b9df48a17e2bb",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7419,9 +7782,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T15:34:10",
+                                        "lastModified": "2020-05-29T15:35:01",
                                         "name": "Shark.oprfb",
-                                        "hash": "31a6c6434bb1c50dd7dad6036b096811",
+                                        "hash": "2f70df2a1d5916cfc277832e5dd4222d",
                                         "children": ""
                                     },
                                     {
@@ -7692,9 +8055,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T15:30:53",
+                                "lastModified": "2020-05-29T16:22:16",
                                 "name": "Scripts",
-                                "hash": "0c6d60707b7b55ac15ca8795a8aea2da",
+                                "hash": "5fd27224026b256d0becd9f9c8ff4a7c",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7845,9 +8208,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T15:30:53",
+                                        "lastModified": "2020-05-29T15:37:10",
                                         "name": "GamePlayManager.js",
-                                        "hash": "f333d33dbdd1dbc7398bfce275e8e5f9",
+                                        "hash": "f96acf853f5d7f17fcc14927bc92d949",
                                         "children": ""
                                     },
                                     {
@@ -7855,6 +8218,13 @@
                                         "lastModified": "2020-05-28T21:48:12",
                                         "name": "EarsAnimation.js",
                                         "hash": "c7558659befa8bb5b97fd28a5020a431",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-29T16:22:16",
+                                        "name": "MaterialFader.js",
+                                        "hash": "0ed7e15d1f7f203ffb4a6ac631761f4a",
                                         "children": ""
                                     },
                                     {
@@ -8683,6 +9053,19 @@
                                         "publicId": "37",
                                         "source": "\/Users\/isaacdart\/Desktop\/water_nrm.jpeg",
                                         "additional": ""
+                                    },
+                                    {
+                                        "name": "Evening-water",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "895",
+                                        "dependency": "0",
+                                        "uid": "1590763127482082:328003",
+                                        "fileId": "919",
+                                        "originalId": "920",
+                                        "publicId": "550",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Water\/Evening-water.png",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -8713,7 +9096,7 @@
                                         "additional": ""
                                     },
                                     {
-                                        "name": "HorizonMat",
+                                        "name": "HorizonDay",
                                         "type": "2",
                                         "subtype": "0",
                                         "resourceId": "203",
@@ -8775,6 +9158,45 @@
                                         "originalId": "893",
                                         "publicId": "535",
                                         "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "HorizonNight",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "896",
+                                        "dependency": "0",
+                                        "uid": "1590763873380966:370467",
+                                        "fileId": "921",
+                                        "originalId": "922",
+                                        "publicId": "551",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "New-Horizons---Evening",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "906",
+                                        "dependency": "0",
+                                        "uid": "1590764614452416:490202",
+                                        "fileId": "937",
+                                        "originalId": "938",
+                                        "publicId": "556",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Horizon\/New-Horizons---Evening.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "New-Horizons---Day",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "907",
+                                        "dependency": "0",
+                                        "uid": "1590764614517923:490209",
+                                        "fileId": "939",
+                                        "originalId": "940",
+                                        "publicId": "557",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Horizon\/New-Horizons---Day.png",
                                         "additional": ""
                                     }
                                 ]
@@ -9381,6 +9803,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "549",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-TyrQtI\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "MaterialFader",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "908",
+                                "dependency": "0",
+                                "uid": "1590765098687192:569367",
+                                "fileId": "941",
+                                "originalId": "18446744073709551615",
+                                "publicId": "558",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-OpTjAA\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -11739,6 +12174,153 @@
                                         "additional": ""
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Ramp",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "552",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Map #32",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "901",
+                                        "dependency": "0",
+                                        "uid": "1590764452967150:447532",
+                                        "fileId": "929",
+                                        "originalId": "930",
+                                        "publicId": "554",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Ramp\/Map #32.jpg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "animated ramp",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "935",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "555",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Ramp\/animated ramp.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Material #172",
+                                                    "v": "1590764455762680:464542"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Box001",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "902",
+                                                        "dependency": "1",
+                                                        "uid": "1590764455731479:464505",
+                                                        "fileId": "931",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-OpTjAA\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Box001",
+                                                        "type": "8",
+                                                        "subtype": "0",
+                                                        "resourceId": "903",
+                                                        "dependency": "1",
+                                                        "uid": "1590764455751677:464515",
+                                                        "fileId": "18446744073709551615",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Material #172",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "904",
+                                                        "dependency": "0",
+                                                        "uid": "1590764455762680:464542",
+                                                        "fileId": "932",
+                                                        "originalId": "933",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "animated ramp",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "905",
+                                                "dependency": "1",
+                                                "uid": "1590764455859534:464578",
+                                                "fileId": "934",
+                                                "originalId": "936",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -12525,8 +13107,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1590762795719966:187279"
+                "resources": [
+                    {
+                        "uid": "1590765098687192:569367",
+                        "path_list": [
+                            "Scripts",
+                            "MaterialFader"
+                        ]
+                    }
                 ]
             }
         },
@@ -13762,67 +14350,6 @@
                                 {
                                     "k": "1589989950879160:254943",
                                     "v": "1589989988448213:271719"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "k": "1590762795719966:187279",
-                        "v": {
-                            "prefab": "1590060386635040:806367",
-                            "isActive": "true",
-                            "mapping": [
-                                {
-                                    "k": "1590762795719966:187279",
-                                    "v": "1590762795719966:187279"
-                                },
-                                {
-                                    "k": "1590762795724230:187295",
-                                    "v": "1590762795724230:187295"
-                                },
-                                {
-                                    "k": "1590762795727438:187297",
-                                    "v": "1590762795727438:187297"
-                                },
-                                {
-                                    "k": "1590762795728189:187299",
-                                    "v": "1590762795728189:187299"
-                                },
-                                {
-                                    "k": "1590762795728775:187307",
-                                    "v": "1590762795728775:187307"
-                                },
-                                {
-                                    "k": "1590762795729359:187319",
-                                    "v": "1590762795729359:187319"
-                                },
-                                {
-                                    "k": "1590762795730272:187321",
-                                    "v": "1590762795730272:187321"
-                                },
-                                {
-                                    "k": "1590762795994994:187377",
-                                    "v": "1590762795994994:187377"
-                                },
-                                {
-                                    "k": "1590762795997387:187379",
-                                    "v": "1590762795997387:187379"
-                                },
-                                {
-                                    "k": "1590762796000539:187381",
-                                    "v": "1590762796000539:187381"
-                                },
-                                {
-                                    "k": "1590762796001839:187383",
-                                    "v": "1590762796001839:187383"
-                                },
-                                {
-                                    "k": "1590762796003660:187385",
-                                    "v": "1590762796003660:187385"
-                                },
-                                {
-                                    "k": "1590762796005063:187387",
-                                    "v": "1590762796005063:187387"
                                 }
                             ]
                         }
@@ -16730,6 +17257,41 @@
                                 "Component.RenderMeshVisual"
                             ],
                             "v": "1590060535903212:869255"
+                        }
+                    ]
+                },
+                {
+                    "k": "1590764455859534:464578",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1590764455853301:464558"
+                        },
+                        {
+                            "k": [
+                                "Box001"
+                            ],
+                            "v": "1590764455854624:464560"
+                        },
+                        {
+                            "k": [
+                                "Box001",
+                                "Component.Animation"
+                            ],
+                            "v": "1590764455857897:464574"
+                        },
+                        {
+                            "k": [
+                                "Box001",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1590764455855407:464562"
+                        },
+                        {
+                            "k": [
+                                "Component.AnimationMixer"
+                            ],
+                            "v": "1590764455858591:464576"
                         }
                     ]
                 }
