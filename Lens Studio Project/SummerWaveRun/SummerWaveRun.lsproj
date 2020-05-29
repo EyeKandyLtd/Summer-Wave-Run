@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590751198257",
+    "lastChanged": "1590751958371",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -637,6 +637,11 @@
                     [
                         "Textures",
                         "Wearables",
+                        "CaptainsHat"
+                    ],
+                    [
+                        "Textures",
+                        "Wearables",
                         "Captian Hat-01"
                     ],
                     [
@@ -648,6 +653,11 @@
                         "Textures",
                         "Wearables",
                         "Red Sun Glasses-01"
+                    ],
+                    [
+                        "Textures",
+                        "Wearables",
+                        "RedSunglasses"
                     ],
                     [
                         "Textures",
@@ -2834,6 +2844,22 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "892",
+                    "uid": "1590751473522092:108718",
+                    "name": "Files\/File914",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "893",
+                    "uid": "1590751761179945:177385",
+                    "name": "Files\/File916",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3251,7 +3277,10 @@
                 "124": "1590688800087425:2588023",
                 "125": "1590742471715308:176711",
                 "126": "1590749179477688:424231",
-                "127": "1590750449298906:581922"
+                "127": "1590750449298906:581922",
+                "128": "1590751352725734:58086",
+                "129": "1590751549608572:142630",
+                "130": "1590751748850224:160509"
             }
         },
         "LayerComponent": {
@@ -4583,6 +4612,22 @@
                 {
                     "k": "913",
                     "v": "Files\/File913.lsmat"
+                },
+                {
+                    "k": "914",
+                    "v": "Files\/File914"
+                },
+                {
+                    "k": "915",
+                    "v": "Files\/File915.lsmat"
+                },
+                {
+                    "k": "916",
+                    "v": "Files\/File916"
+                },
+                {
+                    "k": "917",
+                    "v": "Files\/File917.lsmat"
                 }
             ]
         },
@@ -5390,6 +5435,14 @@
                     {
                         "k": "546",
                         "v": "Textures\/Wearables\/GilliganHat 3.lsmat"
+                    },
+                    {
+                        "k": "547",
+                        "v": "Textures\/Wearables\/RedSunglasses.lsmat"
+                    },
+                    {
+                        "k": "548",
+                        "v": "Textures\/Wearables\/CaptainsHat.lsmat"
                     }
                 ],
                 "hashes": [
@@ -5691,7 +5744,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "960019a11e978e1036d0bc5737739826"
+                        "v": "d6ece25fe6bc65f9fa03b6e00d73e8a6"
                     },
                     {
                         "k": "98",
@@ -6384,14 +6437,22 @@
                     {
                         "k": "546",
                         "v": "d0857f2753a4d7572b7eb5de1b8eee14"
+                    },
+                    {
+                        "k": "547",
+                        "v": "a5640d79b57e7fd92164987f62855f21"
+                    },
+                    {
+                        "k": "548",
+                        "v": "e9b331113426d818ce3f32bd0d8f9bdd"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-29T11:33:45",
+                        "lastModified": "2020-05-29T12:21:17",
                         "name": "Public",
-                        "hash": "cd0f7586715fd713442edfb684001c87",
+                        "hash": "29ee87f9722876d68bde43f99a7a4861",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6782,7 +6843,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-05-28T22:52:35",
                                 "name": "Textures",
-                                "hash": "62ce0b91279f26d046c002f6770b25ef",
+                                "hash": "b48de46fc66207254a4bd977f7288ad9",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7112,9 +7173,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-05-29T12:19:30",
+                                        "lastModified": "2020-05-29T12:29:41",
                                         "name": "Wearables",
-                                        "hash": "163ba18517c8684ef135bd5717761a1c",
+                                        "hash": "520cc80603f98e654e0c36b18163e95e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -7135,6 +7196,20 @@
                                                 "lastModified": "2020-05-29T12:19:30",
                                                 "name": "Sunglasses.lsmat",
                                                 "hash": "52d3a97ec80491f39a68b8f8f3422929",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T12:29:41",
+                                                "name": "CaptainsHat.lsmat",
+                                                "hash": "e9b331113426d818ce3f32bd0d8f9bdd",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-05-29T12:28:44",
+                                                "name": "RedSunglasses.lsmat",
+                                                "hash": "a5640d79b57e7fd92164987f62855f21",
                                                 "children": ""
                                             },
                                             {
@@ -8864,6 +8939,32 @@
                                         "fileId": "912",
                                         "originalId": "913",
                                         "publicId": "546",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "RedSunglasses",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "892",
+                                        "dependency": "0",
+                                        "uid": "1590751473522092:108718",
+                                        "fileId": "914",
+                                        "originalId": "915",
+                                        "publicId": "547",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "CaptainsHat",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "893",
+                                        "dependency": "0",
+                                        "uid": "1590751761179945:177385",
+                                        "fileId": "916",
+                                        "originalId": "917",
+                                        "publicId": "548",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -12366,15 +12467,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1590750172644039:561616",
-                        "path_list": [
-                            "Textures",
-                            "Wearables",
-                            "WomansHat"
-                        ]
-                    }
+                "objects": [
+                    "1590749179477688:424231"
                 ]
             }
         },
