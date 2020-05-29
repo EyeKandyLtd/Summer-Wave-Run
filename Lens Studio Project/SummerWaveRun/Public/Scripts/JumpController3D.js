@@ -4,6 +4,7 @@ var jumpTrans;
 var isJumpRequested = false;
 var requestedJumpHeight;
 var requestedJumpTime;
+var isForceJumping = false;
 
 
 var jumpStartTime;
@@ -21,7 +22,7 @@ mouthOpenedEvent.faceIndex = 0;
 mouthOpenedEvent.bind(function (eventData)
 {
    
-    script.api.Jump(70, 1.5);
+    script.api.Jump(90, 1);
 });
 
 var updateEvent = script.createEvent("UpdateEvent");
@@ -31,7 +32,7 @@ updateEvent.bind(function(eventData){
    
     if (isJumpRequested) {
         isJumpRequested = false
-        if (script.api.isOnGround) {
+        if (script.api.isOnGround ) {
             script.api.isOnGround = false;
             jumpStartTime = getTime();
         } else {
@@ -39,7 +40,7 @@ updateEvent.bind(function(eventData){
         }
     }
     
-    if (!script.api.isOnGround) {
+    if (!script.api.isOnGround || isForceJumping ) {
         ContinueJump();        
             
     }
@@ -55,6 +56,7 @@ function ContinueJump() {
      if (y< 0) {
         y = 0;
         script.api.isOnGround = true; 
+        isForceJumping = false;
      }
     
     pos.y = y;
@@ -71,5 +73,12 @@ function ContinueJump() {
 script.api.Jump = function(height, timeSecs) { 
     requestedJumpHeight = height;
     requestedJumpTime = timeSecs;
+    isJumpRequested = true; 
+}
+
+script.api.ForceJump = function(height, timeSecs) { 
+    requestedJumpHeight = height;
+    requestedJumpTime = timeSecs;
+    isForceJumping = true;
     isJumpRequested = true; 
 }

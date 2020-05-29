@@ -36,7 +36,7 @@
 
 global.gamePlayManager = script;
 
-const scoreFactor = 8;
+const scoreFactor = 5;
 
 const  persistant_lastFrontMessageKey = "EK_key_lastFrontMessage";
 
@@ -54,13 +54,15 @@ var _maxLives = 3;
 var _highScore = 0;
 var _currScore = 0;
 var _scoreThisLevel = 0;
+var _scorePerLevel = script.scorePerLevel;
 
 var _currSpeed = 0;
 var _distance = 0;
 
+var _startCamPos = script.camera.getSceneObject().getTransform().getWorldPosition();
+var _camDistanceFromSpeedFactor = 0.
 
-
-var initialLevelVec = new vec3(0,0,-70);
+var initialLevelVec = new vec3(0,0,-100);
 
 
 
@@ -112,6 +114,7 @@ function ResetVars() {
     _distance = 0;
     _timeGameStarted = 0;
     _scoreThisLevel = 0;
+    _scorePerLevel = script.scorePerLevel;
 }
 
 script.api.onLoad = function() {
@@ -183,10 +186,12 @@ updateEvent.bind(function(eventData) {
         
        UpdateDistanceAndScore();
         
-        if (_scoreThisLevel > script.scorePerLevel) {
+        if (_scoreThisLevel > _scorePerLevel) {
+            
             StartLevel( _currLevelNumber + 1);
             
         }
+        print ("_scoreThisLevel = " + _scoreThisLevel) ;
     }
  
     
@@ -198,7 +203,15 @@ function StartLevel(level) {
     
        print("Starting level " + level);
     
+    
     if (level < script.levels.length) {
+       
+        //..spawn in end level ramp?
+        if (level > 0) {
+            var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
+            rampStartPos.y = 0;
+            global.gamePlayManager.pfxManager.api.DoPFX_LevelFinalBoss(rampStartPos);
+        }
          
          _currLevelNumber = level;
          _isLevelWon = false;
@@ -217,7 +230,7 @@ function StartLevel(level) {
         var cs = currLevel.api.GetSecondsBetweenSpawns();
         cs = Math.max(0.2, cs * 0.95);
         currLevel.api.SetSecondsBetweenSpawns(cs);
-        script.scorePerLevel *= 1.3; // make level up longer distance
+        _scorePerLevel *= 1.3; // make level up longer distance
         
         script.wearablesManager.api.ActiveRandomWearables();
         
@@ -279,6 +292,9 @@ function RefreshSpeed() {
 
 
 function StartSpawner( level) {
+    
+    level = Math.min(level, script.levels.length-1);
+    level = Math.max(level, 0);
     
     for (i = 0; i < script.levels.length; i++) {
 
@@ -375,7 +391,7 @@ function StartCurrentLevel() {
 function DoFinishedGame() {
 
 
-   // global.ResetHighScore(); //debug only
+   //global.ResetHighScore(); //debug only
     print ("Game over");
 
     _isGameFinished = true;
@@ -394,12 +410,6 @@ function DoFinishedGame() {
     script.frontCamTopMessage.text = selfieBannerMessage;
     
 
-
-    var winTypeMessage = "have graduated.";
-    if (wasHighScore) winTypeMessage = "graduated with a new high score.";
-
-    var endOfGameMessage = "Congratulations! You " +  winTypeMessage + " Take a selfie to celebrate.\n\nFlip camera!";
-    
     
     var highScoreText = wasHighScore
     ?("New high score!!! \n " + global.GetHighScore() + " !!!")

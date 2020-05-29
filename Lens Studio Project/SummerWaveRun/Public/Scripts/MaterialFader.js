@@ -1,13 +1,14 @@
 // -----JS CODE-----
 
-//@input float maxAlpha = 1.0;
-//@input cycleTimeSecs = 6;
+//@input float maxAlpha = 1.0
+//@input float cycleTimeSecs = 6.0
 
 // @input bool copyMaterial = true
 
 var transform = script.getTransform();
 
 var meshVisual = script.getSceneObject().getFirstComponent("Component.MeshVisual");
+var jumpStartTime = getTime();
 
 if (script.copyMaterial) {
     meshVisual.mainMaterial = meshVisual.mainMaterial.clone();
@@ -23,8 +24,8 @@ function setAlpha(pass, alpha) {
 
 script.createEvent("UpdateEvent").bind(function(){
     
-    var alpha = maxAlpha * Math.sin( Math.PI * ((getTime() - jumpStartTime)/cycleTimeSecs) );
+    var alpha = script.maxAlpha * Math.sin( Math.PI * ((getTime() - jumpStartTime)/script.cycleTimeSecs) );
     
     setAlpha(mainPass, alpha);
-    print ("mat settings alpha to " + alpha);
+   
 });

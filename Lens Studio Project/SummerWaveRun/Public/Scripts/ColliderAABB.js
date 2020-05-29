@@ -60,7 +60,7 @@ script.api.PlayHitSound = function() {
 }
 
 script.api.DoHitPFX = function() {
-    print("DoHitPFX");
+    
     global.gamePlayManager.pfxManager.api.DoPFX_HitObject(script.api.worldPos);
 }
 
