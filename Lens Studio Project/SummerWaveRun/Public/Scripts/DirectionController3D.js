@@ -53,8 +53,12 @@ script.api.UpdateDirection = function(newVec) {
 function DoUpdateMovement() {
     
      if (isOperating) {
+        var vec = currVec;
+        if (global.directionController3DVector != vec3.zero) {
+            vec = global.directionController3DVector;
+        }
        
-        var deltaVec = currVec.uniformScale(getDeltaTime());
+        var deltaVec = vec.uniformScale(getDeltaTime());
         var newPos = thisTransform.getLocalPosition().add(deltaVec);
         thisTransform.setLocalPosition(newPos);
         

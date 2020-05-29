@@ -28,6 +28,8 @@
 //@input SceneObject[] activateOnGameEnd
 
 //@input Component.Text frontCamTopMessage
+//@input Component.Text frontCamMiddleMessage
+
 //@input SceneObject[] unlockIfPreviouslyWon
 
 
@@ -61,17 +63,32 @@ var _distance = 0;
 var initialLevelVec = new vec3(0,0,-70);
 
 
-//var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { onTapEvent(eventData); });
-//var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
+
 
 script.createEvent("CameraFrontEvent").bind(onFrontCamEvent);
 script.createEvent("CameraBackEvent").bind(onBackCamEvent);
+
+/*
+
+//var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
+
 
 var mouthOpenedEvent = script.createEvent("MouthOpenedEvent");
 mouthOpenedEvent.faceIndex = 0;
 mouthOpenedEvent.bind(function (eventData)
 {
     script.api.StartGameplay();
+});
+*/
+
+//Tap To Start
+var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { 
+   
+    if ( _isGameFinished) {
+        Init();
+    } else {
+        script.api.StartGameplay(); 
+    }
 });
 
 
@@ -186,12 +203,12 @@ function StartLevel(level) {
          _currLevelNumber = level;
          _isLevelWon = false;
          _scoreThisLevel = 0;
-        
-        script.wearablesManager.api.ActiveLevelWearables(level);
-        
+                
         RefreshSpeed();
         
         StartSpawner(level);
+        
+         script.wearablesManager.api.ActiveLevelWearables(level);
 
     } else {
         //Show winning screen..
@@ -256,8 +273,8 @@ function RefreshSpeed() {
     
         _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
         global.directionController3DVector = initialLevelVec.uniformScale(_currSpeed);
-        script.scrollingWater.api.SetScrollDirection_UV2(0,-0.20 * _currSpeed);
-        script.scrollingWater.api.SetScrollDirection_UV3(0,-0.06 * _currSpeed);
+        script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * _currSpeed);
+        script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * _currSpeed);
 }
 
 
@@ -358,13 +375,13 @@ function StartCurrentLevel() {
 function DoFinishedGame() {
 
 
-    //global.ResetHighScore(); //debug only
+   // global.ResetHighScore(); //debug only
     print ("Game over");
 
     _isGameFinished = true;
     StopAllSpawners();
 
-       global.SetContentEnabled(script.activateOnGameEnd, true);
+    global.SetContentEnabled(script.activateOnGameEnd, true);
     global.SetContentEnabled(script.activateOnStart, false);
 
     var score = CalcCurrentScore();
@@ -372,7 +389,7 @@ function DoFinishedGame() {
     var wasHighScore = global.TrySetHighScore(score);
 
 
-    var selfieBannerMessage = "Jet Ski Distance " + "\n " + Math.floor(_currScore) + "";
+    var selfieBannerMessage = "Jet Ski Distance " + "\n " + Math.floor(_currScore) + "!";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
     script.frontCamTopMessage.text = selfieBannerMessage;
     
@@ -382,6 +399,13 @@ function DoFinishedGame() {
     if (wasHighScore) winTypeMessage = "graduated with a new high score.";
 
     var endOfGameMessage = "Congratulations! You " +  winTypeMessage + " Take a selfie to celebrate.\n\nFlip camera!";
+    
+    
+    var highScoreText = wasHighScore
+    ?("New high score!!! \n " + global.GetHighScore() + " !!!")
+    :("Highscore: " + global.GetHighScore());
+    
+    script.frontCamMiddleMessage.text = highScoreText;
     
     StopGame();
 
@@ -408,10 +432,7 @@ function SetFrontCamTextIfPreviouslySet() {
 
 function CalcCurrentScore() {
 
-  var score = 999;
-
-    print("CalcCurrentScore() = " + score);
-    return score;
+  return _currScore;
 }
 
 function DerriveGrade(pct) {

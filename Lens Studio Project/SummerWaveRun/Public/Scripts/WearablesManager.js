@@ -41,12 +41,12 @@ function ActiveObject(sceneObjs, indx) {
     
     var len = sceneObjs.length;
     
-     print("ActiveObject " + indx + " of " + len);
+    
     
      for (i = 0; i < len; i++) {
             
             if (sceneObjs[i] != null) {
-            print("Shall I ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
+           // print("Shall I ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
                 sceneObjs[i].enabled = (indx == i);
             } else {
                 print("ObjectSpawner:: A slot on the prefab pool was null. Please check and restart Lens.");            
