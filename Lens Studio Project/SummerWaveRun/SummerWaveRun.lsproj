@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590751958371",
+    "lastChanged": "1590756139087",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -552,9 +552,6 @@
                         "TurtleShell"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "AudioManager"
                     ],
@@ -620,7 +617,14 @@
                     ],
                     [
                         "Scripts",
+                        "WearablesManager"
+                    ],
+                    [
+                        "Scripts",
                         "WorldObjectController"
+                    ],
+                    [
+                        "Textures"
                     ],
                     [
                         "Textures",
@@ -741,7 +745,6 @@
                     "1590060197134853:794222",
                     "1590060555187304:892033",
                     "1590084222825935:118241",
-                    "1590145056885033:281418",
                     "1590145903519951:431601",
                     "1590145910247653:438114",
                     "1590145913915537:444576",
@@ -2860,6 +2863,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "894",
+                    "uid": "1590752128016089:246149",
+                    "name": "Files\/File918.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3280,7 +3291,9 @@
                 "127": "1590750449298906:581922",
                 "128": "1590751352725734:58086",
                 "129": "1590751549608572:142630",
-                "130": "1590751748850224:160509"
+                "130": "1590751748850224:160509",
+                "131": "1590752150231946:262981",
+                "132": "1590754890135835:388697"
             }
         },
         "LayerComponent": {
@@ -4628,6 +4641,10 @@
                 {
                     "k": "917",
                     "v": "Files\/File917.lsmat"
+                },
+                {
+                    "k": "918",
+                    "v": "Files\/File918.js"
                 }
             ]
         },
@@ -5443,6 +5460,10 @@
                     {
                         "k": "548",
                         "v": "Textures\/Wearables\/CaptainsHat.lsmat"
+                    },
+                    {
+                        "k": "549",
+                        "v": "Scripts\/WearablesManager.js"
                     }
                 ],
                 "hashes": [
@@ -5744,7 +5765,7 @@
                     },
                     {
                         "k": "96",
-                        "v": "d6ece25fe6bc65f9fa03b6e00d73e8a6"
+                        "v": "f09e010da8f1ed29b027f1d10a525d5d"
                     },
                     {
                         "k": "98",
@@ -5908,7 +5929,7 @@
                     },
                     {
                         "k": "155",
-                        "v": "5c4bb241b19d58127e5068b75699b223"
+                        "v": "3526925a6e4857cb79eae21a88535255"
                     },
                     {
                         "k": "156",
@@ -6445,6 +6466,10 @@
                     {
                         "k": "548",
                         "v": "e9b331113426d818ce3f32bd0d8f9bdd"
+                    },
+                    {
+                        "k": "549",
+                        "v": "2d3346a1ba41e3038c705e6124d3b8a5"
                     }
                 ],
                 "publicState": {
@@ -6452,7 +6477,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-29T12:21:17",
                         "name": "Public",
-                        "hash": "29ee87f9722876d68bde43f99a7a4861",
+                        "hash": "84e2f2f0f0960ceea521e96b85901041",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -7654,9 +7679,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-28T21:48:12",
+                                "lastModified": "2020-05-29T13:41:30",
                                 "name": "Scripts",
-                                "hash": "376779081295161030e0928cb3f3b939",
+                                "hash": "c3b3c79aa35f05fc2cf02fbce6156671",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7726,6 +7751,13 @@
                                         "lastModified": "2020-05-28T21:48:12",
                                         "name": "MenuUI.js",
                                         "hash": "3389a0256dc2fe2350c35719307ab1a2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-29T13:41:30",
+                                        "name": "WearablesManager.js",
+                                        "hash": "2d3346a1ba41e3038c705e6124d3b8a5",
                                         "children": ""
                                     },
                                     {
@@ -7800,9 +7832,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T21:48:12",
+                                        "lastModified": "2020-05-29T13:40:50",
                                         "name": "GamePlayManager.js",
-                                        "hash": "5c4bb241b19d58127e5068b75699b223",
+                                        "hash": "3526925a6e4857cb79eae21a88535255",
                                         "children": ""
                                     },
                                     {
@@ -9323,6 +9355,19 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "532",
                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-lrsMVQ\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "WearablesManager",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "894",
+                                "dependency": "0",
+                                "uid": "1590752128016089:246149",
+                                "fileId": "918",
+                                "originalId": "18446744073709551615",
+                                "publicId": "549",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-TyrQtI\/\/system\/\/emergencyFiles\/emergencyJs.js",
                                 "additional": ""
                             }
                         ]
@@ -12467,8 +12512,14 @@
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1590749179477688:424231"
+                "resources": [
+                    {
+                        "uid": "1590752128016089:246149",
+                        "path_list": [
+                            "Scripts",
+                            "WearablesManager"
+                        ]
+                    }
                 ]
             }
         },
