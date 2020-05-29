@@ -12,6 +12,8 @@ script.api.ActiveRandomGlasses = function () {
 };
 
 script.api.ActiveLevelWearables = function (levelIndex) {
+   
+    
     ActiveObject(script.LevelGlasses, levelIndex);
     ActiveObject(script.LevelHats, levelIndex);
 };
@@ -39,10 +41,13 @@ function ActiveObject(sceneObjs, indx) {
     
     var len = sceneObjs.length;
     
+    
+    
      for (i = 0; i < len; i++) {
             
             if (sceneObjs[i] != null) {
-                sceneObjs[i].enabled == indx;
+           // print("Shall I ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
+                sceneObjs[i].enabled = (indx == i);
             } else {
                 print("ObjectSpawner:: A slot on the prefab pool was null. Please check and restart Lens.");            
             }
