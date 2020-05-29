@@ -6,6 +6,7 @@
 //@input Component.Camera camera
 //@input Component.ScriptComponent hudController
 //@input Component.ScriptComponent pfxManager
+//@input Component.ScriptComponent wearablesManager
 //@input Component.ScriptComponent scrollingWater
 
 //@input Component.ScriptComponent[] levels
@@ -183,6 +184,7 @@ function StartLevel(level) {
          _isLevelWon = false;
          _scoreThisLevel = 0;
         
+        script.wearablesManager.api.ActiveLevelWearables(level);
         RefreshSpeed();
         
         StartSpawner(level);
@@ -192,9 +194,11 @@ function StartLevel(level) {
        
         //RefreshSpeed();
         var cs = currLevel.api.GetSecondsBetweenSpawns();
-        cs = Math.max(0.2, cs * .95);
+        cs = Math.max(0.2, cs * 0.95);
         currLevel.api.SetSecondsBetweenSpawns(cs);
         script.scorePerLevel *= 1.3; // make level up longer distance
+        
+        script.wearablesManager.api.ActiveRandomWearables();
         
         return;
     }
