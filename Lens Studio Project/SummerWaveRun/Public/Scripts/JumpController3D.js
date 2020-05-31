@@ -1,3 +1,9 @@
+//@input float SimpleJumpHeight
+//@input float SimpleJumpTime
+
+//@input float ForceJumpHeight
+//@input float ForceJumpTime
+
 var initialScale;
 var jumpTrans;
 
@@ -22,7 +28,7 @@ mouthOpenedEvent.faceIndex = 0;
 mouthOpenedEvent.bind(function (eventData)
 {
    
-    script.api.Jump(90, 1);
+    script.api.Jump(script.SimpleJumpHeightAndTime.x, SimpleJumpHeightAndTime.y);
 });
 
 var updateEvent = script.createEvent("UpdateEvent");
@@ -36,7 +42,7 @@ updateEvent.bind(function(eventData){
             script.api.isOnGround = false;
             jumpStartTime = getTime();
         } else {
-            print("Ignoring jump request as object is not on the ground.");
+           // print("Ignoring jump request as object is not on the ground.");
         }
     }
     
@@ -68,12 +74,14 @@ function ContinueJump() {
 }
 
 
-
-
 script.api.Jump = function(height, timeSecs) { 
     requestedJumpHeight = height;
     requestedJumpTime = timeSecs;
     isJumpRequested = true; 
+}
+
+script.api.SimpleJump = function() {
+ script.api.Jump(script.SimpleJumpHeight, script.SimpleJumpTime);
 }
 
 script.api.ForceJump = function(height, timeSecs) { 
@@ -81,4 +89,8 @@ script.api.ForceJump = function(height, timeSecs) {
     requestedJumpTime = timeSecs;
     isForceJumping = true;
     isJumpRequested = true; 
+}
+
+script.api.ForceJump = function() {
+ script.api.ForceJump(script.ForceJumpHeight, script.ForceJumpTime);
 }

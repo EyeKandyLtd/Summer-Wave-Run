@@ -104,9 +104,9 @@ function UpdatePosition() {
 
 function CheckCollisions() {
 
-    if (script.jumpController3D.api.isOnGround) { // optimisation: don't check if in the air..
+   // if (script.jumpController3D.api.isOnGround) { // optimisation: don't check if in the air..
         global.CheckForCollisions();
-    }
+  //  }
     
 }
 
@@ -121,7 +121,7 @@ function HandleCollision(other) {
          other.getSceneObject().destroy();
     } 
     else if (otherName == "Ramp") {
-        script.jumpController3D.api.ForceJump(240, 1.5);
+        script.jumpController3D.api.ForceJump();
     }
     else {
          script.gameplayManager.api.Lives_Decrement();

@@ -11,7 +11,7 @@
 
 //@input Component.ScriptComponent[] levels
 //@input float scorePerLevel = 200
-
+//@input vec3 initialLevelVec 
 
 
 //@input Asset.AudioTrackAsset soundIntroMusic
@@ -32,6 +32,7 @@
 //@input Component.Text frontCamMiddleMessage
 
 //@input SceneObject[] unlockIfPreviouslyWon
+
 
 
 
@@ -63,7 +64,7 @@ var _distance = 0;
 var _startCamPos = script.camera.getSceneObject().getTransform().getWorldPosition();
 var _camDistanceFromSpeedFactor = 0.
 
-var initialLevelVec = new vec3(0,0,-100);
+
 
 
 
@@ -87,11 +88,10 @@ mouthOpenedEvent.bind(function (eventData)
 //Tap To Start
 var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { 
    
-    if ( _isGameFinished) {
-        Init();
-    } else {
+    if ( !_isGamePlaying) {
         script.api.StartGameplay(); 
     }
+
 });
 
 
@@ -104,6 +104,7 @@ global.SetContentEnabled = function(content, isEnabled) {
 
 function ResetVars() {
 
+    if (script.initialLevelVec == vec3.zero) script.initialLevelVec = new vec3(0,0,-100);
     
     _isGamePlaying = false;
     _isLevelWon = false;
@@ -208,7 +209,7 @@ function StartLevel(level) {
     if (level < script.levels.length) {
        
         //..spawn in end level ramp?
-        if (level > 0) {
+        if (level > -1) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
             rampStartPos.y = 0;
             global.gamePlayManager.pfxManager.api.DoPFX_LevelFinalBoss(rampStartPos);
@@ -286,7 +287,8 @@ function UpdateDistanceAndScore() {
 function RefreshSpeed() {
     
         _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
-        global.directionController3DVector = initialLevelVec.uniformScale(_currSpeed);
+        var baseVec = script.initialLevelVec;
+        global.directionController3DVector = baseVec.uniformScale(_currSpeed);
         script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * _currSpeed);
         script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * _currSpeed);
 }
