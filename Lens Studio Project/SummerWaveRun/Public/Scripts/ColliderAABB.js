@@ -48,7 +48,7 @@ script.api.RefreshBoundingBox = function() {
 }
 
 script.api.OnIntersection = function (otherCollider) {
-    print ("Intersection registered between: " + script.getSceneObject().name + " (" + script.getSceneObject().getTransform().getWorldPosition() + ") and " + otherCollider.script.getSceneObject().name + " (" + otherCollider.script.getSceneObject().getTransform().getWorldPosition() + ").");
+    //print ("Intersection registered between: " + script.getSceneObject().name + " (" + script.getSceneObject().getTransform().getWorldPosition() + ") and " + otherCollider.script.getSceneObject().name + " (" + otherCollider.script.getSceneObject().getTransform().getWorldPosition() + ").");
     
     if (script.api.GetHasOneShotExecuted() ) return;
     

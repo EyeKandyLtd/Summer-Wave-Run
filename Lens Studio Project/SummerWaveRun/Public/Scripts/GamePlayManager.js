@@ -217,7 +217,7 @@ function StartLevel(level) {
     if (level < script.levels.length) {
        
         //..spawn in end level ramp?
-        if (level > 1) {
+        if (level > 0) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
             rampStartPos.y = 0;
             global.gamePlayManager.pfxManager.api.DoPFX_LevelFinalBoss(rampStartPos);
