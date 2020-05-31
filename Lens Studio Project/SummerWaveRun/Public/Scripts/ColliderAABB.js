@@ -48,8 +48,9 @@ script.api.RefreshBoundingBox = function() {
 }
 
 script.api.OnIntersection = function (otherCollider) {
-   // print ("Intersection registered with: " + otherCollider.script.getSceneObject().name);
-    if (script.isOneShot && triggerCount > 0) return;
+    print ("Intersection registered between: " + script.getSceneObject().name + " (" + script.getSceneObject().getTransform().getWorldPosition() + ") and " + otherCollider.script.getSceneObject().name + " (" + otherCollider.script.getSceneObject().getTransform().getWorldPosition() + ").");
+    
+    if (script.api.GetHasOneShotExecuted() ) return;
     
     if (intersectionCallback != null) {
         intersectionCallback(otherCollider);
@@ -65,6 +66,10 @@ script.api.SetIntersectionCallback = function(callback) {
 
 script.api.GetIsTrigger = function() {
     return script.isTrigger;    
+}
+
+script.api.GetHasOneShotExecuted = function() {
+    return (script.isOneShot && triggerCount > 0) ;
 }
 
 script.api.PlayHitSound = function() {

@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590780143407",
+    "lastChanged": "1590946580414",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -463,9 +463,6 @@
                         "TurtleShell"
                     ],
                     [
-                        "Scripts"
-                    ],
-                    [
                         "Scripts",
                         "AudioManager"
                     ],
@@ -532,6 +529,10 @@
                     [
                         "Textures",
                         "Face"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon"
                     ],
                     [
                         "Textures",
@@ -665,7 +666,8 @@
                     "1590161584667918:504392",
                     "1590161586614319:506540",
                     "1590441884156890:1008202",
-                    "1590483410975235:248916"
+                    "1590938830662621:416034",
+                    "1590938844440776:460940"
                 ]
             ]
         },
@@ -2750,12 +2752,7 @@
                 "131": "1590760434866892:747612",
                 "132": "1590766065297299:69420",
                 "133": "1590778091154361:321476",
-                "134": "1590780112046628:884071",
-                "135": "1590780112054557:884117",
-                "136": "1590780112110549:884175",
-                "137": "1590780112111200:884177",
-                "138": "1590780112112460:884181",
-                "139": "1590780112113285:884185"
+                "134": "1590942913314148:78787"
             }
         },
         "LayerComponent": {
@@ -4567,15 +4564,15 @@
                     },
                     {
                         "k": "73",
-                        "v": "10a684164b6b3308bddd2ec16f2608ca"
+                        "v": "903ab5fb8a39d080cc50572c64f830a5"
                     },
                     {
                         "k": "74",
-                        "v": "03957e404364e3a3fa35d1969a330a64"
+                        "v": "ab71123d6d7255e176eda1cb74a72dd1"
                     },
                     {
                         "k": "75",
-                        "v": "e2f06484fd06137a6ac9a3cc8da2ede1"
+                        "v": "32ff74d42d84b761cb57bca740259c89"
                     },
                     {
                         "k": "76",
@@ -4583,15 +4580,15 @@
                     },
                     {
                         "k": "77",
-                        "v": "ccd2d03fcfb9d89e5feeddd862e83e11"
+                        "v": "d6d1ec404c72dffce213516d4b5d5b1e"
                     },
                     {
                         "k": "78",
-                        "v": "076b472f68d35a6a415a34a853c02c8a"
+                        "v": "508b2ccef5f2f7d059aac30770d21cec"
                     },
                     {
                         "k": "79",
-                        "v": "69718d95307f33739803daf14e78883a"
+                        "v": "367ed0c12edba637bffd55f36cf11331"
                     },
                     {
                         "k": "80",
@@ -4735,7 +4732,7 @@
                     },
                     {
                         "k": "128",
-                        "v": "fc9754823ba2cc1eebd872bff8babe43"
+                        "v": "da0042b365adfdf4cf70f072a04a1a16"
                     },
                     {
                         "k": "130",
@@ -4807,35 +4804,35 @@
                     },
                     {
                         "k": "157",
-                        "v": "c6e2eb37375c6bd219d162c71deb759a"
+                        "v": "4069aaab800a3b7e828a5ff4a18ce023"
                     },
                     {
                         "k": "158",
-                        "v": "22954bb932d6e9723e0ce1463f21bf51"
+                        "v": "79f36acb8d918f4b6b0e2755602caa48"
                     },
                     {
                         "k": "159",
-                        "v": "3f34048f33c226de0eb0921eb911ad2b"
+                        "v": "e830dfbf4cbd3a5cab07bfc10cd1ecda"
                     },
                     {
                         "k": "160",
-                        "v": "2142892f3047e5bd0ccce6b2c914dd49"
+                        "v": "771f50e42a94bfeeac77593db5d92a5f"
                     },
                     {
                         "k": "161",
-                        "v": "bb08266c51e894f70a13a4867c718879"
+                        "v": "a2bbc77a9dfe0ebdd7fdcbbc15355852"
                     },
                     {
                         "k": "162",
-                        "v": "b6d8d6032701c0283ca0e6a0b378ff7e"
+                        "v": "96807d8567d13b9ccc82eb8f8dbfbbd3"
                     },
                     {
                         "k": "163",
-                        "v": "2f70df2a1d5916cfc277832e5dd4222d"
+                        "v": "368ad4b29ba66a4c94cac5073327de40"
                     },
                     {
                         "k": "164",
-                        "v": "661e8e81b7a87a0d326519e6dbbfdf77"
+                        "v": "dae170378ad9c409a7befc6d7481817e"
                     },
                     {
                         "k": "165",
@@ -4987,11 +4984,11 @@
                     },
                     {
                         "k": "213",
-                        "v": "cf695d233639b1baa340b12b9847fce9"
+                        "v": "20a7a6cd95228ab445c766759335161b"
                     },
                     {
                         "k": "214",
-                        "v": "2d6ba70d03a2bd3c6d2d6a6e274c31ea"
+                        "v": "93304671821aff4899c8a338c6d0128c"
                     },
                     {
                         "k": "215",
@@ -5008,14 +5005,18 @@
                     {
                         "k": "218",
                         "v": "6d55c0fc679cd98168ef872d8a0adade"
+                    },
+                    {
+                        "k": "219",
+                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-05-29T20:17:37",
+                        "lastModified": "2020-05-31T16:01:18",
                         "name": "Public",
-                        "hash": "84b346d7c5e7a7d27a055e9024fa4954",
+                        "hash": "eeadc200de6900ffd7e063cfaf130d9f",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5692,64 +5693,64 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T20:17:35",
+                                "lastModified": "2020-05-31T18:21:14",
                                 "name": "Prefabs",
-                                "hash": "3913dddfb57be876289c1851926225a8",
+                                "hash": "4e9559db0849bf0e2461adf0b9323503",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:00:21",
                                         "name": "Crate.oprfb",
-                                        "hash": "22954bb932d6e9723e0ce1463f21bf51",
+                                        "hash": "79f36acb8d918f4b6b0e2755602caa48",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T15:51:52",
                                         "name": "Ramp.oprfb",
-                                        "hash": "cf695d233639b1baa340b12b9847fce9",
+                                        "hash": "20a7a6cd95228ab445c766759335161b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:47:24",
+                                        "lastModified": "2020-05-31T18:21:14",
                                         "name": "SharkAcross.oprfb",
-                                        "hash": "2d6ba70d03a2bd3c6d2d6a6e274c31ea",
+                                        "hash": "93304671821aff4899c8a338c6d0128c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:10:02",
                                         "name": "LifeVest.oprfb",
-                                        "hash": "bb08266c51e894f70a13a4867c718879",
+                                        "hash": "a2bbc77a9dfe0ebdd7fdcbbc15355852",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:07:27",
                                         "name": "FlamingoFloat.oprfb",
-                                        "hash": "3f34048f33c226de0eb0921eb911ad2b",
+                                        "hash": "e830dfbf4cbd3a5cab07bfc10cd1ecda",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:19:34",
                                         "name": "Shark.oprfb",
-                                        "hash": "2f70df2a1d5916cfc277832e5dd4222d",
+                                        "hash": "368ad4b29ba66a4c94cac5073327de40",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:08:44",
                                         "name": "Jellyfish.oprfb",
-                                        "hash": "2142892f3047e5bd0ccce6b2c914dd49",
+                                        "hash": "771f50e42a94bfeeac77593db5d92a5f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:02:01",
                                         "name": "Barrel.oprfb",
-                                        "hash": "c6e2eb37375c6bd219d162c71deb759a",
+                                        "hash": "4069aaab800a3b7e828a5ff4a18ce023",
                                         "children": ""
                                     },
                                     {
@@ -5761,16 +5762,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:11:30",
                                         "name": "TurtleShell.oprfb",
-                                        "hash": "661e8e81b7a87a0d326519e6dbbfdf77",
+                                        "hash": "dae170378ad9c409a7befc6d7481817e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:14:23",
                                         "name": "Log.oprfb",
-                                        "hash": "b6d8d6032701c0283ca0e6a0b378ff7e",
+                                        "hash": "96807d8567d13b9ccc82eb8f8dbfbbd3",
                                         "children": ""
                                     }
                                 ]
@@ -5912,15 +5913,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T20:17:36",
+                                "lastModified": "2020-05-31T18:35:49",
                                 "name": "Scripts",
-                                "hash": "de5214d843fbb7da7388611d8fd027a4",
+                                "hash": "f803ff2e5707ae035a6b524887bad9f2",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:41:40",
+                                        "lastModified": "2020-05-31T17:34:19",
                                         "name": "ColliderAABB.js",
-                                        "hash": "ccd2d03fcfb9d89e5feeddd862e83e11",
+                                        "hash": "d6d1ec404c72dffce213516d4b5d5b1e",
                                         "children": ""
                                     },
                                     {
@@ -5946,16 +5947,16 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T15:51:49",
                                         "name": "CollisionManager.js",
-                                        "hash": "076b472f68d35a6a415a34a853c02c8a",
+                                        "hash": "508b2ccef5f2f7d059aac30770d21cec",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T17:39:46",
                                         "name": "ObjectSpawner.js",
-                                        "hash": "e2f06484fd06137a6ac9a3cc8da2ede1",
+                                        "hash": "32ff74d42d84b761cb57bca740259c89",
                                         "children": ""
                                     },
                                     {
@@ -6009,9 +6010,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T15:36:42",
                                         "name": "JumpController3D.js",
-                                        "hash": "03957e404364e3a3fa35d1969a330a64",
+                                        "hash": "ab71123d6d7255e176eda1cb74a72dd1",
                                         "children": ""
                                     },
                                     {
@@ -6037,9 +6038,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:58:38",
+                                        "lastModified": "2020-05-31T17:37:27",
                                         "name": "GamePlayManager.js",
-                                        "hash": "69718d95307f33739803daf14e78883a",
+                                        "hash": "367ed0c12edba637bffd55f36cf11331",
                                         "children": ""
                                     },
                                     {
@@ -6051,9 +6052,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-29T19:36:47",
+                                        "lastModified": "2020-05-31T18:35:49",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "10a684164b6b3308bddd2ec16f2608ca",
+                                        "hash": "903ab5fb8a39d080cc50572c64f830a5",
                                         "children": ""
                                     },
                                     {
@@ -9786,7 +9787,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1590780112046628:884071"
+                    "1590163227697638:803504"
                 ]
             }
         },
@@ -10405,67 +10406,6 @@
                                 {
                                     "k": "1589989950879160:254943",
                                     "v": "1589989988448213:271719"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "k": "1590780112046628:884071",
-                        "v": {
-                            "prefab": "1590778044376892:303678",
-                            "isActive": "true",
-                            "mapping": [
-                                {
-                                    "k": "1590778015396994:285998",
-                                    "v": "1590780112046628:884071"
-                                },
-                                {
-                                    "k": "1590778015399115:286014",
-                                    "v": "1590780112048189:884087"
-                                },
-                                {
-                                    "k": "1590778015400300:286016",
-                                    "v": "1590780112049513:884089"
-                                },
-                                {
-                                    "k": "1590778015401734:286018",
-                                    "v": "1590780112051767:884091"
-                                },
-                                {
-                                    "k": "1590778015403070:286026",
-                                    "v": "1590780112053999:884099"
-                                },
-                                {
-                                    "k": "1590778015403857:286038",
-                                    "v": "1590780112054557:884117"
-                                },
-                                {
-                                    "k": "1590778015405827:286040",
-                                    "v": "1590780112055102:884119"
-                                },
-                                {
-                                    "k": "1590778015648577:286096",
-                                    "v": "1590780112110549:884175"
-                                },
-                                {
-                                    "k": "1590778015649556:286098",
-                                    "v": "1590780112111200:884177"
-                                },
-                                {
-                                    "k": "1590778015650427:286100",
-                                    "v": "1590780112111830:884179"
-                                },
-                                {
-                                    "k": "1590778015651252:286102",
-                                    "v": "1590780112112460:884181"
-                                },
-                                {
-                                    "k": "1590778015652174:286104",
-                                    "v": "1590780112112986:884183"
-                                },
-                                {
-                                    "k": "1590778015652669:286106",
-                                    "v": "1590780112113285:884185"
                                 }
                             ]
                         }

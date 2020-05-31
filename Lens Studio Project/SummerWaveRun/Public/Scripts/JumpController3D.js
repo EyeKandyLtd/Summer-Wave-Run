@@ -28,7 +28,7 @@ mouthOpenedEvent.faceIndex = 0;
 mouthOpenedEvent.bind(function (eventData)
 {
    
-    script.api.Jump(script.SimpleJumpHeightAndTime.x, SimpleJumpHeightAndTime.y);
+    script.api.DoSimpleJump();
 });
 
 var updateEvent = script.createEvent("UpdateEvent");
@@ -69,19 +69,18 @@ function ContinueJump() {
     
    jumpTrans.setLocalPosition(pos);
    jumpTrans.scale = initialScale.add(vec3.one().uniformScale(3*y));
-    
-    
+        
 }
 
 
-script.api.Jump = function(height, timeSecs) { 
+script.api.SimpleJump = function(height, timeSecs) { 
     requestedJumpHeight = height;
     requestedJumpTime = timeSecs;
     isJumpRequested = true; 
 }
 
-script.api.SimpleJump = function() {
- script.api.Jump(script.SimpleJumpHeight, script.SimpleJumpTime);
+script.api.DoSimpleJump = function() {
+ script.api.SimpleJump(script.SimpleJumpHeight, script.SimpleJumpTime);
 }
 
 script.api.ForceJump = function(height, timeSecs) { 
@@ -91,6 +90,6 @@ script.api.ForceJump = function(height, timeSecs) {
     isJumpRequested = true; 
 }
 
-script.api.ForceJump = function() {
+script.api.DoForceJump = function() {
  script.api.ForceJump(script.ForceJumpHeight, script.ForceJumpTime);
 }

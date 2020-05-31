@@ -108,7 +108,7 @@ function ResetVars() {
     
     _isGamePlaying = false;
     _isLevelWon = false;
-    _isGameFinished = false;
+    
     _currLevelNumber = 0;
     _highScore = 0;
     _currScore = 0;
@@ -175,6 +175,7 @@ function StartGame() {
      script.hudController.api.SetScore (Math.floor(_currScore));
     
      _isGamePlaying = true;
+    _isGameFinished = false;
    // StartLevel(0);
    
     
@@ -194,6 +195,13 @@ updateEvent.bind(function(eventData) {
             
         }
        
+    } else if(_isGameFinished) {
+       
+        //slow down..
+        if (_currSpeed > 2.5) {
+            _currSpeed -=  getDeltaTime() * .003;
+            UpdateSpeedVisuals(_currSpeed);
+        }
     }
  
     
@@ -209,7 +217,7 @@ function StartLevel(level) {
     if (level < script.levels.length) {
        
         //..spawn in end level ramp?
-        if (level > -1) {
+        if (level > 1) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
             rampStartPos.y = 0;
             global.gamePlayManager.pfxManager.api.DoPFX_LevelFinalBoss(rampStartPos);
@@ -286,11 +294,18 @@ function UpdateDistanceAndScore() {
 
 function RefreshSpeed() {
     
-        _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
-        var baseVec = script.initialLevelVec;
-        global.directionController3DVector = baseVec.uniformScale(_currSpeed);
-        script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * _currSpeed);
-        script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * _currSpeed);
+     _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
+    UpdateSpeedVisuals(_currSpeed);
+        
+        
+}
+
+function UpdateSpeedVisuals(speed) {
+    
+    global.directionController3DVector = script.initialLevelVec.uniformScale(speed);
+    script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * speed);
+    script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * speed);
+    
 }
 
 

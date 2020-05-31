@@ -111,6 +111,9 @@ function CheckCollisions() {
 }
 
 function HandleCollision(other) {
+    //ignore collison for now
+    //return;
+    
     var otherName = other.getSceneObject().name;
     
     other.api.PlayHitSound();
@@ -121,7 +124,7 @@ function HandleCollision(other) {
          other.getSceneObject().destroy();
     } 
     else if (otherName == "Ramp") {
-        script.jumpController3D.api.ForceJump();
+        script.jumpController3D.api.DoForceJump();
     }
     else {
          script.gameplayManager.api.Lives_Decrement();
