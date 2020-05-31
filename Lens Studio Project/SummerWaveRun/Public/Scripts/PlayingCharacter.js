@@ -113,17 +113,25 @@ function CheckCollisions() {
 function HandleCollision(other) {
     var otherName = other.getSceneObject().name;
     
+    other.api.PlayHitSound();
+    other.api.DoHitPFX();
+    
     if (otherName == "LifeVest") {
         script.gameplayManager.api.Lives_Increment();
-    } else {
+         other.getSceneObject().destroy();
+    } 
+    else if (otherName == "Ramp") {
+        script.jumpController3D.api.ForceJump(240, 1.5);
+    }
+    else {
          script.gameplayManager.api.Lives_Decrement();
+         other.getSceneObject().destroy();
     }
     
     //print("Player Handling Collision: " + otherName);  
     
-    other.api.PlayHitSound();
-    other.api.DoHitPFX();
-    other.getSceneObject().destroy();
+  
+   
       
     
 }

@@ -7,14 +7,15 @@ const highScoreKey = "ek_key_high_score";
 global.TrySetHighScore = function (currentScore) {
 
     if( currentScore > global.GetHighScore() ) {
-       global.persistentStorageSystem.store.putFloat(highScoreKey, currentScore);
+       global.persistentStorageSystem.store.putFloat(highScoreKey, Math.floor(currentScore));
         return true;
     }
     return false;
 }
 
 global.GetHighScore = function() {
-    return global.persistentStorageSystem.store.getFloat(highScoreKey) || 0;
+    var s = global.persistentStorageSystem.store.getFloat(highScoreKey) || 0;
+    return Math.floor(s);
 }
 
 global.ResetHighScore = function () {
