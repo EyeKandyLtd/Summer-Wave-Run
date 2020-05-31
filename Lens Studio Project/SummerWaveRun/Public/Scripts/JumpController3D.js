@@ -16,6 +16,9 @@ var isForceJumping = false;
 var jumpStartTime;
 
 script.api.isOnGround = true;
+var playerTransf = script.getSceneObject().getTransform();
+var initialPos = playerTransf.getLocalPosition();
+var initialRot = playerTransf.getLocalRotation();
 
 function Init() {
     jumpTrans = script.getSceneObject().getTransform();
@@ -60,7 +63,7 @@ function ContinueJump() {
    // print ("jumping with y = " + y);  
     
      if (y< 0) {
-        y = 0;
+        y = initialPos.y;
         script.api.isOnGround = true; 
         isForceJumping = false;
      }

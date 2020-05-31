@@ -83,7 +83,10 @@ function UpdatePosition() {
     facingDirection = 1;
     //imageComp.flipX = true;
   }
-  pos.y = initialPos.y + 3 *  Math.sin(getTime()*script.waveBounceSeconds); // wavy oscillation
+    
+  if (script.jumpController3D.api.isOnGround) {
+      pos.y = initialPos.y + 3 *  Math.sin(getTime()*script.waveBounceSeconds); // wavy oscillation
+  }
 
   var playerSpeedThisFrame = playerTransf.getLocalPosition().x - pos.x;
     

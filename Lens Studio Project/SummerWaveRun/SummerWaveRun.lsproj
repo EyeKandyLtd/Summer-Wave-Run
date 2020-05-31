@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1590946580414",
+    "lastChanged": "1590960399419",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -375,6 +375,18 @@
                     ],
                     [
                         "Audio",
+                        "BonusOk"
+                    ],
+                    [
+                        "Audio",
+                        "CrowdGasp"
+                    ],
+                    [
+                        "Audio",
+                        "CrowdWow"
+                    ],
+                    [
+                        "Audio",
                         "GameFinished"
                     ],
                     [
@@ -461,6 +473,9 @@
                     [
                         "Prefabs",
                         "TurtleShell"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -640,7 +655,6 @@
                     "1574374499852074:172575",
                     "1589812223050539:24966",
                     "1589823953420994:170044",
-                    "1589824396441814:172450",
                     "1589989988470715:271741",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
@@ -666,6 +680,7 @@
                     "1590161584667918:504392",
                     "1590161586614319:506540",
                     "1590441884156890:1008202",
+                    "1590483410975235:248916",
                     "1590938830662621:416034",
                     "1590938844440776:460940"
                 ]
@@ -2342,6 +2357,30 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "915",
+                    "uid": "1590959337209929:196319",
+                    "name": "Files\/File950.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "916",
+                    "uid": "1590959504881864:206877",
+                    "name": "Files\/File951.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "917",
+                    "uid": "1590960067450051:217566",
+                    "name": "Files\/File952.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2752,7 +2791,13 @@
                 "131": "1590760434866892:747612",
                 "132": "1590766065297299:69420",
                 "133": "1590778091154361:321476",
-                "134": "1590942913314148:78787"
+                "134": "1590942913314148:78787",
+                "135": "1590960211064588:272483",
+                "136": "1590960211073441:272531",
+                "137": "1590960211079311:272548",
+                "138": "1590960211095107:272660",
+                "139": "1590960211097867:272664",
+                "140": "1590960211102850:272668"
             }
         },
         "LayerComponent": {
@@ -3720,6 +3765,18 @@
                 {
                     "k": "949",
                     "v": "Files\/File949.mp3"
+                },
+                {
+                    "k": "950",
+                    "v": "Files\/File950.mp3"
+                },
+                {
+                    "k": "951",
+                    "v": "Files\/File951.mp3"
+                },
+                {
+                    "k": "952",
+                    "v": "Files\/File952.mp3"
                 }
             ]
         },
@@ -4307,6 +4364,18 @@
                     {
                         "k": "218",
                         "v": "Audio\/TropicalBeats1.mp3"
+                    },
+                    {
+                        "k": "219",
+                        "v": "Audio\/CrowdGasp.mp3"
+                    },
+                    {
+                        "k": "220",
+                        "v": "Audio\/CrowdWow.mp3"
+                    },
+                    {
+                        "k": "221",
+                        "v": "Audio\/BonusOk.mp3"
                     }
                 ],
                 "hashes": [
@@ -4564,11 +4633,11 @@
                     },
                     {
                         "k": "73",
-                        "v": "903ab5fb8a39d080cc50572c64f830a5"
+                        "v": "bc0411635ce8d200d03216f4e93d469c"
                     },
                     {
                         "k": "74",
-                        "v": "ab71123d6d7255e176eda1cb74a72dd1"
+                        "v": "9c379ed7882564b525001682c7f4ac67"
                     },
                     {
                         "k": "75",
@@ -4580,7 +4649,7 @@
                     },
                     {
                         "k": "77",
-                        "v": "d6d1ec404c72dffce213516d4b5d5b1e"
+                        "v": "480700edbb6701d07321b126aa96dc1a"
                     },
                     {
                         "k": "78",
@@ -4588,7 +4657,7 @@
                     },
                     {
                         "k": "79",
-                        "v": "367ed0c12edba637bffd55f36cf11331"
+                        "v": "a0d8715d545ddf27c4e5f58213b467f8"
                     },
                     {
                         "k": "80",
@@ -4732,7 +4801,7 @@
                     },
                     {
                         "k": "128",
-                        "v": "da0042b365adfdf4cf70f072a04a1a16"
+                        "v": "4fb0ec9cb745db2e6360caa0ccc07a52"
                     },
                     {
                         "k": "130",
@@ -4820,11 +4889,11 @@
                     },
                     {
                         "k": "161",
-                        "v": "a2bbc77a9dfe0ebdd7fdcbbc15355852"
+                        "v": "9a4716a4797f9f1a8e8dc0fe9ad3d26f"
                     },
                     {
                         "k": "162",
-                        "v": "96807d8567d13b9ccc82eb8f8dbfbbd3"
+                        "v": "e0778f1ba3283672f6b32963ef944c68"
                     },
                     {
                         "k": "163",
@@ -4984,7 +5053,7 @@
                     },
                     {
                         "k": "213",
-                        "v": "20a7a6cd95228ab445c766759335161b"
+                        "v": "f19735ea3495c350c3f71856e1b55b13"
                     },
                     {
                         "k": "214",
@@ -5008,7 +5077,15 @@
                     },
                     {
                         "k": "219",
-                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
+                        "v": "08a67f7b88a72f7149ac859e9d654104"
+                    },
+                    {
+                        "k": "220",
+                        "v": "587145de62fd300b178dbeb161fda4da"
+                    },
+                    {
+                        "k": "221",
+                        "v": "3e8ad929398a58df40956158e8f137c5"
                     }
                 ],
                 "publicState": {
@@ -5016,7 +5093,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-05-31T16:01:18",
                         "name": "Public",
-                        "hash": "eeadc200de6900ffd7e063cfaf130d9f",
+                        "hash": "7fb5419e28245526f99f4678b27cb66e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5693,36 +5770,36 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-31T18:21:14",
+                                "lastModified": "2020-05-31T22:22:49",
                                 "name": "Prefabs",
-                                "hash": "4e9559db0849bf0e2461adf0b9323503",
+                                "hash": "a788a7a318ca665f5127a17a7cfd37a6",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T18:00:21",
+                                        "lastModified": "2020-05-31T19:18:14",
                                         "name": "Crate.oprfb",
                                         "hash": "79f36acb8d918f4b6b0e2755602caa48",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T15:51:52",
+                                        "lastModified": "2020-05-31T22:22:49",
                                         "name": "Ramp.oprfb",
-                                        "hash": "20a7a6cd95228ab445c766759335161b",
+                                        "hash": "f19735ea3495c350c3f71856e1b55b13",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T18:21:14",
+                                        "lastModified": "2020-05-31T19:18:14",
                                         "name": "SharkAcross.oprfb",
                                         "hash": "93304671821aff4899c8a338c6d0128c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T18:10:02",
+                                        "lastModified": "2020-05-31T22:22:30",
                                         "name": "LifeVest.oprfb",
-                                        "hash": "a2bbc77a9dfe0ebdd7fdcbbc15355852",
+                                        "hash": "9a4716a4797f9f1a8e8dc0fe9ad3d26f",
                                         "children": ""
                                     },
                                     {
@@ -5734,7 +5811,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T18:19:34",
+                                        "lastModified": "2020-05-31T19:18:14",
                                         "name": "Shark.oprfb",
                                         "hash": "368ad4b29ba66a4c94cac5073327de40",
                                         "children": ""
@@ -5769,9 +5846,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T18:14:23",
+                                        "lastModified": "2020-05-31T19:43:31",
                                         "name": "Log.oprfb",
-                                        "hash": "96807d8567d13b9ccc82eb8f8dbfbbd3",
+                                        "hash": "e0778f1ba3283672f6b32963ef944c68",
                                         "children": ""
                                     }
                                 ]
@@ -5807,10 +5884,17 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-29T20:17:35",
+                                "lastModified": "2020-05-31T22:21:20",
                                 "name": "Audio",
-                                "hash": "b5d6ae7fe40c49fc6d14badb7e5d6a8a",
+                                "hash": "4b833932fef8f1c93315d0b0e1a6e219",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-31T22:11:43",
+                                        "name": "CrowdWow.mp3",
+                                        "hash": "587145de62fd300b178dbeb161fda4da",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-05-29T19:36:47",
@@ -5834,9 +5918,23 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-05-31T22:21:05",
+                                        "name": "BonusOk.mp3",
+                                        "hash": "3e8ad929398a58df40956158e8f137c5",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-05-29T19:56:33",
                                         "name": "GameFinished.mp3",
                                         "hash": "1dd9f06602052853c0164d9fd58ab9ce",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-31T22:09:54",
+                                        "name": "CrowdGasp.mp3",
+                                        "hash": "08a67f7b88a72f7149ac859e9d654104",
                                         "children": ""
                                     },
                                     {
@@ -5913,15 +6011,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-05-31T18:35:49",
+                                "lastModified": "2020-05-31T21:51:20",
                                 "name": "Scripts",
-                                "hash": "f803ff2e5707ae035a6b524887bad9f2",
+                                "hash": "0bce3aa3e20f4640ae2fc2eca22286c5",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T17:34:19",
+                                        "lastModified": "2020-05-31T18:40:42",
                                         "name": "ColliderAABB.js",
-                                        "hash": "d6d1ec404c72dffce213516d4b5d5b1e",
+                                        "hash": "480700edbb6701d07321b126aa96dc1a",
                                         "children": ""
                                     },
                                     {
@@ -6010,9 +6108,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T15:36:42",
+                                        "lastModified": "2020-05-31T19:42:37",
                                         "name": "JumpController3D.js",
-                                        "hash": "ab71123d6d7255e176eda1cb74a72dd1",
+                                        "hash": "9c379ed7882564b525001682c7f4ac67",
                                         "children": ""
                                     },
                                     {
@@ -6038,9 +6136,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T17:37:27",
+                                        "lastModified": "2020-05-31T18:45:01",
                                         "name": "GamePlayManager.js",
-                                        "hash": "367ed0c12edba637bffd55f36cf11331",
+                                        "hash": "a0d8715d545ddf27c4e5f58213b467f8",
                                         "children": ""
                                     },
                                     {
@@ -6052,9 +6150,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-31T18:35:49",
+                                        "lastModified": "2020-05-31T21:51:20",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "903ab5fb8a39d080cc50572c64f830a5",
+                                        "hash": "bc0411635ce8d200d03216f4e93d469c",
                                         "children": ""
                                     },
                                     {
@@ -9627,6 +9725,45 @@
                                 "publicId": "218",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/TropicalBeats1.mp3",
                                 "additional": ""
+                            },
+                            {
+                                "name": "CrowdGasp",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "915",
+                                "dependency": "0",
+                                "uid": "1590959337209929:196319",
+                                "fileId": "950",
+                                "originalId": "18446744073709551615",
+                                "publicId": "219",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/CrowdGasp.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "CrowdWow",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "916",
+                                "dependency": "0",
+                                "uid": "1590959504881864:206877",
+                                "fileId": "951",
+                                "originalId": "18446744073709551615",
+                                "publicId": "220",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/CrowdWow.mp3",
+                                "additional": ""
+                            },
+                            {
+                                "name": "BonusOk",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "917",
+                                "dependency": "0",
+                                "uid": "1590960067450051:217566",
+                                "fileId": "952",
+                                "originalId": "18446744073709551615",
+                                "publicId": "221",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Untitled.mp3",
+                                "additional": ""
                             }
                         ]
                     },
@@ -9787,7 +9924,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1590163227697638:803504"
+                    "1590960211064588:272483"
                 ]
             }
         },
@@ -10406,6 +10543,67 @@
                                 {
                                     "k": "1589989950879160:254943",
                                     "v": "1589989988448213:271719"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1590960211064588:272483",
+                        "v": {
+                            "prefab": "1590060386635040:806367",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1590938839619377:445372",
+                                    "v": "1590960211064588:272483"
+                                },
+                                {
+                                    "k": "1590938839621752:445388",
+                                    "v": "1590960211067053:272499"
+                                },
+                                {
+                                    "k": "1590938839622633:445390",
+                                    "v": "1590960211067993:272501"
+                                },
+                                {
+                                    "k": "1590938839624113:445392",
+                                    "v": "1590960211069448:272503"
+                                },
+                                {
+                                    "k": "1590938839628758:445400",
+                                    "v": "1590960211071853:272511"
+                                },
+                                {
+                                    "k": "1590938839633816:445412",
+                                    "v": "1590960211073441:272531"
+                                },
+                                {
+                                    "k": "1590938839638970:445414",
+                                    "v": "1590960211074616:272533"
+                                },
+                                {
+                                    "k": "1590938839647263:445429",
+                                    "v": "1590960211079311:272548"
+                                },
+                                {
+                                    "k": "1590938839658861:445489",
+                                    "v": "1590960211095107:272660"
+                                },
+                                {
+                                    "k": "1590938839660196:445491",
+                                    "v": "1590960211097065:272662"
+                                },
+                                {
+                                    "k": "1590938839660633:445493",
+                                    "v": "1590960211097867:272664"
+                                },
+                                {
+                                    "k": "1590938839661711:445495",
+                                    "v": "1590960211100713:272666"
+                                },
+                                {
+                                    "k": "1590938839662333:445497",
+                                    "v": "1590960211102850:272668"
                                 }
                             ]
                         }
