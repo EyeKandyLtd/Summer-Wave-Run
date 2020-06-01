@@ -33,6 +33,8 @@ Patches.setPoint2DValue("ob6", Reactive.point2d(Scene.root.find('plane5').transf
 Patches.setPoint2DValue("ob7", Reactive.point2d(Scene.root.find('plane6').transform.z, Scene.root.find('plane6').transform.x));
 Patches.setPoint2DValue("ob8", Reactive.point2d(Scene.root.find('plane7').transform.z, Scene.root.find('plane7').transform.x));
 Patches.setPoint2DValue("ob9", Reactive.point2d(Scene.root.find('plane8').transform.z, Scene.root.find('plane8').transform.x));
+Patches.setPoint2DValue("ob10", Reactive.point2d(Scene.root.find('plane9').transform.z, Scene.root.find('plane9').transform.x));
+
 
 Patches.getScalarValue("score").monitor().subscribe(function(event){
 	if (event.newValue == 0) {
