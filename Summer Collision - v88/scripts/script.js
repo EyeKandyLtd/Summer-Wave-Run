@@ -18,7 +18,6 @@ var restart = Scene.root.find('restart');
 
 var score = Patches.getScalarValue('distance');
 
-var stop_objects = Scene.root.find('stop_objects');
 
 Patches.setPoint2DValue("ob1", Reactive.point2d(Scene.root.find('plane0').transform.z, Scene.root.find('plane0').transform.x));
 Patches.setPoint2DValue("ob2", Reactive.point2d(Scene.root.find('plane1').transform.z, Scene.root.find('plane1').transform.x));
