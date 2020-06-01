@@ -16,9 +16,13 @@ var highest_score_score = Scene.root.find('highest_score_score');
 
 var restart = Scene.root.find('restart');
 
+var stop_objects = false;
+
 var score = Patches.getScalarValue('distance');
 
-var stop_objects = Scene.root.find('stop_objects');
+var isGameOver = Patches.getBooleanValue('gameOver');
+
+Patches.setBooleanValue('stop_objects', stop_objects);
 
 Patches.setPoint2DValue("ob1", Reactive.point2d(Scene.root.find('plane0').transform.z, Scene.root.find('plane0').transform.x));
 Patches.setPoint2DValue("ob2", Reactive.point2d(Scene.root.find('plane1').transform.z, Scene.root.find('plane1').transform.x));
@@ -29,6 +33,8 @@ Patches.setPoint2DValue("ob6", Reactive.point2d(Scene.root.find('plane5').transf
 Patches.setPoint2DValue("ob7", Reactive.point2d(Scene.root.find('plane6').transform.z, Scene.root.find('plane6').transform.x));
 Patches.setPoint2DValue("ob8", Reactive.point2d(Scene.root.find('plane7').transform.z, Scene.root.find('plane7').transform.x));
 Patches.setPoint2DValue("ob9", Reactive.point2d(Scene.root.find('plane8').transform.z, Scene.root.find('plane8').transform.x));
+Patches.setPoint2DValue("ob10", Reactive.point2d(Scene.root.find('plane9').transform.z, Scene.root.find('plane9').transform.x));
+Patches.setPoint2DValue("ob11", Reactive.point2d(Scene.root.find('plane10').transform.z, Scene.root.find('plane10').transform.x));
 
 Patches.getScalarValue("score").monitor().subscribe(function(event){
 	if (event.newValue == 0) {
@@ -58,10 +64,14 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		restart.hidden = false;
 		highest_score.hidden = false;
 		highest_score_score.hidden = false;
+		stop_objects = true;
+		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
 
 	if(event.newValue < -3) {
 		event.newValue = -3;
+		stop_objects = true;
+		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
 
 	if(event.newValue > 0) {
@@ -75,6 +85,9 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 number.text = score.toString();
 
 highest_score_score.text = score.toString();
+
+Diagnostics.log(isGameOver.lastValue);
+Diagnostics.log(isGameOver);
 
 //Diagnostics.log(number);
 //Diagnostics.log(score);
