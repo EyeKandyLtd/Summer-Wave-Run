@@ -10,7 +10,7 @@
 //@input Component.ScriptComponent scrollingWater
 
 //@input Component.ScriptComponent[] levels
-//@input float scorePerLevel = 200
+//@input float scorePerLevel = 100
 //@input vec3 initialLevelVec 
 
 
@@ -38,7 +38,7 @@
 
 global.gamePlayManager = script;
 
-const scoreFactor = 5;
+const scoreFactor = 2.5;
 
 const  persistant_lastFrontMessageKey = "EK_key_lastFrontMessage";
 
