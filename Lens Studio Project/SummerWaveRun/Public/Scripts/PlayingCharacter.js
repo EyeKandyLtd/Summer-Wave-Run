@@ -83,7 +83,10 @@ function UpdatePosition() {
     facingDirection = 1;
     //imageComp.flipX = true;
   }
-  pos.y = initialPos.y + 3 *  Math.sin(getTime()*script.waveBounceSeconds); // wavy oscillation
+    
+  if (script.jumpController3D.api.isOnGround) {
+      pos.y = initialPos.y + 3 *  Math.sin(getTime()*script.waveBounceSeconds); // wavy oscillation
+  }
 
   var playerSpeedThisFrame = playerTransf.getLocalPosition().x - pos.x;
     
@@ -104,13 +107,16 @@ function UpdatePosition() {
 
 function CheckCollisions() {
 
-    if (script.jumpController3D.api.isOnGround) { // optimisation: don't check if in the air..
+   // if (script.jumpController3D.api.isOnGround) { // optimisation: don't check if in the air..
         global.CheckForCollisions();
-    }
+  //  }
     
 }
 
 function HandleCollision(other) {
+    //ignore collison for now
+    //return;
+    
     var otherName = other.getSceneObject().name;
     
     other.api.PlayHitSound();
@@ -121,7 +127,7 @@ function HandleCollision(other) {
          other.getSceneObject().destroy();
     } 
     else if (otherName == "Ramp") {
-        script.jumpController3D.api.ForceJump(240, 1.5);
+        script.jumpController3D.api.DoForceJump();
     }
     else {
          script.gameplayManager.api.Lives_Decrement();

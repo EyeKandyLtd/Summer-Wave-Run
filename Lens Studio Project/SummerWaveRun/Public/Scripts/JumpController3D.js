@@ -1,3 +1,9 @@
+//@input float SimpleJumpHeight
+//@input float SimpleJumpTime
+
+//@input float ForceJumpHeight
+//@input float ForceJumpTime
+
 var initialScale;
 var jumpTrans;
 
@@ -10,6 +16,9 @@ var isForceJumping = false;
 var jumpStartTime;
 
 script.api.isOnGround = true;
+var playerTransf = script.getSceneObject().getTransform();
+var initialPos = playerTransf.getLocalPosition();
+var initialRot = playerTransf.getLocalRotation();
 
 function Init() {
     jumpTrans = script.getSceneObject().getTransform();
@@ -22,7 +31,7 @@ mouthOpenedEvent.faceIndex = 0;
 mouthOpenedEvent.bind(function (eventData)
 {
    
-    script.api.Jump(90, 1);
+    script.api.DoSimpleJump();
 });
 
 var updateEvent = script.createEvent("UpdateEvent");
@@ -36,7 +45,7 @@ updateEvent.bind(function(eventData){
             script.api.isOnGround = false;
             jumpStartTime = getTime();
         } else {
-            print("Ignoring jump request as object is not on the ground.");
+           // print("Ignoring jump request as object is not on the ground.");
         }
     }
     
@@ -54,7 +63,7 @@ function ContinueJump() {
    // print ("jumping with y = " + y);  
     
      if (y< 0) {
-        y = 0;
+        y = initialPos.y;
         script.api.isOnGround = true; 
         isForceJumping = false;
      }
@@ -63,17 +72,18 @@ function ContinueJump() {
     
    jumpTrans.setLocalPosition(pos);
    jumpTrans.scale = initialScale.add(vec3.one().uniformScale(3*y));
-    
-    
+        
 }
 
 
-
-
-script.api.Jump = function(height, timeSecs) { 
+script.api.SimpleJump = function(height, timeSecs) { 
     requestedJumpHeight = height;
     requestedJumpTime = timeSecs;
     isJumpRequested = true; 
+}
+
+script.api.DoSimpleJump = function() {
+ script.api.SimpleJump(script.SimpleJumpHeight, script.SimpleJumpTime);
 }
 
 script.api.ForceJump = function(height, timeSecs) { 
@@ -81,4 +91,8 @@ script.api.ForceJump = function(height, timeSecs) {
     requestedJumpTime = timeSecs;
     isForceJumping = true;
     isJumpRequested = true; 
+}
+
+script.api.DoForceJump = function() {
+ script.api.ForceJump(script.ForceJumpHeight, script.ForceJumpTime);
 }

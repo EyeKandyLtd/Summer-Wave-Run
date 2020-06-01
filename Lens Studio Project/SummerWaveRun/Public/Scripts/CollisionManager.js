@@ -46,18 +46,23 @@ var colliders = [];
                 try { colA.getSceneObject(); } catch(err) { continue; }       
                 try { colB.getSceneObject(); } catch(err) { continue; }
             
-                if (!colA.api.GetIsTrigger() || !colB.api.GetIsTrigger()) { // skip if both are triggers
-                   // print ("Checking intersection..")
-                    if (intersect(colA, colB)) {
-                        
-                        try { colA.getSceneObject(); } catch(err) { continue; }
-                        if (!colA.api.GetIsTrigger()) {colA.api.OnIntersection(colB);}
-                    
-                        try { colB.getSceneObject(); } catch(err) { continue; }
-                        if (!colB.api.GetIsTrigger()) {colB.api.OnIntersection(colA);}
-                        
-                    }
+                if (colA.api.GetIsTrigger() && colB.api.GetIsTrigger()) continue;
+                if (colA.api.GetHasOneShotExecuted() || colB.api.GetHasOneShotExecuted()) {
+                   // print ("Skipping as one shot already done..");
+                    continue;
                 }
+            
+               // print ("Checking intersection..")
+                if (intersect(colA, colB)) {
+                    
+                    try { colA.getSceneObject(); } catch(err) { continue; }
+                    if (!colA.api.GetIsTrigger()) {colA.api.OnIntersection(colB);}
+                
+                    try { colB.getSceneObject(); } catch(err) { continue; }
+                    if (!colB.api.GetIsTrigger()) {colB.api.OnIntersection(colA);}
+                    
+                }
+                
                 
             }    
         }

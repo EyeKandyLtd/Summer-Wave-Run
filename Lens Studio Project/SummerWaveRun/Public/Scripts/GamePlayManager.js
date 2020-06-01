@@ -11,7 +11,7 @@
 
 //@input Component.ScriptComponent[] levels
 //@input float scorePerLevel = 200
-
+//@input vec3 initialLevelVec 
 
 
 //@input Asset.AudioTrackAsset soundIntroMusic
@@ -32,6 +32,7 @@
 //@input Component.Text frontCamMiddleMessage
 
 //@input SceneObject[] unlockIfPreviouslyWon
+
 
 
 
@@ -63,7 +64,7 @@ var _distance = 0;
 var _startCamPos = script.camera.getSceneObject().getTransform().getWorldPosition();
 var _camDistanceFromSpeedFactor = 0.
 
-var initialLevelVec = new vec3(0,0,-100);
+
 
 
 
@@ -87,11 +88,10 @@ mouthOpenedEvent.bind(function (eventData)
 //Tap To Start
 var tapEvent = script.createEvent("TapEvent").bind(function (eventData) { 
    
-    if ( _isGameFinished) {
-        Init();
-    } else {
+    if ( !_isGamePlaying) {
         script.api.StartGameplay(); 
     }
+
 });
 
 
@@ -104,10 +104,11 @@ global.SetContentEnabled = function(content, isEnabled) {
 
 function ResetVars() {
 
+    if (script.initialLevelVec == vec3.zero) script.initialLevelVec = new vec3(0,0,-100);
     
     _isGamePlaying = false;
     _isLevelWon = false;
-    _isGameFinished = false;
+    
     _currLevelNumber = 0;
     _highScore = 0;
     _currScore = 0;
@@ -174,6 +175,7 @@ function StartGame() {
      script.hudController.api.SetScore (Math.floor(_currScore));
     
      _isGamePlaying = true;
+    _isGameFinished = false;
    // StartLevel(0);
    
     
@@ -193,6 +195,13 @@ updateEvent.bind(function(eventData) {
             
         }
        
+    } else if(_isGameFinished) {
+       
+        //slow down..
+        if (_currSpeed > 2.5) {
+            _currSpeed -=  getDeltaTime() * .003;
+            UpdateSpeedVisuals(_currSpeed);
+        }
     }
  
     
@@ -285,10 +294,18 @@ function UpdateDistanceAndScore() {
 
 function RefreshSpeed() {
     
-        _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
-        global.directionController3DVector = initialLevelVec.uniformScale(_currSpeed);
-        script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * _currSpeed);
-        script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * _currSpeed);
+     _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
+    UpdateSpeedVisuals(_currSpeed);
+        
+        
+}
+
+function UpdateSpeedVisuals(speed) {
+    
+    global.directionController3DVector = script.initialLevelVec.uniformScale(speed);
+    script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * speed);
+    script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * speed);
+    
 }
 
 

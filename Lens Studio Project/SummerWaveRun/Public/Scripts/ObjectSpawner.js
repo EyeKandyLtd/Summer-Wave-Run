@@ -98,7 +98,8 @@ script.api.DoSpawnOneShot = function () {
             }
         
       } else {
-        print("ObjectSpawner:: Prefab pool was empty. Please check and restart Lens.");            
+        print("ObjectSpawner:: Prefab pool was empty. Please check and restart Lens.");    
+        script.enabled = false;
                 
       }
     
