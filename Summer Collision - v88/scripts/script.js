@@ -59,6 +59,12 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		life_counter_1.hidden = true;
 		life_counter_2.hidden = true;
 		life_counter_3.hidden = true;
+	}
+
+	if (event.newValue == -4) {
+		life_counter_1.hidden = true;
+		life_counter_2.hidden = true;
+		life_counter_3.hidden = true;
 
 		game_over.hidden = false;
 		restart.hidden = false;
@@ -68,8 +74,8 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
 
-	if(event.newValue < -3) {
-		event.newValue = -3;
+	if(event.newValue < -4) {
+		event.newValue = -4;
 		stop_objects = true;
 		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
