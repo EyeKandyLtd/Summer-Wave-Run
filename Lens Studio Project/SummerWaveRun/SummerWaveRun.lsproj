@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591101288912",
+    "lastChanged": "1591115601042",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,6 +29,9 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Animated 3D Assets"
+                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -418,6 +421,9 @@
                         "turtle_texture"
                     ],
                     [
+                        "Audio"
+                    ],
+                    [
                         "Audio",
                         "Best-win"
                     ],
@@ -458,6 +464,21 @@
                         "turtle01"
                     ],
                     [
+                        "Face Mesh Resources",
+                        "Face Meshes",
+                        "Face Texture"
+                    ],
+                    [
+                        "Face Mesh Resources",
+                        "Face Meshes",
+                        "FaceMaterial0"
+                    ],
+                    [
+                        "Face Mesh Resources",
+                        "Face Meshes",
+                        "face_mesh_no_holes"
+                    ],
+                    [
                         "Materials"
                     ],
                     [
@@ -481,6 +502,9 @@
                     [
                         "Particles",
                         "Particles Mesh"
+                    ],
+                    [
+                        "Prefabs"
                     ],
                     [
                         "Prefabs",
@@ -521,6 +545,9 @@
                     [
                         "Prefabs",
                         "TurtleShell"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -700,7 +727,6 @@
                     "1574374499852074:172575",
                     "1589812223050539:24966",
                     "1589823953420994:170044",
-                    "1589989988470715:271741",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -2491,6 +2517,30 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "937",
+                    "uid": "1591112826433664:551624",
+                    "name": "",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "938",
+                    "uid": "1591112826467359:551634",
+                    "name": "Face Texture",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "939",
+                    "uid": "1591112826485273:551644",
+                    "name": "Files\/File985",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2903,7 +2953,8 @@
                 "133": "1590778091154361:321476",
                 "134": "1590942913314148:78787",
                 "135": "1591040277028267:182644",
-                "136": "1591040277043664:182654"
+                "136": "1591040277043664:182654",
+                "137": "1591112826658549:551659"
             }
         },
         "LayerComponent": {
@@ -3943,6 +3994,14 @@
                 {
                     "k": "984",
                     "v": "Files\/File984.lsmat"
+                },
+                {
+                    "k": "985",
+                    "v": "Files\/File985"
+                },
+                {
+                    "k": "986",
+                    "v": "Files\/File986.lsmat"
                 }
             ]
         },
@@ -4574,6 +4633,18 @@
                     {
                         "k": "161",
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/JetSkiColors03.lsmat"
+                    },
+                    {
+                        "k": "529",
+                        "v": "Face Mesh Resources"
+                    },
+                    {
+                        "k": "530",
+                        "v": "Face Mesh Resources\/Face Meshes"
+                    },
+                    {
+                        "k": "531",
+                        "v": "Face Mesh Resources\/Face Meshes\/FaceMaterial0.lsmat"
                     }
                 ],
                 "hashes": [
@@ -4691,7 +4762,7 @@
                     },
                     {
                         "k": "36",
-                        "v": "e452acfdf6599598e26b10fa186487df"
+                        "v": "83c4c10cb65f4a24f1f14eb618df54bf"
                     },
                     {
                         "k": "37",
@@ -4827,7 +4898,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "f05bc08c7931c92defb05dc4d6f6f967"
+                        "v": "4d5217212ae049b101f68ff5cd8ee074"
                     },
                     {
                         "k": "84",
@@ -4939,7 +5010,7 @@
                     },
                     {
                         "k": "123",
-                        "v": "25969363f7d7118bf4e43f0eccedc8be"
+                        "v": "b487a025c51e60693ae6976fddf85c41"
                     },
                     {
                         "k": "124",
@@ -5072,14 +5143,18 @@
                     {
                         "k": "161",
                         "v": "731de15c488ea947317eeedae76da981"
+                    },
+                    {
+                        "k": "531",
+                        "v": "a5c0e4dfaaaed37944cc498320838472"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-02T09:20:44",
+                        "lastModified": "2020-06-02T16:47:30",
                         "name": "Public",
-                        "hash": "3de6e9bfe6c0150a1115cd234aaf9b4f",
+                        "hash": "1e5f3a730f70edb1bdb59f43b7f0c0b0",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5792,9 +5867,46 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T11:32:15",
+                                "lastModified": "2020-06-02T16:47:06",
+                                "name": "Face Mesh Resources",
+                                "hash": "027999b350bff91450973a5507baeb07",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-02T17:32:39",
+                                        "name": "Face Meshes",
+                                        "hash": "72d2250b335765194387c540aac0645d",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-02T17:32:39",
+                                                "name": "FaceMaterial0.lsmat",
+                                                "hash": "a5c0e4dfaaaed37944cc498320838472",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-02T16:47:06",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-02T16:47:06",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-06-02T14:32:29",
                                 "name": "Prefabs",
-                                "hash": "75bd40fa2b93e25bf55a87ddb6a40b99",
+                                "hash": "b400a58741c6554045b48928eaca78d2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5805,9 +5917,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-02T14:32:29",
                                         "name": "Ramp.oprfb",
-                                        "hash": "25969363f7d7118bf4e43f0eccedc8be",
+                                        "hash": "b487a025c51e60693ae6976fddf85c41",
                                         "children": ""
                                     },
                                     {
@@ -6019,15 +6131,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T13:26:09",
+                                "lastModified": "2020-06-02T16:08:24",
                                 "name": "Scripts",
-                                "hash": "5a54e310133dee81f0c5c66f5400f5f1",
+                                "hash": "f99919808795584e60f623ee02f8bf95",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T11:38:31",
+                                        "lastModified": "2020-06-02T14:55:15",
                                         "name": "ColliderAABB.js",
-                                        "hash": "e452acfdf6599598e26b10fa186487df",
+                                        "hash": "83c4c10cb65f4a24f1f14eb618df54bf",
                                         "children": ""
                                     },
                                     {
@@ -6151,7 +6263,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T13:26:09",
+                                        "lastModified": "2020-06-02T16:08:24",
                                         "name": "GamePlayManager.js",
                                         "hash": "fa50c6178895d6ae9dcc318d4f81bfc8",
                                         "children": ""
@@ -10118,14 +10230,90 @@
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Face Mesh Resources",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "529",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Face Meshes",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "530",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "face_mesh_no_holes",
+                                        "type": "3",
+                                        "subtype": "2",
+                                        "resourceId": "937",
+                                        "dependency": "0",
+                                        "uid": "1591112826433664:551624",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Face Texture",
+                                        "type": "1",
+                                        "subtype": "2",
+                                        "resourceId": "938",
+                                        "dependency": "0",
+                                        "uid": "1591112826467359:551634",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "FaceMaterial0",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "939",
+                                        "dependency": "0",
+                                        "uid": "1591112826485273:551644",
+                                        "fileId": "985",
+                                        "originalId": "986",
+                                        "publicId": "531",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "objects": [
-                    "1589824396441814:172450"
+                "resources": [
+                    {
+                        "uid": "1591112826433664:551624",
+                        "path_list": [
+                            "Face Mesh Resources",
+                            "Face Meshes",
+                            "face_mesh_no_holes"
+                        ]
+                    }
                 ]
             }
         },
