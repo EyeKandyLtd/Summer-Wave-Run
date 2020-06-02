@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591089852330",
+    "lastChanged": "1591094892685",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,6 +29,9 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Animated 3D Assets"
+                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -183,6 +186,10 @@
                     [
                         "Animated 3D Assets",
                         "JetSki"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest"
                     ],
                     [
                         "Animated 3D Assets",
@@ -392,9 +399,6 @@
                         "turtle_texture"
                     ],
                     [
-                        "Audio"
-                    ],
-                    [
                         "Audio",
                         "Best-win"
                     ],
@@ -421,6 +425,10 @@
                     [
                         "Audio",
                         "Mid-win"
+                    ],
+                    [
+                        "Audio",
+                        "Small-cheer"
                     ],
                     [
                         "Audio",
@@ -454,9 +462,6 @@
                     [
                         "Particles",
                         "Particles Mesh"
-                    ],
-                    [
-                        "Prefabs"
                     ],
                     [
                         "Prefabs",
@@ -497,6 +502,9 @@
                     [
                         "Prefabs",
                         "TurtleShell"
+                    ],
+                    [
+                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -595,6 +603,10 @@
                     ],
                     [
                         "Textures",
+                        "Wearables"
+                    ],
+                    [
+                        "Textures",
                         "Wearables",
                         "CaptainsHat"
                     ],
@@ -671,7 +683,7 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589824396441814:172450",
+                    "1589823953420994:170044",
                     "1589989988470715:271741",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
@@ -2423,6 +2435,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "931",
+                    "uid": "1591094872393271:74911",
+                    "name": "Files\/File974.mp3",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3840,6 +3860,10 @@
                 {
                     "k": "973",
                     "v": "Files\/File973.png"
+                },
+                {
+                    "k": "974",
+                    "v": "Files\/File974.mp3"
                 }
             ]
         },
@@ -4451,6 +4475,10 @@
                     {
                         "k": "155",
                         "v": "Animated 3D Assets\/LifeVest\/life_vest1_texture.png"
+                    },
+                    {
+                        "k": "156",
+                        "v": "Audio\/Small-cheer.mp3"
                     }
                 ],
                 "hashes": [
@@ -4556,7 +4584,7 @@
                     },
                     {
                         "k": "33",
-                        "v": "9c379ed7882564b525001682c7f4ac67"
+                        "v": "73626008c26d03ea3aea844c61a87a30"
                     },
                     {
                         "k": "34",
@@ -4568,7 +4596,7 @@
                     },
                     {
                         "k": "36",
-                        "v": "480700edbb6701d07321b126aa96dc1a"
+                        "v": "e452acfdf6599598e26b10fa186487df"
                     },
                     {
                         "k": "37",
@@ -4576,11 +4604,11 @@
                     },
                     {
                         "k": "38",
-                        "v": "d33ac55e70195644c337fc11a73239dc"
+                        "v": "f05ddcc6dc30be76710d2791091ed784"
                     },
                     {
                         "k": "39",
-                        "v": "26124ebbdbf9d9b3bb06f3355cd12197"
+                        "v": "ccd821cd7f992d936d82aa488dd912ff"
                     },
                     {
                         "k": "40",
@@ -4704,7 +4732,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "9c1f3359d2cd2ffb5d3b8156d51dfdc0"
+                        "v": "fd2ecd0b8e0118dfc857f59a5ed248e0"
                     },
                     {
                         "k": "84",
@@ -4792,7 +4820,7 @@
                     },
                     {
                         "k": "117",
-                        "v": "08a3d616bedaeaa37b945c7a13b2984f"
+                        "v": "7c0abf83ede40e7271a23cbc7255768a"
                     },
                     {
                         "k": "118",
@@ -4925,6 +4953,10 @@
                     {
                         "k": "155",
                         "v": "a68b0e59d9a29c5bd2bbf0f3ab248d17"
+                    },
+                    {
+                        "k": "156",
+                        "v": "cdcd6920f33d1c5c5d5f31164ddaa2c0"
                     }
                 ],
                 "publicState": {
@@ -4932,7 +4964,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-02T09:20:44",
                         "name": "Public",
-                        "hash": "a932af9eac9e35818f13f0769dac07ac",
+                        "hash": "e7f75cb5c2710be6e3e955155a01c013",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5631,9 +5663,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T10:23:55",
+                                "lastModified": "2020-06-02T11:32:15",
                                 "name": "Prefabs",
-                                "hash": "5624818282b9d33cb077c131aa9bef69",
+                                "hash": "75bd40fa2b93e25bf55a87ddb6a40b99",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5665,9 +5697,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-02T11:32:15",
                                         "name": "FlamingoFloat.oprfb",
-                                        "hash": "08a3d616bedaeaa37b945c7a13b2984f",
+                                        "hash": "7c0abf83ede40e7271a23cbc7255768a",
                                         "children": ""
                                     },
                                     {
@@ -5745,9 +5777,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T10:23:55",
+                                "lastModified": "2020-06-02T11:47:50",
                                 "name": "Audio",
-                                "hash": "9fdb345f0fd6b7f1d8c4d76afe8500b4",
+                                "hash": "d65d54e79a183869462d073c95b80052",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5789,6 +5821,13 @@
                                         "lastModified": "2020-06-02T09:15:50",
                                         "name": "turtle01.mp3",
                                         "hash": "d39d8bd2a7d5a6981b860fe22fe780d6",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-05-22T14:51:44",
+                                        "name": "Small-cheer.mp3",
+                                        "hash": "cdcd6920f33d1c5c5d5f31164ddaa2c0",
                                         "children": ""
                                     },
                                     {
@@ -5851,15 +5890,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T09:26:32",
+                                "lastModified": "2020-06-02T11:44:43",
                                 "name": "Scripts",
-                                "hash": "db0d17d28de12d313049ba835f1ffeec",
+                                "hash": "744b6cbf91576033422779986febc647",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-02T11:38:31",
                                         "name": "ColliderAABB.js",
-                                        "hash": "480700edbb6701d07321b126aa96dc1a",
+                                        "hash": "e452acfdf6599598e26b10fa186487df",
                                         "children": ""
                                     },
                                     {
@@ -5920,9 +5959,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-02T11:42:41",
                                         "name": "AudioManager.js",
-                                        "hash": "26124ebbdbf9d9b3bb06f3355cd12197",
+                                        "hash": "ccd821cd7f992d936d82aa488dd912ff",
                                         "children": ""
                                     },
                                     {
@@ -5955,9 +5994,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-02T11:44:43",
                                         "name": "JumpController3D.js",
-                                        "hash": "9c379ed7882564b525001682c7f4ac67",
+                                        "hash": "73626008c26d03ea3aea844c61a87a30",
                                         "children": ""
                                     },
                                     {
@@ -5983,9 +6022,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:26:32",
+                                        "lastModified": "2020-06-02T11:37:05",
                                         "name": "GamePlayManager.js",
-                                        "hash": "d33ac55e70195644c337fc11a73239dc",
+                                        "hash": "f05ddcc6dc30be76710d2791091ed784",
                                         "children": ""
                                     },
                                     {
@@ -9732,6 +9771,19 @@
                                 "publicId": "142",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Untitled.mp3",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Small-cheer",
+                                "type": "5",
+                                "subtype": "0",
+                                "resourceId": "931",
+                                "dependency": "0",
+                                "uid": "1591094872393271:74911",
+                                "fileId": "974",
+                                "originalId": "18446744073709551615",
+                                "publicId": "156",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Audio\/Small-cheer.mp3",
+                                "additional": ""
                             }
                         ]
                     },
@@ -9891,15 +9943,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1590751020443764:667949",
-                        "path_list": [
-                            "Textures",
-                            "Wearables",
-                            "Sunglasses"
-                        ]
-                    }
+                "objects": [
+                    "1589824396441814:172450"
                 ]
             }
         },
