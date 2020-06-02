@@ -8,6 +8,7 @@
 //@input Component.ScriptComponent pfxManager
 //@input Component.ScriptComponent wearablesManager
 //@input Component.ScriptComponent scrollingWater
+//@input Component.ScriptComponent playingCharacter
 
 //@input Component.ScriptComponent[] levels
 //@input float scorePerLevel = 100
@@ -215,7 +216,9 @@ function StartLevel(level) {
     
     
     if (level < script.levels.length) {
-       
+
+        script.playingCharacter.api.DoLevelUp(level);
+        
         //..spawn in end level ramp?
         if (level > 0) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();

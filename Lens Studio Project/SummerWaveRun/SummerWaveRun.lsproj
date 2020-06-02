@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591094892685",
+    "lastChanged": "1591100733456",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,9 +29,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Animated 3D Assets"
-                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -185,7 +182,29 @@
                     ],
                     [
                         "Animated 3D Assets",
-                        "JetSki"
+                        "JetSki",
+                        "JetSki",
+                        "Materials0010",
+                        "JetSkiColors02"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "JetSki",
+                        "JetSki",
+                        "Materials0010",
+                        "JetSkiColors03"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "JetSki",
+                        "JetSkiStyles",
+                        "jetski texture 2"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "JetSki",
+                        "JetSkiStyles",
+                        "jetski texture 3"
                     ],
                     [
                         "Animated 3D Assets",
@@ -502,9 +521,6 @@
                     [
                         "Prefabs",
                         "TurtleShell"
-                    ],
-                    [
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -2443,6 +2459,38 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "933",
+                    "uid": "1591098496156253:153710",
+                    "name": "Files\/File977.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "934",
+                    "uid": "1591098496173097:153717",
+                    "name": "Files\/File979.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "935",
+                    "uid": "1591098536749655:167383",
+                    "name": "Files\/File981",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "936",
+                    "uid": "1591098538187437:170836",
+                    "name": "Files\/File983",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2855,8 +2903,7 @@
                 "133": "1590778091154361:321476",
                 "134": "1590942913314148:78787",
                 "135": "1591040277028267:182644",
-                "136": "1591040277043664:182654",
-                "137": "1591089165901441:38288"
+                "136": "1591040277043664:182654"
             }
         },
         "LayerComponent": {
@@ -3864,6 +3911,38 @@
                 {
                     "k": "974",
                     "v": "Files\/File974.mp3"
+                },
+                {
+                    "k": "977",
+                    "v": "Files\/File977.jpg"
+                },
+                {
+                    "k": "978",
+                    "v": "Files\/File978.jpg"
+                },
+                {
+                    "k": "979",
+                    "v": "Files\/File979.jpg"
+                },
+                {
+                    "k": "980",
+                    "v": "Files\/File980.jpg"
+                },
+                {
+                    "k": "981",
+                    "v": "Files\/File981"
+                },
+                {
+                    "k": "982",
+                    "v": "Files\/File982.lsmat"
+                },
+                {
+                    "k": "983",
+                    "v": "Files\/File983"
+                },
+                {
+                    "k": "984",
+                    "v": "Files\/File984.lsmat"
                 }
             ]
         },
@@ -4098,7 +4177,7 @@
                     },
                     {
                         "k": "56",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/JetSkiColors.lsmat"
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/JetSkiColors01.lsmat"
                     },
                     {
                         "k": "57",
@@ -4114,19 +4193,19 @@
                     },
                     {
                         "k": "60",
-                        "v": "Animated 3D Assets\/JetSki\/FlagmigoStyle"
+                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles"
                     },
                     {
                         "k": "61",
-                        "v": "Animated 3D Assets\/JetSki\/FlagmigoStyle\/0.png"
+                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles\/flamingo texture1.png"
                     },
                     {
                         "k": "62",
-                        "v": "Animated 3D Assets\/JetSki\/FlagmigoStyle\/2.png"
+                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles\/jetski texture 1.png"
                     },
                     {
                         "k": "63",
-                        "v": "Animated 3D Assets\/JetSki\/FlagmigoStyle\/4.png"
+                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles\/wetsuit texture1.png"
                     },
                     {
                         "k": "64",
@@ -4479,6 +4558,22 @@
                     {
                         "k": "156",
                         "v": "Audio\/Small-cheer.mp3"
+                    },
+                    {
+                        "k": "158",
+                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles\/jetski texture 3.jpg"
+                    },
+                    {
+                        "k": "159",
+                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles\/jetski texture 2.jpg"
+                    },
+                    {
+                        "k": "160",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/JetSkiColors02.lsmat"
+                    },
+                    {
+                        "k": "161",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/JetSkiColors03.lsmat"
                     }
                 ],
                 "hashes": [
@@ -4580,11 +4675,11 @@
                     },
                     {
                         "k": "32",
-                        "v": "bc0411635ce8d200d03216f4e93d469c"
+                        "v": "68242838e688e0e3e3f829cb386c6afe"
                     },
                     {
                         "k": "33",
-                        "v": "73626008c26d03ea3aea844c61a87a30"
+                        "v": "f9ceede788c6199abd36c035efb07434"
                     },
                     {
                         "k": "34",
@@ -4604,7 +4699,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "f05ddcc6dc30be76710d2791091ed784"
+                        "v": "03e5011557419fa120846cdb46a32359"
                     },
                     {
                         "k": "39",
@@ -4664,7 +4759,7 @@
                     },
                     {
                         "k": "56",
-                        "v": "73e47c957e540e616e7594cb94e28457"
+                        "v": "22ef9e5ff5e8ccb99275d7f3ccceb766"
                     },
                     {
                         "k": "57",
@@ -4732,7 +4827,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "fd2ecd0b8e0118dfc857f59a5ed248e0"
+                        "v": "9f9bdbef1369ed1a03e339f676ce75c4"
                     },
                     {
                         "k": "84",
@@ -4957,6 +5052,26 @@
                     {
                         "k": "156",
                         "v": "cdcd6920f33d1c5c5d5f31164ddaa2c0"
+                    },
+                    {
+                        "k": "157",
+                        "v": "21b28831ce0bc1c06a991a8bb4b98c29"
+                    },
+                    {
+                        "k": "158",
+                        "v": "41e9c228764647e4b9f52c2d354441a0"
+                    },
+                    {
+                        "k": "159",
+                        "v": "3dc0e242f1ed15f94e75cd3e4170d7d4"
+                    },
+                    {
+                        "k": "160",
+                        "v": "d795874a44a2bb438c676b48a1666c25"
+                    },
+                    {
+                        "k": "161",
+                        "v": "731de15c488ea947317eeedae76da981"
                     }
                 ],
                 "publicState": {
@@ -4964,7 +5079,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-02T09:20:44",
                         "name": "Public",
-                        "hash": "e7f75cb5c2710be6e3e955155a01c013",
+                        "hash": "d6919a2f9f2096c2a32c244b003c85fa",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5021,32 +5136,53 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-02T10:11:47",
                                 "name": "Animated 3D Assets",
-                                "hash": "a3ec511dd577a55584dd68e2146d4044",
+                                "hash": "eaee3b9646d94dab74fa3e23bbb9e86e",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-02T12:59:03",
                                         "name": "JetSki",
-                                        "hash": "a6096770c99085f03a0c8d8f84a2a837",
+                                        "hash": "8f1e750f9db6b6ba6619f0b8ae50f1eb",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-02T09:15:52",
-                                                "name": "FlagmigoStyle",
-                                                "hash": "526a158835b65a02248ed1c9f997e8e3",
+                                                "lastModified": "2020-06-02T12:58:54",
+                                                "name": "JetSkiStyles",
+                                                "hash": "c1ca3d6da1f5308d4c1c6d8e39bd2963",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
                                                         "lastModified": "2020-06-02T09:15:49",
-                                                        "name": "4.png",
-                                                        "hash": "89f5cfc0bd23b5a955addd3973856892",
+                                                        "name": "flamingo texture1.png",
+                                                        "hash": "ad18179488f4a789b5a2cd62c0a145d7",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
                                                         "lastModified": "2020-06-02T09:15:49",
-                                                        "name": "2.png",
+                                                        "name": "jetski texture 1.png",
                                                         "hash": "21b28831ce0bc1c06a991a8bb4b98c29",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-05-29T12:20:53",
+                                                        "name": "jetski texture 3.jpg",
+                                                        "hash": "41e9c228764647e4b9f52c2d354441a0",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-05-29T12:20:53",
+                                                        "name": "jetski texture 2.jpg",
+                                                        "hash": "3dc0e242f1ed15f94e75cd3e4170d7d4",
+                                                        "children": ""
+                                                    },
+                                                    {
+                                                        "isFolder": "false",
+                                                        "lastModified": "2020-06-02T09:15:49",
+                                                        "name": "wetsuit texture1.png",
+                                                        "hash": "89f5cfc0bd23b5a955addd3973856892",
                                                         "children": ""
                                                     },
                                                     {
@@ -5054,13 +5190,6 @@
                                                         "lastModified": "2020-06-02T09:15:52",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                        "children": ""
-                                                    },
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-06-02T09:15:49",
-                                                        "name": "0.png",
-                                                        "hash": "ad18179488f4a789b5a2cd62c0a145d7",
                                                         "children": ""
                                                     }
                                                 ]
@@ -5890,9 +6019,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T11:44:43",
+                                "lastModified": "2020-06-02T13:24:12",
                                 "name": "Scripts",
-                                "hash": "744b6cbf91576033422779986febc647",
+                                "hash": "de750131d4096700ae8523df5b37f7c2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5994,9 +6123,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T11:44:43",
+                                        "lastModified": "2020-06-02T11:50:48",
                                         "name": "JumpController3D.js",
-                                        "hash": "73626008c26d03ea3aea844c61a87a30",
+                                        "hash": "f9ceede788c6199abd36c035efb07434",
                                         "children": ""
                                     },
                                     {
@@ -6022,9 +6151,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T11:37:05",
+                                        "lastModified": "2020-06-02T13:24:12",
                                         "name": "GamePlayManager.js",
-                                        "hash": "f05ddcc6dc30be76710d2791091ed784",
+                                        "hash": "03e5011557419fa120846cdb46a32359",
                                         "children": ""
                                     },
                                     {
@@ -6036,9 +6165,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-02T13:23:29",
                                         "name": "PlayingCharacter.js",
-                                        "hash": "bc0411635ce8d200d03216f4e93d469c",
+                                        "hash": "68242838e688e0e3e3f829cb386c6afe",
                                         "children": ""
                                     },
                                     {
@@ -7850,7 +7979,7 @@
                                                         "additional": ""
                                                     },
                                                     {
-                                                        "name": "JetSkiColors",
+                                                        "name": "JetSkiColors01",
                                                         "type": "2",
                                                         "subtype": "0",
                                                         "resourceId": "671",
@@ -7900,6 +8029,32 @@
                                                         "publicId": "59",
                                                         "source": "",
                                                         "additional": ""
+                                                    },
+                                                    {
+                                                        "name": "JetSkiColors02",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "935",
+                                                        "dependency": "0",
+                                                        "uid": "1591098536749655:167383",
+                                                        "fileId": "981",
+                                                        "originalId": "982",
+                                                        "publicId": "160",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    },
+                                                    {
+                                                        "name": "JetSkiColors03",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "936",
+                                                        "dependency": "0",
+                                                        "uid": "1591098538187437:170836",
+                                                        "fileId": "983",
+                                                        "originalId": "984",
+                                                        "publicId": "161",
+                                                        "source": "",
+                                                        "additional": ""
                                                     }
                                                 ]
                                             },
@@ -7919,7 +8074,7 @@
                                         ]
                                     },
                                     {
-                                        "name": "FlagmigoStyle",
+                                        "name": "JetSkiStyles",
                                         "type": "0",
                                         "subtype": "-1",
                                         "resourceId": "-1",
@@ -7932,7 +8087,7 @@
                                         "additional": "",
                                         "resources": [
                                             {
-                                                "name": "0",
+                                                "name": "flamingo texture1",
                                                 "type": "1",
                                                 "subtype": "9",
                                                 "resourceId": "675",
@@ -7945,7 +8100,7 @@
                                                 "additional": ""
                                             },
                                             {
-                                                "name": "2",
+                                                "name": "jetski texture 1",
                                                 "type": "1",
                                                 "subtype": "9",
                                                 "resourceId": "676",
@@ -7958,7 +8113,7 @@
                                                 "additional": ""
                                             },
                                             {
-                                                "name": "4",
+                                                "name": "wetsuit texture1",
                                                 "type": "1",
                                                 "subtype": "9",
                                                 "resourceId": "677",
@@ -7968,6 +8123,32 @@
                                                 "originalId": "572",
                                                 "publicId": "63",
                                                 "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yBdyUS\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "jetski texture 3",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "933",
+                                                "dependency": "0",
+                                                "uid": "1591098496156253:153710",
+                                                "fileId": "977",
+                                                "originalId": "978",
+                                                "publicId": "158",
+                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/JetSki\/FlagmigoStyle\/jetski texture 3.jpg",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "jetski texture 2",
+                                                "type": "1",
+                                                "subtype": "9",
+                                                "resourceId": "934",
+                                                "dependency": "0",
+                                                "uid": "1591098496173097:153717",
+                                                "fileId": "979",
+                                                "originalId": "980",
+                                                "publicId": "159",
+                                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/JetSki\/FlagmigoStyle\/jetski texture 2.jpg",
                                                 "additional": ""
                                             }
                                         ]
