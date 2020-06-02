@@ -40,6 +40,16 @@ global.playAudioAsset = function (audioAsset, loops, vol) {
 }
 
 
+global.playRandomAudioAsset = function (audioAssetPool, loops, vol) {
+
+    if (audioAssetPool != null) {
+        var randomIndex = Math.floor(Math.random() * audioAssetPool.length);
+        var clip =  audioAssetPool[randomIndex];     
+        global.playAudioAsset(clip, loops, vol);    
+    }
+}
+
+
 
 global.stopAudioAsset = function (audioAsset) {
 

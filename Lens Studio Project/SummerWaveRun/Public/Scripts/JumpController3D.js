@@ -4,6 +4,8 @@
 //@input float ForceJumpHeight
 //@input float ForceJumpTime
 
+//@input Asset.AudioTrackAsset[] simpleJumpSounds
+
 var initialScale;
 var jumpTrans;
 
@@ -44,6 +46,7 @@ updateEvent.bind(function(eventData){
         if (script.api.isOnGround ) {
             script.api.isOnGround = false;
             jumpStartTime = getTime();
+            global.playRandomAudioAsset(script.simpleJumpSounds, -1, 1);
         } else {
            // print("Ignoring jump request as object is not on the ground.");
         }
@@ -80,6 +83,7 @@ script.api.SimpleJump = function(height, timeSecs) {
     requestedJumpHeight = height;
     requestedJumpTime = timeSecs;
     isJumpRequested = true; 
+    
 }
 
 script.api.DoSimpleJump = function() {

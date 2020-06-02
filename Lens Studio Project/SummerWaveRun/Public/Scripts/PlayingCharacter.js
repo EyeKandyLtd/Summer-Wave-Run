@@ -11,6 +11,8 @@
 //@input float tiltMaxDegrees = 0.15 {"widget":"slider", "min":0.02, "max":4}
 //@input float waveBounceSeconds = 4 {"widget":"slider", "min":0.3, "max":32}
 
+//@input Component.RenderMeshVisual LevelUpRenderMaterialTarget
+//@input Asset.Material[] LevelUpMaterials
 
 if(!script.gestureManager )
 { throw new Error("One or more fields aren't set."); return; }  // Check to prevent Studio lens failure to let you set null fields when in error
@@ -136,9 +138,14 @@ function HandleCollision(other) {
     
     //print("Player Handling Collision: " + otherName);  
     
-  
-   
-      
+    
+}
+
+script.api.DoLevelUp = function(levelCount) {
+    
+    if (script.LevelUpMaterials.length > levelCount) {
+        var mat = script.LevelUpRenderMaterialTarget.mainMaterial = script.LevelUpMaterials[levelCount];
+    }
     
 }
 

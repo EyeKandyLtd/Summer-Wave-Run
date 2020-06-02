@@ -8,6 +8,7 @@
 //@input Component.ScriptComponent pfxManager
 //@input Component.ScriptComponent wearablesManager
 //@input Component.ScriptComponent scrollingWater
+//@input Component.ScriptComponent playingCharacter
 
 //@input Component.ScriptComponent[] levels
 //@input float scorePerLevel = 100
@@ -215,7 +216,9 @@ function StartLevel(level) {
     
     
     if (level < script.levels.length) {
-       
+
+        script.playingCharacter.api.DoLevelUp(level);
+        
         //..spawn in end level ramp?
         if (level > 0) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
@@ -372,7 +375,7 @@ function DoMatch(i1, i2) {
 }
 
 
-
+/*
 function DoCheckWin() {
 
     _isLevelWon = false;
@@ -404,6 +407,7 @@ function StartCurrentLevel() {
     StartLevel(_currLevelNumber);
 
 }
+*/
 
 
 function DoFinishedGame() {
@@ -419,7 +423,6 @@ function DoFinishedGame() {
     global.SetContentEnabled(script.activateOnStart, false);
 
     var score = CalcCurrentScore();
-    var grade = DerriveGrade(score);
     var wasHighScore = global.TrySetHighScore(score);
 
 
@@ -464,13 +467,6 @@ function CalcCurrentScore() {
   return _currScore;
 }
 
-function DerriveGrade(pct) {
-
-    //ref: https://en.wikipedia.org/wiki/Academic_grading_in_the_United_States
-
-    return "TODO: DerriveGrade";
-
-}
 
 
 function GetComponentWorldPos(component) {
