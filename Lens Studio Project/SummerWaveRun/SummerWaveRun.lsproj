@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591100733456",
+    "lastChanged": "1591101288912",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -733,7 +733,7 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "icon_hash": "30a3259b5f43c604c0b5e1a487735686",
+            "icon_hash": "1957011cef3393768c9abae2da9228a1",
             "icon_path": "icon.png",
             "video_preview_path": "preview.mp4",
             "hints": [
@@ -4699,7 +4699,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "03e5011557419fa120846cdb46a32359"
+                        "v": "fa50c6178895d6ae9dcc318d4f81bfc8"
                     },
                     {
                         "k": "39",
@@ -4827,7 +4827,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "9f9bdbef1369ed1a03e339f676ce75c4"
+                        "v": "f05bc08c7931c92defb05dc4d6f6f967"
                     },
                     {
                         "k": "84",
@@ -5079,7 +5079,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-02T09:20:44",
                         "name": "Public",
-                        "hash": "d6919a2f9f2096c2a32c244b003c85fa",
+                        "hash": "3de6e9bfe6c0150a1115cd234aaf9b4f",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6019,9 +6019,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T13:24:12",
+                                "lastModified": "2020-06-02T13:26:09",
                                 "name": "Scripts",
-                                "hash": "de750131d4096700ae8523df5b37f7c2",
+                                "hash": "5a54e310133dee81f0c5c66f5400f5f1",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6151,9 +6151,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T13:24:12",
+                                        "lastModified": "2020-06-02T13:26:09",
                                         "name": "GamePlayManager.js",
-                                        "hash": "03e5011557419fa120846cdb46a32359",
+                                        "hash": "fa50c6178895d6ae9dcc318d4f81bfc8",
                                         "children": ""
                                     },
                                     {
