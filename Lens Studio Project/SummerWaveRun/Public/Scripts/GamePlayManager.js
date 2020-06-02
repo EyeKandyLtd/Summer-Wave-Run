@@ -423,7 +423,7 @@ function DoFinishedGame() {
     var wasHighScore = global.TrySetHighScore(score);
 
 
-    var selfieBannerMessage = "Jet Ski Distance " + "\n " + Math.floor(_currScore) + "!";
+    var selfieBannerMessage = "Distance " + "\n " + Math.floor(_currScore) + "!";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
     script.frontCamTopMessage.text = selfieBannerMessage;
     
