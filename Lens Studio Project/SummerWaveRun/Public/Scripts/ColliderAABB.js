@@ -23,7 +23,7 @@ script.api.worldPos = vec3.zero;
 
 
 var intersectionCallback;
-var triggerCount = 0;
+var collisionCount = 0;
 
 
 script.api.RefreshBoundingBox = function() {
@@ -55,7 +55,14 @@ script.api.OnIntersection = function (otherCollider) {
     if (intersectionCallback != null) {
         intersectionCallback(otherCollider);
     }
-   triggerCount++;
+    
+    try {
+        if (!otherCollider.getSceneObject().api.GetIsTrigger()) {
+            collisionCount++;
+        }  
+    } catch(err) {}
+      
+        
     
 }
 
@@ -69,7 +76,7 @@ script.api.GetIsTrigger = function() {
 }
 
 script.api.GetHasOneShotExecuted = function() {
-    return (script.isOneShot && triggerCount > 0) ;
+    return (script.isOneShot && collisionCount > 0) ;
 }
 
 script.api.PlayHitSound = function() {
