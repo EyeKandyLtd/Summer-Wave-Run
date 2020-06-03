@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591115601042",
+    "lastChanged": "1591194569556",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -470,13 +470,24 @@
                     ],
                     [
                         "Face Mesh Resources",
-                        "Face Meshes",
-                        "FaceMaterial0"
+                        "FaceMeshStatic",
+                        "Animations"
                     ],
                     [
                         "Face Mesh Resources",
-                        "Face Meshes",
-                        "face_mesh_no_holes"
+                        "FaceMeshStatic",
+                        "FaceMeshStatic"
+                    ],
+                    [
+                        "Face Mesh Resources",
+                        "FaceMeshStatic",
+                        "Meshes",
+                        "Resource"
+                    ],
+                    [
+                        "Face Mesh Resources",
+                        "Material",
+                        "AlphaFace"
                     ],
                     [
                         "Materials"
@@ -488,9 +499,6 @@
                     [
                         "Materials",
                         "particle_confetti_2 2"
-                    ],
-                    [
-                        "Mesh"
                     ],
                     [
                         "Particles"
@@ -545,9 +553,6 @@
                     [
                         "Prefabs",
                         "TurtleShell"
-                    ],
-                    [
-                        "Scripts"
                     ],
                     [
                         "Scripts",
@@ -619,7 +624,7 @@
                     ],
                     [
                         "Textures",
-                        "Face"
+                        "FaceSoftOutline"
                     ],
                     [
                         "Textures",
@@ -643,6 +648,10 @@
                     [
                         "Textures",
                         "Pier_EnvMap"
+                    ],
+                    [
+                        "Textures",
+                        "Water"
                     ],
                     [
                         "Textures",
@@ -752,6 +761,7 @@
                     "1590161586614319:506540",
                     "1590441884156890:1008202",
                     "1590483410975235:248916",
+                    "1590742471715308:176711",
                     "1590938830662621:416034",
                     "1590938844440776:460940",
                     "1591040277028267:182644"
@@ -861,14 +871,6 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
-                },
-                {
-                    "resId": "186",
-                    "uid": "1589817760238493:125361",
-                    "name": "Face Texture",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
                 },
                 {
                     "resId": "190",
@@ -1511,25 +1513,9 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "670",
-                    "uid": "1589989946011271:254501",
-                    "name": "Files\/File557",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "671",
                     "uid": "1589989946633392:254516",
                     "name": "Files\/File559",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "672",
-                    "uid": "1589989947101742:254531",
-                    "name": "Files\/File561",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -1546,14 +1532,6 @@
                     "resId": "674",
                     "uid": "1589989948004207:254561",
                     "name": "Files\/File565",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "675",
-                    "uid": "1589989948638853:254576",
-                    "name": "Files\/File567.jpg",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -2519,14 +2497,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "937",
-                    "uid": "1591112826433664:551624",
-                    "name": "",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
                     "resId": "938",
                     "uid": "1591112826467359:551634",
                     "name": "Face Texture",
@@ -2535,12 +2505,36 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "939",
-                    "uid": "1591112826485273:551644",
-                    "name": "Files\/File985",
+                    "resId": "946",
+                    "uid": "1591189294119949:76494",
+                    "name": "Files\/File993",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "947",
+                    "uid": "1591189294352379:76532",
+                    "name": "Files\/File995.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "950",
+                    "uid": "1591192912209997:137206",
+                    "name": "Files\/File998.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "951",
+                    "uid": "1591192912680429:137273",
+                    "name": "FaceMeshStatic",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
                 }
             ],
             "MaterialUpdateManager": {
@@ -3200,28 +3194,12 @@
                     "v": "Files\/File556.mesh"
                 },
                 {
-                    "k": "557",
-                    "v": "Files\/File557"
-                },
-                {
-                    "k": "558",
-                    "v": "Files\/File558.lsmat"
-                },
-                {
                     "k": "559",
                     "v": "Files\/File559"
                 },
                 {
                     "k": "560",
                     "v": "Files\/File560.lsmat"
-                },
-                {
-                    "k": "561",
-                    "v": "Files\/File561"
-                },
-                {
-                    "k": "562",
-                    "v": "Files\/File562.lsmat"
                 },
                 {
                     "k": "563",
@@ -3238,14 +3216,6 @@
                 {
                     "k": "566",
                     "v": "Files\/File566.lsmat"
-                },
-                {
-                    "k": "567",
-                    "v": "Files\/File567.png"
-                },
-                {
-                    "k": "568",
-                    "v": "Files\/File568.png"
                 },
                 {
                     "k": "569",
@@ -3996,12 +3966,36 @@
                     "v": "Files\/File984.lsmat"
                 },
                 {
-                    "k": "985",
-                    "v": "Files\/File985"
+                    "k": "993",
+                    "v": "Files\/File993"
                 },
                 {
-                    "k": "986",
-                    "v": "Files\/File986.lsmat"
+                    "k": "994",
+                    "v": "Files\/File994.lsmat"
+                },
+                {
+                    "k": "995",
+                    "v": "Files\/File995.png"
+                },
+                {
+                    "k": "996",
+                    "v": "Files\/File996.png"
+                },
+                {
+                    "k": "998",
+                    "v": "Files\/File998.mesh"
+                },
+                {
+                    "k": "999",
+                    "v": "Files\/File999.oprfb"
+                },
+                {
+                    "k": "1000",
+                    "v": "Files\/File1000.obj"
+                },
+                {
+                    "k": "1001",
+                    "v": "Files\/File1001.oprfb"
                 }
             ]
         },
@@ -4017,10 +4011,6 @@
                     {
                         "k": "1",
                         "v": "Textures"
-                    },
-                    {
-                        "k": "2",
-                        "v": "Textures\/Face"
                     },
                     {
                         "k": "3",
@@ -4231,16 +4221,8 @@
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010"
                     },
                     {
-                        "k": "55",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/FlamingoColours.lsmat"
-                    },
-                    {
                         "k": "56",
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/JetSkiColors01.lsmat"
-                    },
-                    {
-                        "k": "57",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/JetSki\/JetSki\/Materials0010\/Head_Front.lsmat"
                     },
                     {
                         "k": "58",
@@ -4253,10 +4235,6 @@
                     {
                         "k": "60",
                         "v": "Animated 3D Assets\/JetSki\/JetSkiStyles"
-                    },
-                    {
-                        "k": "61",
-                        "v": "Animated 3D Assets\/JetSki\/JetSkiStyles\/flamingo texture1.png"
                     },
                     {
                         "k": "62",
@@ -4643,8 +4621,20 @@
                         "v": "Face Mesh Resources\/Face Meshes"
                     },
                     {
-                        "k": "531",
-                        "v": "Face Mesh Resources\/Face Meshes\/FaceMaterial0.lsmat"
+                        "k": "538",
+                        "v": "Face Mesh Resources\/Material"
+                    },
+                    {
+                        "k": "539",
+                        "v": "Textures\/FaceSoftOutline.png"
+                    },
+                    {
+                        "k": "540",
+                        "v": "Face Mesh Resources\/Material\/AlphaFace.lsmat"
+                    },
+                    {
+                        "k": "542",
+                        "v": "Face Mesh Resources\/FaceMeshStatic.obj"
                     }
                 ],
                 "hashes": [
@@ -4898,7 +4888,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "4d5217212ae049b101f68ff5cd8ee074"
+                        "v": "ac31d9c2f8212838cd1e6b5bf0b967b2"
                     },
                     {
                         "k": "84",
@@ -5146,15 +5136,43 @@
                     },
                     {
                         "k": "531",
-                        "v": "a5c0e4dfaaaed37944cc498320838472"
+                        "v": "d5bb3ff11a45cf0db4b51d25b4089301"
+                    },
+                    {
+                        "k": "535",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "536",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "537",
+                        "v": "759d0baa9636e1f8e22552ea4946666b"
+                    },
+                    {
+                        "k": "539",
+                        "v": "1b1fbf6d789d0db71bb85b566d86eb72"
+                    },
+                    {
+                        "k": "540",
+                        "v": "6ec3d5b4d535af6beb0e7395b3e287a9"
+                    },
+                    {
+                        "k": "541",
+                        "v": "38417083884511517caceff74e41885a"
+                    },
+                    {
+                        "k": "542",
+                        "v": "3a2383ab6a7c98ed3e6dbec9b7fd4eeb"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-02T16:47:30",
+                        "lastModified": "2020-06-03T14:01:43",
                         "name": "Public",
-                        "hash": "1e5f3a730f70edb1bdb59f43b7f0c0b0",
+                        "hash": "391f25857602e77a81c68ecdb6a5df94",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5211,27 +5229,20 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-02T10:11:47",
                                 "name": "Animated 3D Assets",
-                                "hash": "eaee3b9646d94dab74fa3e23bbb9e86e",
+                                "hash": "d67c43e9de04402bde231eb45939e424",
                                 "children": [
                                     {
                                         "isFolder": "true",
                                         "lastModified": "2020-06-02T12:59:03",
                                         "name": "JetSki",
-                                        "hash": "8f1e750f9db6b6ba6619f0b8ae50f1eb",
+                                        "hash": "93e3784231453eb31bba39857a06a4fa",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-02T12:58:54",
+                                                "lastModified": "2020-06-03T15:29:11",
                                                 "name": "JetSkiStyles",
-                                                "hash": "c1ca3d6da1f5308d4c1c6d8e39bd2963",
+                                                "hash": "3a227610828de37094c035047d8fb532",
                                                 "children": [
-                                                    {
-                                                        "isFolder": "false",
-                                                        "lastModified": "2020-06-02T09:15:49",
-                                                        "name": "flamingo texture1.png",
-                                                        "hash": "ad18179488f4a789b5a2cd62c0a145d7",
-                                                        "children": ""
-                                                    },
                                                     {
                                                         "isFolder": "false",
                                                         "lastModified": "2020-06-02T09:15:49",
@@ -5579,9 +5590,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T09:15:52",
+                                "lastModified": "2020-06-03T15:29:12",
                                 "name": "Textures",
-                                "hash": "93df5e035370a4a732a42083c4ed07b2",
+                                "hash": "35dce59da45a558740c31cd74798d043",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5634,19 +5645,11 @@
                                         ]
                                     },
                                     {
-                                        "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
-                                        "name": "Face",
-                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:52",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            }
-                                        ]
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T15:04:36",
+                                        "name": "FaceSoftOutline.png",
+                                        "hash": "1b1fbf6d789d0db71bb85b566d86eb72",
+                                        "children": ""
                                     },
                                     {
                                         "isFolder": "false",
@@ -5867,26 +5870,48 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T16:47:06",
+                                "lastModified": "2020-06-03T15:01:52",
                                 "name": "Face Mesh Resources",
-                                "hash": "027999b350bff91450973a5507baeb07",
+                                "hash": "6db5ad3e7f9453e7b0671033af446efd",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T17:32:39",
+                                        "lastModified": "2020-06-03T15:29:11",
                                         "name": "Face Meshes",
-                                        "hash": "72d2250b335765194387c540aac0645d",
+                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T17:32:39",
-                                                "name": "FaceMaterial0.lsmat",
-                                                "hash": "a5c0e4dfaaaed37944cc498320838472",
+                                                "lastModified": "2020-06-02T16:47:06",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-12-07T05:04:26",
+                                        "name": "FaceMeshStatic.obj",
+                                        "hash": "3a2383ab6a7c98ed3e6dbec9b7fd4eeb",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-03T15:27:18",
+                                        "name": "Material",
+                                        "hash": "44832e2220ab0c3c3e68d7725280f178",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-03T15:27:18",
+                                                "name": "AlphaFace.lsmat",
+                                                "hash": "6ec3d5b4d535af6beb0e7395b3e287a9",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T16:47:06",
+                                                "lastModified": "2020-06-03T14:01:12",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -6131,7 +6156,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T16:08:24",
+                                "lastModified": "2020-06-03T15:29:11",
                                 "name": "Scripts",
                                 "hash": "f99919808795584e60f623ee02f8bf95",
                                 "children": [
@@ -6356,34 +6381,6 @@
                                 "publicId": "18446744073709551615",
                                 "source": "",
                                 "additional": ""
-                            },
-                            {
-                                "name": "Face",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "2",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Face Texture",
-                                        "type": "1",
-                                        "subtype": "2",
-                                        "resourceId": "186",
-                                        "dependency": "0",
-                                        "uid": "1589817760238493:125361",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
                             },
                             {
                                 "name": "Pier_EnvMap",
@@ -6743,6 +6740,19 @@
                                         "additional": ""
                                     }
                                 ]
+                            },
+                            {
+                                "name": "FaceSoftOutline",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "947",
+                                "dependency": "0",
+                                "uid": "1591189294352379:76532",
+                                "fileId": "995",
+                                "originalId": "996",
+                                "publicId": "539",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/FaceSoftOutline.png",
+                                "additional": ""
                             }
                         ]
                     },
@@ -8078,19 +8088,6 @@
                                                 "additional": "",
                                                 "resources": [
                                                     {
-                                                        "name": "FlamingoColours",
-                                                        "type": "2",
-                                                        "subtype": "0",
-                                                        "resourceId": "670",
-                                                        "dependency": "0",
-                                                        "uid": "1589989946011271:254501",
-                                                        "fileId": "557",
-                                                        "originalId": "558",
-                                                        "publicId": "55",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    },
-                                                    {
                                                         "name": "JetSkiColors01",
                                                         "type": "2",
                                                         "subtype": "0",
@@ -8100,19 +8097,6 @@
                                                         "fileId": "559",
                                                         "originalId": "560",
                                                         "publicId": "56",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    },
-                                                    {
-                                                        "name": "Head_Front",
-                                                        "type": "2",
-                                                        "subtype": "0",
-                                                        "resourceId": "672",
-                                                        "dependency": "0",
-                                                        "uid": "1589989947101742:254531",
-                                                        "fileId": "561",
-                                                        "originalId": "562",
-                                                        "publicId": "57",
                                                         "source": "",
                                                         "additional": ""
                                                     },
@@ -8198,19 +8182,6 @@
                                         "source": "",
                                         "additional": "",
                                         "resources": [
-                                            {
-                                                "name": "flamingo texture1",
-                                                "type": "1",
-                                                "subtype": "9",
-                                                "resourceId": "675",
-                                                "dependency": "0",
-                                                "uid": "1589989948638853:254576",
-                                                "fileId": "567",
-                                                "originalId": "568",
-                                                "publicId": "61",
-                                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yBdyUS\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                                "additional": ""
-                                            },
                                             {
                                                 "name": "jetski texture 1",
                                                 "type": "1",
@@ -10258,19 +10229,6 @@
                                 "additional": "",
                                 "resources": [
                                     {
-                                        "name": "face_mesh_no_holes",
-                                        "type": "3",
-                                        "subtype": "2",
-                                        "resourceId": "937",
-                                        "dependency": "0",
-                                        "uid": "1591112826433664:551624",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    },
-                                    {
                                         "name": "Face Texture",
                                         "type": "1",
                                         "subtype": "2",
@@ -10282,17 +10240,104 @@
                                         "publicId": "18446744073709551615",
                                         "source": "",
                                         "additional": ""
-                                    },
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Material",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "538",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
                                     {
-                                        "name": "FaceMaterial0",
+                                        "name": "AlphaFace",
                                         "type": "2",
                                         "subtype": "0",
-                                        "resourceId": "939",
+                                        "resourceId": "946",
                                         "dependency": "0",
-                                        "uid": "1591112826485273:551644",
-                                        "fileId": "985",
-                                        "originalId": "986",
-                                        "publicId": "531",
+                                        "uid": "1591189294119949:76494",
+                                        "fileId": "993",
+                                        "originalId": "994",
+                                        "publicId": "540",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "FaceMeshStatic",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "1000",
+                                "originalId": "18446744073709551615",
+                                "publicId": "542",
+                                "source": "\/Users\/isaacdart\/Downloads\/FaceMeshStatic.obj",
+                                "additional": {
+                                    "materialMapping": ""
+                                },
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Resource",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "950",
+                                                "dependency": "1",
+                                                "uid": "1591192912209997:137206",
+                                                "fileId": "998",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-TCcDxf\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
+                                    },
+                                    {
+                                        "name": "FaceMeshStatic",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "951",
+                                        "dependency": "1",
+                                        "uid": "1591192912680429:137273",
+                                        "fileId": "999",
+                                        "originalId": "1001",
+                                        "publicId": "18446744073709551615",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -10307,11 +10352,11 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1591112826433664:551624",
+                        "uid": "1591189294119949:76494",
                         "path_list": [
                             "Face Mesh Resources",
-                            "Face Meshes",
-                            "face_mesh_no_holes"
+                            "Material",
+                            "AlphaFace"
                         ]
                     }
                 ]
@@ -13909,6 +13954,28 @@
                                 "Component.RenderMeshVisual"
                             ],
                             "v": "1591034994045951:85682"
+                        }
+                    ]
+                },
+                {
+                    "k": "1591192912680429:137273",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1591192912244402:137216"
+                        },
+                        {
+                            "k": [
+                                "Scene Object"
+                            ],
+                            "v": "1591192912246097:137218"
+                        },
+                        {
+                            "k": [
+                                "Scene Object",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1591192912247129:137220"
                         }
                     ]
                 }
