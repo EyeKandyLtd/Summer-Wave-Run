@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591194569556",
+    "lastChanged": "1591205587852",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -465,8 +465,7 @@
                     ],
                     [
                         "Face Mesh Resources",
-                        "Face Meshes",
-                        "Face Texture"
+                        "FaceMeshStatic"
                     ],
                     [
                         "Face Mesh Resources",
@@ -486,11 +485,21 @@
                     ],
                     [
                         "Face Mesh Resources",
+                        "Material"
+                    ],
+                    [
+                        "Face Mesh Resources",
                         "Material",
                         "AlphaFace"
                     ],
                     [
-                        "Materials"
+                        "Face Mesh Resources",
+                        "Material",
+                        "Face Texture"
+                    ],
+                    [
+                        "Materials",
+                        "Matte Shadow"
                     ],
                     [
                         "Materials",
@@ -501,15 +510,20 @@
                         "particle_confetti_2 2"
                     ],
                     [
-                        "Particles"
-                    ],
-                    [
                         "Particles",
                         "Confetti"
                     ],
                     [
                         "Particles",
+                        "PFXWaterSpray"
+                    ],
+                    [
+                        "Particles",
                         "Particles Mesh"
+                    ],
+                    [
+                        "Particles",
+                        "Particles Texture"
                     ],
                     [
                         "Prefabs"
@@ -726,7 +740,6 @@
             "collapsedList": [
                 [
                     "101:100",
-                    "1517446348227994:84813",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
                     "1573774070522996:822410",
@@ -735,7 +748,9 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589823953420994:170044",
+                    "1589824979988216:180112",
+                    "1589825953195699:187528",
+                    "1589989988419228:271561",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -749,6 +764,7 @@
                     "1590060197134853:794222",
                     "1590060555187304:892033",
                     "1590084222825935:118241",
+                    "1590145056885033:281418",
                     "1590145903519951:431601",
                     "1590145910247653:438114",
                     "1590145913915537:444576",
@@ -2535,6 +2551,30 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "952",
+                    "uid": "1591197228684057:33987",
+                    "name": "Files\/File1002",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "953",
+                    "uid": "1591202735306152:40708",
+                    "name": "Files\/File1004.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "954",
+                    "uid": "1591202735324839:40720",
+                    "name": "Files\/File1006",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -2948,7 +2988,8 @@
                 "134": "1590942913314148:78787",
                 "135": "1591040277028267:182644",
                 "136": "1591040277043664:182654",
-                "137": "1591112826658549:551659"
+                "137": "1591197228731068:34002",
+                "138": "1591204521317272:179126"
             }
         },
         "LayerComponent": {
@@ -3996,6 +4037,30 @@
                 {
                     "k": "1001",
                     "v": "Files\/File1001.oprfb"
+                },
+                {
+                    "k": "1002",
+                    "v": "Files\/File1002"
+                },
+                {
+                    "k": "1003",
+                    "v": "Files\/File1003.lsmat"
+                },
+                {
+                    "k": "1004",
+                    "v": "Files\/File1004.jpg"
+                },
+                {
+                    "k": "1005",
+                    "v": "Files\/File1005.jpg"
+                },
+                {
+                    "k": "1006",
+                    "v": "Files\/File1006"
+                },
+                {
+                    "k": "1007",
+                    "v": "Files\/File1007.lsmat"
                 }
             ]
         },
@@ -4617,10 +4682,6 @@
                         "v": "Face Mesh Resources"
                     },
                     {
-                        "k": "530",
-                        "v": "Face Mesh Resources\/Face Meshes"
-                    },
-                    {
                         "k": "538",
                         "v": "Face Mesh Resources\/Material"
                     },
@@ -4635,6 +4696,18 @@
                     {
                         "k": "542",
                         "v": "Face Mesh Resources\/FaceMeshStatic.obj"
+                    },
+                    {
+                        "k": "543",
+                        "v": "Materials\/Matte Shadow.lsmat"
+                    },
+                    {
+                        "k": "544",
+                        "v": "Particles\/Particles Texture.jpg"
+                    },
+                    {
+                        "k": "545",
+                        "v": "Particles\/PFXWaterSpray.lsmat"
                     }
                 ],
                 "hashes": [
@@ -4648,7 +4721,7 @@
                     },
                     {
                         "k": "6",
-                        "v": "c7cfc5d4caf92e23d9a3b175ff1b045a"
+                        "v": "c3c6eec4c77321908126829716df5f63"
                     },
                     {
                         "k": "7",
@@ -4760,7 +4833,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "fa50c6178895d6ae9dcc318d4f81bfc8"
+                        "v": "526fa5c4d0cedc129c10f5d1d44a4da6"
                     },
                     {
                         "k": "39",
@@ -4888,7 +4961,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "ac31d9c2f8212838cd1e6b5bf0b967b2"
+                        "v": "6aa58eeafab1ba41bd23beedc7c7fe2a"
                     },
                     {
                         "k": "84",
@@ -5165,14 +5238,26 @@
                     {
                         "k": "542",
                         "v": "3a2383ab6a7c98ed3e6dbec9b7fd4eeb"
+                    },
+                    {
+                        "k": "543",
+                        "v": "0ef521c7cdc5dbd5e6f80c636d6a52c2"
+                    },
+                    {
+                        "k": "544",
+                        "v": "633e6164fd04c2de5d7f0ed88b3dd76d"
+                    },
+                    {
+                        "k": "545",
+                        "v": "f374621d54b1a01ba5c76dc704b117c2"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-03T14:01:43",
+                        "lastModified": "2020-06-03T17:44:23",
                         "name": "Public",
-                        "hash": "391f25857602e77a81c68ecdb6a5df94",
+                        "hash": "d21d38e562d87f74e2eb1d460fd85089",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5592,7 +5677,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-03T15:29:12",
                                 "name": "Textures",
-                                "hash": "35dce59da45a558740c31cd74798d043",
+                                "hash": "8bdfe936e8b49330a12f34d9eb5f1ba2",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5610,9 +5695,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T10:14:55",
+                                        "lastModified": "2020-06-03T16:06:22",
                                         "name": "Water",
-                                        "hash": "06d3016108b5be5da56aacee07c078ab",
+                                        "hash": "b7b131007ce9e293f2af9373ac87d6c0",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -5623,9 +5708,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T10:14:55",
+                                                "lastModified": "2020-06-03T16:06:22",
                                                 "name": "Ocean.lsmat",
-                                                "hash": "c7cfc5d4caf92e23d9a3b175ff1b045a",
+                                                "hash": "c3c6eec4c77321908126829716df5f63",
                                                 "children": ""
                                             },
                                             {
@@ -5841,9 +5926,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T09:15:52",
+                                "lastModified": "2020-06-03T17:44:23",
                                 "name": "Materials",
-                                "hash": "f995506d36ed21050a175819fa7c18c9",
+                                "hash": "b69f4c792f217fdcfef983d16a869374",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5861,6 +5946,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-06-03T17:44:23",
+                                        "name": "Matte Shadow.lsmat",
+                                        "hash": "0ef521c7cdc5dbd5e6f80c636d6a52c2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-06-02T09:15:52",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -5870,25 +5962,10 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T15:01:52",
+                                "lastModified": "2020-06-03T17:43:56",
                                 "name": "Face Mesh Resources",
-                                "hash": "6db5ad3e7f9453e7b0671033af446efd",
+                                "hash": "e97aea60059acd9e537198b8dec16e8f",
                                 "children": [
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2020-06-03T15:29:11",
-                                        "name": "Face Meshes",
-                                        "hash": "59adb24ef3cdbe0297f05b395827453f",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-06-02T16:47:06",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2019-12-07T05:04:26",
@@ -6014,9 +6091,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T09:15:52",
+                                "lastModified": "2020-06-03T18:28:50",
                                 "name": "Particles",
-                                "hash": "d85d5067bfcf912dbf8a1eeab6ee12d6",
+                                "hash": "850db02ee8f62e4ce00a7c4746b6fcc4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6030,6 +6107,20 @@
                                         "lastModified": "2020-06-02T09:15:50",
                                         "name": "Particles Mesh.mesh",
                                         "hash": "a5adcbdb568b3556fe3d03137cb05292",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T18:28:50",
+                                        "name": "PFXWaterSpray.lsmat",
+                                        "hash": "f374621d54b1a01ba5c76dc704b117c2",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-03T17:45:35",
+                                        "name": "Particles Texture.jpg",
+                                        "hash": "633e6164fd04c2de5d7f0ed88b3dd76d",
                                         "children": ""
                                     },
                                     {
@@ -6156,9 +6247,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T15:29:11",
+                                "lastModified": "2020-06-03T18:09:08",
                                 "name": "Scripts",
-                                "hash": "f99919808795584e60f623ee02f8bf95",
+                                "hash": "a22968b5f4d769d4c441e2d30f7fbaa6",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6288,9 +6379,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T16:08:24",
+                                        "lastModified": "2020-06-03T18:09:08",
                                         "name": "GamePlayManager.js",
-                                        "hash": "fa50c6178895d6ae9dcc318d4f81bfc8",
+                                        "hash": "526fa5c4d0cedc129c10f5d1d44a4da6",
                                         "children": ""
                                     },
                                     {
@@ -10089,6 +10180,19 @@
                                 "publicId": "145",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "Matte Shadow",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "952",
+                                "dependency": "0",
+                                "uid": "1591197228684057:33987",
+                                "fileId": "1002",
+                                "originalId": "1003",
+                                "publicId": "543",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -10128,6 +10232,32 @@
                                 "fileId": "888",
                                 "originalId": "889",
                                 "publicId": "148",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Particles Texture",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "953",
+                                "dependency": "0",
+                                "uid": "1591202735306152:40708",
+                                "fileId": "1004",
+                                "originalId": "1005",
+                                "publicId": "544",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-uvKDfu\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PFXWaterSpray",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "954",
+                                "dependency": "0",
+                                "uid": "1591202735324839:40720",
+                                "fileId": "1006",
+                                "originalId": "1007",
+                                "publicId": "545",
                                 "source": "",
                                 "additional": ""
                             }
@@ -10216,34 +10346,6 @@
                         "additional": "",
                         "resources": [
                             {
-                                "name": "Face Meshes",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "530",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Face Texture",
-                                        "type": "1",
-                                        "subtype": "2",
-                                        "resourceId": "938",
-                                        "dependency": "0",
-                                        "uid": "1591112826467359:551634",
-                                        "fileId": "18446744073709551615",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "18446744073709551615",
-                                        "source": "",
-                                        "additional": ""
-                                    }
-                                ]
-                            },
-                            {
                                 "name": "Material",
                                 "type": "0",
                                 "subtype": "-1",
@@ -10266,6 +10368,19 @@
                                         "fileId": "993",
                                         "originalId": "994",
                                         "publicId": "540",
+                                        "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Face Texture",
+                                        "type": "1",
+                                        "subtype": "2",
+                                        "resourceId": "938",
+                                        "dependency": "0",
+                                        "uid": "1591112826467359:551634",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
                                         "source": "",
                                         "additional": ""
                                     }
@@ -10352,11 +10467,10 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1591189294119949:76494",
+                        "uid": "1591202735324839:40720",
                         "path_list": [
-                            "Face Mesh Resources",
-                            "Material",
-                            "AlphaFace"
+                            "Particles",
+                            "PFXWaterSpray"
                         ]
                     }
                 ]

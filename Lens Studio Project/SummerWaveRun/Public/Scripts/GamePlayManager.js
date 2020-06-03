@@ -433,8 +433,8 @@ function DoFinishedGame() {
 
     
     var highScoreText = wasHighScore
-    ?("New high score!!! \n " + global.GetHighScore() + " !!!")
-    :("Highscore: " + global.GetHighScore());
+    ?("New best distance!!! \n " + global.GetHighScore() + " !!!")
+    :("Best ever distance: " + global.GetHighScore());
     
     script.frontCamMiddleMessage.text = highScoreText;
     
