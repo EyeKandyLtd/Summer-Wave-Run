@@ -284,8 +284,16 @@ script.api.Lives_Decrement = function() {
 }
 
 script.api.GetCurrentSpeed = function() {
-    print("current speed: " + _currSpeed);
+    
     return _currSpeed;
+}
+
+script.api.GetCurrentDistance = function() {
+    
+    
+        return _distance;
+    
+   
 }
 
 function UpdateDistanceAndScore() {
@@ -395,14 +403,18 @@ function DoFinishedGame() {
     script.frontCamMiddleMessage.text = highScoreText;
     
     StopGame();
+    _distance = -700; // this makes the camera zoom in..
     global.playAudioAsset(script.soundGameFinished, 1);   
 
+    
 
 }
 
 function StopGame() {
 
     ResetVars();
+    //RefreshSpeed();
+    //UpdateSpeedVisuals();
     _isGamePlaying = false;
     _isGameFinished = true;
     
