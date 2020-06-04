@@ -67,23 +67,13 @@ var _camDistanceFromSpeedFactor = 0.
 
 
 
-
-
-
 script.createEvent("CameraFrontEvent").bind(onFrontCamEvent);
 script.createEvent("CameraBackEvent").bind(onBackCamEvent);
 
 /*
-
-//var updateEvent = script.createEvent("LateUpdateEvent").bind(function (eventData) { onLateUpdateEvent(eventData); });
-
-
-var mouthOpenedEvent = script.createEvent("MouthOpenedEvent");
-mouthOpenedEvent.faceIndex = 0;
-mouthOpenedEvent.bind(function (eventData)
-{
-    script.api.StartGameplay();
-});
+script.wearablesManager.api.onLoad = function() {
+    script.wearablesManager.api.ActiveRandomWearables();
+};
 */
 
 //Tap To Start
@@ -147,7 +137,6 @@ function Init() {
 
     _highScore = global.GetHighScore();
     var didWinBefore = _highScore > 0;
-
     global.SetContentEnabled(script.unlockIfPreviouslyWon, didWinBefore);
     
     script.frontCamTopMessage.text = "";
@@ -224,6 +213,7 @@ function StartLevel(level) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
             rampStartPos.y = 0;
             global.gamePlayManager.pfxManager.api.DoPFX_LevelFinalBoss(rampStartPos);
+            script.wearablesManager.api.ActiveLevelWearables(level);
         }
          
          _currLevelNumber = level;
@@ -234,7 +224,7 @@ function StartLevel(level) {
         
         StartSpawner(level);
         
-         script.wearablesManager.api.ActiveLevelWearables(level);
+         
 
     } else {
         //Show winning screen..
@@ -390,20 +380,20 @@ function DoFinishedGame() {
     var wasHighScore = global.TrySetHighScore(score);
 
 
-    var selfieBannerMessage = "Distance " + "\n " + Math.floor(_currScore) + "!";
+    var selfieBannerMessage = "Distance: " + Math.floor(_currScore) + "!";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
     script.frontCamTopMessage.text = selfieBannerMessage;
     
 
     
     var highScoreText = wasHighScore
-    ?("New best distance!!! \n " + global.GetHighScore() + " !!!")
+    ?("New best distance of " + global.GetHighScore() + " !!!")
     :("Best ever distance: " + global.GetHighScore());
     
     script.frontCamMiddleMessage.text = highScoreText;
     
     StopGame();
-    _distance = -700; // this makes the camera zoom in..
+    _distance = -50; // this makes the camera zoom in..
     global.playAudioAsset(script.soundGameFinished, 1);   
 
     

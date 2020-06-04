@@ -39,7 +39,7 @@ updateEvent.bind(function(eventData) {
     print ("targetVec = " + targetVec);
  */
    
-   // print ("currSpeed: " + currSpeed);
+    //print ("currSpeed: " + currSpeed);
    //print ("pctOfMaxSpeed = " + pctOfMaxSpeed);
    // print ("nextPos = " + nextPos);
  
