@@ -6,6 +6,8 @@
 
 //@input Asset.AudioTrackAsset[] simpleJumpSounds
 
+//@input SceneObject[] disableWhenInAir
+
 var initialScale;
 var jumpTrans;
 
@@ -47,6 +49,7 @@ updateEvent.bind(function(eventData){
             script.api.isOnGround = false;
             jumpStartTime = getTime();
             global.playRandomAudioAsset(script.simpleJumpSounds, -1, 1);
+            SetContentEnabled(script.disableWhenInAir, false);
         } else {
            // print("Ignoring jump request as object is not on the ground.");
         }
@@ -65,10 +68,12 @@ function ContinueJump() {
     var y = requestedJumpHeight * Math.sin( Math.PI * ((getTime() - jumpStartTime)/requestedJumpTime) );                                    
    // print ("jumping with y = " + y);  
     
+    //have we just landed?
      if (y< 0) {
         y = initialPos.y;
         script.api.isOnGround = true; 
         isForceJumping = false;
+        SetContentEnabled(script.disableWhenInAir, true);
      }
     
     pos.y = y;
@@ -76,6 +81,15 @@ function ContinueJump() {
    jumpTrans.setLocalPosition(pos);
    jumpTrans.scale = initialScale.add(vec3.one().uniformScale(3*y));
         
+}
+
+function SetContentEnabled(content, isEnabled) {
+    if (content == null) return;
+    
+    for(var i = 0; i < content.length; i++)    {
+        
+        if(content[i]) content[i].enabled = isEnabled;
+    }
 }
 
 

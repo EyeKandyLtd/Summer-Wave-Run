@@ -283,6 +283,11 @@ script.api.Lives_Decrement = function() {
     
 }
 
+script.api.GetCurrentSpeed = function() {
+    print("current speed: " + _currSpeed);
+    return _currSpeed;
+}
+
 function UpdateDistanceAndScore() {
     
      var deltaDist = getDeltaTime() * _currSpeed;
@@ -297,7 +302,7 @@ function UpdateDistanceAndScore() {
 
 function RefreshSpeed() {
     
-     _currSpeed = 1.5 * (1 + _currLevelNumber * 0.4);
+     _currSpeed = 1 * (2 + _currLevelNumber * 0.2);
     UpdateSpeedVisuals(_currSpeed);
         
         
@@ -306,8 +311,8 @@ function RefreshSpeed() {
 function UpdateSpeedVisuals(speed) {
     
     global.directionController3DVector = script.initialLevelVec.uniformScale(speed);
-    script.scrollingWater.api.SetScrollDirection_UV2(0,-0.40 * speed);
-    script.scrollingWater.api.SetScrollDirection_UV3(0,-0.12 * speed);
+    script.scrollingWater.api.SetScrollDirection_UV2(0,-0.60 * speed);
+    script.scrollingWater.api.SetScrollDirection_UV3(0,-0.18 * speed);
     
 }
 
@@ -359,55 +364,6 @@ function StopAllSpawners() {
 
 
 
-
-
-function DoMatch(i1, i2) {
-    print("Whoo! Match found for " + i1.getSceneObject().name);
-    global.playAudioAsset(script.soundMatch, 1);
-
-    i1.api.DoExplode();
-    i2.api.DoExplode();
-
-    global.TryResetRevealedItems();
-
-    DoCheckWin();
-
-}
-
-
-/*
-function DoCheckWin() {
-
-    _isLevelWon = false;
-
-    //TODO: check if level one
-
-    if (_isLevelWon) {
-
-
-        global.playAudioAsset(script.soundWonLevel, 1);
-        print("Level completed");
-        _currLevelNumber++;
-
-        if (_currLevelNumber < script.levelSpawners.length) {
-            winMsg = "Nice job! Let’s make this a little harder. Get ready for level " + (_currLevelNumber + 1) + "!";
-            global.ShowLevelUI(winMsg, StartCurrentLevel);
-        } else {
-            DoFinishedGame();
-        }
-
-    } else {
-        showScore();
-    }
-
-    return _isLevelWon;
-}
-
-function StartCurrentLevel() {
-    StartLevel(_currLevelNumber);
-
-}
-*/
 
 
 function DoFinishedGame() {

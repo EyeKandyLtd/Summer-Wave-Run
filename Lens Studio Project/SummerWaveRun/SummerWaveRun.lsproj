@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591205587852",
+    "lastChanged": "1591268547567",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,9 +29,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Animated 3D Assets"
-                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -185,6 +182,16 @@
                     ],
                     [
                         "Animated 3D Assets",
+                        "JetSki"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "JetSki",
+                        "JetSki",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
                         "JetSki",
                         "JetSki",
                         "Materials0010",
@@ -211,10 +218,6 @@
                     ],
                     [
                         "Animated 3D Assets",
-                        "LifeVest"
-                    ],
-                    [
-                        "Animated 3D Assets",
                         "LifeVest",
                         "life_vest1_texture"
                     ],
@@ -230,6 +233,13 @@
                         "lifevest",
                         "Animations",
                         "Group_006"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "LifeVest",
+                        "lifevest",
+                        "Materials20",
+                        "Lifevest Glow"
                     ],
                     [
                         "Animated 3D Assets",
@@ -498,6 +508,9 @@
                         "Face Texture"
                     ],
                     [
+                        "Materials"
+                    ],
+                    [
                         "Materials",
                         "Matte Shadow"
                     ],
@@ -510,12 +523,19 @@
                         "particle_confetti_2 2"
                     ],
                     [
+                        "Particles"
+                    ],
+                    [
                         "Particles",
                         "Confetti"
                     ],
                     [
                         "Particles",
-                        "PFXWaterSpray"
+                        "PFXWaterSprayMedium"
+                    ],
+                    [
+                        "Particles",
+                        "PFXWaterSpraySmall"
                     ],
                     [
                         "Particles",
@@ -524,9 +544,6 @@
                     [
                         "Particles",
                         "Particles Texture"
-                    ],
-                    [
-                        "Prefabs"
                     ],
                     [
                         "Prefabs",
@@ -582,6 +599,10 @@
                     ],
                     [
                         "Scripts",
+                        "CameraSpeedMover"
+                    ],
+                    [
+                        "Scripts",
                         "ColliderAABB"
                     ],
                     [
@@ -627,6 +648,10 @@
                     [
                         "Scripts",
                         "PfxManager"
+                    ],
+                    [
+                        "Scripts",
+                        "PulsateAnim"
                     ],
                     [
                         "Scripts",
@@ -717,6 +742,10 @@
                     ],
                     [
                         "Textures",
+                        "iridescence_combined"
+                    ],
+                    [
+                        "Textures",
                         "tutorial_bg"
                     ],
                     [
@@ -748,7 +777,6 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589824979988216:180112",
                     "1589825953195699:187528",
                     "1589989988419228:271561",
                     "1589989988549559:271830",
@@ -764,7 +792,6 @@
                     "1590060197134853:794222",
                     "1590060555187304:892033",
                     "1590084222825935:118241",
-                    "1590145056885033:281418",
                     "1590145903519951:431601",
                     "1590145910247653:438114",
                     "1590145913915537:444576",
@@ -2569,9 +2596,49 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "954",
-                    "uid": "1591202735324839:40720",
-                    "name": "Files\/File1006",
+                    "resId": "964",
+                    "uid": "1591209017156619:292808",
+                    "name": "Files\/File1025",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "966",
+                    "uid": "1591210658539859:384136",
+                    "name": "Files\/File1029",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "967",
+                    "uid": "1591211176199845:429691",
+                    "name": "Files\/File1031.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "970",
+                    "uid": "1591264998806923:53023",
+                    "name": "Files\/File1036.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "971",
+                    "uid": "1591265103757080:60803",
+                    "name": "Files\/File1038",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "972",
+                    "uid": "1591265511957239:106161",
+                    "name": "Files\/File1040.js",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -4055,12 +4122,44 @@
                     "v": "Files\/File1005.jpg"
                 },
                 {
-                    "k": "1006",
-                    "v": "Files\/File1006"
+                    "k": "1025",
+                    "v": "Files\/File1025"
                 },
                 {
-                    "k": "1007",
-                    "v": "Files\/File1007.lsmat"
+                    "k": "1026",
+                    "v": "Files\/File1026.lsmat"
+                },
+                {
+                    "k": "1029",
+                    "v": "Files\/File1029"
+                },
+                {
+                    "k": "1030",
+                    "v": "Files\/File1030.lsmat"
+                },
+                {
+                    "k": "1031",
+                    "v": "Files\/File1031.js"
+                },
+                {
+                    "k": "1036",
+                    "v": "Files\/File1036.png"
+                },
+                {
+                    "k": "1037",
+                    "v": "Files\/File1037.png"
+                },
+                {
+                    "k": "1038",
+                    "v": "Files\/File1038"
+                },
+                {
+                    "k": "1039",
+                    "v": "Files\/File1039.lsmat"
+                },
+                {
+                    "k": "1040",
+                    "v": "Files\/File1040.js"
                 }
             ]
         },
@@ -4706,8 +4805,28 @@
                         "v": "Particles\/Particles Texture.jpg"
                     },
                     {
-                        "k": "545",
-                        "v": "Particles\/PFXWaterSpray.lsmat"
+                        "k": "563",
+                        "v": "Particles\/PFXWaterSpraySmall.lsmat"
+                    },
+                    {
+                        "k": "564",
+                        "v": "Particles\/PFXWaterSprayMedium.lsmat"
+                    },
+                    {
+                        "k": "565",
+                        "v": "Scripts\/CameraSpeedMover.js"
+                    },
+                    {
+                        "k": "567",
+                        "v": "Textures\/iridescence_combined.png"
+                    },
+                    {
+                        "k": "569",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/LifeVest\/lifevest\/Materials20\/Lifevest Glow.lsmat"
+                    },
+                    {
+                        "k": "570",
+                        "v": "Scripts\/PulsateAnim.js"
                     }
                 ],
                 "hashes": [
@@ -4813,7 +4932,7 @@
                     },
                     {
                         "k": "33",
-                        "v": "f9ceede788c6199abd36c035efb07434"
+                        "v": "aba7601fe9168cd121f475de63567838"
                     },
                     {
                         "k": "34",
@@ -4833,7 +4952,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "526fa5c4d0cedc129c10f5d1d44a4da6"
+                        "v": "6ce976d5e8a4f8edfabc8b1364f40804"
                     },
                     {
                         "k": "39",
@@ -4961,7 +5080,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "6aa58eeafab1ba41bd23beedc7c7fe2a"
+                        "v": "468f65c27ea7c65e79df6f5b5b5af354"
                     },
                     {
                         "k": "84",
@@ -5057,7 +5176,7 @@
                     },
                     {
                         "k": "119",
-                        "v": "220f92eefd8966e7ea594c76d1e81b51"
+                        "v": "6dbfc3ec53333886b3b07406c6e6431f"
                     },
                     {
                         "k": "120",
@@ -5249,15 +5368,95 @@
                     },
                     {
                         "k": "545",
-                        "v": "f374621d54b1a01ba5c76dc704b117c2"
+                        "v": "e08c3d825513881d1e00ecda90b39000"
+                    },
+                    {
+                        "k": "548",
+                        "v": "adc36fff2957674601d705ed729586cf"
+                    },
+                    {
+                        "k": "550",
+                        "v": "e96991a1986a864b2587b53b48d34a0d"
+                    },
+                    {
+                        "k": "551",
+                        "v": "6e2123b442c0e10838554bc01371d529"
+                    },
+                    {
+                        "k": "552",
+                        "v": "a4351832b6036772e2116d55c7e15da6"
+                    },
+                    {
+                        "k": "553",
+                        "v": "02805090447be76cc39c3f2bb0ab91a2"
+                    },
+                    {
+                        "k": "554",
+                        "v": "08b700065f99ce724b9b5bff8e763bba"
+                    },
+                    {
+                        "k": "558",
+                        "v": "aafc6249a88534b5d57da7459cda95df"
+                    },
+                    {
+                        "k": "559",
+                        "v": "e1f7e93b1a56c0155b4fc24adfef4fb3"
+                    },
+                    {
+                        "k": "560",
+                        "v": "91918043ad995b9f671135fd8add0668"
+                    },
+                    {
+                        "k": "561",
+                        "v": "676fb4a193d7b50e562aed71b1794d03"
+                    },
+                    {
+                        "k": "562",
+                        "v": "7fe856235a3d7786878b0a2b28acc9bf"
+                    },
+                    {
+                        "k": "563",
+                        "v": "ed5c38f87d09633650d680ae1a440493"
+                    },
+                    {
+                        "k": "564",
+                        "v": "373c3efda293eaa0f444928084d2cb64"
+                    },
+                    {
+                        "k": "565",
+                        "v": "3b4ae083bc547034d8881f0b213bae77"
+                    },
+                    {
+                        "k": "566",
+                        "v": "5c22393621cfa57c801ec1d24fafdc32"
+                    },
+                    {
+                        "k": "567",
+                        "v": "464f444dfcba88908c256dddc14e2779"
+                    },
+                    {
+                        "k": "568",
+                        "v": "7dbdbe2ef782dcda622a4e00256bba2b"
+                    },
+                    {
+                        "k": "569",
+                        "v": "40707ceadd075695073ed1d325422784"
+                    },
+                    {
+                        "k": "570",
+                        "v": "3b563234b386981375b1f2d79e931000"
+                    },
+                    {
+                        "k": "571",
+                        "v": "b135f6a9cefe77e6bd518dc014fd6257"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-03T17:44:23",
+                        "lastModified": "2020-06-04T11:03:35",
                         "name": "Public",
-                        "hash": "d21d38e562d87f74e2eb1d460fd85089",
+                        "hash": "9a373734be58541e41def82ee8152ee1",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5675,9 +5874,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T15:29:12",
+                                "lastModified": "2020-06-04T11:03:18",
                                 "name": "Textures",
-                                "hash": "8bdfe936e8b49330a12f34d9eb5f1ba2",
+                                "hash": "356794151c94bdcdb6d1cd684cb8bb43",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5798,6 +5997,13 @@
                                         "lastModified": "2020-06-02T09:15:49",
                                         "name": "Pier_EnvMap.hdr",
                                         "hash": "a934f4a6c4ee2ebef8d37fbc49caf965",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-04T11:03:18",
+                                        "name": "iridescence_combined.png",
+                                        "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
@@ -6006,9 +6212,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T14:32:29",
+                                "lastModified": "2020-06-04T12:01:06",
                                 "name": "Prefabs",
-                                "hash": "b400a58741c6554045b48928eaca78d2",
+                                "hash": "c91718c55e126783b4532283d8081344",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6033,9 +6239,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-04T12:01:06",
                                         "name": "LifeVest.oprfb",
-                                        "hash": "220f92eefd8966e7ea594c76d1e81b51",
+                                        "hash": "6dbfc3ec53333886b3b07406c6e6431f",
                                         "children": ""
                                     },
                                     {
@@ -6091,9 +6297,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T18:28:50",
+                                "lastModified": "2020-06-03T19:59:24",
                                 "name": "Particles",
-                                "hash": "850db02ee8f62e4ce00a7c4746b6fcc4",
+                                "hash": "e457c9b2d201c57cd0a0cc3d4886aab4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6104,16 +6310,23 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
-                                        "name": "Particles Mesh.mesh",
-                                        "hash": "a5adcbdb568b3556fe3d03137cb05292",
+                                        "lastModified": "2020-06-03T19:42:09",
+                                        "name": "PFXWaterSpraySmall.lsmat",
+                                        "hash": "ed5c38f87d09633650d680ae1a440493",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T18:28:50",
-                                        "name": "PFXWaterSpray.lsmat",
-                                        "hash": "f374621d54b1a01ba5c76dc704b117c2",
+                                        "lastModified": "2020-06-03T19:59:24",
+                                        "name": "PFXWaterSprayMedium.lsmat",
+                                        "hash": "373c3efda293eaa0f444928084d2cb64",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-02T09:15:50",
+                                        "name": "Particles Mesh.mesh",
+                                        "hash": "a5adcbdb568b3556fe3d03137cb05292",
                                         "children": ""
                                     },
                                     {
@@ -6247,9 +6460,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T18:09:08",
+                                "lastModified": "2020-06-04T11:56:05",
                                 "name": "Scripts",
-                                "hash": "a22968b5f4d769d4c441e2d30f7fbaa6",
+                                "hash": "78b2b5113f0b3ad317374c968ae74580",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6302,6 +6515,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-06-03T21:02:56",
+                                        "name": "CameraSpeedMover.js",
+                                        "hash": "3b4ae083bc547034d8881f0b213bae77",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-06-02T09:15:50",
                                         "name": "ParticalBurst.js",
                                         "hash": "8846727e67219b89d2ff4f2dbb1f8160",
@@ -6344,6 +6564,13 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-06-04T11:53:16",
+                                        "name": "PulsateAnim.js",
+                                        "hash": "3b563234b386981375b1f2d79e931000",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-06-02T09:15:50",
                                         "name": "HUDController.js",
                                         "hash": "18ea3c504c63e5bb40611fde94890e18",
@@ -6351,9 +6578,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T11:50:48",
+                                        "lastModified": "2020-06-03T19:54:53",
                                         "name": "JumpController3D.js",
-                                        "hash": "f9ceede788c6199abd36c035efb07434",
+                                        "hash": "aba7601fe9168cd121f475de63567838",
                                         "children": ""
                                     },
                                     {
@@ -6379,9 +6606,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T18:09:08",
+                                        "lastModified": "2020-06-04T11:56:05",
                                         "name": "GamePlayManager.js",
-                                        "hash": "526fa5c4d0cedc129c10f5d1d44a4da6",
+                                        "hash": "6ce976d5e8a4f8edfabc8b1364f40804",
                                         "children": ""
                                     },
                                     {
@@ -6844,6 +7071,19 @@
                                 "publicId": "539",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/FaceSoftOutline.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "iridescence_combined",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "970",
+                                "dependency": "0",
+                                "uid": "1591264998806923:53023",
+                                "fileId": "1036",
+                                "originalId": "1037",
+                                "publicId": "567",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-Insaie\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                                "additional": ""
                             }
                         ]
                     },
@@ -7159,6 +7399,32 @@
                                 "originalId": "18446744073709551615",
                                 "publicId": "154",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/AnimationHelper.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "CameraSpeedMover",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "967",
+                                "dependency": "0",
+                                "uid": "1591211176199845:429691",
+                                "fileId": "1031",
+                                "originalId": "18446744073709551615",
+                                "publicId": "565",
+                                "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-uvKDfu\/\/system\/\/emergencyFiles\/emergencyJs.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PulsateAnim",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "972",
+                                "dependency": "0",
+                                "uid": "1591265511957239:106161",
+                                "fileId": "1040",
+                                "originalId": "18446744073709551615",
+                                "publicId": "570",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Scripts\/PulsateAnim.js",
                                 "additional": ""
                             }
                         ]
@@ -9004,6 +9270,19 @@
                                                         "publicId": "86",
                                                         "source": "",
                                                         "additional": ""
+                                                    },
+                                                    {
+                                                        "name": "Lifevest Glow",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "971",
+                                                        "dependency": "0",
+                                                        "uid": "1591265103757080:60803",
+                                                        "fileId": "1038",
+                                                        "originalId": "1039",
+                                                        "publicId": "569",
+                                                        "source": "",
+                                                        "additional": ""
                                                     }
                                                 ]
                                             },
@@ -10249,15 +10528,28 @@
                                 "additional": ""
                             },
                             {
-                                "name": "PFXWaterSpray",
+                                "name": "PFXWaterSpraySmall",
                                 "type": "2",
                                 "subtype": "0",
-                                "resourceId": "954",
+                                "resourceId": "964",
                                 "dependency": "0",
-                                "uid": "1591202735324839:40720",
-                                "fileId": "1006",
-                                "originalId": "1007",
-                                "publicId": "545",
+                                "uid": "1591209017156619:292808",
+                                "fileId": "1025",
+                                "originalId": "1026",
+                                "publicId": "563",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "PFXWaterSprayMedium",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "966",
+                                "dependency": "0",
+                                "uid": "1591210658539859:384136",
+                                "fileId": "1029",
+                                "originalId": "1030",
+                                "publicId": "564",
                                 "source": "",
                                 "additional": ""
                             }
@@ -10465,14 +10757,8 @@
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1591202735324839:40720",
-                        "path_list": [
-                            "Particles",
-                            "PFXWaterSpray"
-                        ]
-                    }
+                "objects": [
+                    "1589824396441814:172450"
                 ]
             }
         },
