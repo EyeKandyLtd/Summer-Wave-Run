@@ -24,6 +24,7 @@ var isGameOver = Patches.getBooleanValue('gameOver');
 
 Patches.setBooleanValue('stop_objects', stop_objects);
 
+
 Patches.setPoint2DValue("ob1", Reactive.point2d(Scene.root.find('plane0').transform.z, Scene.root.find('plane0').transform.x));
 Patches.setPoint2DValue("ob2", Reactive.point2d(Scene.root.find('plane1').transform.z, Scene.root.find('plane1').transform.x));
 Patches.setPoint2DValue("ob3", Reactive.point2d(Scene.root.find('plane2').transform.z, Scene.root.find('plane2').transform.x));
