@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591388900239",
+    "lastChanged": "1591391048576",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -2885,7 +2885,7 @@
                                     "fixWidth": "false",
                                     "fixHeight": "false",
                                     "attachBottom": "true",
-                                    "attachLeft": "true",
+                                    "attachLeft": "false",
                                     "attachRight": "true",
                                     "attachTop": "false"
                                 }
@@ -2948,7 +2948,7 @@
                             }
                         },
                         {
-                            "k": "1591385537384079:601311",
+                            "k": "1591390811552389:78805",
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
@@ -2962,14 +2962,14 @@
                             }
                         },
                         {
-                            "k": "1591385537439163:601449",
+                            "k": "1591390811611395:78943",
                             "v": {
                                 "isBasicMode": "true",
                                 "basicModeSetup": {
                                     "fixWidth": "false",
                                     "fixHeight": "false",
                                     "attachBottom": "true",
-                                    "attachLeft": "true",
+                                    "attachLeft": "false",
                                     "attachRight": "true",
                                     "attachTop": "false"
                                 }
@@ -3124,8 +3124,7 @@
                 "139": "1591384772219896:486001",
                 "140": "1591384772222403:486003",
                 "141": "1591384772276155:486145",
-                "142": "1591385537247914:600791",
-                "143": "1591385537306755:601051"
+                "142": "1591390811483634:78545"
             }
         },
         "LayerComponent": {
@@ -5161,7 +5160,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "b8efe71a44a5c8f2af7c682c7a7254f8"
+                        "v": "4e53d4ec20df6188905332bb62d7d163"
                     },
                     {
                         "k": "84",
@@ -10863,7 +10862,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1590161584667918:504392"
+                    "1590161586540806:506400"
                 ]
             }
         },
