@@ -103,19 +103,20 @@ function UpdatePosition() {
   targetZrot = Math.max(targetZrot, initialRot.z - script.tiltMaxDegrees) //ensure degree is above minimum tilt rotation
   targetZrot = Math.min(targetZrot, initialRot.z + script.tiltMaxDegrees) //ensure degree is below maximum tilt rotation
   
-  //   targetZrot = Lerp(rot.z, targetZrot, getDeltaTime() * 2);
+   //targetZrot = Lerp(rot.z, targetZrot, getDeltaTime() * 2);
    
   var targetRot = new vec3(rot.x, rot.y, targetZrot );
-   rot=targetRot;
-  //rot = vec3.slerp(rot, targetRot, 0.1 );
-  playerTransf.setLocalRotation(quat.fromEulerVec(rot));   
+   
+  var nextRot= quat.lerp(playerTransf.getLocalRotation(),quat.fromEulerVec(targetRot), getDeltaTime()*5);
     
+  playerTransf.setLocalRotation(nextRot);   
+   // print("playerSpeedThisFrame: " + playerSpeedThisFrame);
 }
 
 function Lerp( a,  b, t)
 {
     var val = (1 - t) * a + t * b;
-    print ("a=" + a + "; b=" + b + "; t=" + t);
+    //print ("a=" + a + "; b=" + b + "; t=" + t);
      return val;
 }
 
