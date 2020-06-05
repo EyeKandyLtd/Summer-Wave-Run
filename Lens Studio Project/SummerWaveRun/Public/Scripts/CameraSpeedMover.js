@@ -1,9 +1,10 @@
 // -----JS CODE-----
 
-//@input Component.ScriptComponent speedProvider
-//@input vec3 maxSpeedOffset
-//@input float maxSpeed
+//@input Component.ScriptComponent valueProvider
+//@input vec3 maxCamOffset
 //@input float minSpeed
+//@input float maxSpeed
+
 
 var camTrans = script.getSceneObject().getTransform();
 var camInitialPos = camTrans.getWorldPosition();
@@ -16,8 +17,8 @@ var updateEvent = script.createEvent("LateUpdateEvent");
 updateEvent.bind(function(eventData) {
     
     try {
-        //currSpeed = script.speedProvider.api.GetCurrentSpeed();
-        currSpeed = script.speedProvider.api.GetCurrentDistance();
+        //currSpeed = script.valueProvider.api.GetCurrentSpeed();
+        currSpeed = script.valueProvider.api.GetCurrentDistance();
     }
     catch(e) {currSpeed = 0;}
     
@@ -26,13 +27,13 @@ updateEvent.bind(function(eventData) {
     
     var pctOfMaxSpeed = (currSpeed - script.minSpeed)/(script.maxSpeed-script.minSpeed);
     pctOfMaxSpeed = Math.max(Math.min(1,pctOfMaxSpeed), -1); //clamp between -1 and 1
-    var offsetVec = script.maxSpeedOffset.uniformScale(pctOfMaxSpeed);
+    var offsetVec = script.maxCamOffset.uniformScale(pctOfMaxSpeed);
     var targetVec = camInitialPos.add(offsetVec);
     //var nextPos = targetVec;
     var nextPos = vec3.lerp(camTrans.getWorldPosition(), targetVec, getDeltaTime());
     camTrans.setWorldPosition(nextPos);
 /*    
-    print ("script.maxSpeedOffset = " + script.maxSpeedOffset);
+    print ("script.maxCamOffset = " + script.maxCamOffset);
     print ("camInitialPos = " + camInitialPos);
     
     print ("offsetVec = " + offsetVec);

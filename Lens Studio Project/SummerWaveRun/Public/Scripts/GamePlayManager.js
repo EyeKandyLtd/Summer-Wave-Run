@@ -1,6 +1,5 @@
 
-//Auth: Isaac Dart (isaac@etheria.co)
-//Date: 12 July 2019.
+//Auth: Isaac Dart .
 
 // -----JS CODE-----
 //@input Component.Camera camera
@@ -202,7 +201,7 @@ updateEvent.bind(function(eventData) {
 function StartLevel(level) {
     
        print("Starting level " + level);
-    
+    script.wearablesManager.api.ActiveLevelWearables(level);
     
     if (level < script.levels.length) {
 
@@ -213,7 +212,7 @@ function StartLevel(level) {
             var rampStartPos = script.camera.getSceneObject().getTransform().getWorldPosition();
             rampStartPos.y = 0;
             global.gamePlayManager.pfxManager.api.DoPFX_LevelFinalBoss(rampStartPos);
-            script.wearablesManager.api.ActiveLevelWearables(level);
+            
         }
          
          _currLevelNumber = level;
@@ -294,6 +293,8 @@ function UpdateDistanceAndScore() {
         _currScore = _distance * scoreFactor;
         
         script.hudController.api.SetScore (Math.floor(_currScore));
+    
+   // print("_distance= " + _distance);
     
 }
 
@@ -387,13 +388,13 @@ function DoFinishedGame() {
 
     
     var highScoreText = wasHighScore
-    ?("New best distance of " + global.GetHighScore() + " !!!")
+    ?("New best distance!!!")
     :("Best ever distance: " + global.GetHighScore());
     
     script.frontCamMiddleMessage.text = highScoreText;
     
     StopGame();
-    _distance = -50; // this makes the camera zoom in..
+    _distance =-15 ; // this makes the camera zoom in..
     global.playAudioAsset(script.soundGameFinished, 1);   
 
     

@@ -45,7 +45,7 @@ function ActiveObject(sceneObjs, indx) {
      for (i = 0; i < len; i++) {
             
             if (sceneObjs[i] != null) {
-            //print(" I shall ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
+            print(" I shall ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
                 sceneObjs[i].enabled = (indx == i);
             } else {
                 print("ObjectSpawner:: A slot on the prefab pool was null. Please check and restart Lens.");            
@@ -54,5 +54,5 @@ function ActiveObject(sceneObjs, indx) {
     
 }
 
-script.api.ActiveRandomWearables();
-//script.api.ActiveLevelWearables(0);
+//script.api.ActiveRandomWearables();
+script.api.ActiveLevelWearables(0);

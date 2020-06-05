@@ -48,7 +48,7 @@ updateEvent.bind(function(eventData){
         if (script.api.isOnGround ) {
             script.api.isOnGround = false;
             jumpStartTime = getTime();
-            global.playRandomAudioAsset(script.simpleJumpSounds, -1, 1);
+            global.playRandomAudioAsset(script.simpleJumpSounds, 1, 1);
             SetContentEnabled(script.disableWhenInAir, false);
         } else {
            // print("Ignoring jump request as object is not on the ground.");

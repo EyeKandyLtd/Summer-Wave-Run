@@ -27,6 +27,7 @@ var halfExtentXMovementRange = script.horizonalMovementRange * 0.5
 
 var isInit = false;
 
+
 function EnsureInit() {
     
     if (!isInit) {
@@ -57,6 +58,7 @@ updateEvent.bind(function(eventData) {
 function UpdatePosition() {
     
   var pos = playerTransf.getLocalPosition();
+  
   var rot = playerTransf.getLocalRotation().toEulerAngles();
 
   // reset position to center
@@ -97,15 +99,26 @@ function UpdatePosition() {
     
   //set the lean
   var targetZrot = initialRot.z + playerSpeedThisFrame * script.tiltWeight;
+ 
   targetZrot = Math.max(targetZrot, initialRot.z - script.tiltMaxDegrees) //ensure degree is above minimum tilt rotation
   targetZrot = Math.min(targetZrot, initialRot.z + script.tiltMaxDegrees) //ensure degree is below maximum tilt rotation
   
+  //   targetZrot = Lerp(rot.z, targetZrot, getDeltaTime() * 2);
+   
   var targetRot = new vec3(rot.x, rot.y, targetZrot );
-    rot=targetRot;
-  //rot = vec3.lerp(rot, targetRot, getDeltaTime() * 5.0);
+   rot=targetRot;
+  //rot = vec3.slerp(rot, targetRot, 0.1 );
   playerTransf.setLocalRotation(quat.fromEulerVec(rot));   
     
 }
+
+function Lerp( a,  b, t)
+{
+    var val = (1 - t) * a + t * b;
+    print ("a=" + a + "; b=" + b + "; t=" + t);
+     return val;
+}
+
 
 function CheckCollisions() {
 
