@@ -3,6 +3,7 @@
 //@input SceneObject[] LevelHats
 
 
+
 script.api.ActiveRandomHat = function () {
     RandomActivateOneObject(script.LevelHats);
 };
@@ -13,7 +14,7 @@ script.api.ActiveRandomGlasses = function () {
 
 script.api.ActiveLevelWearables = function (levelIndex) {
    
-    
+    //return;
     ActiveObject(script.LevelGlasses, levelIndex);
     ActiveObject(script.LevelHats, levelIndex);
 };
@@ -54,5 +55,9 @@ function ActiveObject(sceneObjs, indx) {
     
 }
 
-//script.api.ActiveRandomWearables();
-script.api.ActiveLevelWearables(0);
+ script.api.onLoad = function() {
+    script.api.ActiveLevelWearables(0);
+        
+ };
+
+

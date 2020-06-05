@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591378429351",
+    "lastChanged": "1591388900239",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -766,6 +766,7 @@
                 [
                     "101:100",
                     "1517446348227994:84813",
+                    "1573760417378289:40625",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
                     "1573774070522996:822410",
@@ -774,9 +775,9 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
+                    "1589824979988216:180112",
                     "1589825953195699:187528",
                     "1589989988419228:271561",
-                    "1589989988441829:271713",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -799,11 +800,14 @@
                     "1590145934977740:470682",
                     "1590145936849976:477264",
                     "1590161586614319:506540",
+                    "1590441884156890:1008202",
                     "1590483410975235:248916",
                     "1590938830662621:416034",
                     "1590938844440776:460940",
                     "1591040277028267:182644",
                     "1591204521317272:179126",
+                    "1591375129189998:411156",
+                    "1591375174691171:444442",
                     "1591375174691948:444444"
                 ]
             ]
@@ -2860,34 +2864,6 @@
                             }
                         },
                         {
-                            "k": "1590444928982872:1544521",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "true",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
-                            "k": "1590760434915333:747872",
-                            "v": {
-                                "isBasicMode": "true",
-                                "basicModeSetup": {
-                                    "fixWidth": "false",
-                                    "fixHeight": "false",
-                                    "attachBottom": "false",
-                                    "attachLeft": "true",
-                                    "attachRight": "true",
-                                    "attachTop": "true"
-                                }
-                            }
-                        },
-                        {
                             "k": "1591270359300915:382391",
                             "v": {
                                 "isBasicMode": "true",
@@ -2926,6 +2902,76 @@
                                     "attachLeft": "true",
                                     "attachRight": "true",
                                     "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1591384772224540:486007",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1591384772279181:486147",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1591384773127088:487121",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1591385537384079:601311",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1591385537439163:601449",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "false"
                                 }
                             }
                         }
@@ -3046,36 +3092,40 @@
                 "107": "1590441829382018:975065",
                 "108": "1590441831220006:976946",
                 "109": "1590441884156890:1008202",
-                "110": "1590444928980928:1544519",
-                "111": "1590483410975235:248916",
-                "112": "1590483441785178:256899",
-                "113": "1590483442621967:264921",
-                "114": "1590483443238474:273018",
-                "115": "1590483444039471:281192",
-                "116": "1590664189499370:662897",
-                "117": "1590680665056796:2049551",
-                "118": "1590688800087425:2588023",
-                "119": "1590742471715308:176711",
-                "120": "1590749179477688:424231",
-                "121": "1590750449298906:581922",
-                "122": "1590751352725734:58086",
-                "123": "1590751549608572:142630",
-                "124": "1590751748850224:160509",
-                "125": "1590752150231946:262981",
-                "126": "1590766065297299:69420",
-                "127": "1590778091154361:321476",
-                "128": "1590942913314148:78787",
-                "129": "1591040277028267:182644",
-                "130": "1591040277043664:182654",
-                "131": "1591197228731068:34002",
-                "132": "1591204521317272:179126",
-                "133": "1591270359223495:382131",
-                "134": "1591278780149154:799168",
-                "135": "1591278906575216:821522",
-                "136": "1591292372526172:385320",
-                "137": "1591292610540715:434365",
-                "138": "1591375129189998:411156",
-                "139": "1591375174691171:444442"
+                "110": "1590483410975235:248916",
+                "111": "1590483441785178:256899",
+                "112": "1590483442621967:264921",
+                "113": "1590483443238474:273018",
+                "114": "1590483444039471:281192",
+                "115": "1590664189499370:662897",
+                "116": "1590680665056796:2049551",
+                "117": "1590688800087425:2588023",
+                "118": "1590742471715308:176711",
+                "119": "1590749179477688:424231",
+                "120": "1590750449298906:581922",
+                "121": "1590751352725734:58086",
+                "122": "1590751549608572:142630",
+                "123": "1590751748850224:160509",
+                "124": "1590752150231946:262981",
+                "125": "1590766065297299:69420",
+                "126": "1590778091154361:321476",
+                "127": "1590942913314148:78787",
+                "128": "1591040277028267:182644",
+                "129": "1591040277043664:182654",
+                "130": "1591197228731068:34002",
+                "131": "1591204521317272:179126",
+                "132": "1591270359223495:382131",
+                "133": "1591278780149154:799168",
+                "134": "1591278906575216:821522",
+                "135": "1591292372526172:385320",
+                "136": "1591292610540715:434365",
+                "137": "1591375129189998:411156",
+                "138": "1591375174691171:444442",
+                "139": "1591384772219896:486001",
+                "140": "1591384772222403:486003",
+                "141": "1591384772276155:486145",
+                "142": "1591385537247914:600791",
+                "143": "1591385537306755:601051"
             }
         },
         "LayerComponent": {
@@ -5027,7 +5077,7 @@
                     },
                     {
                         "k": "49",
-                        "v": "90693d48fa41bd716a6652089b6a4690"
+                        "v": "94236e84482b2ecb8bc4dceb7bd7079b"
                     },
                     {
                         "k": "50",
@@ -5111,7 +5161,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "13151fcb81227338820e73faa971a9b6"
+                        "v": "b8efe71a44a5c8f2af7c682c7a7254f8"
                     },
                     {
                         "k": "84",
@@ -5491,17 +5541,17 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-04T11:03:35",
                         "name": "Public",
-                        "hash": "b9d0da6e9b0735dd00a0a902c2e011a7",
+                        "hash": "98eb551498d3470953bd0d6bdb53bc6d",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T09:15:52",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Mesh",
                                 "hash": "8faef62b941984e88e0f469868d6d665",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Plane.mesh",
                                         "hash": "3924da4ece660b56cdcb4f2b7b3fe66c",
                                         "children": ""
@@ -5517,20 +5567,20 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T09:15:52",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "UI",
                                 "hash": "000e1277b791bbdee86aa01e4057c67a",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "KOMIKAX_.ttf",
                                         "hash": "58182d5fa2499a9cacb719bbf2025f7b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Extra-life.png",
                                         "hash": "b7f131b63c8a13af7f93a1028d1f6149",
                                         "children": ""
@@ -5552,40 +5602,40 @@
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T12:59:03",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "JetSki",
                                         "hash": "93e3784231453eb31bba39857a06a4fa",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-03T15:29:11",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "JetSkiStyles",
                                                 "hash": "3a227610828de37094c035047d8fb532",
                                                 "children": [
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2020-06-02T09:15:49",
+                                                        "lastModified": "2020-06-05T19:03:19",
                                                         "name": "jetski texture 1.png",
                                                         "hash": "21b28831ce0bc1c06a991a8bb4b98c29",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2020-05-29T12:20:53",
+                                                        "lastModified": "2020-06-05T19:03:19",
                                                         "name": "jetski texture 3.jpg",
                                                         "hash": "41e9c228764647e4b9f52c2d354441a0",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2020-05-29T12:20:53",
+                                                        "lastModified": "2020-06-05T19:03:19",
                                                         "name": "jetski texture 2.jpg",
                                                         "hash": "3dc0e242f1ed15f94e75cd3e4170d7d4",
                                                         "children": ""
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2020-06-02T09:15:49",
+                                                        "lastModified": "2020-06-05T19:03:19",
                                                         "name": "wetsuit texture1.png",
                                                         "hash": "89f5cfc0bd23b5a955addd3973856892",
                                                         "children": ""
@@ -5601,7 +5651,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "JetSki.glb",
                                                 "hash": "eccb6d150ab8b47287a328ed1f577fce",
                                                 "children": ""
@@ -5617,13 +5667,13 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "GameOver",
                                         "hash": "52c3294d3d6a2e487e8f0d652e2f493f",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Game Over.fbx",
                                                 "hash": "7bc71bd7c954a71df752c6e553bf8890",
                                                 "children": ""
@@ -5639,20 +5689,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Barrel",
                                         "hash": "6cc9abf98cb4a4968656b7c60a4e7184",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Barrel_texture.jpg",
                                                 "hash": "454c91a2b62b005e8279ed3a4339eb54",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "barrel.fbx",
                                                 "hash": "ce114cf485c2d593ca7b3ef6d468ddb9",
                                                 "children": ""
@@ -5668,20 +5718,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "FlamingoFloat",
                                         "hash": "e245c484d8459ff9e8b65536f334e30f",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "flamingo_float.fbx",
                                                 "hash": "f8c033f2bf1e2284b9b7b587265f3f8f",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "flamingo_head.jpg",
                                                 "hash": "79b2e5a6fca03e0628899d5daf25b881",
                                                 "children": ""
@@ -5697,27 +5747,27 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "TurtleShell",
                                         "hash": "8c6bcb9322967b49c33c71b31130fd71",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "turtle_NRM.jpg",
                                                 "hash": "5cc3c3c3f5d8a4d24cfcd701385b6ab5",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "turtle shell.fbx",
                                                 "hash": "8c680f828c5ee9eae4739d88e31d6245",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "turtle_texture.jpg",
                                                 "hash": "b1dfbc4823de714d035a523ddf5a5535",
                                                 "children": ""
@@ -5733,13 +5783,13 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "JellyFish",
                                         "hash": "229451fd2ae974f3ecf4f1add58319ae",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "jellyfish.fbx",
                                                 "hash": "832f5525edffe7c21214fd4daab49e11",
                                                 "children": ""
@@ -5755,20 +5805,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Crate",
                                         "hash": "fa49997059f3722b2dea015a26ddbd83",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "crate.fbx",
                                                 "hash": "ecce904d79eab74c55977d5386b46771",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Crate_texture.jpg",
                                                 "hash": "9dcb28a7aadb99a9ccd928f44e1b9a5e",
                                                 "children": ""
@@ -5784,20 +5834,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Log",
                                         "hash": "5e54407426d89880a06d0969e00ba0ea",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "log_texture.jpg",
                                                 "hash": "ae142ed091f2ed92ae3b34dcb89b9991",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "log.fbx",
                                                 "hash": "4bcd9a13db5a5c4a025fa12e2a33d716",
                                                 "children": ""
@@ -5813,20 +5863,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Ramp",
                                         "hash": "1036a1fa51974a1495ce03a9aebdf91a",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Map #32.jpg",
                                                 "hash": "f266ce079d9a92c8d585765b081bc588",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "animated ramp.fbx",
                                                 "hash": "321e2e9dc683a714f0fae88fc6c52cf2",
                                                 "children": ""
@@ -5842,20 +5892,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T10:12:28",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "LifeVest",
                                         "hash": "b901aeb41b335a0416b2256ca0921ff5",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "lifevest.fbx",
                                                 "hash": "3359015914c1ebe80df5f756cd7b7fd3",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:59:35",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "life_vest1_texture.png",
                                                 "hash": "a68b0e59d9a29c5bd2bbf0f3ab248d17",
                                                 "children": ""
@@ -5871,20 +5921,20 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Shark",
                                         "hash": "c425dede5ecb3c6f1417275fb6da2ae3",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "shark_texture.jpg",
                                                 "hash": "956d1b09b59761e56edce65a30a76581",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "shark.fbx",
                                                 "hash": "fc227b1eb924ceada7b6a7e34fd0aa45",
                                                 "children": ""
@@ -5909,40 +5959,40 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T14:52:03",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Textures",
                                 "hash": "f778ff3f4c06111cd0a99c57ea143f44",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "tutorial_bg.png",
                                         "hash": "3aca3bbf49584b5ff04857d52adfe747",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "confetti.png",
                                         "hash": "790f030ed113b43fe6ce2a222bd06a6f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-03T16:06:22",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Water",
                                         "hash": "b7b131007ce9e293f2af9373ac87d6c0",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "water_nrm.jpeg",
                                                 "hash": "869c47ae0e3b6c6c132158fff7137cc2",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-03T16:06:22",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Ocean.lsmat",
                                                 "hash": "c3c6eec4c77321908126829716df5f63",
                                                 "children": ""
@@ -5956,7 +6006,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "water11.jpg",
                                                 "hash": "54041f48d46d1910afd2d3df265ecb20",
                                                 "children": ""
@@ -5965,55 +6015,55 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T15:04:36",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "FaceSoftOutline.png",
                                         "hash": "1b1fbf6d789d0db71bb85b566d86eb72",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "MaterialParams.png",
                                         "hash": "af2715bddfbca2d4e72f470d285c5010",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Horizon",
                                         "hash": "0975337c71e3145b63a98b462c4b9147",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "HorizonNight.lsmat",
                                                 "hash": "06ee6a6a71f89380756564384326b7af",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "New-Horizons---Evening.png",
                                                 "hash": "a71f5dac14e1f15972b85262521e8c20",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "New-Horizons---Day.png",
                                                 "hash": "c383f0421ef77b9170377c7c17417583",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "HorizonDay.lsmat",
                                                 "hash": "e93be23a48f294b3273960b73e57937e",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Horizon-01.png",
                                                 "hash": "71494599119fdddd2b200dd0b77e1cfc",
                                                 "children": ""
@@ -6029,97 +6079,97 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Pier_EnvMap.hdr",
                                         "hash": "a934f4a6c4ee2ebef8d37fbc49caf965",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-04T11:03:18",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "iridescence_combined.png",
                                         "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T18:28:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "red_button.png",
                                         "hash": "9879df955a405b2ab4358ca3cecd4741",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-05T11:15:19",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Wearables",
                                         "hash": "c3fd6d55dda79622673006cf07b00e3b",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "WomansHat.lsmat",
                                                 "hash": "be3fe4e1d31f108a6f0da08af8ad1329",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Captian Hat-01.png",
                                                 "hash": "4fd76f66a33bc66d2db17dd9792ca9cc",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-04T18:43:05",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Sunglasses.lsmat",
                                                 "hash": "ad7247aac3badcbf1bf362b9b70e7224",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T11:15:19",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "CaptainsHat.lsmat",
                                                 "hash": "03eb79eeb5bbc90d0c035e21fe2ed117",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-04T18:46:32",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "RedSunglasses.lsmat",
                                                 "hash": "22175daaa6c6cd02c2534648634259d1",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Red Sun Glasses-01.png",
                                                 "hash": "a0200ea2e1ad719f03dafa1d4ca93463",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T11:14:24",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "GilliganHat 3.lsmat",
                                                 "hash": "1106e8f13a5718a50c9d11786a0347ec",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Womans Hat-01.png",
                                                 "hash": "693433d99cca740e68503aa9cb167aad",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-04T14:39:22",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "GilliganHat-01.png",
                                                 "hash": "395e1b1c31e5e6b38d9f1cd6a20c2168",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:50",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Sunglasses-01.png",
                                                 "hash": "04d71d9ecf2931c0cb03c9f086988cdb",
                                                 "children": ""
@@ -6150,13 +6200,13 @@
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-02T09:15:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Tutorial_Animation_V9",
                                         "hash": "d95e88d899cac036de39b5b9e75ffe1e",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-02T09:15:49",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "video.mp4",
                                                 "hash": "e21d9056ee759973923e9fd46a9513c9",
                                                 "children": ""
@@ -6174,27 +6224,27 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T17:44:23",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Materials",
                                 "hash": "b69f4c792f217fdcfef983d16a869374",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "particle_confetti_1 2.lsmat",
                                         "hash": "b7171fbba5e330fb39637dabbfdf7a5a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "particle_confetti_2 2.lsmat",
                                         "hash": "ef96c8d3e67e9a2eeeb0beddfe0a5a3c",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T17:44:23",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Matte Shadow.lsmat",
                                         "hash": "0ef521c7cdc5dbd5e6f80c636d6a52c2",
                                         "children": ""
@@ -6210,26 +6260,26 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T17:43:56",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Face Mesh Resources",
                                 "hash": "e97aea60059acd9e537198b8dec16e8f",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-12-07T05:04:26",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "FaceMeshStatic.obj",
                                         "hash": "3a2383ab6a7c98ed3e6dbec9b7fd4eeb",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-03T15:27:18",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Material",
                                         "hash": "44832e2220ab0c3c3e68d7725280f178",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-03T15:27:18",
+                                                "lastModified": "2020-06-05T19:03:19",
                                                 "name": "AlphaFace.lsmat",
                                                 "hash": "6ec3d5b4d535af6beb0e7395b3e287a9",
                                                 "children": ""
@@ -6254,62 +6304,62 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-04T14:11:49",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Prefabs",
                                 "hash": "6504413b2a5b8137b4f3936d78b569ac",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-04T14:11:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Crate.oprfb",
                                         "hash": "05b64a20939320e95c7b14d35b48a880",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T14:32:29",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Ramp.oprfb",
                                         "hash": "b487a025c51e60693ae6976fddf85c41",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "SharkAcross.oprfb",
                                         "hash": "e8f2e14eed2e0be8a5187a3cee865611",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-04T12:01:06",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "LifeVest.oprfb",
                                         "hash": "6dbfc3ec53333886b3b07406c6e6431f",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T11:32:15",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "FlamingoFloat.oprfb",
                                         "hash": "7c0abf83ede40e7271a23cbc7255768a",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Shark.oprfb",
                                         "hash": "3e868a820133fca7cc3c815b04c6edf7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Jellyfish.oprfb",
                                         "hash": "ce55c7c65487fc2253a213b5416574ee",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Barrel.oprfb",
                                         "hash": "f7fdf29d2633545dfd3d08c90960a5cc",
                                         "children": ""
@@ -6323,14 +6373,14 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "TurtleShell.oprfb",
                                         "hash": "d68b8c2967d47e3c2bb3bf54413ac20b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Log.oprfb",
                                         "hash": "6dc68445f57ade546a9402325e6dd9ed",
                                         "children": ""
@@ -6339,41 +6389,41 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-03T19:59:24",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Particles",
                                 "hash": "e457c9b2d201c57cd0a0cc3d4886aab4",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Confetti.oprfb",
                                         "hash": "ef454e1f7d5c4e2b22fd5da78d17727e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T19:42:09",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "PFXWaterSpraySmall.lsmat",
                                         "hash": "ed5c38f87d09633650d680ae1a440493",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T19:59:24",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "PFXWaterSprayMedium.lsmat",
                                         "hash": "373c3efda293eaa0f444928084d2cb64",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Particles Mesh.mesh",
                                         "hash": "a5adcbdb568b3556fe3d03137cb05292",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-03T17:45:35",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Particles Texture.jpg",
                                         "hash": "633e6164fd04c2de5d7f0ed88b3dd76d",
                                         "children": ""
@@ -6389,97 +6439,97 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-02T11:47:50",
+                                "lastModified": "2020-06-05T19:03:19",
                                 "name": "Audio",
                                 "hash": "d65d54e79a183869462d073c95b80052",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "CrowdWow.mp3",
                                         "hash": "587145de62fd300b178dbeb161fda4da",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Low-win.mp3",
                                         "hash": "ea7a758ed8f76069cf02bc64d47ee98e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Jet-Ski-Motor.mp3",
                                         "hash": "e5b09c84a6629cff88e3a38a4a58c241",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "BonusOk.mp3",
                                         "hash": "3e8ad929398a58df40956158e8f137c5",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "GameFinished.mp3",
                                         "hash": "1dd9f06602052853c0164d9fd58ab9ce",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "turtle01.mp3",
                                         "hash": "d39d8bd2a7d5a6981b860fe22fe780d6",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-22T14:51:44",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Small-cheer.mp3",
                                         "hash": "cdcd6920f33d1c5c5d5f31164ddaa2c0",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Mid-win.mp3",
                                         "hash": "90c0d176e88d52c6fee9621053d396f2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "shark01.mp3",
                                         "hash": "35c0d762c46b8f5882e388000465e512",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "flamingo01.mp3",
                                         "hash": "b83848f4a4724a0e08a918f25c2834d3",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "log01.mp3",
                                         "hash": "5efb2f1bace22e6e711eca9bbfdea111",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "TropicalBeats1.mp3",
                                         "hash": "6d55c0fc679cd98168ef872d8a0adade",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "barrel01.mp3",
                                         "hash": "9d31ef2cbb50528f065135b08b0e00cf",
                                         "children": ""
@@ -6493,7 +6543,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "Best-win.mp3",
                                         "hash": "770e08d6799ef062dadcdbcbbc74c1e4",
                                         "children": ""
@@ -6502,167 +6552,167 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-05T18:21:52",
+                                "lastModified": "2020-06-05T21:25:01",
                                 "name": "Scripts",
-                                "hash": "078254a6463ae2b316de37373bc82939",
+                                "hash": "78d3215dd9d33d78def745c2179b6fa8",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T14:55:15",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "ColliderAABB.js",
                                         "hash": "83c4c10cb65f4a24f1f14eb618df54bf",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "TutorialUI.js",
                                         "hash": "e9a7d25c0562e9c72594938c475fcbdf",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-05-28T18:28:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "AnimationHelper.js",
                                         "hash": "8b086ecb506120dffcaeeef73e0c4def",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "DelayedDestroy.js",
                                         "hash": "14692178fa42e7805f2ad0f10a899173",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "CameraContentController.js",
                                         "hash": "1c1f7e1b21c4d631b8a9d20ddc484527",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "CollisionManager.js",
                                         "hash": "508b2ccef5f2f7d059aac30770d21cec",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "ObjectSpawner.js",
                                         "hash": "32ff74d42d84b761cb57bca740259c89",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T11:08:32",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "CameraSpeedMover.js",
                                         "hash": "4bd9f53254b8d18ca8be509f99b9eac2",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "ParticalBurst.js",
                                         "hash": "8846727e67219b89d2ff4f2dbb1f8160",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "GlobalGameLogic.js",
                                         "hash": "ab89f8d62cb9126427a16bac7623a10e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T11:42:41",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "AudioManager.js",
                                         "hash": "ccd821cd7f992d936d82aa488dd912ff",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T11:25:36",
+                                        "lastModified": "2020-06-05T21:25:01",
                                         "name": "WearablesManager.js",
-                                        "hash": "90693d48fa41bd716a6652089b6a4690",
+                                        "hash": "94236e84482b2ecb8bc4dceb7bd7079b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "DirectionController3D.js",
                                         "hash": "9b4ac6dd7cc909c5a3b6f4c3943d174b",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "MaterialAnimator.js",
                                         "hash": "626dd452845d679228c6b11fd2318a89",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-04T11:53:16",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "PulsateAnim.js",
                                         "hash": "3b563234b386981375b1f2d79e931000",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "HUDController.js",
                                         "hash": "18ea3c504c63e5bb40611fde94890e18",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T16:09:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "JumpController3D.js",
                                         "hash": "eed11bf5722348342769127429b03398",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "PfxManager.js",
                                         "hash": "bf1b1ca350f25f459a7973de455a9ab8",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "GestureProxy.js",
                                         "hash": "04763c3058d09b7fed85ebaca75c2a75",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "SimpleHighScoreController.js",
                                         "hash": "d1bb8eac00aa151eea751c5f7dd7cdb4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T17:06:49",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "GamePlayManager.js",
                                         "hash": "ffab1843fad4342a52ee742f2e5d93d6",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-02T09:15:50",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "MaterialFader.js",
                                         "hash": "b30e974138edcea30e3361c4ec7768e4",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T18:21:52",
+                                        "lastModified": "2020-06-05T19:03:19",
                                         "name": "PlayingCharacter.js",
                                         "hash": "99b5deff6023896cafb700da4342599c",
                                         "children": ""
@@ -10813,7 +10863,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1590163227697638:803504"
+                    "1590161584667918:504392"
                 ]
             }
         },
