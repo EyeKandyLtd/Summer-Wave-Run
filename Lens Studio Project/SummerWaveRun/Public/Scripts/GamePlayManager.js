@@ -201,10 +201,11 @@ updateEvent.bind(function(eventData) {
 function StartLevel(level) {
     
        print("Starting level " + level);
-    script.wearablesManager.api.ActiveLevelWearables(level);
+   
+    //script.wearablesManager.api.ActiveRandomWearables();
     
     if (level < script.levels.length) {
-
+        script.wearablesManager.api.ActiveLevelWearables(level);
         script.playingCharacter.api.DoLevelUp(level);
         
         //..spawn in end level ramp?

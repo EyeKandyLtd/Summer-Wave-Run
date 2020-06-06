@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591457598079",
+    "lastChanged": "1591458814354",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -793,6 +793,7 @@
                     "1590145932889509:464174",
                     "1590145934977740:470682",
                     "1590145936849976:477264",
+                    "1590161584667918:504392",
                     "1590161586614319:506540",
                     "1590441884156890:1008202",
                     "1590483410975235:248916",
@@ -5047,7 +5048,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "ffab1843fad4342a52ee742f2e5d93d6"
+                        "v": "a62dacd7e00d2b0243a679d26417836d"
                     },
                     {
                         "k": "39",
@@ -5091,7 +5092,7 @@
                     },
                     {
                         "k": "49",
-                        "v": "f777e71ef31f3cb9201810709757dc87"
+                        "v": "bf9cae35cd25e39282b1dd6454cb3d6c"
                     },
                     {
                         "k": "50",
@@ -5175,7 +5176,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "20da1bcf0f4504a04d21e6e49485ab1c"
+                        "v": "ef6fab3f8cfb92b3db12c919a3071aa9"
                     },
                     {
                         "k": "84",
@@ -5559,7 +5560,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-04T11:03:35",
                         "name": "Public",
-                        "hash": "3ff73a97dc295800ee9423cd79cc1c8b",
+                        "hash": "00a796a447e305da70297e4c60460b23",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -6577,9 +6578,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-06T16:11:25",
+                                "lastModified": "2020-06-06T16:51:11",
                                 "name": "Scripts",
-                                "hash": "b6836b5a18513b1c9b80995834f2908d",
+                                "hash": "283ffab146f1bbc1b0dfb98dc5d93933",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6660,9 +6661,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-06T16:11:25",
+                                        "lastModified": "2020-06-06T16:44:45",
                                         "name": "WearablesManager.js",
-                                        "hash": "f777e71ef31f3cb9201810709757dc87",
+                                        "hash": "bf9cae35cd25e39282b1dd6454cb3d6c",
                                         "children": ""
                                     },
                                     {
@@ -6723,9 +6724,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T19:03:19",
+                                        "lastModified": "2020-06-06T16:51:11",
                                         "name": "GamePlayManager.js",
-                                        "hash": "ffab1843fad4342a52ee742f2e5d93d6",
+                                        "hash": "a62dacd7e00d2b0243a679d26417836d",
                                         "children": ""
                                     },
                                     {
@@ -10901,7 +10902,9 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "101:100"
+                    "1590076442788783:39410",
+                    "1590076443343796:45080",
+                    "1590076428991401:39399"
                 ]
             }
         },

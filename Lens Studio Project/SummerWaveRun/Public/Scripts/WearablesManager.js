@@ -27,9 +27,9 @@ script.api.ActiveRandomWearables = function () {
 
 function RandomActivateOneObject(sceneObjs) {
     
-    var len = sceneObjs.length;
+    var len = sceneObjs.length-1;
 
-    if (len > 0) {
+    if (len >=0) {
         var randomIndex = Math.floor(Math.random() * len);
        ActiveObject(sceneObjs, randomIndex);
     } else {
