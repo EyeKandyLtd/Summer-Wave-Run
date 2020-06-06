@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591391048576",
+    "lastChanged": "1591456684248",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -689,10 +689,6 @@
                     ],
                     [
                         "Textures",
-                        "Wearables"
-                    ],
-                    [
-                        "Textures",
                         "Wearables",
                         "CaptainsHat"
                     ],
@@ -704,7 +700,7 @@
                     [
                         "Textures",
                         "Wearables",
-                        "GilliganHat 3"
+                        "GilliganHat"
                     ],
                     [
                         "Textures",
@@ -777,7 +773,6 @@
                     "1589812223050539:24966",
                     "1589824979988216:180112",
                     "1589825953195699:187528",
-                    "1589989988419228:271561",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -808,7 +803,8 @@
                     "1591204521317272:179126",
                     "1591375129189998:411156",
                     "1591375174691171:444442",
-                    "1591375174691948:444444"
+                    "1591375174691948:444444",
+                    "1591384772219896:486001"
                 ]
             ]
         },
@@ -4342,7 +4338,7 @@
                     },
                     {
                         "k": "25",
-                        "v": "Textures\/Wearables\/GilliganHat 3.lsmat"
+                        "v": "Textures\/Wearables\/GilliganHat.lsmat"
                     },
                     {
                         "k": "26",
@@ -4980,23 +4976,23 @@
                     },
                     {
                         "k": "23",
-                        "v": "be3fe4e1d31f108a6f0da08af8ad1329"
+                        "v": "4cf39349bef9ac5592e5792db8f488b5"
                     },
                     {
                         "k": "24",
-                        "v": "ad7247aac3badcbf1bf362b9b70e7224"
+                        "v": "e7cf1466a3ce6734143e38eb4dd04f37"
                     },
                     {
                         "k": "25",
-                        "v": "1106e8f13a5718a50c9d11786a0347ec"
+                        "v": "ffba5156a198632e1f25ebfe0b7a4504"
                     },
                     {
                         "k": "26",
-                        "v": "22175daaa6c6cd02c2534648634259d1"
+                        "v": "bec77e3fa094f8b72e991b99df21a5a2"
                     },
                     {
                         "k": "27",
-                        "v": "03eb79eeb5bbc90d0c035e21fe2ed117"
+                        "v": "ee6cb2b341f6bcfe55bfa7f542db6db9"
                     },
                     {
                         "k": "29",
@@ -5076,7 +5072,7 @@
                     },
                     {
                         "k": "49",
-                        "v": "94236e84482b2ecb8bc4dceb7bd7079b"
+                        "v": "f777e71ef31f3cb9201810709757dc87"
                     },
                     {
                         "k": "50",
@@ -5160,7 +5156,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "4e53d4ec20df6188905332bb62d7d163"
+                        "v": "67596c815d3086bec0d112bfffe23b7c"
                     },
                     {
                         "k": "84",
@@ -5540,7 +5536,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-04T11:03:35",
                         "name": "Public",
-                        "hash": "98eb551498d3470953bd0d6bdb53bc6d",
+                        "hash": "8129402e65a3dba4458d7b502311a37e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5960,7 +5956,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-05T19:03:19",
                                 "name": "Textures",
-                                "hash": "f778ff3f4c06111cd0a99c57ea143f44",
+                                "hash": "01c019c1e1d1a57b19115cc0feb272f4",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6099,15 +6095,15 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-05T19:03:19",
+                                        "lastModified": "2020-06-06T16:14:38",
                                         "name": "Wearables",
-                                        "hash": "c3fd6d55dda79622673006cf07b00e3b",
+                                        "hash": "926946c382ed3008f0ff77f21f531c51",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T19:03:19",
+                                                "lastModified": "2020-06-06T16:10:22",
                                                 "name": "WomansHat.lsmat",
-                                                "hash": "be3fe4e1d31f108a6f0da08af8ad1329",
+                                                "hash": "4cf39349bef9ac5592e5792db8f488b5",
                                                 "children": ""
                                             },
                                             {
@@ -6119,23 +6115,23 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T19:03:19",
+                                                "lastModified": "2020-06-06T16:10:22",
                                                 "name": "Sunglasses.lsmat",
-                                                "hash": "ad7247aac3badcbf1bf362b9b70e7224",
+                                                "hash": "e7cf1466a3ce6734143e38eb4dd04f37",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T19:03:19",
+                                                "lastModified": "2020-06-06T16:10:22",
                                                 "name": "CaptainsHat.lsmat",
-                                                "hash": "03eb79eeb5bbc90d0c035e21fe2ed117",
+                                                "hash": "ee6cb2b341f6bcfe55bfa7f542db6db9",
                                                 "children": ""
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T19:03:19",
+                                                "lastModified": "2020-06-06T16:10:22",
                                                 "name": "RedSunglasses.lsmat",
-                                                "hash": "22175daaa6c6cd02c2534648634259d1",
+                                                "hash": "bec77e3fa094f8b72e991b99df21a5a2",
                                                 "children": ""
                                             },
                                             {
@@ -6143,13 +6139,6 @@
                                                 "lastModified": "2020-06-05T19:03:19",
                                                 "name": "Red Sun Glasses-01.png",
                                                 "hash": "a0200ea2e1ad719f03dafa1d4ca93463",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-06-05T19:03:19",
-                                                "name": "GilliganHat 3.lsmat",
-                                                "hash": "1106e8f13a5718a50c9d11786a0347ec",
                                                 "children": ""
                                             },
                                             {
@@ -6164,6 +6153,13 @@
                                                 "lastModified": "2020-06-05T19:03:19",
                                                 "name": "GilliganHat-01.png",
                                                 "hash": "395e1b1c31e5e6b38d9f1cd6a20c2168",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-06T16:14:38",
+                                                "name": "GilliganHat.lsmat",
+                                                "hash": "ffba5156a198632e1f25ebfe0b7a4504",
                                                 "children": ""
                                             },
                                             {
@@ -6551,9 +6547,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-05T21:25:01",
+                                "lastModified": "2020-06-06T16:11:25",
                                 "name": "Scripts",
-                                "hash": "78d3215dd9d33d78def745c2179b6fa8",
+                                "hash": "b6836b5a18513b1c9b80995834f2908d",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6634,9 +6630,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-05T21:25:01",
+                                        "lastModified": "2020-06-06T16:11:25",
                                         "name": "WearablesManager.js",
-                                        "hash": "94236e84482b2ecb8bc4dceb7bd7079b",
+                                        "hash": "f777e71ef31f3cb9201810709757dc87",
                                         "children": ""
                                     },
                                     {
@@ -7110,7 +7106,7 @@
                                         "additional": ""
                                     },
                                     {
-                                        "name": "GilliganHat 3",
+                                        "name": "GilliganHat",
                                         "type": "2",
                                         "subtype": "0",
                                         "resourceId": "891",
@@ -10862,7 +10858,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1590161586540806:506400"
+                    "1589823779276648:164952"
                 ]
             }
         },
