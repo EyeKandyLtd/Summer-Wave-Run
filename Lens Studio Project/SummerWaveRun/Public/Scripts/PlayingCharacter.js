@@ -103,7 +103,6 @@ function UpdatePosition() {
   targetZrot = Math.max(targetZrot, initialRot.z - script.tiltMaxDegrees) //ensure degree is above minimum tilt rotation
   targetZrot = Math.min(targetZrot, initialRot.z + script.tiltMaxDegrees) //ensure degree is below maximum tilt rotation
   
-   //targetZrot = Lerp(rot.z, targetZrot, getDeltaTime() * 2);
    
   var targetRot = new vec3(rot.x, rot.y, targetZrot );
    
@@ -113,12 +112,6 @@ function UpdatePosition() {
    // print("playerSpeedThisFrame: " + playerSpeedThisFrame);
 }
 
-function Lerp( a,  b, t)
-{
-    var val = (1 - t) * a + t * b;
-    //print ("a=" + a + "; b=" + b + "; t=" + t);
-     return val;
-}
 
 
 function CheckCollisions() {
@@ -155,6 +148,7 @@ function HandleCollision(other) {
     
 }
 
+//update the materials
 script.api.DoLevelUp = function(levelCount) {
     
     if (script.LevelUpMaterials.length > levelCount) {

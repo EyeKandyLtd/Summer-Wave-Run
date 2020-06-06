@@ -41,12 +41,12 @@ function RandomActivateOneObject(sceneObjs) {
 function ActiveObject(sceneObjs, indx) {
     
     var len = sceneObjs.length;
-    
+    if (indx >= len) indx = len-1; if (indx < 0) indx = 0;
     
      for (i = 0; i < len; i++) {
             
             if (sceneObjs[i] != null) {
-            print(" I shall ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
+            //print(" I shall ActiveObject " + sceneObjs[i].name + " which is " + i + " of " + len + "? : " + (indx == i));
                 sceneObjs[i].enabled = (sceneObjs[i].name == sceneObjs[indx].name);
             } else {
                 print("ObjectSpawner:: A slot on the prefab pool was null. Please check and restart Lens.");            
