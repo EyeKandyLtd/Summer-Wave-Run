@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591456684248",
+    "lastChanged": "1591457598079",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -538,9 +538,6 @@
                         "Particles Texture"
                     ],
                     [
-                        "Prefabs"
-                    ],
-                    [
                         "Prefabs",
                         "Barrel"
                     ],
@@ -685,7 +682,8 @@
                     ],
                     [
                         "Textures",
-                        "Water"
+                        "Water",
+                        "SimpleOcean"
                     ],
                     [
                         "Textures",
@@ -773,6 +771,7 @@
                     "1589812223050539:24966",
                     "1589824979988216:180112",
                     "1589825953195699:187528",
+                    "1589989988419228:271561",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
                     "1589990932246686:362645",
@@ -2646,6 +2645,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "975",
+                    "uid": "1591456816741771:125839",
+                    "name": "Files\/File1044",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4232,6 +4239,14 @@
                 {
                     "k": "1043",
                     "v": "Files\/File1043.png"
+                },
+                {
+                    "k": "1044",
+                    "v": "Files\/File1044"
+                },
+                {
+                    "k": "1045",
+                    "v": "Files\/File1045.lsmat"
                 }
             ]
         },
@@ -4903,6 +4918,10 @@
                     {
                         "k": "572",
                         "v": "Textures\/red_button.png"
+                    },
+                    {
+                        "k": "573",
+                        "v": "Textures\/Water\/SimpleOcean.lsmat"
                     }
                 ],
                 "hashes": [
@@ -4916,7 +4935,7 @@
                     },
                     {
                         "k": "6",
-                        "v": "c3c6eec4c77321908126829716df5f63"
+                        "v": "c0f8184f9d27c860ee6f3a95deb23be5"
                     },
                     {
                         "k": "7",
@@ -5156,7 +5175,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "67596c815d3086bec0d112bfffe23b7c"
+                        "v": "20da1bcf0f4504a04d21e6e49485ab1c"
                     },
                     {
                         "k": "84",
@@ -5529,6 +5548,10 @@
                     {
                         "k": "572",
                         "v": "9879df955a405b2ab4358ca3cecd4741"
+                    },
+                    {
+                        "k": "573",
+                        "v": "1cb4199f64bfa2e34441d93247d34f17"
                     }
                 ],
                 "publicState": {
@@ -5536,7 +5559,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-04T11:03:35",
                         "name": "Public",
-                        "hash": "8129402e65a3dba4458d7b502311a37e",
+                        "hash": "3ff73a97dc295800ee9423cd79cc1c8b",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5956,7 +5979,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-05T19:03:19",
                                 "name": "Textures",
-                                "hash": "01c019c1e1d1a57b19115cc0feb272f4",
+                                "hash": "4fc35a8891aef16f6c6c347f79c602d8",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -5974,9 +5997,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-05T19:03:19",
+                                        "lastModified": "2020-06-06T16:30:01",
                                         "name": "Water",
-                                        "hash": "b7b131007ce9e293f2af9373ac87d6c0",
+                                        "hash": "1f555ce6b184b0f9978a0368bb4d29a4",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -5987,9 +6010,16 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-05T19:03:19",
+                                                "lastModified": "2020-06-06T16:30:01",
                                                 "name": "Ocean.lsmat",
-                                                "hash": "c3c6eec4c77321908126829716df5f63",
+                                                "hash": "c0f8184f9d27c860ee6f3a95deb23be5",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-06T16:26:21",
+                                                "name": "SimpleOcean.lsmat",
+                                                "hash": "1cb4199f64bfa2e34441d93247d34f17",
                                                 "children": ""
                                             },
                                             {
@@ -6878,6 +6908,19 @@
                                         "originalId": "531",
                                         "publicId": "7",
                                         "source": "\/Users\/isaacdart\/Desktop\/water_nrm.jpeg",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "SimpleOcean",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "975",
+                                        "dependency": "0",
+                                        "uid": "1591456816741771:125839",
+                                        "fileId": "1044",
+                                        "originalId": "1045",
+                                        "publicId": "573",
+                                        "source": "",
                                         "additional": ""
                                     }
                                 ]
@@ -10858,7 +10901,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1589823779276648:164952"
+                    "101:100"
                 ]
             }
         },
