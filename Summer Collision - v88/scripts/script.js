@@ -11,6 +11,10 @@ var number = Scene.root.find('score0');
 
 var game_over = Scene.root.find('game_over');
 
+var game_scene = Scene.root.find('game_scene');
+var scoreBoard = Scene.root.find('scoreBoard');
+var endScene = Scene.root.find('endScene');
+
 var highest_score = Scene.root.find('highest_score');
 var highest_score_score = Scene.root.find('highest_score_score');
 
@@ -71,6 +75,9 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		restart.hidden = false;
 		highest_score.hidden = false;
 		highest_score_score.hidden = false;
+		endScene.hidden = false;
+		game_scene.hidden = true;
+		scoreBoard.hidden = true;
 		stop_objects = true;
 		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
@@ -78,6 +85,9 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 	if(event.newValue < -4) {
 		event.newValue = -4;
 		stop_objects = true;
+		endScene.hidden = false;
+		game_scene.hidden = true;
+		scoreBoard.hidden = true;
 		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
 
