@@ -3,7 +3,7 @@
     "document_id": "7IL8aFKBOwGqvbpZFQFu",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "23",
-    "lastChanged": "1591464261495",
+    "lastChanged": "1591697629317",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -687,6 +687,11 @@
                     ],
                     [
                         "Textures",
+                        "Water",
+                        "ocean2"
+                    ],
+                    [
+                        "Textures",
                         "Wearables",
                         "CaptainsHat"
                     ],
@@ -819,7 +824,7 @@
         "PreviewUiComponent": {
             "preview_descriptor": {
                 "is_capture": "0",
-                "camera_type": "1"
+                "camera_type": "2"
             },
             "show_snap_ui": "true",
             "show_sponsored_ui": "false",
@@ -2651,6 +2656,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "976",
+                    "uid": "1591697241200856:62083",
+                    "name": "Files\/File1046.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4259,6 +4272,14 @@
                 {
                     "k": "1045",
                     "v": "Files\/File1045.lsmat"
+                },
+                {
+                    "k": "1046",
+                    "v": "Files\/File1046.png"
+                },
+                {
+                    "k": "1047",
+                    "v": "Files\/File1047.png"
                 }
             ]
         },
@@ -4934,6 +4955,10 @@
                     {
                         "k": "573",
                         "v": "Textures\/Water\/SimpleOcean.lsmat"
+                    },
+                    {
+                        "k": "574",
+                        "v": "Textures\/Water\/ocean2.png"
                     }
                 ],
                 "hashes": [
@@ -4947,7 +4972,7 @@
                     },
                     {
                         "k": "6",
-                        "v": "c0f8184f9d27c860ee6f3a95deb23be5"
+                        "v": "18bf58225c0ce4dfeffd5bb18543f821"
                     },
                     {
                         "k": "7",
@@ -5187,7 +5212,7 @@
                     },
                     {
                         "k": "82",
-                        "v": "dfb8586819a2fad5054b6619df47d818"
+                        "v": "ae2618da0ea959b508e338360213bfd6"
                     },
                     {
                         "k": "84",
@@ -5564,6 +5589,10 @@
                     {
                         "k": "573",
                         "v": "1cb4199f64bfa2e34441d93247d34f17"
+                    },
+                    {
+                        "k": "574",
+                        "v": "e00452bdd92b5705164a034017b1230a"
                     }
                 ],
                 "publicState": {
@@ -5571,7 +5600,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-04T11:03:35",
                         "name": "Public",
-                        "hash": "bc181cfc851880f5b6f8344fe8094dfa",
+                        "hash": "03dd3a2859c1d233df7f2e372ee803ec",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -5991,7 +6020,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-05T19:03:19",
                                 "name": "Textures",
-                                "hash": "4fc35a8891aef16f6c6c347f79c602d8",
+                                "hash": "522e06db032ae43317e7873ecf16e123",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -6009,9 +6038,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-06T16:30:01",
+                                        "lastModified": "2020-06-09T11:13:27",
                                         "name": "Water",
-                                        "hash": "1f555ce6b184b0f9978a0368bb4d29a4",
+                                        "hash": "94b1a31b98845c76bc4dfbc1e9387c1d",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -6022,9 +6051,16 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-06T16:30:01",
+                                                "lastModified": "2020-06-09T10:04:23",
+                                                "name": "ocean2.png",
+                                                "hash": "e00452bdd92b5705164a034017b1230a",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-09T11:13:27",
                                                 "name": "Ocean.lsmat",
-                                                "hash": "c0f8184f9d27c860ee6f3a95deb23be5",
+                                                "hash": "18bf58225c0ce4dfeffd5bb18543f821",
                                                 "children": ""
                                             },
                                             {
@@ -6933,6 +6969,19 @@
                                         "originalId": "1045",
                                         "publicId": "573",
                                         "source": "",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "ocean2",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "976",
+                                        "dependency": "0",
+                                        "uid": "1591697241200856:62083",
+                                        "fileId": "1046",
+                                        "originalId": "1047",
+                                        "publicId": "574",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Water\/ocean2.png",
                                         "additional": ""
                                     }
                                 ]
@@ -10914,11 +10963,11 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1591189294119949:76494",
+                        "uid": "1589980261104198:53767",
                         "path_list": [
-                            "Face Mesh Resources",
-                            "Material",
-                            "AlphaFace"
+                            "Textures",
+                            "Water",
+                            "Ocean"
                         ]
                     }
                 ]
