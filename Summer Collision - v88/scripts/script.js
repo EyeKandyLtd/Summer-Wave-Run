@@ -1,5 +1,6 @@
 const Scene = require("Scene");
 const Patches = require("Patches");
+const Time = require('Time');
 const Reactive = require('Reactive');
 const Diagnostics = require('Diagnostics'); //REMOVE WHEN MOVED TO PROD
 
@@ -75,9 +76,13 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		restart.hidden = false;
 		highest_score.hidden = false;
 		highest_score_score.hidden = false;
-		endScene.hidden = false;
-		game_scene.hidden = true;
-		scoreBoard.hidden = true;
+
+		Time.setTimeout(function(){
+			endScene.hidden = false;
+			game_scene.hidden = true;
+			scoreBoard.hidden = true;
+		}, 3000);
+
 		stop_objects = true;
 		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
@@ -85,9 +90,13 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 	if(event.newValue < -4) {
 		event.newValue = -4;
 		stop_objects = true;
-		endScene.hidden = false;
-		game_scene.hidden = true;
-		scoreBoard.hidden = true;
+
+		Time.setTimeout(function(){
+			endScene.hidden = false;
+			game_scene.hidden = true;
+			scoreBoard.hidden = true;
+		}, 3000);
+
 		Patches.setBooleanValue('stop_objects', stop_objects);
 	}
 
