@@ -19,7 +19,7 @@ var endScene = Scene.root.find('endScene');
 var highest_score = Scene.root.find('highest_score');
 var highest_score_score = Scene.root.find('highest_score_score');
 
-var restart = Scene.root.find('restart');
+
 
 var stop_objects = false;
 
@@ -73,7 +73,7 @@ Patches.getScalarValue("score").monitor().subscribe(function(event){
 		life_counter_3.hidden = true;
 
 		game_over.hidden = false;
-		restart.hidden = false;
+		
 		highest_score.hidden = false;
 		highest_score_score.hidden = false;
 
