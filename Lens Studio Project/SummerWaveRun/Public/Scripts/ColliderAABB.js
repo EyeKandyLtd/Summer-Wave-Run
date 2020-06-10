@@ -4,6 +4,7 @@
 //@input float zLength = 30
 //@input bool isTrigger = false
 //@input bool isOneShot = true
+//@input bool isDestroyOnHit = true
 //@input Asset.AudioTrackAsset[] hitSounds
 //@input float xOffset = 0
 //@input float yOffset = 0
@@ -73,6 +74,11 @@ script.api.SetIntersectionCallback = function(callback) {
 
 script.api.GetIsTrigger = function() {
     return script.isTrigger;    
+}
+
+script.api.GetIsDestroyOnHit = function() {
+    
+    return script.isDestroyOnHit;
 }
 
 script.api.GetHasOneShotExecuted = function() {

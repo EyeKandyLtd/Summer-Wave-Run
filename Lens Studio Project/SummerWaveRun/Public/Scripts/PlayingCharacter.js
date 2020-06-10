@@ -133,14 +133,16 @@ function HandleCollision(other) {
     
     if (otherName == "LifeVest") {
         script.gameplayManager.api.Lives_Increment();
-         other.getSceneObject().destroy();
     } 
     else if (otherName == "Ramp") {
         script.jumpController3D.api.DoForceJump();
     }
-    else {
+    else if (other.api.GetIsDestroyOnHit()) {
          script.gameplayManager.api.Lives_Decrement();
-         other.getSceneObject().destroy();
+    }
+    
+    if (other.api.GetIsDestroyOnHit()) {
+        other.getSceneObject().destroy();
     }
     
     //print("Player Handling Collision: " + otherName);  
