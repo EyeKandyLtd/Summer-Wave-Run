@@ -8,6 +8,7 @@
 //@input Component.ScriptComponent wearablesManager
 //@input Component.ScriptComponent scrollingWater
 //@input Component.ScriptComponent playingCharacter
+//@input Component.ScriptComponent selfieManager
 
 //@input Component.ScriptComponent[] levels
 //@input float scorePerLevel = 100
@@ -152,6 +153,8 @@ function Init() {
 function StartGame() {
       
     StopGame();
+    
+    script.selfieManager.api.EnableSelfieMode(false); // change to false after debug
     
     print("Starting game");
 
@@ -381,6 +384,7 @@ function DoFinishedGame() {
     var score = CalcCurrentScore();
     var wasHighScore = global.TrySetHighScore(score);
 
+    script.selfieManager.api.EnableSelfieMode(true);
 
     var selfieBannerMessage = "Distance: " + Math.floor(_currScore) + "!";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
@@ -395,8 +399,10 @@ function DoFinishedGame() {
     script.frontCamMiddleMessage.text = highScoreText;
     
     StopGame();
-    _distance =-15 ; // this makes the camera zoom in..
+    //_distance =-15 ; // this makes the camera zoom in..
     global.playAudioAsset(script.soundGameFinished, 1);   
+    
+    
 
     
 
