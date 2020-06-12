@@ -4,6 +4,7 @@
 //@input vec3 initialVector
 //@input bool runOnTurnedOn = true
 //@input float distanceBeforeDeath = 500
+//@input bool ignoreGlobalDirectionOverride = false
 
 var isOperating = false;
 var thisTransform = script.getSceneObject().getTransform();
@@ -17,6 +18,7 @@ var isInit = false;
 function EnsureInitialized() {
     
     if (!isInit) {
+        if (isNull(script.ignoreGlobalDirectionOverride)) script.ignoreGlobalDirectionOverride = false;
         isInit = true;
         if (script.runOnTurnedOn) {
             script.api.StartMoving();
@@ -54,8 +56,10 @@ function DoUpdateMovement() {
     
      if (isOperating) {
         var vec = currVec;
-        if (global.directionController3DVector != vec3.zero) {
-            vec = global.directionController3DVector;
+        if (!script.ignoreGlobalDirectionOverride) {
+            if (global.directionController3DVector != vec3.zero) {
+                vec = global.directionController3DVector;
+            }
         }
        
         var deltaVec = vec.uniformScale(getDeltaTime());

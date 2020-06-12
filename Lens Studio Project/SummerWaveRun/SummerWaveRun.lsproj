@@ -3,7 +3,7 @@
     "document_id": "_xiu7VsMyVkTyw-906Cf",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "24",
-    "lastChanged": "1591975204065",
+    "lastChanged": "1591978974570",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,9 +29,6 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
-                    [
-                        "Animated 3D Assets"
-                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -618,73 +615,6 @@
                     ],
                     [
                         "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Animations"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Animations",
-                        "Heart.005"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Extra Life"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Materials",
-                        "Extra life"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Materials",
-                        "Heart"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Materials",
-                        "Outline"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Meshes"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Meshes",
-                        "Heart"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Meshes",
-                        "Heart 2"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "ExtraLife",
-                        "Extra Life",
-                        "Meshes",
-                        "Heart 3"
-                    ],
-                    [
-                        "Animated 3D Assets",
                         "FlamingoFloat"
                     ],
                     [
@@ -1140,13 +1070,6 @@
                         "Winner",
                         "Winner",
                         "Materials",
-                        "Car Paint"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "Winner",
-                        "Winner",
-                        "Materials",
                         "Gold"
                     ],
                     [
@@ -1251,6 +1174,10 @@
                         "FaceMeshStatic",
                         "Meshes",
                         "Resource"
+                    ],
+                    [
+                        "Face Mesh Resources",
+                        "Material"
                     ],
                     [
                         "Face Mesh Resources",
@@ -1443,10 +1370,6 @@
                     ],
                     [
                         "Textures",
-                        "Car_Paint_Noise"
-                    ],
-                    [
-                        "Textures",
                         "FaceSoftOutline"
                     ],
                     [
@@ -1549,10 +1472,6 @@
                     ],
                     [
                         "Textures",
-                        "iridescence_combined"
-                    ],
-                    [
-                        "Textures",
                         "red_button"
                     ],
                     [
@@ -1565,6 +1484,10 @@
                     ],
                     [
                         "UI",
+                        "ExtraLifePFX 2"
+                    ],
+                    [
+                        "UI",
                         "KOMIKAX_"
                     ]
                 ]
@@ -1573,7 +1496,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "101:100",
                     "1517446348227994:84813",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -1583,6 +1505,7 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
+                    "1589823953420994:170044",
                     "1589824396441814:172450",
                     "1589824979988216:180112",
                     "1589989988419228:271561",
@@ -4142,25 +4065,9 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "1324",
-                    "uid": "1591965908563057:1981532",
-                    "name": "Files\/File1190.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "1325",
                     "uid": "1591965963017135:1996914",
                     "name": "Files\/File1192",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1326",
-                    "uid": "1591965963314895:1996983",
-                    "name": "Files\/File1194.jpg",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -4222,22 +4129,6 @@
                     "flags": "0"
                 },
                 {
-                    "resId": "1338",
-                    "uid": "1591969299628040:2542370",
-                    "name": "Files\/File1217.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1339",
-                    "uid": "1591969391254496:2560958",
-                    "name": "Files\/File1219",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "1340",
                     "uid": "1591969664894518:2595519",
                     "name": "Files\/File1221",
@@ -4262,76 +4153,36 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "1345",
-                    "uid": "1591972536440554:298717",
-                    "name": "Files\/File1231.mesh",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1346",
-                    "uid": "1591972536509425:298739",
-                    "name": "Files\/File1233.mesh",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1347",
-                    "uid": "1591972536576543:298758",
-                    "name": "Files\/File1235.mesh",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1348",
-                    "uid": "1591972536605616:298772",
-                    "name": "",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
-                    "resId": "1349",
-                    "uid": "1591972536611016:298792",
-                    "name": "Files\/File1237",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1350",
-                    "uid": "1591972536731047:298823",
-                    "name": "Files\/File1239",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1351",
-                    "uid": "1591972536799941:298842",
-                    "name": "Files\/File1241",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "1352",
-                    "uid": "1591972537093373:298960",
-                    "name": "Extra Life",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "0"
-                },
-                {
                     "resId": "1353",
                     "uid": "1591973726905137:573937",
                     "name": "Extra Life",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "0"
+                },
+                {
+                    "resId": "1355",
+                    "uid": "1591977535852785:1785846",
+                    "name": "Files\/File1250.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1356",
+                    "uid": "1591977942371119:1889555",
+                    "name": "Files\/File1252",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1357",
+                    "uid": "1591977942555066:1889609",
+                    "name": "Files\/File1254.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4839,7 +4690,9 @@
                 "228": "1591963213483755:1217133",
                 "229": "1591964009635446:1542114",
                 "230": "1591968636283521:2411534",
-                "231": "1591968636299464:2411548"
+                "231": "1591968636299464:2411548",
+                "232": "1591977811870533:1858638",
+                "233": "1591977896436704:1873606"
             }
         },
         "LayerComponent": {
@@ -6113,28 +5966,12 @@
                     "v": "Files\/File1167.lsmat"
                 },
                 {
-                    "k": "1190",
-                    "v": "Files\/File1190.jpg"
-                },
-                {
-                    "k": "1191",
-                    "v": "Files\/File1191.jpg"
-                },
-                {
                     "k": "1192",
                     "v": "Files\/File1192"
                 },
                 {
                     "k": "1193",
                     "v": "Files\/File1193.lsmat"
-                },
-                {
-                    "k": "1194",
-                    "v": "Files\/File1194.png"
-                },
-                {
-                    "k": "1195",
-                    "v": "Files\/File1195.png"
                 },
                 {
                     "k": "1196",
@@ -6189,22 +6026,6 @@
                     "v": "Files\/File1208.oprfb"
                 },
                 {
-                    "k": "1217",
-                    "v": "Files\/File1217.png"
-                },
-                {
-                    "k": "1218",
-                    "v": "Files\/File1218.png"
-                },
-                {
-                    "k": "1219",
-                    "v": "Files\/File1219"
-                },
-                {
-                    "k": "1220",
-                    "v": "Files\/File1220.lsmat"
-                },
-                {
                     "k": "1221",
                     "v": "Files\/File1221"
                 },
@@ -6229,72 +6050,36 @@
                     "v": "Files\/File1230.png"
                 },
                 {
-                    "k": "1231",
-                    "v": "Files\/File1231.mesh"
-                },
-                {
-                    "k": "1232",
-                    "v": "Files\/File1232.mesh"
-                },
-                {
-                    "k": "1233",
-                    "v": "Files\/File1233.mesh"
-                },
-                {
-                    "k": "1234",
-                    "v": "Files\/File1234.mesh"
-                },
-                {
-                    "k": "1235",
-                    "v": "Files\/File1235.mesh"
-                },
-                {
-                    "k": "1236",
-                    "v": "Files\/File1236.mesh"
-                },
-                {
-                    "k": "1237",
-                    "v": "Files\/File1237"
-                },
-                {
-                    "k": "1238",
-                    "v": "Files\/File1238.lsmat"
-                },
-                {
-                    "k": "1239",
-                    "v": "Files\/File1239"
-                },
-                {
-                    "k": "1240",
-                    "v": "Files\/File1240.lsmat"
-                },
-                {
-                    "k": "1241",
-                    "v": "Files\/File1241"
-                },
-                {
-                    "k": "1242",
-                    "v": "Files\/File1242.lsmat"
-                },
-                {
-                    "k": "1243",
-                    "v": "Files\/File1243.oprfb"
-                },
-                {
-                    "k": "1244",
-                    "v": "Files\/File1244.fbx"
-                },
-                {
-                    "k": "1245",
-                    "v": "Files\/File1245.oprfb"
-                },
-                {
                     "k": "1246",
                     "v": "Files\/File1246.oprfb"
                 },
                 {
                     "k": "1247",
                     "v": "Files\/File1247.oprfb"
+                },
+                {
+                    "k": "1250",
+                    "v": "Files\/File1250.png"
+                },
+                {
+                    "k": "1251",
+                    "v": "Files\/File1251.png"
+                },
+                {
+                    "k": "1252",
+                    "v": "Files\/File1252"
+                },
+                {
+                    "k": "1253",
+                    "v": "Files\/File1253.lsmat"
+                },
+                {
+                    "k": "1254",
+                    "v": "Files\/File1254.png"
+                },
+                {
+                    "k": "1255",
+                    "v": "Files\/File1255.png"
                 }
             ]
         },
@@ -7064,14 +6849,6 @@
                         "v": "Textures\/Horizon\/HorizonSelfie.lsmat"
                     },
                     {
-                        "k": "237",
-                        "v": "Textures\/Car_Paint_Noise.jpg"
-                    },
-                    {
-                        "k": "239",
-                        "v": "Textures\/Base.png"
-                    },
-                    {
                         "k": "240",
                         "v": "Textures\/Normal.png"
                     },
@@ -7100,14 +6877,6 @@
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/Winner\/Winner\/Materials\/Winner.lsmat"
                     },
                     {
-                        "k": "250",
-                        "v": "Textures\/iridescence_combined.png"
-                    },
-                    {
-                        "k": "252",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Winner\/Winner\/Materials\/Car Paint.lsmat"
-                    },
-                    {
                         "k": "253",
                         "v": "Textures\/white.png"
                     },
@@ -7120,32 +6889,20 @@
                         "v": "Textures\/WarmGradient.png"
                     },
                     {
-                        "k": "258",
-                        "v": "Animated 3D Assets\/ExtraLife"
-                    },
-                    {
-                        "k": "259",
-                        "v": "Animated 3D Assets\/ExtraLife\/Extra Life.fbx"
-                    },
-                    {
-                        "k": "260",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/ExtraLife\/Extra Life\/Materials"
-                    },
-                    {
-                        "k": "261",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/ExtraLife\/Extra Life\/Materials\/Heart.lsmat"
-                    },
-                    {
-                        "k": "262",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/ExtraLife\/Extra Life\/Materials\/Extra life.lsmat"
-                    },
-                    {
-                        "k": "263",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/ExtraLife\/Extra Life\/Materials\/Outline.lsmat"
-                    },
-                    {
                         "k": "264",
                         "v": "Prefabs\/Extra Life.oprfb"
+                    },
+                    {
+                        "k": "266",
+                        "v": "UI\/ExtraLifePFX.png"
+                    },
+                    {
+                        "k": "267",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "268",
+                        "v": "UI\/ExtraLifePFX 2.lsmat"
                     }
                 ],
                 "hashes": [
@@ -7275,7 +7032,7 @@
                     },
                     {
                         "k": "38",
-                        "v": "9b4ac6dd7cc909c5a3b6f4c3943d174b"
+                        "v": "b88ffe90c0c658d84bd11ac1459d9287"
                     },
                     {
                         "k": "39",
@@ -7431,7 +7188,7 @@
                     },
                     {
                         "k": "89",
-                        "v": "7d682a428b2ec697ebc714e55c02b9ab"
+                        "v": "11d0d44ec2f6717393c7f0a4aee85fd7"
                     },
                     {
                         "k": "91",
@@ -7447,7 +7204,7 @@
                     },
                     {
                         "k": "95",
-                        "v": "7e6c39b73a900d416355342de0357007"
+                        "v": "97c7d85949f5552da8819dc660d756ab"
                     },
                     {
                         "k": "97",
@@ -7775,7 +7532,7 @@
                     },
                     {
                         "k": "211",
-                        "v": "a3cafb6e6fee0043cee22f8b44069870"
+                        "v": "0901cdade4f7c3a4c8aac0be15116c4e"
                     },
                     {
                         "k": "212",
@@ -7795,7 +7552,7 @@
                     },
                     {
                         "k": "218",
-                        "v": "cfe44c92c52193addbec466688d99ace"
+                        "v": "c7f185ed77653f08b4cc01a15367927a"
                     },
                     {
                         "k": "219",
@@ -7803,7 +7560,7 @@
                     },
                     {
                         "k": "221",
-                        "v": "050aa460bbed6675cc945db278dedbbf"
+                        "v": "60ae8b10ae5356f3ba0fa09576777fae"
                     },
                     {
                         "k": "222",
@@ -7955,19 +7712,35 @@
                     },
                     {
                         "k": "263",
-                        "v": "e2e66e5c3dcbeca9a5802f5a816e26dd"
+                        "v": "d0795383b95b5d97c071295b8c97be0b"
                     },
                     {
                         "k": "264",
-                        "v": "47a6785a685fdece66f099823888c470"
+                        "v": "ae1db565860c3b60359dc7d2a9c7bf68"
+                    },
+                    {
+                        "k": "265",
+                        "v": "6bc8d490339c898e2eb1b336bc2f8da0"
+                    },
+                    {
+                        "k": "266",
+                        "v": "7478e3e624ff93c5ab57438e9271776d"
+                    },
+                    {
+                        "k": "267",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "268",
+                        "v": "07bf2f3ac54ea83be8e312aad7e6ace5"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-12T15:22:37",
+                        "lastModified": "2020-06-12T16:43:23",
                         "name": "Public",
-                        "hash": "365a8b763c6db68528e2736d4cd54366",
+                        "hash": "791a730c66f1532af745d43f96c3ba15",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -7993,16 +7766,16 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-10T10:10:04",
+                                "lastModified": "2020-06-12T16:43:17",
                                 "name": "Snap screen-06.png",
-                                "hash": "cfe44c92c52193addbec466688d99ace",
+                                "hash": "c7f185ed77653f08b4cc01a15367927a",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T11:08:23",
+                                "lastModified": "2020-06-12T17:06:42",
                                 "name": "UI",
-                                "hash": "000e1277b791bbdee86aa01e4057c67a",
+                                "hash": "24757406fded6184454fe4570d9b007a",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8020,6 +7793,20 @@
                                     },
                                     {
                                         "isFolder": "false",
+                                        "lastModified": "2020-06-12T17:06:42",
+                                        "name": "ExtraLifePFX 2.lsmat",
+                                        "hash": "07bf2f3ac54ea83be8e312aad7e6ace5",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-12T16:58:41",
+                                        "name": "ExtraLifePFX.png",
+                                        "hash": "7478e3e624ff93c5ab57438e9271776d",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
                                         "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
@@ -8029,9 +7816,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T15:34:30",
+                                "lastModified": "2020-06-12T17:11:45",
                                 "name": "Animated 3D Assets",
-                                "hash": "707781ec96a3f949e9b7d2c0fa3ca806",
+                                "hash": "371ca31598b59c9084bf37204ebf60a6",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -8187,28 +7974,6 @@
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-06-12T11:02:36",
-                                                "name": "folder.lock",
-                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
-                                                "children": ""
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "isFolder": "true",
-                                        "lastModified": "2020-06-12T15:35:37",
-                                        "name": "ExtraLife",
-                                        "hash": "020b4b56f736d5a16202753affa28793",
-                                        "children": [
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-06-10T16:26:03",
-                                                "name": "Extra Life.fbx",
-                                                "hash": "67294c83daf0aa1851314a52f3afd9b2",
-                                                "children": ""
-                                            },
-                                            {
-                                                "isFolder": "false",
-                                                "lastModified": "2020-06-12T15:34:23",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -8457,9 +8222,9 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-12T11:08:23",
+                                        "lastModified": "2020-06-12T16:26:49",
                                         "name": "LifeVest",
-                                        "hash": "f3d85c063e9dfbc33b6d544bce4b7a37",
+                                        "hash": "8f9c61180f127d8daa5ea1e541c75ec3",
                                         "children": [
                                             {
                                                 "isFolder": "false",
@@ -8470,9 +8235,9 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:52",
+                                                "lastModified": "2020-06-12T16:26:45",
                                                 "name": "life_vest1_texture.png",
-                                                "hash": "7e6c39b73a900d416355342de0357007",
+                                                "hash": "97c7d85949f5552da8819dc660d756ab",
                                                 "children": ""
                                             },
                                             {
@@ -8522,15 +8287,15 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-12T11:08:23",
+                                        "lastModified": "2020-06-12T16:45:23",
                                         "name": "Sand",
-                                        "hash": "84c5d582f9fd8f2522c3e61ec6200902",
+                                        "hash": "df7412789e21c9ced5a5a9a20bdfb733",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T16:26:03",
+                                                "lastModified": "2020-06-12T16:45:14",
                                                 "name": "Sand-UV.png",
-                                                "hash": "a3cafb6e6fee0043cee22f8b44069870",
+                                                "hash": "0901cdade4f7c3a4c8aac0be15116c4e",
                                                 "children": ""
                                             },
                                             {
@@ -8553,22 +8318,15 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T15:29:28",
+                                "lastModified": "2020-06-12T17:05:42",
                                 "name": "Textures",
-                                "hash": "462929daca6c9c54ed630b3f0759c3c7",
+                                "hash": "77805b5f1cdcf6b14b45f6cb2b78a9f0",
                                 "children": [
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-06-10T14:26:52",
                                         "name": "tutorial_bg.png",
                                         "hash": "3aca3bbf49584b5ff04857d52adfe747",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-06-12T13:45:08",
-                                        "name": "Car_Paint_Noise.jpg",
-                                        "hash": "9e13a3cf7fa2e275d6f757a725205117",
                                         "children": ""
                                     },
                                     {
@@ -8708,7 +8466,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-12T13:46:03",
+                                        "lastModified": "2020-06-12T17:05:42",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
@@ -8725,13 +8483,6 @@
                                         "lastModified": "2020-06-12T13:46:03",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-06-12T14:41:39",
-                                        "name": "iridescence_combined.png",
-                                        "hash": "464f444dfcba88908c256dddc14e2779",
                                         "children": ""
                                     },
                                     {
@@ -8910,9 +8661,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T16:19:52",
+                                "lastModified": "2020-06-12T17:19:33",
                                 "name": "Prefabs",
-                                "hash": "103e6b2147a20ba923f2b4bc0f95fcae",
+                                "hash": "15bd63ce16a5843696294e62ce098014",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8930,9 +8681,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-12T16:19:52",
+                                        "lastModified": "2020-06-12T17:19:33",
                                         "name": "Extra Life.oprfb",
-                                        "hash": "47a6785a685fdece66f099823888c470",
+                                        "hash": "ae1db565860c3b60359dc7d2a9c7bf68",
                                         "children": ""
                                     },
                                     {
@@ -9194,9 +8945,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T16:09:43",
+                                "lastModified": "2020-06-12T17:16:23",
                                 "name": "Scripts",
-                                "hash": "08f056539d323cf980315d115373d321",
+                                "hash": "1314183f7d4cc991e6a40ddf4d889423",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -9298,9 +9049,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:52",
+                                        "lastModified": "2020-06-12T17:16:23",
                                         "name": "DirectionController3D.js",
-                                        "hash": "9b4ac6dd7cc909c5a3b6f4c3943d174b",
+                                        "hash": "b88ffe90c0c658d84bd11ac1459d9287",
                                         "children": ""
                                     },
                                     {
@@ -9871,32 +9622,6 @@
                                 "additional": ""
                             },
                             {
-                                "name": "Car_Paint_Noise",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "1324",
-                                "dependency": "0",
-                                "uid": "1591965908563057:1981532",
-                                "fileId": "1190",
-                                "originalId": "1191",
-                                "publicId": "237",
-                                "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-DjbGFT\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Base",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "1326",
-                                "dependency": "0",
-                                "uid": "1591965963314895:1996983",
-                                "fileId": "1194",
-                                "originalId": "1195",
-                                "publicId": "239",
-                                "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-DjbGFT\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            },
-                            {
                                 "name": "Normal",
                                 "type": "1",
                                 "subtype": "9",
@@ -9906,19 +9631,6 @@
                                 "fileId": "1196",
                                 "originalId": "1197",
                                 "publicId": "240",
-                                "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-DjbGFT\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
-                                "additional": ""
-                            },
-                            {
-                                "name": "iridescence_combined",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "1338",
-                                "dependency": "0",
-                                "uid": "1591969299628040:2542370",
-                                "fileId": "1217",
-                                "originalId": "1218",
-                                "publicId": "250",
                                 "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-DjbGFT\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             },
@@ -9946,6 +9658,19 @@
                                 "originalId": "1230",
                                 "publicId": "257",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/WarmGradient copy.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "1357",
+                                "dependency": "0",
+                                "uid": "1591977942555066:1889609",
+                                "fileId": "1254",
+                                "originalId": "1255",
+                                "publicId": "267",
+                                "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-rJWCEQ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             }
                         ]
@@ -14299,7 +14024,7 @@
                                         "fileId": "1138",
                                         "originalId": "1139",
                                         "publicId": "211",
-                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Sand-UV.png",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Sand\/Sand-UV.png",
                                         "additional": ""
                                     },
                                     {
@@ -14605,19 +14330,6 @@
                                                         "additional": ""
                                                     },
                                                     {
-                                                        "name": "Car Paint",
-                                                        "type": "2",
-                                                        "subtype": "1",
-                                                        "resourceId": "1339",
-                                                        "dependency": "0",
-                                                        "uid": "1591969391254496:2560958",
-                                                        "fileId": "1219",
-                                                        "originalId": "1220",
-                                                        "publicId": "252",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    },
-                                                    {
                                                         "name": "Gold",
                                                         "type": "2",
                                                         "subtype": "0",
@@ -14641,275 +14353,6 @@
                                                 "uid": "1591968484029947:2384844",
                                                 "fileId": "1206",
                                                 "originalId": "1208",
-                                                "publicId": "18446744073709551615",
-                                                "source": "",
-                                                "additional": ""
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            {
-                                "name": "ExtraLife",
-                                "type": "0",
-                                "subtype": "-1",
-                                "resourceId": "-1",
-                                "dependency": "0",
-                                "uid": "-1:-1",
-                                "fileId": "18446744073709551615",
-                                "originalId": "18446744073709551615",
-                                "publicId": "258",
-                                "source": "",
-                                "additional": "",
-                                "resources": [
-                                    {
-                                        "name": "Extra Life",
-                                        "type": "18",
-                                        "subtype": "-1",
-                                        "resourceId": "-1",
-                                        "dependency": "2",
-                                        "uid": "-1:-1",
-                                        "fileId": "1244",
-                                        "originalId": "18446744073709551615",
-                                        "publicId": "259",
-                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Extra Life.fbx",
-                                        "additional": {
-                                            "materialMapping": [
-                                                {
-                                                    "k": "Extra life",
-                                                    "v": "1591972536731047:298823"
-                                                },
-                                                {
-                                                    "k": "Heart",
-                                                    "v": "1591972536611016:298792"
-                                                },
-                                                {
-                                                    "k": "Outline",
-                                                    "v": "1591972536799941:298842"
-                                                }
-                                            ]
-                                        },
-                                        "resources": [
-                                            {
-                                                "name": "Meshes",
-                                                "type": "0",
-                                                "subtype": "-1",
-                                                "resourceId": "-1",
-                                                "dependency": "1",
-                                                "uid": "-1:-1",
-                                                "fileId": "18446744073709551615",
-                                                "originalId": "18446744073709551615",
-                                                "publicId": "18446744073709551615",
-                                                "source": "",
-                                                "additional": "",
-                                                "resources": [
-                                                    {
-                                                        "name": "Heart",
-                                                        "type": "3",
-                                                        "subtype": "0",
-                                                        "resourceId": "1345",
-                                                        "dependency": "1",
-                                                        "uid": "1591972536440554:298717",
-                                                        "fileId": "1231",
-                                                        "originalId": "1232",
-                                                        "publicId": "18446744073709551615",
-                                                        "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-rJWCEQ\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                        "additional": {
-                                                            "originalAttribs": {
-                                                                "vertexAttribs": [
-                                                                    {
-                                                                        "semantic": "position",
-                                                                        "format": "9",
-                                                                        "index": "0"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "normal",
-                                                                        "format": "9",
-                                                                        "index": "1"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "tangent",
-                                                                        "format": "9",
-                                                                        "index": "2"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "texture0",
-                                                                        "format": "9",
-                                                                        "index": "3"
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "name": "Heart 2",
-                                                        "type": "3",
-                                                        "subtype": "0",
-                                                        "resourceId": "1346",
-                                                        "dependency": "1",
-                                                        "uid": "1591972536509425:298739",
-                                                        "fileId": "1233",
-                                                        "originalId": "1234",
-                                                        "publicId": "18446744073709551615",
-                                                        "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-rJWCEQ\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                        "additional": {
-                                                            "originalAttribs": {
-                                                                "vertexAttribs": [
-                                                                    {
-                                                                        "semantic": "position",
-                                                                        "format": "9",
-                                                                        "index": "0"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "normal",
-                                                                        "format": "9",
-                                                                        "index": "1"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "tangent",
-                                                                        "format": "9",
-                                                                        "index": "2"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "texture0",
-                                                                        "format": "9",
-                                                                        "index": "3"
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    },
-                                                    {
-                                                        "name": "Heart 3",
-                                                        "type": "3",
-                                                        "subtype": "0",
-                                                        "resourceId": "1347",
-                                                        "dependency": "1",
-                                                        "uid": "1591972536576543:298758",
-                                                        "fileId": "1235",
-                                                        "originalId": "1236",
-                                                        "publicId": "18446744073709551615",
-                                                        "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-rJWCEQ\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
-                                                        "additional": {
-                                                            "originalAttribs": {
-                                                                "vertexAttribs": [
-                                                                    {
-                                                                        "semantic": "position",
-                                                                        "format": "9",
-                                                                        "index": "0"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "normal",
-                                                                        "format": "9",
-                                                                        "index": "1"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "tangent",
-                                                                        "format": "9",
-                                                                        "index": "2"
-                                                                    },
-                                                                    {
-                                                                        "semantic": "texture0",
-                                                                        "format": "9",
-                                                                        "index": "3"
-                                                                    }
-                                                                ]
-                                                            }
-                                                        }
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "name": "Animations",
-                                                "type": "0",
-                                                "subtype": "-1",
-                                                "resourceId": "-1",
-                                                "dependency": "1",
-                                                "uid": "-1:-1",
-                                                "fileId": "18446744073709551615",
-                                                "originalId": "18446744073709551615",
-                                                "publicId": "18446744073709551615",
-                                                "source": "",
-                                                "additional": "",
-                                                "resources": [
-                                                    {
-                                                        "name": "Heart.005",
-                                                        "type": "8",
-                                                        "subtype": "0",
-                                                        "resourceId": "1348",
-                                                        "dependency": "1",
-                                                        "uid": "1591972536605616:298772",
-                                                        "fileId": "18446744073709551615",
-                                                        "originalId": "18446744073709551615",
-                                                        "publicId": "18446744073709551615",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "name": "Materials",
-                                                "type": "0",
-                                                "subtype": "-1",
-                                                "resourceId": "-1",
-                                                "dependency": "0",
-                                                "uid": "-1:-1",
-                                                "fileId": "18446744073709551615",
-                                                "originalId": "18446744073709551615",
-                                                "publicId": "260",
-                                                "source": "",
-                                                "additional": "",
-                                                "resources": [
-                                                    {
-                                                        "name": "Heart",
-                                                        "type": "2",
-                                                        "subtype": "0",
-                                                        "resourceId": "1349",
-                                                        "dependency": "0",
-                                                        "uid": "1591972536611016:298792",
-                                                        "fileId": "1237",
-                                                        "originalId": "1238",
-                                                        "publicId": "261",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    },
-                                                    {
-                                                        "name": "Extra life",
-                                                        "type": "2",
-                                                        "subtype": "0",
-                                                        "resourceId": "1350",
-                                                        "dependency": "0",
-                                                        "uid": "1591972536731047:298823",
-                                                        "fileId": "1239",
-                                                        "originalId": "1240",
-                                                        "publicId": "262",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    },
-                                                    {
-                                                        "name": "Outline",
-                                                        "type": "2",
-                                                        "subtype": "0",
-                                                        "resourceId": "1351",
-                                                        "dependency": "0",
-                                                        "uid": "1591972536799941:298842",
-                                                        "fileId": "1241",
-                                                        "originalId": "1242",
-                                                        "publicId": "263",
-                                                        "source": "",
-                                                        "additional": ""
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "name": "Extra Life",
-                                                "type": "12",
-                                                "subtype": "-1",
-                                                "resourceId": "1352",
-                                                "dependency": "1",
-                                                "uid": "1591972537093373:298960",
-                                                "fileId": "1243",
-                                                "originalId": "1245",
                                                 "publicId": "18446744073709551615",
                                                 "source": "",
                                                 "additional": ""
@@ -15462,6 +14905,32 @@
                                 "publicId": "160",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/tinified\/Extra-life.png",
                                 "additional": ""
+                            },
+                            {
+                                "name": "ExtraLifePFX",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "1355",
+                                "dependency": "0",
+                                "uid": "1591977535852785:1785846",
+                                "fileId": "1250",
+                                "originalId": "1251",
+                                "publicId": "266",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/UI\/ExtraLifePFX.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "ExtraLifePFX 2",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "1356",
+                                "dependency": "0",
+                                "uid": "1591977942371119:1889555",
+                                "fileId": "1252",
+                                "originalId": "1253",
+                                "publicId": "268",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -15603,14 +15072,18 @@
                         "fileId": "1155",
                         "originalId": "1156",
                         "publicId": "218",
-                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yhBlvW\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Snap screen-06.png",
                         "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "objects": [
+                    "1591977811870533:1858638"
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -16974,6 +16447,35 @@
                                 {
                                     "k": "1591968484017240:2384842",
                                     "v": "1591968636291716:2411546"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1591977811870533:1858638",
+                        "v": {
+                            "prefab": "1591973726905137:573937",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1591977811870533:1858638",
+                                    "v": "1591977811870533:1858638"
+                                },
+                                {
+                                    "k": "1591977811874458:1858656",
+                                    "v": "1591977811874458:1858656"
+                                },
+                                {
+                                    "k": "1591977811875555:1858658",
+                                    "v": "1591977811875555:1858658"
+                                },
+                                {
+                                    "k": "1591977896436704:1873606",
+                                    "v": "1591977896436704:1873606"
+                                },
+                                {
+                                    "k": "1591977896439106:1873608",
+                                    "v": "1591977896439106:1873608"
                                 }
                             ]
                         }
@@ -22453,55 +21955,6 @@
                                 "Component.RenderMeshVisual1"
                             ],
                             "v": "1591968484015356:2384837"
-                        }
-                    ]
-                },
-                {
-                    "k": "1591972537093373:298960",
-                    "v": [
-                        {
-                            "k": "",
-                            "v": "1591972536903153:298869"
-                        },
-                        {
-                            "k": [
-                                "Component.AnimationMixer"
-                            ],
-                            "v": "1591972537091355:298954"
-                        },
-                        {
-                            "k": [
-                                "Heart.005"
-                            ],
-                            "v": "1591972536905712:298871"
-                        },
-                        {
-                            "k": [
-                                "Heart.005",
-                                "Component.Animation"
-                            ],
-                            "v": "1591972537089735:298952"
-                        },
-                        {
-                            "k": [
-                                "Heart.005",
-                                "Component.RenderMeshVisual"
-                            ],
-                            "v": "1591972536907971:298873"
-                        },
-                        {
-                            "k": [
-                                "Heart.005",
-                                "Component.RenderMeshVisual1"
-                            ],
-                            "v": "1591972537084739:298946"
-                        },
-                        {
-                            "k": [
-                                "Heart.005",
-                                "Component.RenderMeshVisual2"
-                            ],
-                            "v": "1591972537087841:298949"
                         }
                     ]
                 }
