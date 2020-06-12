@@ -1,9 +1,9 @@
 {
-    "lens_id": "",
+    "lens_id": "2083c9a8-51fb-47b5-a742-34054ef43dd3",
     "document_id": "_xiu7VsMyVkTyw-906Cf",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "24",
-    "lastChanged": "1591978974570",
+    "lastChanged": "1591984649436",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -685,10 +685,6 @@
                     ],
                     [
                         "Animated 3D Assets",
-                        "Gate"
-                    ],
-                    [
-                        "Animated 3D Assets",
                         "Gate",
                         "gate",
                         "Animations"
@@ -698,14 +694,7 @@
                         "Gate",
                         "gate",
                         "Materials",
-                        "Gate"
-                    ],
-                    [
-                        "Animated 3D Assets",
-                        "Gate",
-                        "gate",
-                        "Materials",
-                        "gate_texture"
+                        "GatePBR"
                     ],
                     [
                         "Animated 3D Assets",
@@ -725,6 +714,11 @@
                         "Gate",
                         "gate",
                         "finish"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Gate",
+                        "gate_texture_blank"
                     ],
                     [
                         "Animated 3D Assets",
@@ -1366,10 +1360,6 @@
                     ],
                     [
                         "Textures",
-                        "Base"
-                    ],
-                    [
-                        "Textures",
                         "FaceSoftOutline"
                     ],
                     [
@@ -1496,6 +1486,7 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
+                    "101:100",
                     "1517446348227994:84813",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -1521,6 +1512,7 @@
                     "1590060197134853:794222",
                     "1590060555187304:892033",
                     "1590084222825935:118241",
+                    "1590145056885033:281418",
                     "1590145903519951:431601",
                     "1590145910247653:438114",
                     "1590145913915537:444576",
@@ -1543,8 +1535,8 @@
                     "1591802988070168:62463",
                     "1591804803353209:170715",
                     "1591804803358810:170851",
-                    "1591897359137468:715777",
-                    "1591975078215151:1184496"
+                    "1591975078215151:1184496",
+                    "1591981382575215:2775092"
                 ]
             ]
         },
@@ -3353,22 +3345,6 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "982",
-                    "uid": "1591781813970077:60960",
-                    "name": "Files\/File1057",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
-                    "resId": "983",
-                    "uid": "1591781814074356:60975",
-                    "name": "Files\/File1059.jpg",
-                    "sourceFilePath": "",
-                    "additionalProperties": "",
-                    "flags": "1"
-                },
-                {
                     "resId": "984",
                     "uid": "1591781814098279:61003",
                     "name": "finish",
@@ -4177,9 +4153,17 @@
                     "flags": "1"
                 },
                 {
-                    "resId": "1357",
-                    "uid": "1591977942555066:1889609",
-                    "name": "Files\/File1254.jpg",
+                    "resId": "1358",
+                    "uid": "1591979377399473:2415349",
+                    "name": "Files\/File1256.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1359",
+                    "uid": "1591979563006296:2443621",
+                    "name": "Files\/File1258",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -4691,8 +4675,9 @@
                 "229": "1591964009635446:1542114",
                 "230": "1591968636283521:2411534",
                 "231": "1591968636299464:2411548",
-                "232": "1591977811870533:1858638",
-                "233": "1591977896436704:1873606"
+                "232": "1591979812161166:2462432",
+                "233": "1591981017068310:2640934",
+                "234": "1591981017072156:2640944"
             }
         },
         "LayerComponent": {
@@ -5770,22 +5755,6 @@
                     "v": "Files\/File1056.mesh"
                 },
                 {
-                    "k": "1057",
-                    "v": "Files\/File1057"
-                },
-                {
-                    "k": "1058",
-                    "v": "Files\/File1058.lsmat"
-                },
-                {
-                    "k": "1059",
-                    "v": "Files\/File1059.png"
-                },
-                {
-                    "k": "1060",
-                    "v": "Files\/File1060.png"
-                },
-                {
                     "k": "1061",
                     "v": "Files\/File1061.oprfb"
                 },
@@ -6074,12 +6043,20 @@
                     "v": "Files\/File1253.lsmat"
                 },
                 {
-                    "k": "1254",
-                    "v": "Files\/File1254.png"
+                    "k": "1256",
+                    "v": "Files\/File1256.png"
                 },
                 {
-                    "k": "1255",
-                    "v": "Files\/File1255.png"
+                    "k": "1257",
+                    "v": "Files\/File1257.png"
+                },
+                {
+                    "k": "1258",
+                    "v": "Files\/File1258"
+                },
+                {
+                    "k": "1259",
+                    "v": "Files\/File1259.lsmat"
                 }
             ]
         },
@@ -6569,14 +6546,6 @@
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/Gate\/gate\/Materials"
                     },
                     {
-                        "k": "120",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Gate\/gate\/Materials\/Gate.lsmat"
-                    },
-                    {
-                        "k": "121",
-                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Gate\/gate\/Materials\/gate_texture.png"
-                    },
-                    {
                         "k": "122",
                         "v": "Prefabs"
                     },
@@ -6897,12 +6866,16 @@
                         "v": "UI\/ExtraLifePFX.png"
                     },
                     {
-                        "k": "267",
-                        "v": "Textures\/Base.png"
-                    },
-                    {
                         "k": "268",
                         "v": "UI\/ExtraLifePFX 2.lsmat"
+                    },
+                    {
+                        "k": "270",
+                        "v": "Animated 3D Assets\/Gate\/gate_texture_blank.png"
+                    },
+                    {
+                        "k": "271",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Gate\/gate\/Materials\/GatePBR.lsmat"
                     }
                 ],
                 "hashes": [
@@ -7188,7 +7161,7 @@
                     },
                     {
                         "k": "89",
-                        "v": "11d0d44ec2f6717393c7f0a4aee85fd7"
+                        "v": "ba93a657845c8e3fd1151e32546761b5"
                     },
                     {
                         "k": "91",
@@ -7264,7 +7237,7 @@
                     },
                     {
                         "k": "120",
-                        "v": "77feba8a400ead6e3d64faad3f71165a"
+                        "v": "b0bd7ddb8e4bac34e6d3de8452540ea6"
                     },
                     {
                         "k": "121",
@@ -7308,7 +7281,7 @@
                     },
                     {
                         "k": "132",
-                        "v": "4af5765c56724c3484b6c5a2ed647553"
+                        "v": "a9552336cd1fa588dfc5a75cd8981f43"
                     },
                     {
                         "k": "134",
@@ -7540,7 +7513,7 @@
                     },
                     {
                         "k": "214",
-                        "v": "e1a247203d4183fda505e891bf13a3aa"
+                        "v": "7ca4f25ecff0810fdb94690cd5b60c71"
                     },
                     {
                         "k": "215",
@@ -7733,6 +7706,22 @@
                     {
                         "k": "268",
                         "v": "07bf2f3ac54ea83be8e312aad7e6ace5"
+                    },
+                    {
+                        "k": "269",
+                        "v": "6afc981d728e4f1d8cff906662b06f23"
+                    },
+                    {
+                        "k": "270",
+                        "v": "d12fe3a8e39e51985812698011834ebc"
+                    },
+                    {
+                        "k": "271",
+                        "v": "efc2e06d0af7723d46ec1849e744a106"
+                    },
+                    {
+                        "k": "272",
+                        "v": "6afc981d728e4f1d8cff906662b06f23"
                     }
                 ],
                 "publicState": {
@@ -7740,7 +7729,7 @@
                         "isFolder": "true",
                         "lastModified": "2020-06-12T16:43:23",
                         "name": "Public",
-                        "hash": "791a730c66f1532af745d43f96c3ba15",
+                        "hash": "c26d099c6a3b80eaf2e9d12d6a1e988e",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -7818,7 +7807,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-12T17:11:45",
                                 "name": "Animated 3D Assets",
-                                "hash": "371ca31598b59c9084bf37204ebf60a6",
+                                "hash": "a8dbed24c0a3a33b3cf9015a88b4be2b",
                                 "children": [
                                     {
                                         "isFolder": "true",
@@ -8149,10 +8138,17 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-12T11:08:23",
+                                        "lastModified": "2020-06-12T18:20:47",
                                         "name": "Gate",
-                                        "hash": "d8def5e0ea2162442d9e3cfa1eddaa2d",
+                                        "hash": "100d9e79d6e7b450d486786f6e8da43b",
                                         "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-12T18:20:47",
+                                                "name": "gate_texture_blank.png",
+                                                "hash": "d12fe3a8e39e51985812698011834ebc",
+                                                "children": ""
+                                            },
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-06-10T14:26:51",
@@ -8318,9 +8314,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T17:05:42",
+                                "lastModified": "2020-06-12T18:26:15",
                                 "name": "Textures",
-                                "hash": "77805b5f1cdcf6b14b45f6cb2b78a9f0",
+                                "hash": "59a35617ded2d8ce6de1e1f15fdadf8e",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8463,13 +8459,6 @@
                                                 "children": ""
                                             }
                                         ]
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2020-06-12T17:05:42",
-                                        "name": "Base.png",
-                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
-                                        "children": ""
                                     },
                                     {
                                         "isFolder": "false",
@@ -8661,9 +8650,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T17:19:33",
+                                "lastModified": "2020-06-12T18:21:49",
                                 "name": "Prefabs",
-                                "hash": "15bd63ce16a5843696294e62ce098014",
+                                "hash": "0cdfb7da82b6a60449c4ea620c0804fc",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8688,9 +8677,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T15:16:25",
+                                        "lastModified": "2020-06-12T18:21:49",
                                         "name": "Gate.oprfb",
-                                        "hash": "4af5765c56724c3484b6c5a2ed647553",
+                                        "hash": "a9552336cd1fa588dfc5a75cd8981f43",
                                         "children": ""
                                     },
                                     {
@@ -9658,19 +9647,6 @@
                                 "originalId": "1230",
                                 "publicId": "257",
                                 "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/WarmGradient copy.png",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Base",
-                                "type": "1",
-                                "subtype": "9",
-                                "resourceId": "1357",
-                                "dependency": "0",
-                                "uid": "1591977942555066:1889609",
-                                "fileId": "1254",
-                                "originalId": "1255",
-                                "publicId": "267",
-                                "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-rJWCEQ\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                 "additional": ""
                             }
                         ]
@@ -12633,29 +12609,16 @@
                                                 "additional": "",
                                                 "resources": [
                                                     {
-                                                        "name": "Gate",
+                                                        "name": "GatePBR",
                                                         "type": "2",
                                                         "subtype": "0",
-                                                        "resourceId": "982",
+                                                        "resourceId": "1359",
                                                         "dependency": "0",
-                                                        "uid": "1591781813970077:60960",
-                                                        "fileId": "1057",
-                                                        "originalId": "1058",
-                                                        "publicId": "120",
+                                                        "uid": "1591979563006296:2443621",
+                                                        "fileId": "1258",
+                                                        "originalId": "1259",
+                                                        "publicId": "271",
                                                         "source": "",
-                                                        "additional": ""
-                                                    },
-                                                    {
-                                                        "name": "gate_texture",
-                                                        "type": "1",
-                                                        "subtype": "9",
-                                                        "resourceId": "983",
-                                                        "dependency": "0",
-                                                        "uid": "1591781814074356:60975",
-                                                        "fileId": "1059",
-                                                        "originalId": "1060",
-                                                        "publicId": "121",
-                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-wbmdeK\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
                                                         "additional": ""
                                                     }
                                                 ]
@@ -12674,6 +12637,19 @@
                                                 "additional": ""
                                             }
                                         ]
+                                    },
+                                    {
+                                        "name": "gate_texture_blank",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "1358",
+                                        "dependency": "0",
+                                        "uid": "1591979377399473:2415349",
+                                        "fileId": "1256",
+                                        "originalId": "1257",
+                                        "publicId": "270",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Animated 3D Assets\/Gate\/gate_texture_blank.png",
+                                        "additional": ""
                                     }
                                 ]
                             },
@@ -15079,11 +15055,7 @@
             }
         },
         "InspectorController": {
-            "selection": {
-                "objects": [
-                    "1591977811870533:1858638"
-                ]
-            }
+            "selection": ""
         },
         "EffectsController": {
             "1": "",
@@ -16447,35 +16419,6 @@
                                 {
                                     "k": "1591968484017240:2384842",
                                     "v": "1591968636291716:2411546"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "k": "1591977811870533:1858638",
-                        "v": {
-                            "prefab": "1591973726905137:573937",
-                            "isActive": "true",
-                            "mapping": [
-                                {
-                                    "k": "1591977811870533:1858638",
-                                    "v": "1591977811870533:1858638"
-                                },
-                                {
-                                    "k": "1591977811874458:1858656",
-                                    "v": "1591977811874458:1858656"
-                                },
-                                {
-                                    "k": "1591977811875555:1858658",
-                                    "v": "1591977811875555:1858658"
-                                },
-                                {
-                                    "k": "1591977896436704:1873606",
-                                    "v": "1591977896436704:1873606"
-                                },
-                                {
-                                    "k": "1591977896439106:1873608",
-                                    "v": "1591977896439106:1873608"
                                 }
                             ]
                         }
