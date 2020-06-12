@@ -6,6 +6,7 @@
 //@input bool isOneShot = true
 //@input bool isDestroyOnHit = true
 //@input Asset.AudioTrackAsset[] hitSounds
+//@input Asset.ObjectPrefab[] hitPfx
 //@input float xOffset = 0
 //@input float yOffset = 0
 //@input float zOffset = 0
@@ -96,7 +97,11 @@ script.api.PlayHitSound = function() {
 
 script.api.DoHitPFX = function() {
     
-    global.gamePlayManager.pfxManager.api.DoPFX_HitObject(script.api.worldPos);
+    if (!script.hitPfx) {
+        global.gamePlayManager.pfxManager.api.DoPFX_HitObject(script.api.worldPos);
+    } else {
+        global.gamePlayManager.pfxManager.api.DoPFX_SpawnPrefabatPoint(script.hitPfx, script.api.worldPos);
+    }
 }
 
 global.RegisterCollider(script); 

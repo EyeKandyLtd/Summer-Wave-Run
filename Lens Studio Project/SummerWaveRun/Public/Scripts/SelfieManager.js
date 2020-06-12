@@ -5,6 +5,9 @@
 
 script.api.EnableSelfieMode = function(isEnabled) {
 
+    if (isNull(script.faceParenter.script)) return;
+    
+    
     if (isEnabled) {
         script.faceParenter.api.DoParentToAdopter();
        // script.skyParenter.api.DoParentToAdopter();

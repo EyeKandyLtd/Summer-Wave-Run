@@ -139,7 +139,7 @@ function Init() {
     var didWinBefore = _highScore > 0;
     global.SetContentEnabled(script.unlockIfPreviouslyWon, didWinBefore);
     
-    script.frontCamTopMessage.text = "";
+    //script.frontCamTopMessage.text = "";
 
     _isInit = true;
     
@@ -154,7 +154,7 @@ function StartGame() {
       
     StopGame();
     
-    script.selfieManager.api.EnableSelfieMode(true); // change to false after debug
+    script.selfieManager.api.EnableSelfieMode(false); // change to false after debug
     
     print("Starting game");
 
@@ -314,8 +314,8 @@ function RefreshSpeed() {
 function UpdateSpeedVisuals(speed) {
     
     global.directionController3DVector = script.initialLevelVec.uniformScale(speed);
-    script.scrollingWater.api.SetScrollDirection_UV2(0,-0.60 * speed);
-    script.scrollingWater.api.SetScrollDirection_UV3(0,-0.18 * speed);
+    script.scrollingWater.api.SetScrollDirection_UV2(0,-0.30 * speed);
+    script.scrollingWater.api.SetScrollDirection_UV3(0,-0.09 * speed);
     
 }
 
@@ -378,23 +378,24 @@ function DoFinishedGame() {
     _isGameFinished = true;
     StopAllSpawners();
 
+    script.selfieManager.api.EnableSelfieMode(true);
+    
     global.SetContentEnabled(script.activateOnGameEnd, true);
     global.SetContentEnabled(script.activateOnStart, false);
 
     var score = CalcCurrentScore();
     var wasHighScore = global.TrySetHighScore(score);
 
-    script.selfieManager.api.EnableSelfieMode(true);
-
     var selfieBannerMessage = "Distance: " + Math.floor(_currScore) + "!";
     global.persistentStorageSystem.store.putString(persistant_lastFrontMessageKey,selfieBannerMessage );
-    script.frontCamTopMessage.text = selfieBannerMessage;
+    //script.frontCamTopMessage.text = selfieBannerMessage;
     
 
+    //var highScoreText = wasHighScore
+    //?("New best distance!!!")
+    //:("Best ever distance: " + global.GetHighScore());
     
-    var highScoreText = wasHighScore
-    ?("New best distance!!!")
-    :("Best ever distance: " + global.GetHighScore());
+    var highScoreText = global.GetHighScore() + "!";
     
     script.frontCamMiddleMessage.text = highScoreText;
     
@@ -403,7 +404,6 @@ function DoFinishedGame() {
     global.playAudioAsset(script.soundGameFinished, 1);   
     
     
-
     
 
 }

@@ -14,10 +14,12 @@ script.api.DoParentToAdopter = function() {
     script.adoptee.setParent(script.getSceneObject());
     script.adoptee.getTransform().setLocalPosition(script.localPosition);
     script.adoptee.getTransform().setLocalRotation(quat.fromEulerVec(script.localRotation));
+    script.adoptee.enabled = true;
 }
 
 script.api.DoParentToOriginal = function() {
     script.adoptee.setParent(originalParent);
     script.adoptee.getTransform().setLocalPosition(originalLocalPosition);
     script.adoptee.getTransform().setWorldRotation(originalWorldRotation);
+    script.adoptee.enabled = true;
 }
