@@ -154,7 +154,7 @@ function StartGame() {
       
     StopGame();
     
-    script.selfieManager.api.EnableSelfieMode(false); // change to false after debug
+    script.selfieManager.api.EnableSelfieMode(true); // change to false after debug
     
     print("Starting game");
 

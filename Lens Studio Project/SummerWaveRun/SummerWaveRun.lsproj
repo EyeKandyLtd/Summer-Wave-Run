@@ -1,9 +1,9 @@
 {
-    "lens_id": "2083c9a8-51fb-47b5-a742-34054ef43dd3",
-    "document_id": "7IL8aFKBOwGqvbpZFQFu",
+    "lens_id": "",
+    "document_id": "_xiu7VsMyVkTyw-906Cf",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
-    "version": "23",
-    "lastChanged": "1591895132915",
+    "version": "24",
+    "lastChanged": "1591956523865",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -12,16 +12,16 @@
     "studioVersion": {
         "createdWith": {
             "type": "Public",
-            "major": "2",
-            "minor": "3",
-            "patch": "1",
+            "major": "3",
+            "minor": "0",
+            "patch": "0",
             "build": "0"
         },
         "lastSavedWith": {
             "type": "Public",
-            "major": "2",
-            "minor": "3",
-            "patch": "1",
+            "major": "3",
+            "minor": "0",
+            "patch": "0",
             "build": "0"
         }
     },
@@ -30,11 +30,58 @@
             "collapsedList": [
                 [
                     [
-                        "Animated 3D Assets"
+                        "Animated 3D Assets",
+                        "Barrel"
                     ],
                     [
                         "Animated 3D Assets",
-                        "Barrel"
+                        "Bucket"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Bucket"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Materials",
+                        "Car Paint"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Materials",
+                        "Jittering"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Materials",
+                        "Red bucket"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Bucket",
+                        "Bucket",
+                        "Meshes",
+                        "Bucket"
                     ],
                     [
                         "Animated 3D Assets",
@@ -688,10 +735,6 @@
                     ],
                     [
                         "Animated 3D Assets",
-                        "JellyFish"
-                    ],
-                    [
-                        "Animated 3D Assets",
                         "JellyFish",
                         "jellyfish",
                         "Animations"
@@ -822,6 +865,47 @@
                     ],
                     [
                         "Animated 3D Assets",
+                        "Sand"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sand",
+                        "Sand",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sand",
+                        "Sand",
+                        "Materials",
+                        "Sand"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sand",
+                        "Sand",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sand",
+                        "Sand",
+                        "Meshes",
+                        "Sand"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sand",
+                        "Sand",
+                        "Sand"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sand",
+                        "Sand-UV"
+                    ],
+                    [
+                        "Animated 3D Assets",
                         "Shark"
                     ],
                     [
@@ -867,6 +951,75 @@
                         "Animated 3D Assets",
                         "Shark",
                         "shark_texture"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sign",
+                        "Sign",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sign",
+                        "Sign",
+                        "Materials"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sign",
+                        "Sign",
+                        "Materials",
+                        "Sign"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sign",
+                        "Sign",
+                        "Meshes"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sign",
+                        "Sign",
+                        "Meshes",
+                        "Sign"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "Sign",
+                        "Sign",
+                        "Sign"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "StarFish",
+                        "Jello 2"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "StarFish",
+                        "Lowpoly_Starfish",
+                        "Animations"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "StarFish",
+                        "Lowpoly_Starfish",
+                        "Lowpoly_Starfish"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "StarFish",
+                        "Lowpoly_Starfish",
+                        "Materials",
+                        "Starfish"
+                    ],
+                    [
+                        "Animated 3D Assets",
+                        "StarFish",
+                        "Lowpoly_Starfish",
+                        "Meshes",
+                        "Starfish_4"
                     ],
                     [
                         "Animated 3D Assets",
@@ -1078,6 +1231,9 @@
                         "TurtleShell"
                     ],
                     [
+                        "Scripts"
+                    ],
+                    [
                         "Scripts",
                         "AnimationHelper"
                     ],
@@ -1162,6 +1318,9 @@
                         "WearablesManager"
                     ],
                     [
+                        "Snap screen-06"
+                    ],
+                    [
                         "Textures",
                         "FaceSoftOutline"
                     ],
@@ -1177,6 +1336,11 @@
                     [
                         "Textures",
                         "Horizon",
+                        "HorizonSelfie"
+                    ],
+                    [
+                        "Textures",
+                        "Horizon",
                         "New-Horizons---Day"
                     ],
                     [
@@ -1187,10 +1351,6 @@
                     [
                         "Textures",
                         "Pier_EnvMap"
-                    ],
-                    [
-                        "Textures",
-                        "Water"
                     ],
                     [
                         "Textures",
@@ -1269,6 +1429,7 @@
             "collapsedList": [
                 [
                     "101:100",
+                    "1517446348227994:84813",
                     "1573760417378289:40625",
                     "1573760516697671:50529",
                     "1573773920408959:804988",
@@ -1278,9 +1439,6 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589823953420994:170044",
-                    "1589824979988216:180112",
-                    "1589825953195699:187528",
                     "1589989988470715:271741",
                     "1589989988549559:271830",
                     "1589989988554668:271832",
@@ -1318,7 +1476,9 @@
                     "1591804803353209:170715",
                     "1591804803394962:170981",
                     "1591804803478399:171101",
-                    "1591804803529769:171224"
+                    "1591804803529769:171224",
+                    "1591897359137468:715777",
+                    "1591899082075332:782812"
                 ]
             ]
         },
@@ -1341,19 +1501,19 @@
             "show_snap_ui": "true",
             "show_sponsored_ui": "false",
             "preview_images_project_config": {
-                "back_preview_id": "bundle:PreviewPresets\/Images\/Beach.jpg",
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:PreviewPresets\/Images\/Person 3.jpg",
+                "front_preview_id": "bundle:Preview\/Images\/Person 3.jpg",
                 "front_preview_is_favorite": "false",
-                "spectacles_preview_id": "bundle:PreviewPresets\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
                 "spectacles_preview_is_favorite": "false"
             },
             "preview_videos_project_config": {
-                "back_preview_id": "bundle:PreviewPresets\/Videos\/Beach.webm",
+                "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
                 "back_preview_is_favorite": "false",
-                "front_preview_id": "bundle:PreviewPresets\/Videos\/Open Mouth Person 3.webm",
+                "front_preview_id": "bundle:Preview\/Videos\/Open Mouth Person 3.webm",
                 "front_preview_is_favorite": "false",
-                "spectacles_preview_id": "bundle:PreviewPresets\/Videos\/Climbing\/Climbing.webm",
+                "spectacles_preview_id": "bundle:Preview\/Videos\/Climbing\/Climbing.webm",
                 "spectacles_preview_is_favorite": "false"
             }
         },
@@ -1369,9 +1529,8 @@
                 ""
             ]
         },
-        "UiComponent": {
-            "active_graph_material": "1590056689948559:398729",
-            "active_graph_pass": "0"
+        "Material::UiComponent": {
+            "active_graph_asset": "1590056689948559:398729"
         }
     },
     "model": {
@@ -3720,6 +3879,150 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "1287",
+                    "uid": "1591897090647318:629000",
+                    "name": "Files\/File1120.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1288",
+                    "uid": "1591897090659333:629010",
+                    "name": "Files\/File1121",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1289",
+                    "uid": "1591897090732300:629141",
+                    "name": "Bucket",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "1290",
+                    "uid": "1591897110051593:639867",
+                    "name": "Files\/File1126.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1291",
+                    "uid": "1591897110060094:639877",
+                    "name": "Files\/File1127",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1292",
+                    "uid": "1591897110125365:639908",
+                    "name": "Lowpoly_Starfish",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "1296",
+                    "uid": "1591897215310927:661443",
+                    "name": "Files\/File1138.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1297",
+                    "uid": "1591897218547639:666814",
+                    "name": "Files\/File1140.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1298",
+                    "uid": "1591897218552901:666824",
+                    "name": "Files\/File1141",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1299",
+                    "uid": "1591897218664328:666934",
+                    "name": "Sand",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "1303",
+                    "uid": "1591897317388427:688587",
+                    "name": "Files\/File1152.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1304",
+                    "uid": "1591897317403955:688597",
+                    "name": "Files\/File1153",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1305",
+                    "uid": "1591897317517635:688612",
+                    "name": "Files\/File1155.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1306",
+                    "uid": "1591897317544789:688640",
+                    "name": "Sign",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "1308",
+                    "uid": "1591900011131741:993491",
+                    "name": "Files\/File1162",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1309",
+                    "uid": "1591900328072685:1051256",
+                    "name": "Files\/File1164",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1312",
+                    "uid": "1591900412717328:1092537",
+                    "name": "Files\/File1170",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1316",
+                    "uid": "1591901614890311:1238499",
+                    "name": "Files\/File1178",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4280,9 +4583,21 @@
                 "211": "1591804803540888:171257",
                 "212": "1591804803541762:171261",
                 "213": "1591804803542620:171265",
-                "214": "1591887650027278:44603",
-                "215": "1591889576135223:128310",
-                "216": "1591891680094310:254333"
+                "214": "1591889576135223:128310",
+                "215": "1591891680094310:254333",
+                "216": "1591897359137468:715777",
+                "217": "1591897359139526:715783",
+                "218": "1591898707931377:754520",
+                "219": "1591899082075332:782812",
+                "220": "1591899848274913:949458",
+                "221": "1591900737730675:1129194",
+                "222": "1591900737897179:1129376",
+                "223": "1591900928267357:1151930",
+                "224": "1591900928271676:1151936",
+                "225": "1591901174760267:1190928",
+                "226": "1591901174762567:1190970",
+                "227": "1591901348640115:1220709",
+                "228": "1591901348648871:1220720"
             }
         },
         "LayerComponent": {
@@ -5438,6 +5753,154 @@
                 {
                     "k": "1119",
                     "v": "Files\/File1119.js"
+                },
+                {
+                    "k": "1120",
+                    "v": "Files\/File1120.mesh"
+                },
+                {
+                    "k": "1121",
+                    "v": "Files\/File1121"
+                },
+                {
+                    "k": "1122",
+                    "v": "Files\/File1122.lsmat"
+                },
+                {
+                    "k": "1123",
+                    "v": "Files\/File1123.oprfb"
+                },
+                {
+                    "k": "1124",
+                    "v": "Files\/File1124.fbx"
+                },
+                {
+                    "k": "1125",
+                    "v": "Files\/File1125.oprfb"
+                },
+                {
+                    "k": "1126",
+                    "v": "Files\/File1126.mesh"
+                },
+                {
+                    "k": "1127",
+                    "v": "Files\/File1127"
+                },
+                {
+                    "k": "1128",
+                    "v": "Files\/File1128.lsmat"
+                },
+                {
+                    "k": "1129",
+                    "v": "Files\/File1129.oprfb"
+                },
+                {
+                    "k": "1130",
+                    "v": "Files\/File1130.fbx"
+                },
+                {
+                    "k": "1131",
+                    "v": "Files\/File1131.oprfb"
+                },
+                {
+                    "k": "1138",
+                    "v": "Files\/File1138.png"
+                },
+                {
+                    "k": "1139",
+                    "v": "Files\/File1139.png"
+                },
+                {
+                    "k": "1140",
+                    "v": "Files\/File1140.mesh"
+                },
+                {
+                    "k": "1141",
+                    "v": "Files\/File1141"
+                },
+                {
+                    "k": "1142",
+                    "v": "Files\/File1142.lsmat"
+                },
+                {
+                    "k": "1143",
+                    "v": "Files\/File1143.oprfb"
+                },
+                {
+                    "k": "1144",
+                    "v": "Files\/File1144.fbx"
+                },
+                {
+                    "k": "1145",
+                    "v": "Files\/File1145.oprfb"
+                },
+                {
+                    "k": "1152",
+                    "v": "Files\/File1152.mesh"
+                },
+                {
+                    "k": "1153",
+                    "v": "Files\/File1153"
+                },
+                {
+                    "k": "1154",
+                    "v": "Files\/File1154.lsmat"
+                },
+                {
+                    "k": "1155",
+                    "v": "Files\/File1155.png"
+                },
+                {
+                    "k": "1156",
+                    "v": "Files\/File1156.png"
+                },
+                {
+                    "k": "1157",
+                    "v": "Files\/File1157.oprfb"
+                },
+                {
+                    "k": "1158",
+                    "v": "Files\/File1158.fbx"
+                },
+                {
+                    "k": "1161",
+                    "v": "Files\/File1161.oprfb"
+                },
+                {
+                    "k": "1162",
+                    "v": "Files\/File1162"
+                },
+                {
+                    "k": "1163",
+                    "v": "Files\/File1163.lsmat"
+                },
+                {
+                    "k": "1164",
+                    "v": "Files\/File1164"
+                },
+                {
+                    "k": "1165",
+                    "v": "Files\/File1165.lsmat"
+                },
+                {
+                    "k": "1167",
+                    "v": "Files\/File1167.lsmat"
+                },
+                {
+                    "k": "1170",
+                    "v": "Files\/File1170"
+                },
+                {
+                    "k": "1171",
+                    "v": "Files\/File1171.lsmat"
+                },
+                {
+                    "k": "1178",
+                    "v": "Files\/File1178"
+                },
+                {
+                    "k": "1179",
+                    "v": "Files\/File1179.lsmat"
                 }
             ]
         },
@@ -6137,6 +6600,94 @@
                     {
                         "k": "197",
                         "v": "Scripts\/SelfieManager.js"
+                    },
+                    {
+                        "k": "198",
+                        "v": "Animated 3D Assets\/Bucket"
+                    },
+                    {
+                        "k": "199",
+                        "v": "Animated 3D Assets\/StarFish"
+                    },
+                    {
+                        "k": "200",
+                        "v": "Animated 3D Assets\/Sign"
+                    },
+                    {
+                        "k": "201",
+                        "v": "Animated 3D Assets\/Bucket\/Bucket.fbx"
+                    },
+                    {
+                        "k": "202",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Bucket\/Bucket\/Materials"
+                    },
+                    {
+                        "k": "203",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Bucket\/Bucket\/Materials\/Red bucket.lsmat"
+                    },
+                    {
+                        "k": "204",
+                        "v": "Animated 3D Assets\/StarFish\/Lowpoly_Starfish.fbx"
+                    },
+                    {
+                        "k": "205",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/StarFish\/Lowpoly_Starfish\/Materials"
+                    },
+                    {
+                        "k": "206",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/StarFish\/Lowpoly_Starfish\/Materials\/Starfish.lsmat"
+                    },
+                    {
+                        "k": "210",
+                        "v": "Animated 3D Assets\/Sand"
+                    },
+                    {
+                        "k": "211",
+                        "v": "Animated 3D Assets\/Sand\/Sand-UV.png"
+                    },
+                    {
+                        "k": "212",
+                        "v": "Animated 3D Assets\/Sand\/Sand.fbx"
+                    },
+                    {
+                        "k": "213",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Sand\/Sand\/Materials"
+                    },
+                    {
+                        "k": "214",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Sand\/Sand\/Materials\/Sand.lsmat"
+                    },
+                    {
+                        "k": "218",
+                        "v": "Snap screen-06.png"
+                    },
+                    {
+                        "k": "219",
+                        "v": "Animated 3D Assets\/Sign\/Sign.fbx"
+                    },
+                    {
+                        "k": "220",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Sign\/Sign\/Materials"
+                    },
+                    {
+                        "k": "221",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Sign\/Sign\/Materials\/Sign.lsmat"
+                    },
+                    {
+                        "k": "223",
+                        "v": "Textures\/Horizon\/HorizonSelfie.lsmat"
+                    },
+                    {
+                        "k": "227",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Bucket\/Bucket\/Materials\/Jittering.lsmat"
+                    },
+                    {
+                        "k": "229",
+                        "v": "..\/AdditionalFiles\/Animated 3D Assets\/Bucket\/Bucket\/Materials\/Car Paint.lsmat"
+                    },
+                    {
+                        "k": "232",
+                        "v": "Animated 3D Assets\/StarFish\/Jello 2.lsmat"
                     }
                 ],
                 "hashes": [
@@ -6278,7 +6829,7 @@
                     },
                     {
                         "k": "41",
-                        "v": "309a0060ce018afa6ae150b67ecba8b9"
+                        "v": "b3feb545ee51cd7ed0c54629bf7e4d94"
                     },
                     {
                         "k": "42",
@@ -6286,7 +6837,7 @@
                     },
                     {
                         "k": "43",
-                        "v": "8846727e67219b89d2ff4f2dbb1f8160"
+                        "v": "724180f552215ef3cd4824b79de07a00"
                     },
                     {
                         "k": "44",
@@ -6422,7 +6973,7 @@
                     },
                     {
                         "k": "89",
-                        "v": "0252fe5eecc796f577c9d208803364c5"
+                        "v": "7b84e95c3eef01661912669fd21a8028"
                     },
                     {
                         "k": "91",
@@ -6734,23 +7285,123 @@
                     },
                     {
                         "k": "196",
-                        "v": "15015334faa77763258d717d77c5001e"
+                        "v": "4984121ad2a538425ecd5ea3a495ac0f"
                     },
                     {
                         "k": "197",
-                        "v": "79d2d7c16eea4893c83585ae7cfecafa"
+                        "v": "a0380f25f1a7a5f140c9de75e3860a39"
+                    },
+                    {
+                        "k": "201",
+                        "v": "3739b16e622fe03386942bb2419a697b"
+                    },
+                    {
+                        "k": "203",
+                        "v": "3e960cd394dfb4a501c974b09716c03d"
+                    },
+                    {
+                        "k": "204",
+                        "v": "90093415845ba125cedda17a224fd34f"
+                    },
+                    {
+                        "k": "206",
+                        "v": "0dea049f184dab7bd879885ac1b02e20"
+                    },
+                    {
+                        "k": "207",
+                        "v": "6a8604bb2a6ba28d303bc00a334d1f0d"
+                    },
+                    {
+                        "k": "209",
+                        "v": "ce92e8571fc38ebf6b37f2c7c9e0f18a"
+                    },
+                    {
+                        "k": "211",
+                        "v": "a3cafb6e6fee0043cee22f8b44069870"
+                    },
+                    {
+                        "k": "212",
+                        "v": "7a8cdc9f722d5cf1b29607a7d67b23f1"
+                    },
+                    {
+                        "k": "214",
+                        "v": "e1a247203d4183fda505e891bf13a3aa"
+                    },
+                    {
+                        "k": "215",
+                        "v": "6a8604bb2a6ba28d303bc00a334d1f0d"
+                    },
+                    {
+                        "k": "217",
+                        "v": "91f7000fca22c6a173acf633bce5acdf"
+                    },
+                    {
+                        "k": "218",
+                        "v": "cfe44c92c52193addbec466688d99ace"
+                    },
+                    {
+                        "k": "219",
+                        "v": "6a8604bb2a6ba28d303bc00a334d1f0d"
+                    },
+                    {
+                        "k": "221",
+                        "v": "0a1c2975d379b0b8efa7922c2c88a4e9"
+                    },
+                    {
+                        "k": "222",
+                        "v": "cfe44c92c52193addbec466688d99ace"
+                    },
+                    {
+                        "k": "223",
+                        "v": "3de9e78ac80beb0b4b9772097dea063d"
+                    },
+                    {
+                        "k": "224",
+                        "v": "7ffa25f19d7fc67b25e32e33350869e1"
+                    },
+                    {
+                        "k": "225",
+                        "v": "0c54c119030470f52a2c73733233d08d"
+                    },
+                    {
+                        "k": "226",
+                        "v": "e2f0d671db69f0f81847fa3df6326bbf"
+                    },
+                    {
+                        "k": "227",
+                        "v": "c9e20371f9628582f2ee352af6bac61c"
+                    },
+                    {
+                        "k": "228",
+                        "v": "0c54c119030470f52a2c73733233d08d"
+                    },
+                    {
+                        "k": "229",
+                        "v": "d284df56020617dc9a0ac65672beb52b"
+                    },
+                    {
+                        "k": "230",
+                        "v": "72a2e1e28dbb31fb996df76241ccfd2f"
+                    },
+                    {
+                        "k": "231",
+                        "v": "458064c0cd82cd99c62dd2a79a1fe5e1"
+                    },
+                    {
+                        "k": "232",
+                        "v": "28411b14cff6c79bb20c084bb06e871f"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-10T17:38:02",
+                        "lastModified": "2020-06-12T11:08:23",
                         "name": "Public",
-                        "hash": "c7f36565f7f32450340cc4b05ee5a28e",
+                        "hash": "7f43c4adcb999fb16867a3a4f2c12ac9",
                         "children": [
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T14:26:55",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Mesh",
                                 "hash": "8faef62b941984e88e0f469868d6d665",
                                 "children": [
@@ -6763,7 +7414,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -6771,8 +7422,15 @@
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2020-06-10T10:10:04",
+                                "name": "Snap screen-06.png",
+                                "hash": "cfe44c92c52193addbec466688d99ace",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T14:26:55",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "UI",
                                 "hash": "000e1277b791bbdee86aa01e4057c67a",
                                 "children": [
@@ -6792,7 +7450,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -6801,19 +7459,19 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T17:38:53",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Animated 3D Assets",
-                                "hash": "4ee37768f9e10e7e0f630722d7097d3e",
+                                "hash": "f7992d7a31d2f89a41b52f294eda2cfe",
                                 "children": [
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "JetSki",
                                         "hash": "68c63ef8ce96e06ff6e74da65df733d6",
                                         "children": [
                                             {
                                                 "isFolder": "true",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:08:23",
                                                 "name": "JetSkiStyles",
                                                 "hash": "c741531de9ddc283be0f14d66599032e",
                                                 "children": [
@@ -6847,7 +7505,7 @@
                                                     },
                                                     {
                                                         "isFolder": "false",
-                                                        "lastModified": "2020-06-10T14:26:55",
+                                                        "lastModified": "2020-06-12T11:02:36",
                                                         "name": "folder.lock",
                                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                         "children": ""
@@ -6863,7 +7521,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -6872,7 +7530,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "GameOver",
                                         "hash": "52c3294d3d6a2e487e8f0d652e2f493f",
                                         "children": [
@@ -6885,7 +7543,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -6894,7 +7552,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Barrel",
                                         "hash": "6cc9abf98cb4a4968656b7c60a4e7184",
                                         "children": [
@@ -6914,7 +7572,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -6923,7 +7581,36 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
+                                        "name": "StarFish",
+                                        "hash": "d26dc2b30745ede9530edfa6f1ae0148",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-10T10:10:03",
+                                                "name": "Lowpoly_Starfish.fbx",
+                                                "hash": "90093415845ba125cedda17a224fd34f",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-12T11:08:23",
+                                                "name": "Jello 2.lsmat",
+                                                "hash": "5a09afc87009d6d023b72c7b38abe49d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-12T11:02:36",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "FlamingoFloat",
                                         "hash": "e245c484d8459ff9e8b65536f334e30f",
                                         "children": [
@@ -6943,7 +7630,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -6952,7 +7639,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "TurtleShell",
                                         "hash": "f2d8aaa3a006a0b624f398ec7caafe40",
                                         "children": [
@@ -6979,7 +7666,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -6988,7 +7675,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "JellyFish",
                                         "hash": "229451fd2ae974f3ecf4f1add58319ae",
                                         "children": [
@@ -7001,7 +7688,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7010,7 +7697,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T17:31:43",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "DancingPlayer",
                                         "hash": "ca7d4ea33d777cf0fa55d20696fba309",
                                         "children": [
@@ -7030,7 +7717,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T16:15:23",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7039,7 +7726,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Crate",
                                         "hash": "fa49997059f3722b2dea015a26ddbd83",
                                         "children": [
@@ -7059,7 +7746,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7068,7 +7755,29 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
+                                        "name": "Bucket",
+                                        "hash": "2d47642a1c8d928483fa9c3e0be5f00a",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-10T10:10:03",
+                                                "name": "Bucket.fbx",
+                                                "hash": "3739b16e622fe03386942bb2419a697b",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-12T11:02:36",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Gate",
                                         "hash": "d8def5e0ea2162442d9e3cfa1eddaa2d",
                                         "children": [
@@ -7081,7 +7790,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7090,7 +7799,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Log",
                                         "hash": "5e54407426d89880a06d0969e00ba0ea",
                                         "children": [
@@ -7110,7 +7819,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7119,7 +7828,29 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
+                                        "name": "Sign",
+                                        "hash": "1f48586ec213ee46672720be6a278a2d",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-10T10:10:03",
+                                                "name": "Sign.fbx",
+                                                "hash": "6a8604bb2a6ba28d303bc00a334d1f0d",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-12T11:02:36",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "LifeVest",
                                         "hash": "f3d85c063e9dfbc33b6d544bce4b7a37",
                                         "children": [
@@ -7139,7 +7870,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7148,7 +7879,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Shark",
                                         "hash": "c425dede5ecb3c6f1417275fb6da2ae3",
                                         "children": [
@@ -7168,7 +7899,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7177,18 +7908,47 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
+                                    },
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-12T11:08:23",
+                                        "name": "Sand",
+                                        "hash": "84c5d582f9fd8f2522c3e61ec6200902",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-10T16:26:03",
+                                                "name": "Sand-UV.png",
+                                                "hash": "a3cafb6e6fee0043cee22f8b44069870",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-10T10:10:03",
+                                                "name": "Sand.fbx",
+                                                "hash": "7a8cdc9f722d5cf1b29607a7d67b23f1",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-12T11:02:36",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
                                     }
                                 ]
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T17:38:53",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Textures",
-                                "hash": "d9501b89deb890d9f029c67afce27061",
+                                "hash": "d433418780848b33edfa85796049b0be",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7206,7 +7966,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Water",
                                         "hash": "11d91fcb0dcb15f334140e0fba62507d",
                                         "children": [
@@ -7240,7 +8000,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7270,15 +8030,22 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Horizon",
-                                        "hash": "eb7b8e41925ceceb767855015cefa942",
+                                        "hash": "50757d529415deb89d163f581cb8435c",
                                         "children": [
                                             {
                                                 "isFolder": "false",
                                                 "lastModified": "2020-06-10T14:26:52",
                                                 "name": "HorizonNight.lsmat",
                                                 "hash": "7d05ec7fc5d047182697bf48fe56898c",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-11T19:27:05",
+                                                "name": "HorizonSelfie.lsmat",
+                                                "hash": "3de9e78ac80beb0b4b9772097dea063d",
                                                 "children": ""
                                             },
                                             {
@@ -7311,7 +8078,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7334,7 +8101,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Wearables",
                                         "hash": "611df2a2792d3b71a2a82be312ad9014",
                                         "children": [
@@ -7410,7 +8177,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7419,7 +8186,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7428,7 +8195,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T14:34:37",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Materials",
                                 "hash": "eacae20c927923a44da7d5bf379639bb",
                                 "children": [
@@ -7441,7 +8208,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7450,7 +8217,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T14:26:55",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Face Mesh Resources",
                                 "hash": "a441edfb01ffa860abc927320548fd90",
                                 "children": [
@@ -7463,7 +8230,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Material",
                                         "hash": "edaccce235e98b2908b8f86f2894295b",
                                         "children": [
@@ -7476,7 +8243,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:55",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7485,7 +8252,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7494,7 +8261,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T16:15:27",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Prefabs",
                                 "hash": "c8b964b6fe597b128bfacac48b0426ed",
                                 "children": [
@@ -7556,7 +8323,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7579,7 +8346,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T17:38:53",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Particles",
                                 "hash": "1ccaf8f0a80acd6bbf69b4e7674526dd",
                                 "children": [
@@ -7606,7 +8373,7 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-10T14:35:32",
+                                        "lastModified": "2020-06-12T11:08:23",
                                         "name": "Confetti",
                                         "hash": "d2c524b6f69d6288ce7346634adc9581",
                                         "children": [
@@ -7633,7 +8400,7 @@
                                             },
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:33:50",
+                                                "lastModified": "2020-06-12T11:02:36",
                                                 "name": "folder.lock",
                                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                                 "children": ""
@@ -7649,7 +8416,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7658,7 +8425,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-10T14:26:55",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Audio",
                                 "hash": "d65d54e79a183869462d073c95b80052",
                                 "children": [
@@ -7755,7 +8522,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7771,9 +8538,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-11T18:03:29",
+                                "lastModified": "2020-06-12T11:08:23",
                                 "name": "Scripts",
-                                "hash": "2c6e0107008c2c9e4b50aa4eb3223d49",
+                                "hash": "516d937736e29643571efcf038147d95",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -7812,9 +8579,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-11T16:38:02",
+                                        "lastModified": "2020-06-11T19:26:20",
                                         "name": "SelfieManager.js",
-                                        "hash": "79d2d7c16eea4893c83585ae7cfecafa",
+                                        "hash": "a0380f25f1a7a5f140c9de75e3860a39",
                                         "children": ""
                                     },
                                     {
@@ -7842,7 +8609,7 @@
                                         "isFolder": "false",
                                         "lastModified": "2020-06-10T14:26:52",
                                         "name": "ParticalBurst.js",
-                                        "hash": "8846727e67219b89d2ff4f2dbb1f8160",
+                                        "hash": "724180f552215ef3cd4824b79de07a00",
                                         "children": ""
                                     },
                                     {
@@ -7868,9 +8635,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-11T18:03:29",
+                                        "lastModified": "2020-06-11T18:16:46",
                                         "name": "Reparenter.js",
-                                        "hash": "15015334faa77763258d717d77c5001e",
+                                        "hash": "4984121ad2a538425ecd5ea3a495ac0f",
                                         "children": ""
                                     },
                                     {
@@ -7931,9 +8698,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-11T18:01:12",
+                                        "lastModified": "2020-06-11T18:13:54",
                                         "name": "GamePlayManager.js",
-                                        "hash": "309a0060ce018afa6ae150b67ecba8b9",
+                                        "hash": "b3feb545ee51cd7ed0c54629bf7e4d94",
                                         "children": ""
                                     },
                                     {
@@ -7952,7 +8719,7 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-10T14:26:55",
+                                        "lastModified": "2020-06-12T11:02:36",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -7961,7 +8728,7 @@
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2020-06-10T14:26:57",
+                                "lastModified": "2020-06-12T11:02:36",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
@@ -8220,6 +8987,19 @@
                                         "originalId": "940",
                                         "publicId": "14",
                                         "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Textures\/Horizon\/New-Horizons---Day.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "HorizonSelfie",
+                                        "type": "2",
+                                        "subtype": "0",
+                                        "resourceId": "1308",
+                                        "dependency": "0",
+                                        "uid": "1591900011131741:993491",
+                                        "fileId": "1162",
+                                        "originalId": "1163",
+                                        "publicId": "223",
+                                        "source": "",
                                         "additional": ""
                                     }
                                 ]
@@ -12416,6 +13196,538 @@
                                         "additional": ""
                                     }
                                 ]
+                            },
+                            {
+                                "name": "Bucket",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "198",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Bucket",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "1124",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "201",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Bucket.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Red bucket",
+                                                    "v": "1591897090659333:629010"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Bucket",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "1287",
+                                                        "dependency": "1",
+                                                        "uid": "1591897090647318:629000",
+                                                        "fileId": "1120",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yhBlvW\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": ""
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "202",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Red bucket",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "1288",
+                                                        "dependency": "0",
+                                                        "uid": "1591897090659333:629010",
+                                                        "fileId": "1121",
+                                                        "originalId": "1122",
+                                                        "publicId": "203",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    },
+                                                    {
+                                                        "name": "Jittering",
+                                                        "type": "2",
+                                                        "subtype": "1",
+                                                        "resourceId": "1309",
+                                                        "dependency": "0",
+                                                        "uid": "1591900328072685:1051256",
+                                                        "fileId": "1164",
+                                                        "originalId": "1165",
+                                                        "publicId": "227",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    },
+                                                    {
+                                                        "name": "Car Paint",
+                                                        "type": "2",
+                                                        "subtype": "1",
+                                                        "resourceId": "1312",
+                                                        "dependency": "0",
+                                                        "uid": "1591900412717328:1092537",
+                                                        "fileId": "1170",
+                                                        "originalId": "1171",
+                                                        "publicId": "229",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Bucket",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "1289",
+                                                "dependency": "1",
+                                                "uid": "1591897090732300:629141",
+                                                "fileId": "1123",
+                                                "originalId": "1125",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "StarFish",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "199",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Lowpoly_Starfish",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "1130",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "204",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Lowpoly_Starfish.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Starfish",
+                                                    "v": "1591897110060094:639877"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Starfish_4",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "1290",
+                                                        "dependency": "1",
+                                                        "uid": "1591897110051593:639867",
+                                                        "fileId": "1126",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yhBlvW\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": ""
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "205",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Starfish",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "1291",
+                                                        "dependency": "0",
+                                                        "uid": "1591897110060094:639877",
+                                                        "fileId": "1127",
+                                                        "originalId": "1128",
+                                                        "publicId": "206",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Lowpoly_Starfish",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "1292",
+                                                "dependency": "1",
+                                                "uid": "1591897110125365:639908",
+                                                "fileId": "1129",
+                                                "originalId": "1131",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Jello 2",
+                                        "type": "2",
+                                        "subtype": "1",
+                                        "resourceId": "1316",
+                                        "dependency": "0",
+                                        "uid": "1591901614890311:1238499",
+                                        "fileId": "1178",
+                                        "originalId": "1179",
+                                        "publicId": "232",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sign",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "200",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Sign",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "1158",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "219",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Sign.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Sign",
+                                                    "v": "1591897317403955:688597"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Sign",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "1303",
+                                                        "dependency": "1",
+                                                        "uid": "1591897317388427:688587",
+                                                        "fileId": "1152",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yhBlvW\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": ""
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "220",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Sign",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "1304",
+                                                        "dependency": "0",
+                                                        "uid": "1591897317403955:688597",
+                                                        "fileId": "1153",
+                                                        "originalId": "1154",
+                                                        "publicId": "221",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Sign",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "1306",
+                                                "dependency": "1",
+                                                "uid": "1591897317544789:688640",
+                                                "fileId": "1157",
+                                                "originalId": "1161",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Sand",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "210",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Sand-UV",
+                                        "type": "1",
+                                        "subtype": "9",
+                                        "resourceId": "1296",
+                                        "dependency": "0",
+                                        "uid": "1591897215310927:661443",
+                                        "fileId": "1138",
+                                        "originalId": "1139",
+                                        "publicId": "211",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Sand-UV.png",
+                                        "additional": ""
+                                    },
+                                    {
+                                        "name": "Sand",
+                                        "type": "18",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "2",
+                                        "uid": "-1:-1",
+                                        "fileId": "1144",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "212",
+                                        "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Shared Assets\/Animated 3D Assets\/Sand.fbx",
+                                        "additional": {
+                                            "materialMapping": [
+                                                {
+                                                    "k": "Sand",
+                                                    "v": "1591897218552901:666824"
+                                                }
+                                            ]
+                                        },
+                                        "resources": [
+                                            {
+                                                "name": "Meshes",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Sand",
+                                                        "type": "3",
+                                                        "subtype": "0",
+                                                        "resourceId": "1297",
+                                                        "dependency": "1",
+                                                        "uid": "1591897218547639:666814",
+                                                        "fileId": "1140",
+                                                        "originalId": "18446744073709551615",
+                                                        "publicId": "18446744073709551615",
+                                                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yhBlvW\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Animations",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "1",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": ""
+                                            },
+                                            {
+                                                "name": "Materials",
+                                                "type": "0",
+                                                "subtype": "-1",
+                                                "resourceId": "-1",
+                                                "dependency": "0",
+                                                "uid": "-1:-1",
+                                                "fileId": "18446744073709551615",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "213",
+                                                "source": "",
+                                                "additional": "",
+                                                "resources": [
+                                                    {
+                                                        "name": "Sand",
+                                                        "type": "2",
+                                                        "subtype": "0",
+                                                        "resourceId": "1298",
+                                                        "dependency": "0",
+                                                        "uid": "1591897218552901:666824",
+                                                        "fileId": "1141",
+                                                        "originalId": "1142",
+                                                        "publicId": "214",
+                                                        "source": "",
+                                                        "additional": ""
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "name": "Sand",
+                                                "type": "12",
+                                                "subtype": "-1",
+                                                "resourceId": "1299",
+                                                "dependency": "1",
+                                                "uid": "1591897218664328:666934",
+                                                "fileId": "1143",
+                                                "originalId": "1145",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -13078,6 +14390,19 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "name": "Snap screen-06",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "1305",
+                        "dependency": "0",
+                        "uid": "1591897317517635:688612",
+                        "fileId": "1155",
+                        "originalId": "1156",
+                        "publicId": "218",
+                        "source": "\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-yhBlvW\/\/system\/\/emergencyFiles\/emergencyJpg.jpg",
+                        "additional": ""
                     }
                 ]
             }
@@ -13086,10 +14411,11 @@
             "selection": {
                 "resources": [
                     {
-                        "uid": "1591807815341011:353568",
+                        "uid": "1591901614890311:1238499",
                         "path_list": [
-                            "Scripts",
-                            "Reparenter"
+                            "Animated 3D Assets",
+                            "StarFish",
+                            "Jello 2"
                         ]
                     }
                 ]
@@ -13116,7 +14442,9 @@
             "19": "",
             "20": "",
             "22": "",
-            "23": ""
+            "23": "",
+            "24": "",
+            "25": ""
         },
         "ObjectPrefabController": {
             "state": {
@@ -14309,6 +15637,106 @@
                                 {
                                     "k": "1591804793992288:156526",
                                     "v": "1591804803362316:170857"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1591897338553706:699474",
+                        "v": {
+                            "prefab": "1591897218664328:666934",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1591897218645444:666840",
+                                    "v": "1591897338553706:699474"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1591897359137468:715777",
+                        "v": {
+                            "prefab": "1591897218664328:666934",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1591897218645444:666840",
+                                    "v": "1591897359137468:715777"
+                                },
+                                {
+                                    "k": "1591897218646735:666842",
+                                    "v": "1591897359139526:715783"
+                                },
+                                {
+                                    "k": "1591897218647689:666844",
+                                    "v": "1591897359140488:715785"
+                                },
+                                {
+                                    "k": "1591897218649286:666856",
+                                    "v": "1591897359147032:715800"
+                                },
+                                {
+                                    "k": "1591897218650111:666858",
+                                    "v": "1591897359147702:715802"
+                                },
+                                {
+                                    "k": "1591897218651178:666867",
+                                    "v": "1591897359149595:715812"
+                                },
+                                {
+                                    "k": "1591897218651798:666869",
+                                    "v": "1591897359150142:715814"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1591901174760267:1190928",
+                        "v": {
+                            "prefab": "1590056206562829:268198",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1591798191076344:251169",
+                                    "v": "1591901174760267:1190928"
+                                },
+                                {
+                                    "k": "1591798191081363:251181",
+                                    "v": "1591901174761577:1190940"
+                                },
+                                {
+                                    "k": "1591798191088125:251189",
+                                    "v": "1591901174762133:1190948"
+                                },
+                                {
+                                    "k": "1591798191093273:251209",
+                                    "v": "1591901174762567:1190970"
+                                },
+                                {
+                                    "k": "1591798191096180:251211",
+                                    "v": "1591901174763358:1190972"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1591901348640115:1220709",
+                        "v": {
+                            "prefab": "1591897317544789:688640",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1591897317539662:688624",
+                                    "v": "1591901348640115:1220709"
+                                },
+                                {
+                                    "k": "1591897317540942:688626",
+                                    "v": "1591901348648871:1220720"
+                                },
+                                {
+                                    "k": "1591897317542139:688628",
+                                    "v": "1591901348651047:1220722"
                                 }
                             ]
                         }
@@ -19580,6 +21008,172 @@
                                 "Component.Skin"
                             ],
                             "v": "1591804793992288:156526"
+                        }
+                    ]
+                },
+                {
+                    "k": "1591897090732300:629141",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1591897090706876:629025"
+                        },
+                        {
+                            "k": [
+                                "Bucket"
+                            ],
+                            "v": "1591897090729678:629127"
+                        },
+                        {
+                            "k": [
+                                "Bucket",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1591897090730252:629129"
+                        },
+                        {
+                            "k": [
+                                "Camera"
+                            ],
+                            "v": "1591897090711062:629038"
+                        },
+                        {
+                            "k": [
+                                "Camera",
+                                "Component.Camera"
+                            ],
+                            "v": "1591897090711652:629040"
+                        },
+                        {
+                            "k": [
+                                "Light"
+                            ],
+                            "v": "1591897090708309:629027"
+                        },
+                        {
+                            "k": [
+                                "Light",
+                                "Component.LightSource"
+                            ],
+                            "v": "1591897090709262:629029"
+                        },
+                        {
+                            "k": [
+                                "Light.001"
+                            ],
+                            "v": "1591897090726006:629105"
+                        },
+                        {
+                            "k": [
+                                "Light.001",
+                                "Component.LightSource"
+                            ],
+                            "v": "1591897090726874:629107"
+                        },
+                        {
+                            "k": [
+                                "Light.002"
+                            ],
+                            "v": "1591897090727925:629116"
+                        },
+                        {
+                            "k": [
+                                "Light.002",
+                                "Component.LightSource"
+                            ],
+                            "v": "1591897090728665:629118"
+                        }
+                    ]
+                },
+                {
+                    "k": "1591897110125365:639908",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1591897110120902:639892"
+                        },
+                        {
+                            "k": [
+                                "Starfish_4"
+                            ],
+                            "v": "1591897110122030:639894"
+                        },
+                        {
+                            "k": [
+                                "Starfish_4",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1591897110122990:639896"
+                        }
+                    ]
+                },
+                {
+                    "k": "1591897218664328:666934",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1591897218645444:666840"
+                        },
+                        {
+                            "k": [
+                                "Camera"
+                            ],
+                            "v": "1591897218651178:666867"
+                        },
+                        {
+                            "k": [
+                                "Camera",
+                                "Component.Camera"
+                            ],
+                            "v": "1591897218651798:666869"
+                        },
+                        {
+                            "k": [
+                                "Light"
+                            ],
+                            "v": "1591897218649286:666856"
+                        },
+                        {
+                            "k": [
+                                "Light",
+                                "Component.LightSource"
+                            ],
+                            "v": "1591897218650111:666858"
+                        },
+                        {
+                            "k": [
+                                "Sand"
+                            ],
+                            "v": "1591897218646735:666842"
+                        },
+                        {
+                            "k": [
+                                "Sand",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1591897218647689:666844"
+                        }
+                    ]
+                },
+                {
+                    "k": "1591897317544789:688640",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1591897317539662:688624"
+                        },
+                        {
+                            "k": [
+                                "Sign"
+                            ],
+                            "v": "1591897317540942:688626"
+                        },
+                        {
+                            "k": [
+                                "Sign",
+                                "Component.RenderMeshVisual"
+                            ],
+                            "v": "1591897317542139:688628"
                         }
                     ]
                 }
