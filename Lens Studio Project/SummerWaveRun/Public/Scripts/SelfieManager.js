@@ -1,19 +1,23 @@
 // -----JS CODE-----
-//@input Component.ScriptComponent faceParenter
+//[REQUIRES COMPONENT JOINED]
+//input Component.ScriptComponent faceParenter 
 
 
 
 script.api.EnableSelfieMode = function(isEnabled) {
 
-    if (isNull(script.faceParenter.script)) return;
+   // if (isNull(script.faceParenter.api)) return;
     
-    
-    if (isEnabled) {
-        script.faceParenter.api.DoParentToAdopter();
-       // script.skyParenter.api.DoParentToAdopter();
-    } else {
-        script.faceParenter.api.DoParentToOriginal();   
-       // script.skyParenter.api.DoParentToOriginal();
+    try {
+        if (isEnabled) {
+            script.api.DoParentToAdopter();
+           // script.skyParenter.api.DoParentToAdopter();
+        } else {
+            script.api.DoParentToOriginal();   
+           // script.skyParenter.api.DoParentToOriginal();
+        }
+    } catch (e) {
+        print (e.message);
     }
     
     

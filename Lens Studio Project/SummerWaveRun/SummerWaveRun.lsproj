@@ -3,7 +3,7 @@
     "document_id": "_xiu7VsMyVkTyw-906Cf",
     "original_document_id": "7IL8aFKBOwGqvbpZFQFu",
     "version": "24",
-    "lastChanged": "1591984649436",
+    "lastChanged": "1594410258890",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -29,6 +29,9 @@
         "ResourceUiComponent": {
             "collapsedList": [
                 [
+                    [
+                        "Animated 3D Assets"
+                    ],
                     [
                         "Animated 3D Assets",
                         "Barrel"
@@ -1150,6 +1153,9 @@
                         "turtle01"
                     ],
                     [
+                        "FACE_GEO"
+                    ],
+                    [
                         "Face Mesh Resources",
                         "FaceMeshStatic"
                     ],
@@ -1171,10 +1177,6 @@
                     ],
                     [
                         "Face Mesh Resources",
-                        "Material"
-                    ],
-                    [
-                        "Face Mesh Resources",
                         "Material",
                         "AlphaFace"
                     ],
@@ -1184,14 +1186,30 @@
                         "Face Texture"
                     ],
                     [
-                        "Materials"
+                        "Materials",
+                        "Face Texture"
+                    ],
+                    [
+                        "Materials",
+                        "HeadRim"
                     ],
                     [
                         "Materials",
                         "Matte Shadow"
                     ],
                     [
+                        "Materials",
+                        "face_texture"
+                    ],
+                    [
+                        "Materials",
+                        "face_wetsuit"
+                    ],
+                    [
                         "Mesh"
+                    ],
+                    [
+                        "Particles"
                     ],
                     [
                         "Particles",
@@ -1223,6 +1241,11 @@
                     [
                         "Particles",
                         "Particles Texture"
+                    ],
+                    [
+                        "PizzaDeliveryGuy [REMOVE_ME]",
+                        "Meshes",
+                        "FACE_GEO"
                     ],
                     [
                         "Prefabs",
@@ -1356,9 +1379,6 @@
                         "Snap screen-06"
                     ],
                     [
-                        "Textures"
-                    ],
-                    [
                         "Textures",
                         "FaceSoftOutline"
                     ],
@@ -1411,10 +1431,6 @@
                         "Textures",
                         "Water",
                         "ocean2"
-                    ],
-                    [
-                        "Textures",
-                        "Wearables"
                     ],
                     [
                         "Textures",
@@ -1473,6 +1489,9 @@
                         "white"
                     ],
                     [
+                        "UI"
+                    ],
+                    [
                         "UI",
                         "ExtraLifePFX 2"
                     ],
@@ -1496,10 +1515,8 @@
                     "1574374205553544:139992",
                     "1574374499852074:172575",
                     "1589812223050539:24966",
-                    "1589823953420994:170044",
-                    "1589824396441814:172450",
                     "1589824979988216:180112",
-                    "1589989988419228:271561",
+                    "1589825953195699:187528",
                     "1589989988549559:271830",
                     "1589990932246686:362645",
                     "1589990932251601:362797",
@@ -1512,7 +1529,6 @@
                     "1590060197134853:794222",
                     "1590060555187304:892033",
                     "1590084222825935:118241",
-                    "1590145056885033:281418",
                     "1590145903519951:431601",
                     "1590145910247653:438114",
                     "1590145913915537:444576",
@@ -1528,13 +1544,14 @@
                     "1590938830662621:416034",
                     "1590938844440776:460940",
                     "1591040277028267:182644",
+                    "1591204521317272:179126",
                     "1591375129189998:411156",
                     "1591375174691171:444442",
                     "1591375174691948:444444",
                     "1591384772219896:486001",
                     "1591802988070168:62463",
                     "1591804803353209:170715",
-                    "1591804803358810:170851",
+                    "1591963213483755:1217133",
                     "1591975078215151:1184496",
                     "1591981382575215:2775092"
                 ]
@@ -4167,6 +4184,54 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "1360",
+                    "uid": "1592760341014368:385960",
+                    "name": "sceneObject_0",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "1361",
+                    "uid": "1592760341125731:386021",
+                    "name": "Files\/File1261.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1362",
+                    "uid": "1592760341201201:386033",
+                    "name": "Files\/File1263",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1363",
+                    "uid": "1592760341488120:386052",
+                    "name": "Face Texture",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "1364",
+                    "uid": "1594406162513274:177126",
+                    "name": "Files\/File1266.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "1365",
+                    "uid": "1594406957422694:314986",
+                    "name": "Files\/File1268",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ],
             "MaterialUpdateManager": {
@@ -4672,12 +4737,12 @@
                 "226": "1591957981578069:374181",
                 "227": "1591960645684242:628507",
                 "228": "1591963213483755:1217133",
-                "229": "1591964009635446:1542114",
-                "230": "1591968636283521:2411534",
-                "231": "1591968636299464:2411548",
-                "232": "1591979812161166:2462432",
-                "233": "1591981017068310:2640934",
-                "234": "1591981017072156:2640944"
+                "229": "1591968636283521:2411534",
+                "230": "1591968636299464:2411548",
+                "231": "1591979812161166:2462432",
+                "232": "1591981017068310:2640934",
+                "233": "1591981017072156:2640944",
+                "234": "1592761326398536:568064"
             }
         },
         "LayerComponent": {
@@ -6057,6 +6122,46 @@
                 {
                     "k": "1259",
                     "v": "Files\/File1259.lsmat"
+                },
+                {
+                    "k": "1260",
+                    "v": "Files\/File1260.oprfb"
+                },
+                {
+                    "k": "1261",
+                    "v": "Files\/File1261.mesh"
+                },
+                {
+                    "k": "1262",
+                    "v": "Files\/File1262.mesh"
+                },
+                {
+                    "k": "1263",
+                    "v": "Files\/File1263"
+                },
+                {
+                    "k": "1264",
+                    "v": "Files\/File1264.lsmat"
+                },
+                {
+                    "k": "1265",
+                    "v": "Files\/File1265.oprfb"
+                },
+                {
+                    "k": "1266",
+                    "v": "Files\/File1266.png"
+                },
+                {
+                    "k": "1267",
+                    "v": "Files\/File1267.png"
+                },
+                {
+                    "k": "1268",
+                    "v": "Files\/File1268"
+                },
+                {
+                    "k": "1269",
+                    "v": "Files\/File1269.lsmat"
                 }
             ]
         },
@@ -6876,6 +6981,34 @@
                     {
                         "k": "271",
                         "v": "..\/AdditionalFiles\/Animated 3D Assets\/Gate\/gate\/Materials\/GatePBR.lsmat"
+                    },
+                    {
+                        "k": "645",
+                        "v": "PizzaDeliveryGuy [REMOVE_ME]"
+                    },
+                    {
+                        "k": "646",
+                        "v": "PizzaDeliveryGuy [REMOVE_ME]\/Meshes"
+                    },
+                    {
+                        "k": "647",
+                        "v": "PizzaDeliveryGuy [REMOVE_ME]\/Meshes\/FACE_GEO.mesh"
+                    },
+                    {
+                        "k": "648",
+                        "v": "Materials\/face_texture.lsmat"
+                    },
+                    {
+                        "k": "649",
+                        "v": "FACE_GEO.oprfb"
+                    },
+                    {
+                        "k": "650",
+                        "v": "Materials\/HeadRim.png"
+                    },
+                    {
+                        "k": "651",
+                        "v": "Materials\/face_wetsuit.lsmat"
                     }
                 ],
                 "hashes": [
@@ -7161,7 +7294,7 @@
                     },
                     {
                         "k": "89",
-                        "v": "ba93a657845c8e3fd1151e32546761b5"
+                        "v": "af002fb84c470621eac74f368e11dfaa"
                     },
                     {
                         "k": "91",
@@ -7381,7 +7514,7 @@
                     },
                     {
                         "k": "163",
-                        "v": "5a24fe4dd29048132dff24fca569c7a3"
+                        "v": "caf38eb74e0507b62d283a6b0e8485a4"
                     },
                     {
                         "k": "164",
@@ -7473,11 +7606,11 @@
                     },
                     {
                         "k": "196",
-                        "v": "e18038434b8ea11f8e12f992210ed171"
+                        "v": "fc76ab4cd546210dad6b6c870365cc32"
                     },
                     {
                         "k": "197",
-                        "v": "e3ebc330752ce477f50c9433e020189a"
+                        "v": "25ccd9cb05397971f06710ac7e55c3af"
                     },
                     {
                         "k": "201",
@@ -7722,14 +7855,34 @@
                     {
                         "k": "272",
                         "v": "6afc981d728e4f1d8cff906662b06f23"
+                    },
+                    {
+                        "k": "647",
+                        "v": "eecc49a8cb632b78cdc56f97fd365cda"
+                    },
+                    {
+                        "k": "648",
+                        "v": "0664a6bf4673306457edf42a7b6d1d0a"
+                    },
+                    {
+                        "k": "649",
+                        "v": "05ebe9ce65c5f855dbe8b3fc83399a00"
+                    },
+                    {
+                        "k": "650",
+                        "v": "9541dd90ac53ae7f285c54ab014fac2e"
+                    },
+                    {
+                        "k": "651",
+                        "v": "87f35f923266e8ae9cf97da95fa7c9f1"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2020-06-12T16:43:23",
+                        "lastModified": "2020-07-10T19:51:36",
                         "name": "Public",
-                        "hash": "c26d099c6a3b80eaf2e9d12d6a1e988e",
+                        "hash": "5e90ddc512d6a757c55b811ff7373530",
                         "children": [
                             {
                                 "isFolder": "true",
@@ -8314,7 +8467,7 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T18:26:15",
+                                "lastModified": "2020-07-10T19:31:48",
                                 "name": "Textures",
                                 "hash": "59a35617ded2d8ce6de1e1f15fdadf8e",
                                 "children": [
@@ -8584,15 +8737,36 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T11:08:23",
+                                "lastModified": "2020-07-10T20:41:01",
                                 "name": "Materials",
-                                "hash": "eacae20c927923a44da7d5bf379639bb",
+                                "hash": "42e6794757ccd6a1588dfdec98ab6ab7",
                                 "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-07-10T19:47:53",
+                                        "name": "face_texture.lsmat",
+                                        "hash": "0664a6bf4673306457edf42a7b6d1d0a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-07-10T20:01:51",
+                                        "name": "face_wetsuit.lsmat",
+                                        "hash": "87f35f923266e8ae9cf97da95fa7c9f1",
+                                        "children": ""
+                                    },
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-06-10T14:26:51",
                                         "name": "Matte Shadow.lsmat",
                                         "hash": "b5bef8567e3cfc0151669f657c0d5931",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-07-10T20:41:01",
+                                        "name": "HeadRim.png",
+                                        "hash": "9541dd90ac53ae7f285c54ab014fac2e",
                                         "children": ""
                                     },
                                     {
@@ -8608,7 +8782,7 @@
                                 "isFolder": "true",
                                 "lastModified": "2020-06-12T11:08:23",
                                 "name": "Face Mesh Resources",
-                                "hash": "a441edfb01ffa860abc927320548fd90",
+                                "hash": "7cd798a2e3bbecfcb615a29e1f66c933",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8619,15 +8793,15 @@
                                     },
                                     {
                                         "isFolder": "true",
-                                        "lastModified": "2020-06-12T13:43:12",
+                                        "lastModified": "2020-07-10T19:18:48",
                                         "name": "Material",
-                                        "hash": "edaccce235e98b2908b8f86f2894295b",
+                                        "hash": "08d67fe1d8a5cdbfbb01b35a92f615ef",
                                         "children": [
                                             {
                                                 "isFolder": "false",
-                                                "lastModified": "2020-06-10T14:26:52",
+                                                "lastModified": "2020-07-10T19:18:48",
                                                 "name": "AlphaFace.lsmat",
-                                                "hash": "5a24fe4dd29048132dff24fca569c7a3",
+                                                "hash": "caf38eb74e0507b62d283a6b0e8485a4",
                                                 "children": ""
                                             },
                                             {
@@ -8642,6 +8816,50 @@
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2020-06-12T11:02:36",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2020-07-10T19:51:36",
+                                "name": "FACE_GEO.oprfb",
+                                "hash": "05ebe9ce65c5f855dbe8b3fc83399a00",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2020-07-10T19:24:45",
+                                "name": "PizzaDeliveryGuy [REMOVE_ME]",
+                                "hash": "d3f07bbfb1570e9fce3c2f7676e6f59a",
+                                "children": [
+                                    {
+                                        "isFolder": "true",
+                                        "lastModified": "2020-06-21T18:25:41",
+                                        "name": "Meshes",
+                                        "hash": "b441f9ad587cda3a49de7544e31531c0",
+                                        "children": [
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-21T18:25:41",
+                                                "name": "FACE_GEO.mesh",
+                                                "hash": "eecc49a8cb632b78cdc56f97fd365cda",
+                                                "children": ""
+                                            },
+                                            {
+                                                "isFolder": "false",
+                                                "lastModified": "2020-06-21T18:25:41",
+                                                "name": "folder.lock",
+                                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                                "children": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2020-06-21T18:25:41",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -8934,9 +9152,9 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2020-06-12T17:16:23",
+                                "lastModified": "2020-07-10T20:43:59",
                                 "name": "Scripts",
-                                "hash": "1314183f7d4cc991e6a40ddf4d889423",
+                                "hash": "9174f6365fc579422f1a5b08aa69cc21",
                                 "children": [
                                     {
                                         "isFolder": "false",
@@ -8975,9 +9193,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-12T12:07:44",
+                                        "lastModified": "2020-06-21T19:43:22",
                                         "name": "SelfieManager.js",
-                                        "hash": "e3ebc330752ce477f50c9433e020189a",
+                                        "hash": "25ccd9cb05397971f06710ac7e55c3af",
                                         "children": ""
                                     },
                                     {
@@ -9031,9 +9249,9 @@
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2020-06-12T13:11:35",
+                                        "lastModified": "2020-07-10T20:43:59",
                                         "name": "Reparenter.js",
-                                        "hash": "e18038434b8ea11f8e12f992210ed171",
+                                        "hash": "fc76ab4cd546210dad6b6c870365cc32",
                                         "children": ""
                                     },
                                     {
@@ -14719,6 +14937,58 @@
                                 "publicId": "151",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "face_texture",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "1362",
+                                "dependency": "0",
+                                "uid": "1592760341201201:386033",
+                                "fileId": "1263",
+                                "originalId": "1264",
+                                "publicId": "648",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Face Texture",
+                                "type": "1",
+                                "subtype": "2",
+                                "resourceId": "1363",
+                                "dependency": "0",
+                                "uid": "1592760341488120:386052",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "18446744073709551615",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "HeadRim",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "1364",
+                                "dependency": "0",
+                                "uid": "1594406162513274:177126",
+                                "fileId": "1266",
+                                "originalId": "1267",
+                                "publicId": "650",
+                                "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Materials\/HeadRim.png",
+                                "additional": ""
+                            },
+                            {
+                                "name": "face_wetsuit",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "1365",
+                                "dependency": "0",
+                                "uid": "1594406957422694:314986",
+                                "fileId": "1268",
+                                "originalId": "1269",
+                                "publicId": "651",
+                                "source": "",
+                                "additional": ""
                             }
                         ]
                     },
@@ -15050,12 +15320,103 @@
                         "publicId": "218",
                         "source": "\/Users\/isaacdart\/Documents\/EyeKandy\/DEV\/Repos\/Lens Studio & Spark AR\/Summer-Wave-Run\/Lens Studio Project\/SummerWaveRun\/Public\/Snap screen-06.png",
                         "additional": ""
+                    },
+                    {
+                        "name": "PizzaDeliveryGuy [REMOVE_ME]",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "645",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Meshes",
+                                "type": "0",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "0",
+                                "uid": "-1:-1",
+                                "fileId": "18446744073709551615",
+                                "originalId": "18446744073709551615",
+                                "publicId": "646",
+                                "source": "",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "FACE_GEO",
+                                        "type": "3",
+                                        "subtype": "0",
+                                        "resourceId": "1361",
+                                        "dependency": "0",
+                                        "uid": "1592760341125731:386021",
+                                        "fileId": "1261",
+                                        "originalId": "1262",
+                                        "publicId": "647",
+                                        "source": "\/private\/var\/folders\/bb\/lxkfzwmx7bn1zv4d0jfkm29h0000gn\/T\/Lens Studio-WkctDG\/\/system\/\/emergencyFiles\/emergencyMesh.mesh",
+                                        "additional": {
+                                            "originalAttribs": {
+                                                "vertexAttribs": [
+                                                    {
+                                                        "semantic": "position",
+                                                        "format": "9",
+                                                        "index": "0"
+                                                    },
+                                                    {
+                                                        "semantic": "normal",
+                                                        "format": "9",
+                                                        "index": "1"
+                                                    },
+                                                    {
+                                                        "semantic": "tangent",
+                                                        "format": "9",
+                                                        "index": "2"
+                                                    },
+                                                    {
+                                                        "semantic": "texture0",
+                                                        "format": "9",
+                                                        "index": "3"
+                                                    }
+                                                ]
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "FACE_GEO",
+                        "type": "12",
+                        "subtype": "-1",
+                        "resourceId": "1360",
+                        "dependency": "0",
+                        "uid": "1592760341014368:385960",
+                        "fileId": "1260",
+                        "originalId": "1265",
+                        "publicId": "649",
+                        "source": "",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
-            "selection": ""
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1591265511957239:106161",
+                        "path_list": [
+                            "Scripts",
+                            "PulsateAnim"
+                        ]
+                    }
+                ]
+            }
         },
         "EffectsController": {
             "1": "",
@@ -16419,6 +16780,40 @@
                                 {
                                     "k": "1591968484017240:2384842",
                                     "v": "1591968636291716:2411546"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1592761326398536:568064",
+                        "v": {
+                            "prefab": "1592760341014368:385960",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1594406942924972:308207",
+                                    "v": "1592761326398536:568064"
+                                },
+                                {
+                                    "k": "1594406942928293:308209",
+                                    "v": "1592761326402577:568074"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1594406942924972:308207",
+                        "v": {
+                            "prefab": "1592760341014368:385960",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1594406942924972:308207",
+                                    "v": "1594406942924972:308207"
+                                },
+                                {
+                                    "k": "1594406942928293:308209",
+                                    "v": "1594406942928293:308209"
                                 }
                             ]
                         }
